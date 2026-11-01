@@ -1,5 +1,6 @@
 ---
 title: "Dynamikk: krefter og Newtons lover"
+tegning: bokser
 del: "Mekanikk"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Kinematikk: beskrivelse av bevegelse"
+tegning: skratt-kast
 del: "Mekanikk"
 ---
 

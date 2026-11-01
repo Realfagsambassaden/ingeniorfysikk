@@ -1,5 +1,6 @@
 ---
 title: "Rotasjon"
+tegning: rakett
 del: "Mekanikk"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Bevegelsesmengde og kollisjoner"
+tegning: hockey
 del: "Mekanikk"
 ---
 

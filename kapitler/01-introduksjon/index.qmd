@@ -1,5 +1,6 @@
 ---
 title: "Introduksjon: størrelser, enheter og vektorer"
+tegning: sau-maling
 del: "Mekanikk"
 ---
 
