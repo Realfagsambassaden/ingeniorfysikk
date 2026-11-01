@@ -1,0 +1,135 @@
+---
+title: "Dreieimpuls"
+emne: rotasjon
+---
+
+<!-- fra notatene -->
+**Dreieimpulsen** (spinnet, angulærmomentet) er rotasjonens svar på bevegelsesmengden:
+
+::: {.graa}
+$$
+\vec L = \vec r\times\vec p
+$$
+:::
+
+For et stivt legeme som roterer om en fast akse, ser vi på et lite masse-element $\mathrm{d}m$ i avstand $R$ fra aksen. Det har fart $v = R\omega$ vinkelrett på $\vec r$, og bare komponenten langs aksen overlever når vi summerer over hele legemet:
+$$
+\mathrm{d}L_z = R\cdot R\omega\,\mathrm{d}m \quad\Rightarrow\quad L = \omega\int R^2\,\mathrm{d}m = I\omega
+$$
+
+::: {.graa}
+$$
+L = I\omega, \qquad \frac{\mathrm{d}\vec L}{\mathrm{d}t} = \sum\vec\tau_\text{ytre}
+$$
+:::
+
+## Bevaring av dreieimpuls
+
+Er summen av ytre kraftmomenter null, endrer ikke dreieimpulsen seg:
+
+::: {.graa}
+$$
+\sum\vec\tau_\text{ytre} = \vec 0 \quad\Rightarrow\quad L_\text{etter} = L_\text{før} \quad\Rightarrow\quad I_\text{etter}\,\omega_\text{etter} = I_\text{før}\,\omega_\text{før}
+$$
+:::
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Roterende hjul.** Et hjul med masse $M = 500\ \mathrm{g}$ jevnt fordelt, radius $R = 0{,}35\ \mathrm{m}$, ruller med $v_\text{cm} = 30\ \mathrm{km/h}$. Dreieimpulsen om massesenteret, med $I = \frac12 MR^2$ og $\omega = v/R \approx 23{,}8\ \mathrm{rad/s}$:
+$$
+L = \tfrac12 MR^2\omega = \tfrac12\cdot0{,}500\cdot0{,}35^2\cdot23{,}8\ \mathrm{J\,s} \approx 0{,}73\ \mathrm{J\,s}
+$$
+:::
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Skøyteløperen.** En skøyteløper snurrer med armene ute. Isen gir nesten ingen kraftmoment, så $L$ er bevart. Når hun trekker armene inn, blir $I$ mye mindre, og
+$$
+\omega_\text{etter} = \frac{I_\text{før}}{I_\text{etter}}\,\omega_\text{før}
+$$
+blir mye større. Hun snurrer fortere uten å «skyve» på noe.
+:::
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Solsystemet.** En stor, langsomt roterende gass- og støvsky trekker seg sammen under tyngdekraften. $L$ er bevart, $I$ blir mye mindre, og rotasjonen blir raskere og raskere. Til slutt flater skyen ut til en roterende skive, der planetene dannes. Derfor går alle planetene rundt sola i samme retning og nesten i samme plan.
+:::
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Nøytronstjerne.** Når en stor stjerne eksploderer som supernova, kan kjernen kollapse til en nøytronstjerne. Med $I = CMR^2$ (samme form, samme masse) gir $\Delta L = 0$:
+$$
+I_\text{kjerne}\,\omega_\text{kjerne} = I_\text{NS}\,\omega_\text{NS}
+$$
+Med $\omega = 2\pi/T$ blir perioden
+$$
+T_\text{NS} = T_\text{kjerne}\,\frac{R_\text{NS}^2}{R_\text{kjerne}^2}
+$$
+Estimat: $T_\text{kjerne} = 1350\ \mathrm{s}$, $R_\text{kjerne} = 6400\ \mathrm{km}$ og $R_\text{NS} = 20\ \mathrm{km}$ gir
+$$
+T_\text{NS} = 1350\ \mathrm{s}\cdot\frac{(20\ \mathrm{km})^2}{(6400\ \mathrm{km})^2} \approx 0{,}013\ \mathrm{s}
+$$
+Nesten 80 runder i sekundet! Slike raskt roterende nøytronstjerner observeres som **pulsarer**.
+:::
+
+## Gyroskop og presesjon
+
+<!-- fra notatene -->
+En snurrebass som står på skrå, faller ikke. Tyngden gir et kraftmoment om kontaktpunktet:
+$$
+\vec\tau = \vec r\times\vec G, \qquad \tau = rM\mathrm{g}\sin\theta
+$$
+Kraftmomentet står vinkelrett på $\vec L$, så det endrer *retningen* til dreieimpulsen, ikke størrelsen. På tiden $\mathrm{d}t$ endres $\vec L$ med $\mathrm{d}L = \tau\,\mathrm{d}t$, og spissen av $\vec L$ beveger seg langs en sirkel med radius $L\sin\theta$. Vinkelen den dreier, er $\mathrm{d}\varphi = \mathrm{d}L/(L\sin\theta)$, så aksen roterer rundt loddlinja med **presesjonsvinkelfarten**
+
+::: {.graa}
+$$
+\omega_p = \frac{\mathrm{d}\varphi}{\mathrm{d}t} = \frac{rM\mathrm{g}}{L} = \frac{rM\mathrm{g}}{I\omega}
+$$
+:::
+
+Jo raskere snurrebassen spinner (større $I\omega$), jo langsommere presesserer den.
+
+**Fun fact:** Jorda er et gigantisk gyroskop. Sola og månen drar i jordas «mage» ved ekvator, og jordaksen presesserer med en periode på omtrent $26\,000$ år.
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Bil i rundkjøringen"}
+En bil med masse $m = 1500\ \mathrm{kg}$ og fart $v = 30\ \mathrm{km/h}$ kjører i en rundkjøring med radius $R = 15\ \mathrm{m}$.
+
+a) Hva er bilens bevegelsesmengde? b) Hva er dreieimpulsen om sentrum av rundkjøringen?
+
+::: {.losning}
+**a)** $p = mv = 1500\cdot\frac{30}{3{,}6}\ \mathrm{kg\,m/s} \approx \underline{\underline{1{,}3\cdot10^4\ \mathrm{kg\,m/s}}}$
+
+**b)** Farten står vinkelrett på $\vec R$, så $\sin = 1$ i kryssproduktet:
+$$
+L = Rmv = 15\cdot1500\cdot\tfrac{30}{3{,}6}\ \mathrm{kg\,m^2/s} \approx \underline{\underline{1{,}9\cdot10^5\ \mathrm{kg\,m^2/s}}}
+$$
+:::
+:::
+
+::: {.oppgave tittel="Treghetsmomentet til et sykkelhjul" niva="Middels"}
+Et sykkelhjul (uten dekk) består av et nav (massiv sylinder, masse $m_1$, radius $r$), 8 eiker (tynne stenger, masse $m_2$ og lengde $L$ hver, fra kanten av navet til felgen) og en felg (tynnvegget sylinder, masse $m_3$, radius $r + L$). Finn det totale treghetsmomentet om hjulets akse.
+
+::: {.losning}
+- Nav: $I_1 = \frac12 m_1r^2$
+- Hver eike har massesenteret i avstand $d = r + L/2$ fra aksen. Steiners sats: $I_2 = \frac1{12}m_2L^2 + m_2\left(r + \frac L2\right)^2$
+- Felg: $I_3 = m_3(r + L)^2$
+$$
+I = \tfrac12 m_1r^2 + 8m_2\left[\tfrac1{12}L^2 + \left(r + \tfrac L2\right)^2\right] + m_3(r + L)^2
+$$
+:::
+:::
+
+::: {.oppgave tittel="Skøyteløperen i tall"}
+<!-- tillegg: Claude -->
+En skøyteløper snurrer med $1{,}0$ omdreining per sekund med armene ute ($I = 4{,}0\ \mathrm{kg\,m^2}$). Hun trekker armene inn til $I = 1{,}6\ \mathrm{kg\,m^2}$. Hvor fort snurrer hun nå, og hva skjer med rotasjonsenergien?
+
+::: {.losning}
+$L$ er bevart: $\omega_\text{etter} = \frac{4{,}0}{1{,}6}\cdot1{,}0\ \mathrm{omdr/s} = \underline{\underline{2{,}5\ \mathrm{omdr/s}}}$.
+
+Rotasjonsenergien er $\frac12 I\omega^2 = \frac{L^2}{2I}$. Med samme $L$ og $I$ redusert til $0{,}4$ av den opprinnelige, blir energien $2{,}5$ ganger så stor. Den ekstra energien kommer fra arbeidet musklene gjør når hun drar armene inn mot «sentrifugalkraften».
+:::
+:::
+
+::::

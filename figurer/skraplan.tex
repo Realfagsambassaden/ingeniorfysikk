@@ -1,0 +1,16 @@
+\begin{tikzpicture}[scale=1.1]
+\def\a{25}
+\draw[thick](0,0)--(6,0)--(6,{6*tan(\a)})--cycle;
+\draw (1.2,0) arc (0:\a:1.2); \node at (1.55,0.3){$\alpha$};
+\begin{scope}[shift={(3.4,{3.4*tan(\a)})},rotate=\a]
+\draw[thick,fill=black!10](-0.6,0) rectangle (0.6,0.7);
+\coordinate (S) at (0,0.35);
+\draw[vek,bla](S)--++(0,1.5) node[above]{$\vec N$};
+\draw[vek,gronn](S)--++(1.4,0) node[right]{$\vec f$};
+\draw[->,thick,dashed,rod](S)--++(0,{-1.6*cos(\a)}) node[pos=1,right]{\small $G_y$};
+\draw[->,thick,dashed,rod](S)--++({-1.6*sin(\a)},0) node[pos=1,above]{\small $G_x$};
+\draw[->,thin](1.0,-0.6)--++(0.9,0) node[right]{\small $x$};
+\draw[->,thin](1.0,-0.6)--++(0,0.9) node[above]{\small $y$};
+\end{scope}
+\draw[vek,rod]($(3.4,{3.4*tan(\a)})+({-0.35*sin(\a)},{0.35*cos(\a)})$)--++(0,-1.6) node[below]{$\vec G$};
+\end{tikzpicture}

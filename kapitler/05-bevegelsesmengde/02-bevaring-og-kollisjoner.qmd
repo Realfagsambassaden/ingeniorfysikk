@@ -1,0 +1,149 @@
+---
+title: "Bevaring av bevegelsesmengde og kollisjoner"
+emne: bevegelsesmengde
+---
+
+## Loven om bevaring av bevegelsesmengde
+
+<!-- fra notatene -->
+Fra $\sum\vec F_\text{ytre} = \mathrm{d}\vec p/\mathrm{d}t$ følger det at hvis det ikke virker noen ytre krefter på et system, endrer ikke bevegelsesmengden seg:
+
+::: {.graa}
+$$
+\sum\vec F_\text{ytre} = \vec 0 \quad\Rightarrow\quad \vec p_\text{før} = \vec p_\text{etter}
+$$
+:::
+
+Krefter *mellom* delene av systemet (indre krefter) kommer i par etter Newtons 3. lov og nuller hverandre ut. De kan flytte bevegelsesmengde fra én del til en annen, men ikke endre summen.
+
+**Kollisjoner:** Et støt varer svært kort, $\Delta t \to 0$. Da blir kraftstøtet fra de *ytre* kreftene (tyngde, friksjon) forsvinnende lite, og $\Delta\vec p \approx \vec 0$ er en svært god tilnærming, selv om det finnes ytre krefter.
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Astronaut og eple.** En astronaut ($m_A = 100\ \mathrm{kg}$) svever i ro og kaster et eple ($m_E = 200\ \mathrm{g}$) med $v_E = 10\ \mathrm{m/s}$. Hvor fort får astronauten?
+
+Ingen ytre krefter, så $p_\text{før} = p_\text{etter}$:
+$$
+0 = m_Ev_E + m_Av_A \quad\Rightarrow\quad v_A = -\frac{m_E}{m_A}v_E = -\frac{0{,}200}{100}\cdot10\ \mathrm{m/s} = -0{,}02\ \mathrm{m/s}
+$$
+Astronauten glir sakte motsatt vei. Det er akkurat slik en **rakett** kan bevege seg i tomt rom: den skyter ut eksos bakover og får bevegelsesmengde framover.
+:::
+
+## Tre typer støt
+
+::: {.graa}
+- **Elastisk støt:** bevegelsesmengden *og* den kinetiske energien er bevart.
+- **Uelastisk støt:** bevegelsesmengden er bevart, men noe kinetisk energi går til varme, lyd og deformasjon.
+- **Fullstendig uelastisk støt:** legemene henger sammen etterpå. Her tapes mest kinetisk energi.
+:::
+
+<!-- fra notatene -->
+Oversikten: Newtons 2. lov, $\sum\vec F_\text{ytre} = \mathrm{d}\vec p/\mathrm{d}t$. Er $\sum\vec F_\text{ytre} = \vec 0$, er bevegelsesmengden bevart. Er i tillegg kinetisk energi bevart, er støtet elastisk.
+
+## Elastisk støt mellom to vogner
+
+<!-- fra notatene -->
+Vogn 1 med masse $m_1$ og fart $v_1$ treffer vogn 2 med masse $m_2$, som står i ro, på et friksjonsfritt underlag. Etter støtet har vogn 1 farten $v_2$ og vogn 2 farten $U$. Systemet er begge vognene.
+
+- Ytre krefter langs bevegelsen er null, så bevegelsesmengden er bevart:
+$$
+m_1v_1 = m_1v_2 + m_2U \quad\Rightarrow\quad m_1(v_1 - v_2) = m_2U \tag{1}
+$$
+- Det gjøres ikke noe arbeid på systemet, og hvis ingen energi går til deformasjon, er kinetisk energi bevart:
+$$
+\tfrac12 m_1v_1^2 = \tfrac12 m_1v_2^2 + \tfrac12 m_2U^2 \quad\Rightarrow\quad m_1(v_1^2 - v_2^2) = m_2U^2 \tag{2}
+$$
+
+**Triks:** $v_1^2 - v_2^2 = (v_1 - v_2)(v_1 + v_2)$. Deler vi (2) på (1), får vi
+
+::: {.graa}
+$$
+v_1 + v_2 = U \qquad\text{(gjelder alle elastiske, rette støt)}
+$$
+:::
+
+Setter vi dette inn i (1), finner vi farten til hver vogn:
+$$
+U = \frac{2m_1}{m_1 + m_2}\,v_1, \qquad v_2 = \frac{m_1 - m_2}{m_1 + m_2}\,v_1
+$$
+
+**Lik masse** ($m_1 = m_2$): $v_2 = 0$ og $U = v_1$. Den første vogna stopper helt, og den andre overtar all farten. Det ser du på biljardbordet!
+
+<!-- tillegg: Claude -->
+**Tung mot lett** ($m_1 \gg m_2$): $v_2 \approx v_1$ og $U \approx 2v_1$. **Lett mot tung** ($m_1 \ll m_2$): $v_2 \approx -v_1$, den lette spretter tilbake, og $U \approx 0$.
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Ball i vogn (fullstendig uelastisk).** En ball ($m = 1{,}0\ \mathrm{kg}$) kastes med $v = 20\ \mathrm{m/s}$ inn i en vogn ($M = 10\ \mathrm{kg}$) som står i ro. Ballen blir liggende i en pute i vogna.
+
+**1.** Ingen ytre krefter vannrett, så bevegelsesmengden er bevart:
+$$
+mv + M\cdot0 = (m + M)V_E \quad\Rightarrow\quad V_E = \frac{m}{m + M}v = \frac{1}{11}\cdot20\ \mathrm{m/s} \approx 1{,}8\ \mathrm{m/s}
+$$
+
+**2.** Er energien bevart? $E_\text{før} = \frac12\cdot1\cdot20^2\ \mathrm{J} = 200\ \mathrm{J}$, men $E_\text{etter} = \frac12\cdot11\cdot1{,}8^2\ \mathrm{J} \approx 18\ \mathrm{J}$. Hele $182\ \mathrm{J}$ har gått til varme og støy i puta.
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Hvor mye energi forsvinner?"}
+En bil med masse $m$ og fart $v$ kolliderer med en bil med masse $2m$ som står i ro. Bilene henger sammen etterpå. Hvor stor andel av den kinetiske energien går tapt?
+
+::: {.losning}
+<!-- fra notatene -->
+Bevegelsesmengden er bevart: $mv = (m + 2m)U$, så $U = v/3$.
+$$
+\frac{E_\text{etter}}{E_\text{før}} = \frac{\frac12\cdot3m\cdot(v/3)^2}{\frac12 mv^2} = \frac13
+$$
+Altså går $\underline{\underline{2/3 \approx 67\ \%}}$ av den kinetiske energien tapt.
+:::
+:::
+
+::: {.oppgave tittel="Curling"}
+To curlingsteiner med masse $19\ \mathrm{kg}$ kolliderer rett. Før støtet har A fart $3{,}0\ \mathrm{m/s}$ mot høyre og B $5{,}0\ \mathrm{m/s}$ mot venstre. Etter støtet har A fart $4{,}5\ \mathrm{m/s}$ mot venstre.
+
+a) Finn farten til B etter støtet.
+
+b) Var støtet elastisk?
+
+::: {.losning}
+**a)** Positiv retning mot høyre. Massene er like og forkortes bort:
+$$
+v_A + v_B = u_A + u_B \quad\Rightarrow\quad u_B = 3{,}0 + (-5{,}0) - (-4{,}5)\ \mathrm{m/s} = \underline{\underline{2{,}5\ \mathrm{m/s}}}
+$$
+mot høyre.
+
+**b)** $E_\text{før} = \frac12\cdot19\,(3{,}0^2 + 5{,}0^2)\ \mathrm{J} = 323\ \mathrm{J}$ og $E_\text{etter} = \frac12\cdot19\,(4{,}5^2 + 2{,}5^2)\ \mathrm{J} \approx 252\ \mathrm{J}$. Energi har gått tapt, så støtet var **ikke elastisk**.
+:::
+:::
+
+::: {.oppgave tittel="Skøyteløpere og kasse"}
+To skøyteløpere med masse $M$ står i ro på friksjonsfri is. Løper A kaster en kasse med masse $m$ med vannrett fart $v_0$ til løper B, som tar imot og holder den.
+
+a) Hva blir farten $u_1$ til A?
+
+b) Hva blir farten $u_2$ til B med kassen?
+
+::: {.losning}
+**a)** $0 = Mu_1 + mv_0$, så $u_1 = -\dfrac{m}{M}v_0$. A glir motsatt vei.
+
+**b)** Fullstendig uelastisk støt: $mv_0 = (M + m)u_2$, så $u_2 = \dfrac{m}{M + m}v_0$.
+:::
+:::
+
+::: {.oppgave tittel="Proton og positron" niva="Utfordrende"}
+Et proton med fart $v = 1{,}0\cdot10^6\ \mathrm{m/s}$ treffer et positron i ro i et rett, elastisk støt. Positronet har masse $m = M/2000$, der $M$ er protonmassen. Hva blir farten til hver partikkel?
+
+::: {.losning}
+Fra formlene for elastisk støt med $m_1 = M$ og $m_2 = m$:
+$$
+u_\text{positron} = \frac{2M}{M + m}v = \frac{2}{1 + 1/2000}v \approx \underline{\underline{2{,}0\cdot10^6\ \mathrm{m/s}}}
+$$
+$$
+u_\text{proton} = \frac{M - m}{M + m}v = \frac{1999}{2001}v \approx \underline{\underline{1{,}0\cdot10^6\ \mathrm{m/s}}}
+$$
+Det tunge protonet merker nesten ikke støtet, mens det lette positronet får dobbelt så stor fart. (Tung mot lett.)
+:::
+:::
+
+::::
