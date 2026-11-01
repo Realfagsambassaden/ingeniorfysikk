@@ -10,6 +10,26 @@ Noen størrelser er helt beskrevet av ett tall, for eksempel masse ($5\ \mathrm{
 
 Vi skriver vektorer med en pil over: $\vec s$, $\vec v$, $\vec a$, $\vec F$. Lengden (størrelsen) skrives $|\vec a|$ eller bare $a$.
 
+## Koordinatsystem
+
+<!-- fra notatene -->
+Matematikken er et verktøy i fysikken, og det viktigste verktøyet er **koordinatsystemet**. Med det kan vi beskrive hvor noe er (punktene A og B), og hvordan det beveger seg fra A til B.
+
+::: {.graa}
+Vektorer + koordinatsystem = sant ❤
+:::
+
+::: {.eksempel}
+**Eksempel:** Et fly har hastigheten $500\ \mathrm{m/s}$ nordover og $300\ \mathrm{m/s}$ østover:
+$$
+\vec v = 500\ \mathrm{m/s}\ \hat{\text{N}} + 300\ \mathrm{m/s}\ \hat{\text{Ø}}
+$$
+Farten er lengden av vektoren:
+$$
+v = \sqrt{500^2 + 300^2}\ \mathrm{m/s} \approx 583\ \mathrm{m/s}
+$$
+:::
+
 ## Komponenter
 
 I et koordinatsystem kan vi beskrive en vektor med hvor langt den går i $x$-retning og hvor langt i $y$-retning. Det er vektorens **komponenter**:
@@ -17,6 +37,26 @@ $$
 \vec a = [a_x,\ a_y] = a_x\,\hat x + a_y\,\hat y
 $$
 Her er $\hat x$ og $\hat y$ **enhetsvektorer**: piler med lengde 1 langs aksene.
+
+## Regning med vektorer
+
+<!-- fra notatene -->
+Med komponenter er det enkelt å regne. Ta $\vec A = [5,\ 3]$ og $\vec B = [-3,\ 5]$.
+
+**Addisjon:** legg sammen komponent for komponent.
+$$
+\vec A + \vec B = [5 + (-3),\ 3 + 5] = [2,\ 8]
+$$
+
+**Skalarprodukt** (prikkprodukt): gang komponentene parvis og legg sammen. Det er også lik lengdene ganget med cosinus til vinkelen $\alpha$ mellom vektorene:
+$$
+\vec A\cdot\vec B = A_xB_x + A_yB_y = A\,B\cos\alpha
+$$
+For vektorene våre:
+$$
+\vec A\cdot\vec B = 5\cdot(-3) + 3\cdot5 = 0
+$$
+Skalarproduktet er null, så $\cos\alpha = 0$ og $\alpha = 90^\circ$: **vektorene står vinkelrett på hverandre**, $\vec A \perp \vec B$.
 
 ## Dekomponering med trigonometri
 
@@ -33,6 +73,16 @@ $$
 ::: {.graa}
 $$
 a_x = a\cos\theta, \qquad a_y = a\sin\theta, \qquad \tan\theta = \frac{a_y}{a_x}
+$$
+:::
+
+<!-- fra notatene -->
+::: {.eksempel}
+**Eksempel:** En kraft $S = 500\ \mathrm{N}$ virker $\theta = 30^\circ$ over horisontalen. Hvor stor er den horisontale komponenten $S_x$?
+
+Tegn kraften, tegn komponentene, og se på den rettvinklede trekanten:
+$$
+\cos\theta = \frac{S_x}{S} \quad\Rightarrow\quad S_x = S\cos\theta = 500\ \mathrm{N}\cdot\cos30^\circ \approx 433\ \mathrm{N}
 $$
 :::
 

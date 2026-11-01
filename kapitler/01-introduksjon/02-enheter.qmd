@@ -16,15 +16,25 @@ Uten enhet er tallet meningsløst: «500» kan være meter, kilometer eller seku
 
 ## SI-systemet
 
-Forskere og ingeniører over hele verden bruker de samme grunnenhetene, **SI-enhetene**. I mekanikken trenger vi tre:
+<!-- fra notatene -->
+Forskere og ingeniører over hele verden bruker de samme grunnenhetene, **SI-enhetene**. Det finnes sju av dem:
 
-| Størrelse | Symbol | SI-enhet |
-|---|---|---|
-| lengde | $s$, $x$ | meter, $\mathrm{m}$ |
-| masse | $m$ | kilogram, $\mathrm{kg}$ |
-| tid | $t$ | sekund, $\mathrm{s}$ |
+| Måleenhet | Måler |
+|---|---|
+| sekund, $\mathrm{s}$ | tid |
+| meter, $\mathrm{m}$ | lengde |
+| kilogram, $\mathrm{kg}$ | masse |
+| ampere, $\mathrm{A}$ | elektrisk strøm |
+| kelvin, $\mathrm{K}$ | temperatur |
+| mol, $\mathrm{mol}$ | stoffmengde |
+| candela, $\mathrm{cd}$ | lysstyrke |
 
-Alle andre enheter i mekanikken er bygget av disse tre. De kalles **avledede enheter**. Du finner dem ved å se på formelen som definerer størrelsen:
+Siden 2019 er alle sju definert ut fra sju **naturkonstanter** med fastsatte verdier, blant annet lyshastigheten $\mathrm{c} = 299\,792\,458\ \mathrm{m/s}$, Plancks konstant $\mathrm{h}$, elementærladningen $\mathrm{e}$, Boltzmanns konstant $\mathrm{k_B}$ og Avogadros tall $\mathrm{N_A}$. Meteren er for eksempel definert som hvor langt lyset går på $1/299\,792\,458$ sekund. Vi trenger alle unntatt candela.
+
+## Avledede enheter
+
+<!-- tillegg: Claude -->
+I mekanikken klarer vi oss med meter, kilogram og sekund. Alle andre enheter er bygget av disse. De kalles **avledede enheter**, og du finner dem ved å se på formelen som definerer størrelsen:
 
 ::: {.graa}
 | Enhet | Størrelse | Fra formelen | I grunnenheter |
@@ -34,6 +44,24 @@ Alle andre enheter i mekanikken er bygget av disse tre. De kalles **avledede enh
 | watt, $\mathrm{W}$ | effekt | $P = W/t$ | $\mathrm{kg\,m^2/s^3}$ |
 | pascal, $\mathrm{Pa}$ | trykk | $p = F/A$ | $\mathrm{kg/(m\,s^2)}$ |
 | hertz, $\mathrm{Hz}$ | frekvens | $f = 1/T$ | $\mathrm{s^{-1}}$ |
+:::
+
+Vi skriver «enheten til $F$» med hakeparentes: $[F] = [m][a] = \mathrm{kg\cdot m/s^2} = \mathrm{N}$.
+
+## To regler for å regne med enheter
+
+<!-- fra notatene -->
+::: {.graa}
+1. **Samme enhet i alle ledd.** Alle ledd på begge sider av likhetstegnet må ha samme enhet. Du kan ikke legge sammen epler og druer: $3\ \text{epler} \neq 2\ \text{druer} + 1\ \text{banan}$.
+2. **Enheter følger algebra.** De kan ganges, deles og forkortes akkurat som bokstaver: $5\ \mathrm{m/s} + 2\ \mathrm{m/s} = (5+2)\ \mathrm{m/s} = 7\ \mathrm{m/s}$.
+:::
+
+Regel 1 er en gratis kontroll: får du ulike enheter på hver side av likhetstegnet, har du regnet feil et sted.
+
+::: {.eksempel}
+**Eksempel:** Er $50\ \mathrm{N}$ det samme som $50\ \mathrm{kg\,m/s^2}$?
+
+Ja. Fra $F = ma$ er $[F] = [m][a]$, så $\mathrm{N} = \mathrm{kg\cdot m/s^2}$.
 :::
 
 ## Å regne om enheter
@@ -81,6 +109,24 @@ $$
 t = \frac{500\ \mathrm{km}}{320\ \mathrm{km/h}} = 1{,}5625\ \mathrm{h}
 $$
 $0{,}5625\ \mathrm{h} \cdot 60\ \mathrm{min/h} \approx 34\ \mathrm{min}$, så toget bruker **1 time og 34 minutter**.
+:::
+:::
+
+::: {.oppgave tittel="Finn enhetene"}
+<!-- fra notatene -->
+I formelen
+$$
+E = \frac{A + B}{C} + D
+$$
+er $[A] = \mathrm{K}$, $[C] = \mathrm{m/s}$ og $[D] = \mathrm{K\,s/m}$. Finn enhetene $[B]$ og $[E]$.
+
+::: {.losning}
+<!-- tillegg: Claude -->
+Vi bruker regel 1: alle ledd som legges sammen, må ha samme enhet.
+
+- $B$ legges sammen med $A$, så $[B] = [A] = \underline{\underline{\mathrm{K}}}$.
+- $\frac{A+B}{C}$ har enheten $\frac{\mathrm{K}}{\mathrm{m/s}} = \mathrm{K\,s/m}$. Det stemmer med $[D]$, så formelen henger sammen.
+- $E$ er summen av to ledd med enheten $\mathrm{K\,s/m}$: $[E] = \underline{\underline{\mathrm{K\,s/m}}}$.
 :::
 :::
 
