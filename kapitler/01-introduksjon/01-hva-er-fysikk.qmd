@@ -16,7 +16,7 @@ $$
 \text{matematikk} \;\to\; \textbf{fysikk} \;\to\; \text{kjemi} \;\to\; \text{biologi} \;\to\; \text{sosiologi}
 $$
 
-Fysikk har selv mange grener: mekanikk, termofysikk, bølgefysikk, fluidmekanikk, elektromagnetisme, kvantemekanikk, relativitetsteori og flere til.
+Fysikk har selv mange greiner: mekanikk, termofysikk, bølgefysikk, fluidmekanikk, elektromagnetisme, kvantemekanikk, relativitetsteori og flere til.
 
 ## Hvor gjelder det vi lærer?
 
