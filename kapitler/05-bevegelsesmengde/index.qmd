@@ -1,0 +1,7 @@
+---
+title: "Bevegelsesmengde og kollisjoner"
+del: "Mekanikk"
+---
+
+<!-- fra notatene -->
+Når to ting kolliderer, er kreftene mellom dem ofte enorme og kortvarige, og vanskelige å beskrive. Likevel kan vi si nøyaktig hvordan de beveger seg etterpå, takket være **bevegelsesmengden** og loven om at den er bevart. Tilsvarer kapittel 9 i OpenStax *University Physics*.

@@ -1,0 +1,141 @@
+---
+title: "Luftmotstand, terminalfart og Eulers metode"
+emne: newtons-lover
+---
+
+## Luftmotstand
+
+<!-- fra notatene -->
+Når noe beveger seg gjennom lufta, virker luftmotstanden mot bevegelsen. For de fleste hverdagslige farter er den godt beskrevet av
+
+::: {.graa}
+$$
+F_D = \tfrac12\,C\rho A\,v^2
+$$
+:::
+
+| Symbol | Betyr |
+|---|---|
+| $C$ | motstandskoeffisient (dimensjonsløs, $[C] = 1$), avhenger av formen |
+| $\rho$ | lufttettheten, ca. $1{,}2\ \mathrm{kg/m^3}$ |
+| $A$ | frontarealet, arealet legemet «viser» mot fartsretningen |
+| $v$ | farten |
+
+Legg merke til $v^2$: dobbelt så stor fart gir fire ganger så stor luftmotstand.
+
+## Terminalfart
+
+Et legeme som faller, øker farten til luftmotstanden er like stor som tyngden. Da er $\sum F = 0$, akselerasjonen er null, og farten holder seg konstant. Dette er **terminalfarten**:
+$$
+F_D = G \quad\Rightarrow\quad \tfrac12 C\rho A v_t^2 = m\mathrm{g} \quad\Rightarrow\quad v_t = \sqrt{\frac{2m\mathrm{g}}{C\rho A}}
+$$
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Kule.** En kule med masse $5\ \mathrm{kg}$ og radius $R = 10\ \mathrm{cm}$ faller mot jorda. $C = 0{,}45$ og $\rho = 1{,}2\ \mathrm{kg/m^3}$. Frontarealet er en sirkel, $A = \pi R^2$:
+$$
+v_t = \sqrt{\frac{2\cdot5\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}}{0{,}45\cdot1{,}2\ \mathrm{kg/m^3}\cdot\pi(0{,}10\ \mathrm{m})^2}} \approx 76\ \mathrm{m/s} \approx 2{,}7\cdot10^2\ \mathrm{km/h}
+$$
+:::
+
+## Numerisk løsning med Eulers metode
+
+<!-- fra notatene -->
+Hvordan endrer farten seg *på veien* mot terminalfarten? En person faller ut av et fly. Med positiv retning nedover gir Newtons 2. lov
+$$
+G - F_D = m a \quad\Rightarrow\quad m\mathrm{g} - \tfrac12 C\rho A\,v^2 = m\,\dot v
+$$
+Her er $\dot v = \mathrm{d}v/\mathrm{d}t$. Newtons 2. lov er altså en **differensiallikning**:
+
+::: {.graa}
+$$
+\dot v = \mathrm{g} - K v^2, \qquad K = \frac{C\rho A}{2m}, \qquad v(0) = 0
+$$
+:::
+
+**Eulers metode** løser likninger på formen $y'(x) = f(x, y)$ med kjent startverdi. Vi deler tiden i små steg $h$ og bruker at den deriverte er omtrent $\dot v \approx \dfrac{v_{n+1} - v_n}{h}$. Det gir oppskriften
+$$
+v_{n+1} = v_n + h\left(\mathrm{g} - Kv_n^2\right)
+$$
+Vi starter med $v_0 = 0$ og regner ut $v_1$, så $v_2$, og så videre. Med $C = 0{,}45$, $A = 0{,}5\ \mathrm{m^2}$, $\rho = 1{,}2\ \mathrm{kg/m^3}$ og $m = 80\ \mathrm{kg}$:
+
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+
+g, C, A, rho, m = 9.81, 0.45, 0.5, 1.2, 80
+K = C*rho*A/(2*m)
+h = 0.1                      # tidssteg i sekunder
+t = np.arange(0, 30, h)
+v = np.zeros(len(t))
+for n in range(len(t) - 1):
+    v[n+1] = v[n] + h*(g - K*v[n]**2)
+
+v_t = np.sqrt(g/K)
+print(f"Terminalfart: {v_t:.1f} m/s")
+plt.plot(t, v, label="v(t), Euler")
+plt.axhline(v_t, ls="--", color="r", label="terminalfart")
+plt.xlabel("t [s]"); plt.ylabel("v [m/s]"); plt.legend(); plt.show()
+```
+
+Farten øker raskt i starten (akselerasjonen er nesten $\mathrm{g}$) og flater ut mot $v_t \approx 76\ \mathrm{m/s}$. Akselerasjonen går tilsvarende fra $\mathrm{g}$ mot null.
+
+<!-- tillegg: Claude -->
+::: {.callout-tip title="Prøv selv"}
+Endre `h` til `1.0` og se hva som skjer. Eulers metode blir mer nøyaktig jo mindre tidssteget er, men da må datamaskinen regne flere steg.
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="To fallskjermhoppere" niva="Utfordrende"}
+To fallskjermhoppere med masse $m = 70\ \mathrm{kg}$ faller fra samme høyde. A faller med hodet først ($A = 0{,}17\ \mathrm{m^2}$, $C = 0{,}70$). B faller liggende ($A = 1{,}0\ \mathrm{m^2}$, $C = 1{,}0$). Bruk $\rho = 1{,}29\ \mathrm{kg/m^3}$.
+
+a) Finn terminalfarten for A og B.
+
+b) En Python-funksjon skal regne ut luftmotstanden. Hva skal stå på linja med `?`
+
+```python
+def drag(A, C, v):
+    rho = 1.29
+    k = 0.5*rho*A*C
+    ?
+```
+
+c) Bruk Eulers metode med $\Delta t = 0{,}10\ \mathrm{s}$ til å finne tiden det tar før hopperne har nådd 98 % av terminalfarten, og hvor langt de har falt da.
+
+::: {.losning}
+**a)** Fra $v_t = \sqrt{2m\mathrm{g}/(C\rho A)}$:
+$$
+v_{t,A} = \sqrt{\frac{2\cdot70\cdot9{,}81}{0{,}70\cdot1{,}29\cdot0{,}17}}\ \mathrm{m/s} \approx \underline{\underline{95\ \mathrm{m/s}}}, \qquad
+v_{t,B} = \sqrt{\frac{2\cdot70\cdot9{,}81}{1{,}0\cdot1{,}29\cdot1{,}0}}\ \mathrm{m/s} \approx \underline{\underline{33\ \mathrm{m/s}}}
+$$
+
+**b)** `return k*v**2`, som er $\frac12\rho A C v^2$.
+
+**c)** <!-- tillegg: Claude -->
+
+```{.python .kjor}
+import numpy as np
+
+def drag(A, C, v):
+    rho = 1.29
+    k = 0.5*rho*A*C
+    return k*v**2
+
+g, m, dt = 9.81, 70, 0.10
+for navn, A, C in [("A", 0.17, 0.70), ("B", 1.0, 1.0)]:
+    v_t = np.sqrt(2*m*g/(C*1.29*A))
+    t, v, y = 0.0, 0.0, 0.0
+    while v < 0.98*v_t:
+        a = g - drag(A, C, v)/m
+        y += v*dt
+        v += a*dt
+        t += dt
+    print(f"{navn}: 98 % av {v_t:.0f} m/s etter {t:.1f} s, falt {y:.0f} m")
+```
+
+A bruker ca. $22\ \mathrm{s}$ og faller ca. $1{,}5\ \mathrm{km}$; B bruker ca. $7{,}5\ \mathrm{s}$ og faller ca. $170\ \mathrm{m}$. (Svarene avhenger litt av hvordan du oppdaterer $y$ og $v$ i løkka.)
+:::
+:::
+
+::::

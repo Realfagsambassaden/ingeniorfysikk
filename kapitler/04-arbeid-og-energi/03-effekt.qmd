@@ -1,0 +1,64 @@
+---
+title: "Effekt"
+emne: arbeid-og-energi
+---
+
+<!-- fra notatene -->
+**Effekt** er hvor raskt arbeid utføres, altså arbeid per tid:
+
+::: {.graa}
+$$
+P = \frac{\mathrm{d}W}{\mathrm{d}t} = \vec F\cdot\vec v
+$$
+:::
+
+Enheten er $\mathrm{J/s} = \mathrm{W}$ (watt). Den siste formen kommer fra $W = \int\vec F\cdot\vec v\,\mathrm{d}t$.
+
+<!-- tillegg: Claude -->
+Strømregningen måles i kilowattimer: $1\ \mathrm{kWh} = 1000\ \mathrm{W}\cdot3600\ \mathrm{s} = 3{,}6\ \mathrm{MJ}$. Det er en enhet for *energi*, ikke effekt.
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Fjærkanon med friksjon.** En kule ($m = 100\ \mathrm{g}$) skytes vannrett ut av en fjærkanon som er presset sammen $x = 10\ \mathrm{cm}$.
+
+**a)** Uten friksjon er utgangsfarten $2{,}1\ \mathrm{m/s}$. Fjæra gjør arbeidet $W = \int_0^x kx'\,\mathrm{d}x' = \frac12 kx^2$, som blir til kinetisk energi:
+$$
+k = \frac{mv_0^2}{x^2} = \frac{0{,}100\cdot2{,}1^2}{0{,}10^2}\ \mathrm{N/m} \approx 44\ \mathrm{N/m}
+$$
+
+**b)** Med friksjon blir utgangsfarten $1{,}9\ \mathrm{m/s}$. Friksjonsarbeidet er forskjellen i kinetisk energi:
+$$
+W_f = \tfrac12\cdot0{,}100\,(1{,}9^2 - 2{,}1^2)\ \mathrm{J} = -0{,}040\ \mathrm{J}
+$$
+
+**c)** Friksjonskoeffisienten: $W_f = -\mu_k m\mathrm{g}x$, så $\mu_k = \dfrac{0{,}040}{0{,}100\cdot9{,}81\cdot0{,}10} \approx 0{,}41$.
+
+**d)** Utskytingen tar $0{,}5\ \mathrm{s}$. Gjennomsnittlig effekt fra friksjonen: $P = W/\Delta t = 0{,}040\ \mathrm{J}/0{,}50\ \mathrm{s} = 80\ \mathrm{mW}$.
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Bussen som lader på vei ned" niva="Middels"}
+En elektrisk buss kjører med konstant fart nedover en bakke med helning $\theta$, og bremsene lader batteriet.
+
+a) Finn et uttrykk for effekten bremsene genererer.
+
+b) Hvor mye energi genererer en buss på $4{,}0$ tonn på én time i en bakke med $\theta = 5^\circ$, hvis farten er $36\ \mathrm{km/h}$?
+
+::: {.losning}
+<!-- fra notatene -->
+**a)** Effekten er $P = \vec F\cdot\vec v$. Bremsekraften $\vec F_B$ peker mot fartsretningen, så $P = -F_Bv$. Farten er konstant, så $\sum F_x = 0$ langs bakken: $-F_B + G_x = 0$, altså $F_B = m\mathrm{g}\sin\theta$. Størrelsen på effekten er
+$$
+|P| = m\mathrm{g}\sin\theta\cdot v
+$$
+
+**b)** Med $v = 10\ \mathrm{m/s}$ og $t = 1\ \mathrm{h} = 3600\ \mathrm{s}$:
+$$
+E = Pt = 4{,}0\cdot10^3\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}\cdot\sin5^\circ\cdot10\ \mathrm{m/s}\cdot3600\ \mathrm{s} \approx \underline{\underline{1{,}2\cdot10^2\ \mathrm{MJ} \approx 34\ \mathrm{kWh}}}
+$$
+<!-- tillegg: Claude: notatene glemte g her og fikk 3,5 kWh -->
+Effekten er $P \approx 34\ \mathrm{kW}$. (Forutsatt at all energien kan tas vare på.)
+:::
+:::
+
+::::

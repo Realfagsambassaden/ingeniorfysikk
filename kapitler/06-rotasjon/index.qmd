@@ -1,0 +1,22 @@
+---
+title: "Rotasjon"
+del: "Mekanikk"
+---
+
+<!-- fra notatene -->
+Hittil har vi behandlet alt som **punktmasser**: hele legemet samlet i ett punkt. Men hva skjer når legemet har **utstrekning** og kan rotere? Da trenger vi nye størrelser: vinkelfart, treghetsmoment, kraftmoment og dreieimpuls. Det fine er at alt har en «tvilling» fra den lineære bevegelsen:
+
+::: {.graa}
+| Lineær bevegelse | Rotasjon |
+|---|---|
+| masse $m$ | treghetsmoment $I = \int r^2\,\mathrm{d}m$ |
+| fart $v$ | vinkelfart $\omega = \mathrm{d}\theta/\mathrm{d}t$ |
+| akselerasjon $a$ | vinkelakselerasjon $\alpha = \mathrm{d}\omega/\mathrm{d}t$ |
+| kraft $\vec F$ | kraftmoment $\vec\tau = \vec r\times\vec F$ |
+| $\sum\vec F = m\vec a$ | $\sum\vec\tau = I\vec\alpha$ |
+| bevegelsesmengde $\vec p = m\vec v$ | dreieimpuls $\vec L = I\vec\omega$ |
+| $E_K = \frac12 mv^2$ | $E_K = \frac12 I\omega^2$ |
+| $P = Fv$ | $P = \tau\omega$ |
+:::
+
+Tilsvarer kapittel 10 og 11.1 i OpenStax *University Physics*.

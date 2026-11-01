@@ -1,0 +1,10 @@
+\begin{tikzpicture}[xscale=0.62,yscale=0.022]
+\draw[akse](0,0)--(11.2,0) node[right]{$t\ [\mathrm{s}]$};
+\draw[akse](0,0)--(0,235) node[above]{$s\ [\mathrm{m}]$};
+\draw[very thick,rod] plot[smooth,tension=0.7] coordinates {(0,0) (2,20) (4,50) (5,85) (6,130) (8,185) (10,200)};
+\draw[thick,bla,dashed](-0.5,-10)--(10.8,216);
+\draw[thick,gronn,dashed](3.2,10)--(7.2,170);
+\foreach \t/\s in {4/50,6/130,10/200} {\draw[dotted](\t,0)--(\t,\s)--(0,\s); \fill (\t,\s) circle (0.12 and 3.3); \node[below] at (\t,0){$\t$}; \node[left] at (0,\s){$\s$};}
+\node[bla,right] at (7.6,110){\small $\bar v_{0\to10} = 20\ \mathrm{m/s}$};
+\node[gronn,left] at (5.4,175){\small $\bar v_{4\to6} = 40\ \mathrm{m/s}$};
+\end{tikzpicture}

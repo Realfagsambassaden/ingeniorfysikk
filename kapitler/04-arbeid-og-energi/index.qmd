@@ -1,0 +1,7 @@
+---
+title: "Arbeid og energi"
+del: "Mekanikk"
+---
+
+<!-- fra notatene -->
+Energi er et av de kraftigste verktøyene i fysikken. Mange problemer som er tunge med Newtons lover, blir enkle når vi i stedet regner med energi før og etter. I dette kapittelet ser vi på **arbeid**, **kinetisk** og **potensiell energi**, **arbeid-energi-setningen**, **bevaring av energi** og **effekt**. Tilsvarer kapittel 7 og 8 i OpenStax *University Physics*.

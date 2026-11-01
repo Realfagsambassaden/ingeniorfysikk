@@ -1,0 +1,146 @@
+---
+title: "Kraft og Newtons tre lover"
+emne: newtons-lover
+---
+
+{{< video https://www.youtube.com/watch?v=i6viZK9dZxI >}}
+
+## Hva er en kraft?
+
+<!-- fra notatene -->
+En **kraft** er en *vekselvirkning mellom to legemer*. Det betyr at krefter alltid opptrer i par: står du på gulvet, dytter gulvet opp på deg med en normalkraft $\vec N$, og du dytter ned på gulvet med en like stor kraft $\vec N'$. Kraft og motkraft virker på **hvert sitt legeme**.
+
+Enheten for kraft er **newton**. Fra Newtons 2. lov, $F = ma$, får vi
+$$
+[F] = [m][a] \quad\Rightarrow\quad \mathrm{N} = \mathrm{kg\cdot\frac{m}{s^2}}
+$$
+
+Kraft har både størrelse og retning, så den beskrives med en **vektor**. Vi tegner kreftene som piler som starter i legemet. En slik tegning kalles et **kraftdiagram** (frilegemediagram, FLD).
+
+## Fire viktige krefter
+
+::: {.graa}
+| Kraft | Formel | Type |
+|---|---|---|
+| tyngdekraft | $G = m\mathrm{g}$ | fjernkraft |
+| normalkraft | $N$ (fra underlaget, vinkelrett på det) | kontaktkraft |
+| friksjonskraft | $f = \mu N$ | kontaktkraft |
+| fjærkraft | $F_k = kx$ | kontaktkraft |
+:::
+
+Her er $\mu$ friksjonskoeffisienten, $k$ fjærkonstanten og $x$ hvor mye fjæra er strukket eller presset sammen. Andre eksempler er elektriske og magnetiske krefter, som kommer senere i faget.
+
+Fordi kraft er en vektor, kan vi **dekomponere** den, og vi kan **legge sammen** flere krefter til en kraftsum: $\sum\vec F = \vec G + \vec F_1 + \ldots$
+
+## Newtons lover
+
+::: {.graa}
+1. **Loven om treghet:** $\displaystyle\sum\vec F = \vec 0 \;\Rightarrow\; \vec v = \text{konstant}$
+2. **Loven om akselerasjon:** $\displaystyle\sum\vec F = m\vec a$ (summen av de *ytre* kreftene)
+3. **Loven om gjensidig påvirkning:** kraft = motkraft, $\vec F' = -\vec F$. Kraft og motkraft virker **alltid på to forskjellige legemer**.
+:::
+
+De to første lovene sier hvordan kraft og bevegelse henger sammen. Den tredje sier at krefter er vekselvirkninger.
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Treghet er ikke det samme som stillstand"}
+Newtons 1. lov sier ikke at ting stopper av seg selv. Uten krefter fortsetter et legeme i samme fart og retning for alltid. At en bil triller ut og stopper, skyldes friksjon og luftmotstand, altså krefter.
+:::
+
+### Eksempler
+
+<!-- fra notatene -->
+**N1:** En lyspære henger i ro i en ledning. Den har $v = 0$, altså konstant fart, så $\sum F = 0$: snordraget er lik tyngden, $S = G$. En colaboks i verdensrommet, langt fra alt, fortsetter med konstant fart.
+
+**N2:** En patron med masse $m$ skytes ut av et rør av en fjær ($F_k = kx$) mens friksjonen $f = \mu N$ bremser. Loddrett er $\sum F_y = N - G = 0$, så $N = m\mathrm{g}$. Vannrett gir Newtons 2. lov
+$$
+\sum F_x = kx - \mu m\mathrm{g} = ma \quad\Rightarrow\quad a = \frac{1}{m}\left(kx - \mu m\mathrm{g}\right)
+$$
+
+**N3:** Når patronen treffer en vannmelon med kraften $\vec F_p$, virker vannmelonen tilbake på patronen med $\vec F_p' = -\vec F_p$. Og når jorda trekker deg ned med tyngden $\vec G$, trekker du jorda opp med $\vec G' = -\vec G$.
+
+{{< video https://www.youtube.com/watch?v=4T2FuMioFfE >}}
+
+## Tyngde og masse
+
+<!-- fra notatene -->
+Tyngden $G$ er en kraft: den gir utslag på et newtonmeter (en kraftmåler). Tyngdekraften virker på alt som har masse.
+
+Men hva *er* masse? Vi kan måle tyngden $G$ med et newtonmeter og tyngdeakselerasjonen $\mathrm{g}$ med et akselerometer. Massen er forholdet mellom dem:
+$$
+m = \frac{G}{\mathrm{g}}
+$$
+Forholdet mellom tyngde og masse er altså det samme for alle legemer: $G/m = \mathrm{g} = 9{,}81\ \mathrm{m/s^2}$.
+
+**Fritt fall** betyr at legemet *bare* påvirkes av tyngdekraften. Da er akselerasjonen $a = \mathrm{g}$, konstant nær jordoverflaten og **uavhengig av massen**.
+
+{{< video https://www.youtube.com/watch?v=Co4H1ipYS9s >}}
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Akebrett uten friksjon"}
+En person på $60\ \mathrm{kg}$ sitter på et akebrett på vei ned en snødekt bakke uten friksjon. Hvilke krefter virker på systemet person og akebrett?
+
+::: {.losning}
+<!-- fra notatene -->
+Bare to krefter: **tyngden** $\vec G$ rett ned, og **normalkraften** $\vec N$ fra bakken, vinkelrett på bakken. Det er ingen friksjon, og «farten nedover» er ingen kraft. Summen av disse to gir en akselerasjon nedover langs bakken.
+:::
+:::
+
+::: {.oppgave tittel="Kule og fjær"}
+En tung kule ($50\ \mathrm{kg}$) og en fuglefjær ($10\ \mathrm{g}$) slippes samtidig.
+
+a) Hvilken når bakken først, og hvorfor?
+
+b) På hvilken av dem virker tyngdekraften mest?
+
+::: {.losning}
+<!-- fra notatene -->
+**a)** I lufta kommer kula først, fordi luftmotstanden bremser fjæra mye mer i forhold til tyngden. I vakuum (uten luft) lander de **samtidig**: i fritt fall har alle legemer samme akselerasjon $\mathrm{g}$.
+
+**b)** På kula: $G_1 = M\mathrm{g} > G_2 = m\mathrm{g}$. Kula trekkes hardere, men den har også tilsvarende større treghet, så akselerasjonen blir den samme.
+:::
+:::
+
+::: {.oppgave tittel="Motkraften til tyngden"}
+En mann står på et gulv. Hva er motkraften til tyngdekraften som trekker ham ned? Hvilket legeme virker motkraften på?
+
+::: {.losning}
+<!-- fra notatene -->
+Det er **ikke** normalkraften fra gulvet! Tyngden er jordas trekk i mannen. Motkraften er **mannens trekk i jorda**, $\vec G' = -\vec G$, og den virker på jorda. Normalkraften er motkraften til mannens dytt ned på gulvet.
+
+Husk: kraft og motkraft handler om vekselvirkning mellom *to* legemer, og virker alltid på hvert sitt legeme.
+:::
+:::
+
+::: {.oppgave tittel="Badevekt i heisen" niva="Middels"}
+En person står på en badevekt i en heis som starter i ro i 1. etasje og stopper i 2. etasje. Vekta måler normalkraften $N$. Først øker $N$ over tyngden $G$, så synker den under $G$, og til slutt er $N = G$ igjen. Når er farten til heisen størst?
+
+::: {.losning}
+<!-- fra notatene -->
+Med positiv retning oppover gir Newtons 2. lov
+$$
+\sum F = N - G = ma \quad\Rightarrow\quad a = \frac{N - G}{m}
+$$
+- Heisen i ro: $a = 0$, så $N = G$.
+- Heisen akselererer oppover: $N = G + ma > G$.
+- Heisen bremser: $a < 0$, så $N = G - m|a| < G$.
+
+Farten øker så lenge $N > G$, og avtar når $N < G$. Farten er derfor **størst akkurat når $N$ krysser $G$ på vei ned**, idet akselerasjonen skifter fortegn.
+:::
+:::
+
+::: {.oppgave tittel="Kloss i fjær"}
+En kloss med masse $m = 50\ \mathrm{kg}$ henger i ro i en spiralfjær med fjærkonstant $k = 300\ \mathrm{N/m}$. Hvor langt er fjæra strukket fra likevekt?
+
+::: {.losning}
+<!-- fra notatene -->
+Klossen er i ro, så $\sum F = 0$: $F_k - G = 0$, altså $kx = m\mathrm{g}$.
+$$
+x = \frac{m\mathrm{g}}{k} = \frac{50\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}}{300\ \mathrm{N/m}} \approx \underline{\underline{1{,}6\ \mathrm{m}}}
+$$
+Enheten: $\frac{\mathrm{kg\,m/s^2}}{\mathrm{N/m}} = \frac{\mathrm{N}}{\mathrm{N/m}} = \mathrm{m}$. ✓
+:::
+:::
+
+::::

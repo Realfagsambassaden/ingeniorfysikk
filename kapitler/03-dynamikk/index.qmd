@@ -1,0 +1,7 @@
+---
+title: "Dynamikk: krefter og Newtons lover"
+del: "Mekanikk"
+---
+
+<!-- fra notatene -->
+I kinematikken beskrev vi *hvordan* ting beveger seg. Nå spør vi *hvorfor*. Svaret er **krefter**, og sammenhengen mellom kraft og bevegelse er **Newtons lover**. Vi lærer å tegne kreftene som virker (kraftdiagram), dekomponere dem, og bruke Newtons 2. lov i hver retning. Til slutt ser vi på friksjon, krefter i sirkelbevegelse og luftmotstand, der vi også løser bevegelseslikningen numerisk i Python. Tilsvarer kapittel 5 og 6 i OpenStax *University Physics*.
