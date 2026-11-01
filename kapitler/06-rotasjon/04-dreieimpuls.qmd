@@ -35,19 +35,31 @@ $$
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Roterende hjul.** Et hjul med masse $M = 500\ \mathrm{g}$ jevnt fordelt, radius $R = 0{,}35\ \mathrm{m}$, ruller med $v_\text{cm} = 30\ \mathrm{km/h}$. Dreieimpulsen om massesenteret, med $I = \frac12 MR^2$ og $\omega = v/R \approx 23{,}8\ \mathrm{rad/s}$:
+**Eksempel: Roterende hjul.** Et hjul med masse $M = 500\ \mathrm{g}$ jevnt fordelt, radius $R = 0{,}35\ \mathrm{m}$, ruller med $v_\text{cm} = 30\ \mathrm{km/h}$.
+
+Hvor stor er dreieimpulsen om massesenteret?
+
+::: {.losning}
+Dreieimpulsen om massesenteret, med $I = \frac12 MR^2$ og $\omega = v/R \approx 23{,}8\ \mathrm{rad/s}$:
 $$
 L = \tfrac12 MR^2\omega = \tfrac12\cdot0{,}500\cdot0{,}35^2\cdot23{,}8\ \mathrm{J\,s} \approx 0{,}73\ \mathrm{J\,s}
 $$
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Skøyteløperen.** En skøyteløper snurrer med armene ute. Isen gir nesten ingen kraftmoment, så $L$ er bevart. Når hun trekker armene inn, blir $I$ mye mindre, og
+**Eksempel: Skøyteløperen.** En skøyteløper snurrer med armene ute.
+
+Hvorfor snurrer hun fortere når hun trekker armene inn?
+
+::: {.losning}
+Isen gir nesten ingen kraftmoment, så $L$ er bevart. Når hun trekker armene inn, blir $I$ mye mindre, og
 $$
 \omega_\text{etter} = \frac{I_\text{før}}{I_\text{etter}}\,\omega_\text{før}
 $$
 blir mye større. Hun snurrer fortere uten å «skyve» på noe.
+:::
 :::
 
 ::: {.eksempel}
@@ -57,7 +69,12 @@ blir mye større. Hun snurrer fortere uten å «skyve» på noe.
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Nøytronstjerne.** Når en stor stjerne eksploderer som supernova, kan kjernen kollapse til en nøytronstjerne. Med $I = CMR^2$ (samme form, samme masse) gir $\Delta L = 0$:
+**Eksempel: Nøytronstjerne.** Når en stor stjerne eksploderer som supernova, kan kjernen kollapse til en nøytronstjerne.
+
+Hva skjer med rotasjonsperioden?
+
+::: {.losning}
+Med $I = CMR^2$ (samme form, samme masse) gir $\Delta L = 0$:
 $$
 I_\text{kjerne}\,\omega_\text{kjerne} = I_\text{NS}\,\omega_\text{NS}
 $$
@@ -70,6 +87,7 @@ $$
 T_\text{NS} = 1350\ \mathrm{s}\cdot\frac{(20\ \mathrm{km})^2}{(6400\ \mathrm{km})^2} \approx 0{,}013\ \mathrm{s}
 $$
 Nesten 80 runder i sekundet! Slike raskt roterende nøytronstjerner observeres som **pulsarer**.
+:::
 :::
 
 ## Gyroskop og presesjon

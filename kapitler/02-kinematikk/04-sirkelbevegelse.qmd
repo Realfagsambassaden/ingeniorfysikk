@@ -58,11 +58,13 @@ Ja! Akselerasjon er endring i *hastighet*, og hastighet er en vektor. Selv om fa
 <!-- fra notatene -->
 **Eksempel: Vaskemaskin.** En vaskemaskin sentrifugerer med $1300$ omdreininger per minutt. Trommelen har radius $R = 0{,}25\ \mathrm{m}$. Hvor stor er akselerasjonen til klærne langs veggen?
 
+::: {.losning}
 Frekvensen i omdreininger per sekund: $f = 1300/60\ \mathrm{s^{-1}} \approx 21{,}7\ \mathrm{Hz}$. Farten er konstant, så
 $$
 a = 4\pi^2 f^2 R = 4\pi^2\cdot(21{,}7\ \mathrm{s^{-1}})^2\cdot0{,}25\ \mathrm{m} \approx \underline{\underline{4{,}6\cdot10^3\ \mathrm{m/s^2}}}
 $$
 Det er nesten **500 ganger** tyngdeakselerasjonen! Derfor blir vannet slynget ut av klærne.
+:::
 :::
 
 :::: {.oppgaver}

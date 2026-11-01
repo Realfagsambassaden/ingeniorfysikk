@@ -82,11 +82,17 @@ Svaret i en utregning skal **aldri** oppgis med flere sifres nøyaktighet enn de
 :::
 
 ::: {.eksempel}
-**Eksempel: Areal.** Et rektangel er $5{,}0318\ \mathrm{m}$ bredt og $8{,}2\ \mathrm{m}$ langt. Kalkulatoren gir $41{,}26\ldots\ \mathrm{m^2}$. Men $8{,}2$ har bare to sifre, så svaret blir
+**Eksempel: Areal.** Et rektangel er $5{,}0318\ \mathrm{m}$ bredt og $8{,}2\ \mathrm{m}$ langt. Kalkulatoren gir $41{,}26\ldots\ \mathrm{m^2}$.
+
+Hvor mange gjeldende sifre skal svaret ha? Hva om målene i stedet er $5{,}03\ \mathrm{m}$ og $8\ \mathrm{m}$?
+
+::: {.losning}
+Men $8{,}2$ har bare to sifre, så svaret blir
 $$
 A = 41\ \mathrm{m^2}
 $$
 Er målene $5{,}03\ \mathrm{m}$ og $8\ \mathrm{m}$, har $8$ bare ett siffer. Da blir $A = 4\cdot10\ \mathrm{m^2}$. Her viser standardform tydelig at bare ett siffer er sikkert, noe «$40\ \mathrm{m^2}$» ikke gjør.
+:::
 :::
 
 <!-- tillegg: Claude -->

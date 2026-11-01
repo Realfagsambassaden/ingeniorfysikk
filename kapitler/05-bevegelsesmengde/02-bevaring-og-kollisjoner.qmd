@@ -22,11 +22,13 @@ Krefter *mellom* delene av systemet (indre krefter) kommer i par etter Newtons 3
 <!-- fra notatene -->
 **Eksempel: Astronaut og eple.** En astronaut ($m_A = 100\ \mathrm{kg}$) svever i ro og kaster et eple ($m_E = 200\ \mathrm{g}$) med $v_E = 10\ \mathrm{m/s}$. Hvor fort får astronauten?
 
+::: {.losning}
 Ingen ytre krefter, så $p_\text{før} = p_\text{etter}$:
 $$
 0 = m_Ev_E + m_Av_A \quad\Rightarrow\quad v_A = -\frac{m_E}{m_A}v_E = -\frac{0{,}200}{100}\cdot10\ \mathrm{m/s} = -0{,}02\ \mathrm{m/s}
 $$
 Astronauten glir sakte motsatt vei. Det er akkurat slik en **rakett** kan bevege seg i tomt rom: den skyter ut eksos bakover og får bevegelsesmengde framover.
+:::
 :::
 
 ## Tre typer støt
@@ -76,12 +78,17 @@ $$
 <!-- fra notatene -->
 **Eksempel: Ball i vogn (fullstendig uelastisk).** En ball ($m = 1{,}0\ \mathrm{kg}$) kastes med $v = 20\ \mathrm{m/s}$ inn i en vogn ($M = 10\ \mathrm{kg}$) som står i ro. Ballen blir liggende i en pute i vogna.
 
+**1.** Hvor fort beveger vogna seg etterpå?\
+**2.** Er energien bevart?
+
+::: {.losning}
 **1.** Ingen ytre krefter vannrett, så bevegelsesmengden er bevart:
 $$
 mv + M\cdot0 = (m + M)V_E \quad\Rightarrow\quad V_E = \frac{m}{m + M}v = \frac{1}{11}\cdot20\ \mathrm{m/s} \approx 1{,}8\ \mathrm{m/s}
 $$
 
 **2.** Er energien bevart? $E_\text{før} = \frac12\cdot1\cdot20^2\ \mathrm{J} = 200\ \mathrm{J}$, men $E_\text{etter} = \frac12\cdot11\cdot1{,}8^2\ \mathrm{J} \approx 18\ \mathrm{J}$. Hele $182\ \mathrm{J}$ har gått til varme og støy i puta.
+:::
 :::
 
 :::: {.oppgaver}

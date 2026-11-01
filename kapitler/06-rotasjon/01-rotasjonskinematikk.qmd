@@ -48,7 +48,13 @@ På vektorform er $\vec v = \vec\omega\times\vec r$. Vinkelfarten er en vektor l
 <!-- fra notatene -->
 **Eksempel: Dekk på bil.** Et dekk med $R = 0{,}40\ \mathrm{m}$ starter fra ro og har vinkelakselerasjonen $\alpha = -1{,}0\ \mathrm{rad/s^2}$ (bilen kjører mot høyre, så hjulet roterer med klokka, som er negativ retning). Ingen spinning.
 
-**a)** Hvor lang tid tar det å nå $\omega = -2\pi\ \mathrm{rad/s}$? $\ \omega = \omega_0 + \alpha t$ med $\omega_0 = 0$ gir $t = \omega/\alpha = 2\pi\ \mathrm{s} \approx 6{,}3\ \mathrm{s}$.
+**a)** Hvor lang tid tar det å nå $\omega = -2\pi\ \mathrm{rad/s}$?\
+**b)** Hvor stor er bilens fart da?\
+**c)** Hva er bilens akselerasjon?\
+**d)** Hva er farten etter at hjulet har rotert én runde fra ro?
+
+::: {.losning}
+**a)** $\omega = \omega_0 + \alpha t$ med $\omega_0 = 0$ gir $t = \omega/\alpha = 2\pi\ \mathrm{s} \approx 6{,}3\ \mathrm{s}$.
 
 **b)** Bilens fart da: $v = R\omega = 0{,}40\cdot2\pi\ \mathrm{m/s} \approx 2{,}5\ \mathrm{m/s}$.
 
@@ -56,11 +62,18 @@ På vektorform er $\vec v = \vec\omega\times\vec r$. Vinkelfarten er en vektor l
 
 **d)** Farten etter at hjulet har rotert én runde fra ro: $2\alpha\Delta\theta = \omega^2$ med $\Delta\theta = -2\pi$ gir $\omega = \sqrt{4\pi}\ \mathrm{rad/s}$ og $v = R\omega = 0{,}40\sqrt{4\pi}\ \mathrm{m/s} \approx 1{,}4\ \mathrm{m/s}$.
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Vaskemaskin.** En trommel med radius $R = 20\ \mathrm{cm}$ går med $1400$ omdreininger per minutt. En sokk følger veggen rundt.
 
+**a)** Finn vinkelfarten og banefarten.\
+**b)** Hva er vinkelakselerasjonen?\
+**c)** Hva er sentripetalakselerasjonen?\
+**d)** Hvor langt beveger sokken seg på 2 minutter?
+
+::: {.losning}
 **a)** Vinkelfart og banefart: $\omega = \dfrac{1400\cdot2\pi}{60\ \mathrm{s}} \approx 146{,}6\ \mathrm{rad/s}$ og $v = R\omega \approx 29\ \mathrm{m/s}$, over $100\ \mathrm{km/h}$!
 
 **b)** Vinkelakselerasjonen: $\omega$ er konstant, så $\alpha = 0$.
@@ -68,6 +81,7 @@ På vektorform er $\vec v = \vec\omega\times\vec r$. Vinkelfarten er en vektor l
 **c)** Sentripetalakselerasjonen: $a_\perp = R\omega^2 = 0{,}20\cdot146{,}6^2\ \mathrm{m/s^2} \approx 4{,}3\ \mathrm{km/s^2}$.
 
 **d)** Strekning på 2 minutter: $s = vt = 29\ \mathrm{m/s}\cdot120\ \mathrm{s} \approx 3{,}5\ \mathrm{km}$.
+:::
 :::
 
 :::: {.oppgaver}

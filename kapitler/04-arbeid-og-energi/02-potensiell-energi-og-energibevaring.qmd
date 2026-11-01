@@ -35,19 +35,29 @@ Normalkrefter som står vinkelrett på bevegelsen, gjør ikke arbeid og ødelegg
 <!-- fra notatene -->
 **Eksempel: Ned en bakke.** En person ($M = 75\ \mathrm{kg}$) sklir fra ro ned en bakke uten friksjon. Bakken er $h = 2\ \mathrm{m}$ høy, og står på et platå $H = 4\ \mathrm{m}$ over bakkenivå.
 
-**a)** Hva er den potensielle energien på toppen? Det kommer an på hva du velger som nullnivå! Med bunnen av bakken som nullnivå er $U = m\mathrm{g}h$; med bakkenivået under platået er $U = m\mathrm{g}(h + H)$.
+**a)** Hva er den potensielle energien på toppen?\
+**b)** Hvor stor fart har personen i bunnen av bakken?
 
-**b)** Farten i bunnen: $E_\text{før} = m\mathrm{g}h$ og $E_\text{etter} = \frac12 mv^2$, så
+::: {.losning}
+**a)** Det kommer an på hva du velger som nullnivå! Med bunnen av bakken som nullnivå er $U = m\mathrm{g}h$; med bakkenivået under platået er $U = m\mathrm{g}(h + H)$.
+
+**b)** $E_\text{før} = m\mathrm{g}h$ og $E_\text{etter} = \frac12 mv^2$, så
 $$
 v = \sqrt{2\mathrm{g}h} = \sqrt{2\cdot9{,}81\cdot2}\ \mathrm{m/s} \approx 6\ \mathrm{m/s}
 $$
 Massen forsvinner, og svaret avhenger ikke av valget av nullnivå.
+:::
 :::
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Fjærkanon i tyngdefeltet.** En kule ($m = 0{,}066\ \mathrm{kg}$) skytes rett opp av en fjærkanon. Fjæra presses sammen $x = 7{,}5\ \mathrm{cm}$, og kula stiger $h = 121{,}5\ \mathrm{cm}$ over punktet der den forlater fjæra.
 
+**a)** Finn fjærkonstanten $k$.\
+**b)** Finn utgangsfarten $v_0$ på to måter.\
+**c)** Hvor langt går kula hvis den skytes med $60^\circ$ fra en kant og lander $0{,}27\ \mathrm{m}$ lavere?
+
+::: {.losning}
 **Fjærkonstanten:** Mellom laveste punkt (1) og toppen (3) er energien bevart, og kula ligger i ro begge steder. Fjærenergien blir til høydeenergi over høyden $h + x$:
 $$
 \tfrac12 kx^2 = m\mathrm{g}(h + x) \quad\Rightarrow\quad k = \frac{2m\mathrm{g}(h + x)}{x^2} = \frac{2\cdot0{,}066\cdot9{,}81\cdot1{,}29}{0{,}075^2}\ \mathrm{N/m} \approx 0{,}30\ \mathrm{kN/m}
@@ -62,6 +72,7 @@ $$
 \tilde x = v_0\cos60^\circ\cdot t \approx 2{,}26\ \mathrm{m}
 $$
 Målt i forelesningen: $2{,}38\ \mathrm{m}$. **Hvorfor?** <!-- tillegg: Claude --> Diskuter: er startpunktet målt riktig, er fjæra helt lik hver gang, og gir høydemålingen av $h$ (og dermed $v_0$) et for lavt tall? Små feil i $v_0$ gir store utslag, fordi kastlengden går som $v_0^2$.
+:::
 :::
 
 ## En strategi som alltid virker

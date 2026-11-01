@@ -61,7 +61,9 @@ Regel 1 er en gratis kontroll: får du ulike enheter på hver side av likhetsteg
 ::: {.eksempel}
 **Eksempel:** Er $50\ \mathrm{N}$ det samme som $50\ \mathrm{kg\,m/s^2}$?
 
+::: {.losning}
 Ja. Fra $F = ma$ er $[F] = [m][a]$, så $\mathrm{N} = \mathrm{kg\cdot m/s^2}$.
+:::
 :::
 
 ## Å regne om enheter
@@ -71,11 +73,13 @@ Trikset er å **erstatte hver enhet med det den er lik i SI**, og så regne ut t
 ::: {.eksempel}
 **Eksempel:** Hvor mange m/s er $72\ \mathrm{km/h}$?
 
+::: {.losning}
 Vi bruker $1\ \mathrm{km} = 1000\ \mathrm{m}$ og $1\ \mathrm{h} = 3600\ \mathrm{s}$:
 $$
 72\ \frac{\mathrm{km}}{\mathrm{h}} = 72 \cdot \frac{1000\ \mathrm{m}}{3600\ \mathrm{s}} = 20\ \mathrm{m/s}
 $$
 Huskeregel: del på 3,6 for å gå fra km/h til m/s.
+:::
 :::
 
 :::: {.oppgaver}

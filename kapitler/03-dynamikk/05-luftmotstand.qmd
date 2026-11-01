@@ -32,10 +32,16 @@ $$
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Kule.** En kule med masse $5\ \mathrm{kg}$ og radius $R = 10\ \mathrm{cm}$ faller mot jorda. $C = 0{,}45$ og $\rho = 1{,}2\ \mathrm{kg/m^3}$. Frontarealet er en sirkel, $A = \pi R^2$:
+**Eksempel: Kule.** En kule med masse $5\ \mathrm{kg}$ og radius $R = 10\ \mathrm{cm}$ faller mot jorda. $C = 0{,}45$ og $\rho = 1{,}2\ \mathrm{kg/m^3}$.
+
+Hvor stor blir terminalfarten?
+
+::: {.losning}
+Frontarealet er en sirkel, $A = \pi R^2$:
 $$
 v_t = \sqrt{\frac{2\cdot5\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}}{0{,}45\cdot1{,}2\ \mathrm{kg/m^3}\cdot\pi(0{,}10\ \mathrm{m})^2}} \approx 76\ \mathrm{m/s} \approx 2{,}7\cdot10^2\ \mathrm{km/h}
 $$
+:::
 :::
 
 ## Numerisk løsning med Eulers metode

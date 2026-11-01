@@ -20,7 +20,9 @@ Vektorer + koordinatsystem = sant ❤
 :::
 
 ::: {.eksempel}
-**Eksempel:** Et fly har hastigheten $500\ \mathrm{m/s}$ nordover og $300\ \mathrm{m/s}$ østover:
+**Eksempel:** Et fly har hastigheten $500\ \mathrm{m/s}$ nordover og $300\ \mathrm{m/s}$ østover. Skriv hastigheten som en vektor, og finn farten.
+
+::: {.losning}
 $$
 \vec v = 500\ \mathrm{m/s}\ \hat{\text{N}} + 300\ \mathrm{m/s}\ \hat{\text{Ø}}
 $$
@@ -28,6 +30,7 @@ Farten er lengden av vektoren:
 $$
 v = \sqrt{500^2 + 300^2}\ \mathrm{m/s} \approx 583\ \mathrm{m/s}
 $$
+:::
 :::
 
 ## Komponenter
@@ -80,10 +83,12 @@ $$
 ::: {.eksempel}
 **Eksempel:** En kraft $S = 500\ \mathrm{N}$ virker $\theta = 30^\circ$ over horisontalen. Hvor stor er den horisontale komponenten $S_x$?
 
+::: {.losning}
 Tegn kraften, tegn komponentene, og se på den rettvinklede trekanten:
 $$
 \cos\theta = \frac{S_x}{S} \quad\Rightarrow\quad S_x = S\cos\theta = 500\ \mathrm{N}\cdot\cos30^\circ \approx 433\ \mathrm{N}
 $$
+:::
 :::
 
 <!-- tillegg: Claude -->
