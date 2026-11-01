@@ -1,0 +1,11 @@
+---
+title: "Kinematikk: beskrivelse av bevegelse"
+---
+
+<!-- fra notatene -->
+Bevegelse kan studeres på to måter:
+
+- **Kinematikk** beskriver *hvordan* noe beveger seg: posisjon $\vec s(t)$, hastighet $\vec v(t)$ og akselerasjon $\vec a(t)$.
+- **Mekanikk** forklarer *hvorfor*, ut fra kreftene $\sum\vec F$. Den deles i **dynamikk**, der $\sum\vec F = m\vec a$, og **statikk**, der $\sum\vec F = \vec 0$.
+
+I dette kapittelet holder vi oss til kinematikken. Vi starter langs en rett linje, går videre til krumlinjet bevegelse i to dimensjoner (skrått kast), og avslutter med sirkelbevegelse. Tilsvarer kapittel 3 og 4 i OpenStax *University Physics*.
