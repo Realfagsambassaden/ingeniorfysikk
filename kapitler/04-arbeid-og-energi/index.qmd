@@ -1,5 +1,6 @@
 ---
 title: "Arbeid og energi"
+tegning: kjelke
 del: "Mekanikk"
 ---
 
