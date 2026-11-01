@@ -18,6 +18,10 @@ Det er ingen ny kraft. Det er *summen* av de vanlige kreftene (friksjon, normalk
 <!-- fra notatene -->
 **Eksempel: Bil i sving.** En bil med masse $m = 1000\ \mathrm{kg}$ kjører i $36\ \mathrm{km/h}$ gjennom en sirkulær sving med radius $R = 20\ \mathrm{m}$.
 
+**a)** Hvor stor er akselerasjonen?\
+**b)** Hvor stor er kraftsummen på bilen, og hvilken kraft sørger for den?
+
+::: {.losning}
 **a)** Akselerasjonen: $v = 36/3{,}6\ \mathrm{m/s} = 10\ \mathrm{m/s}$, så
 $$
 a = \frac{v^2}{R} = \frac{(10\ \mathrm{m/s})^2}{20\ \mathrm{m}} = 5{,}0\ \mathrm{m/s^2}
@@ -25,10 +29,16 @@ $$
 
 **b)** Kraftsummen: $\sum F = m\dfrac{v^2}{R} = 1000\ \mathrm{kg}\cdot5{,}0\ \mathrm{m/s^2} = 5{,}0\ \mathrm{kN}$. Loddrett er $N = G$. Det er **friksjonen** mellom dekk og vei som gir kraften inn mot sentrum. Er veien glatt, klarer ikke friksjonen dette, og bilen sklir rett fram.
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Dosering av veibanen.** Kan en bil med konstant fart kjøre gjennom en sirkulær sving *uten* friksjon? Ja, hvis veien heller innover med vinkelen $\alpha$ (dosering).
+**Eksempel: Dosering av veibanen.** Kan en bil med konstant fart kjøre gjennom en sirkulær sving *uten* friksjon?
+
+Finn i så fall hvor mye veien må helle (doseringsvinkelen $\alpha$).
+
+::: {.losning}
+Ja, hvis veien heller innover med vinkelen $\alpha$ (dosering).
 
 Uten friksjon er normalkraften den eneste kraften fra veien. Den står vinkelrett på veibanen, så den har en loddrett del $N_V = N\cos\alpha$ og en vannrett del $N_H = N\sin\alpha$ inn mot sentrum.
 
@@ -45,6 +55,7 @@ $$
 :::
 
 Skal en bil kjøre med fart $v$ gjennom en sving med radius $r$ uten å trenge friksjon, bør doseringen være $\alpha = \arctan\!\big(v^2/(\mathrm{g}r)\big)$.
+:::
 :::
 
 ## Loop: berg-og-dalbane

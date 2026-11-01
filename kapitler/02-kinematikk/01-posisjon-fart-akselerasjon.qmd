@@ -55,6 +55,7 @@ Geometrisk: linja gjennom to punkter P og Q på grafen blir til **tangenten** i 
 <!-- fra notatene -->
 **Eksempel: Usain Bolt.** En modell for posisjonen til en sprinter er $s(t) = 0{,}548\ \mathrm{m/s^2}\cdot t^2$. Finn gjennomsnittsfarten de første 10 sekundene, og momentanfarten etter 4 sekunder.
 
+::: {.losning}
 Gjennomsnittsfarten:
 $$
 \bar v = \frac{s(10\ \mathrm{s}) - s(0)}{10\ \mathrm{s} - 0} = \frac{54{,}8\ \mathrm{m} - 0}{10\ \mathrm{s}} \approx 5{,}48\ \mathrm{m/s}
@@ -63,6 +64,7 @@ Momentanfarten: vi deriverer med regelen $(t^n)' = n\,t^{n-1}$:
 $$
 v(t) = s'(t) = 2\cdot0{,}548\ \mathrm{m/s^2}\cdot t \quad\Rightarrow\quad v(4{,}0\ \mathrm{s}) = 2\cdot0{,}548\cdot4{,}0\ \mathrm{m/s} \approx \underline{\underline{4{,}4\ \mathrm{m/s}}}
 $$
+:::
 :::
 
 ## Akselerasjon
@@ -82,6 +84,9 @@ Akselerasjonen er altså den deriverte av farten, og den *andrederiverte* av pos
 ::: {.eksempel}
 **Eksempel:** Farten til et legeme er $v(t) = t^2$ (i $\mathrm{m/s}$, med $t$ i sekunder).
 
+Finn gjennomsnittsakselerasjonen fra 0 til 1 s og fra 2 til 3 s, og sammenlign med momentanakselerasjonen midt i hvert intervall.
+
+::: {.losning}
 Gjennomsnittsakselerasjon fra 0 til 1 s og fra 2 til 3 s:
 $$
 \bar a_{0\to1} = \frac{1^2 - 0^2}{1 - 0}\ \mathrm{m/s^2} = 1\ \mathrm{m/s^2}, \qquad
@@ -92,6 +97,7 @@ $$
 a(0{,}5\ \mathrm{s}) = 1\ \mathrm{m/s^2}, \qquad a(2{,}5\ \mathrm{s}) = 5\ \mathrm{m/s^2}
 $$
 Legg merke til at gjennomsnittet over et intervall er lik momentanverdien midt i intervallet. Det gjelder når akselerasjonen endrer seg jevnt.
+:::
 :::
 
 ## I én dimensjon

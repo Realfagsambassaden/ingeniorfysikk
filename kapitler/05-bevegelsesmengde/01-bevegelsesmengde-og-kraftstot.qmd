@@ -38,13 +38,21 @@ Dette forklarer kollisjonsputer og knærne du bøyer når du lander: samme $\Del
 <!-- fra notatene -->
 **Eksempel: Skip.** Et skip på $M = 4{,}00$ tonn har fart $3{,}5$ knop ($1\ \text{knop} = 1{,}852\ \mathrm{km/h} = 0{,}5144\ \mathrm{m/s}$).
 
+Finn den kinetiske energien og bevegelsesmengden til skipet.
+
+::: {.losning}
 $E_K = \frac12\cdot4{,}00\cdot10^3\ \mathrm{kg}\cdot(3{,}5\cdot0{,}5144\ \mathrm{m/s})^2 \approx 6{,}5\ \mathrm{kJ}$ og $\vec p = m\vec v \approx 7{,}2\ \mathrm{kN\,s}\ \hat x$.
+:::
 :::
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Lastebåt.** To slepebåter drar i en lastebåt. Den ene drar med $\vec F_1 = [50\ \mathrm{kN/s^2}\cdot t^2,\ 0]$ fra $t = 0$ til $2{,}1\ \mathrm{s}$, den andre med $\vec F_2 = [0,\ -20\ \mathrm{kN/s^3}\cdot t^3]$ fra $t = 1{,}0\ \mathrm{s}$ til $3{,}0\ \mathrm{s}$.
 
+**a)** Finn det totale kraftstøtet på lastebåten.\
+**b)** Båten veier $80$ tonn. Hvor stor blir fartsendringen? Er det realistisk?
+
+::: {.losning}
 **a)** Kraftstøtet:
 $$
 \vec J = \left[\int_0^{2{,}1}50t^2\,\mathrm{d}t,\ -\int_{1{,}0}^{3{,}0}20t^3\,\mathrm{d}t\right]\mathrm{kN\,s} = \left[\tfrac{50}{3}(2{,}1)^3,\ -\tfrac{20}{4}(3^4 - 1^4)\right]\mathrm{kN\,s} \approx [0{,}15,\ -0{,}40]\ \mathrm{MN\,s}
@@ -52,11 +60,15 @@ $$
 
 **b)** Båten veier $80$ tonn. Fartsendringen er $|\Delta\vec v| = |\vec J|/m = 428{,}8\cdot10^3\ \mathrm{N\,s}/(80\cdot10^3\ \mathrm{kg}) \approx 5{,}4\ \mathrm{m/s}$. Realistisk? <!-- tillegg: Claude --> Neppe: vannmotstanden er ikke tatt med, og den er stor for en båt.
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Ball mot vegg.** En ball treffer en vegg. Støtet varer $0{,}050\ \mathrm{s}$, ballen presses sammen maksimalt $x_\text{maks} = 0{,}0010\ \mathrm{m}$, og den oppfører seg som en fjær med $k = 5{,}00\ \mathrm{kN/m}$. Vi antar sammenpressingen $x(t) = x_\text{maks}\sin(\omega t)$ med $\omega = 2\pi/T$, der støtet varer en halv periode, så $T = 0{,}10\ \mathrm{s}$.
 
+Finn endringen i bevegelsesmengde, og farten ballen hadde før støtet (massen er $0{,}017\ \mathrm{kg}$).
+
+::: {.losning}
 Fjærkraften er $F = -kx$, så
 $$
 \Delta p = -\int_0^{T/2}kx_\text{maks}\sin(\omega t)\,\mathrm{d}t = \frac{kx_\text{maks}}{\omega}\Big[\cos\omega t\Big]_0^{T/2} = -\frac{2kx_\text{maks}}{\omega} = -\frac{k}{\pi}\,T\,x_\text{maks}
@@ -70,10 +82,16 @@ v_\text{før} = \frac{|\Delta p|}{2m} = \frac{0{,}159}{2\cdot0{,}017}\ \mathrm{m
 $$
 Design et forsøk for å teste antakelsen om at energien er bevart!
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Sprettball mot gulvet.** En ball slippes fra høyden $h$ og treffer gulvet med $v = \sqrt{2\mathrm{g}h}$. Hvis støtet er elastisk, snur den med samme fart, og
+**Eksempel: Sprettball mot gulvet.** En ball slippes fra høyden $h$ og treffer gulvet med $v = \sqrt{2\mathrm{g}h}$.
+
+Hvor stor er endringen i bevegelsesmengde hvis støtet er elastisk? Og hvis ballen bare spretter opp til $0{,}80h$?
+
+::: {.losning}
+Hvis støtet er elastisk, snur den med samme fart, og
 $$
 \Delta p = -2p_\text{før} = -2m\sqrt{2\mathrm{g}h}
 $$
@@ -82,6 +100,7 @@ $$
 \Delta p = -m\sqrt{2\mathrm{g}h}\left(1 + \sqrt{0{,}80}\right) \approx -1{,}89\,p_\text{før}
 $$
 Antakelsen om energibevaring (som ga faktoren 2) er altså ganske god, selv når sprettet er dårlig. (Test: forelesers ball beholdt 86 % av høyden.)
+:::
 :::
 
 :::: {.oppgaver}

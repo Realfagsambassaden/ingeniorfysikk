@@ -70,17 +70,23 @@ Bestem deg for hvilken retning som er positiv, og gi alle størrelser riktig for
 <!-- fra notatene -->
 **Eksempel: Appelsin utfor Preikestolen.** En appelsin slippes ($v_0 = 0$) fra Preikestolen, $600\ \mathrm{m}$ over sjøen. Hvor stor fart har den når den treffer sjøoverflaten? Se bort fra luftmotstand.
 
+::: {.losning}
 Vi velger positiv retning **oppover**. Da er $a = -9{,}81\ \mathrm{m/s^2}$ og forflytningen $s = -600\ \mathrm{m}$. Tiden kjenner vi ikke, så vi bruker $2as = v^2 - v_0^2$:
 $$
 v = \pm\sqrt{2\cdot(-9{,}81\ \mathrm{m/s^2})\cdot(-600\ \mathrm{m})} = \pm108{,}5\ \mathrm{m/s}
 $$
 Appelsinen er på vei ned, så vi velger minus: $v \approx \underline{\underline{-108\ \mathrm{m/s}}}$. Det er nesten $400\ \mathrm{km/h}$! I virkeligheten bremser luftmotstanden den mye før den kommer så langt.
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Bil som bremser.** En bil har farten $v_0 = 24\ \mathrm{m/s}$ ved $t_1 = 5\ \mathrm{s}$ og $v = 12\ \mathrm{m/s}$ ved $t_2 = 15\ \mathrm{s}$.
 
+**a)** Finn akselerasjonen (den er konstant).\
+**b)** Anta i stedet at vi bare vet at bilen har kjørt $80\ \mathrm{m}$ mellom de to målingene. Hva blir akselerasjonen da?
+
+::: {.losning}
 **a)** Akselerasjonen: $\Delta t = 10\ \mathrm{s}$, og fra $v = v_0 + a\Delta t$:
 $$
 a = \frac{v - v_0}{\Delta t} = \frac{12\ \mathrm{m/s} - 24\ \mathrm{m/s}}{10\ \mathrm{s}} = \underline{\underline{-1{,}2\ \mathrm{m/s^2}}}
@@ -91,6 +97,7 @@ $$
 a = \frac{v^2 - v_0^2}{2s} = \frac{(12\ \mathrm{m/s})^2 - (24\ \mathrm{m/s})^2}{2\cdot80\ \mathrm{m}} = \frac{144 - 576}{160}\ \mathrm{m/s^2} = \underline{\underline{-2{,}7\ \mathrm{m/s^2}}}
 $$
 Sjekk enheten: $\frac{\mathrm{m^2/s^2}}{\mathrm{m}} = \mathrm{m/s^2}$. ✓
+:::
 :::
 
 :::: {.oppgaver}

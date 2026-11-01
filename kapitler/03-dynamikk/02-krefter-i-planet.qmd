@@ -50,6 +50,12 @@ Med $\mu = 0{,}2$ og $\alpha = 30^\circ$ blir $a_x = 9{,}81\,(0{,}2\cos30^\circ 
 <!-- fra notatene -->
 **Eksempel: Boksesekken.** En boksesekk med $m = 30\ \mathrm{kg}$ henger i et tau. Du slår den med en vannrett kraft $F = 200\ \mathrm{N}$.
 
+**a)** Tegn kraftdiagram for sekken.\
+**b)** Sett opp Newtons 2. lov loddrett og vannrett.\
+**c)** Finn akselerasjonen til sekken.\
+**d)** Hva er motkreftene til kreftene på sekken?
+
+::: {.losning}
 **a)** Kraftdiagram: snordraget $\vec S$ opp, tyngden $\vec G$ ned og slaget $\vec F$ vannrett.
 
 **b)** Loddrett: $\sum F_V = S - G = 0$, så $S = m\mathrm{g}$. Vannrett (positiv retning mot deg): $\sum F_H = -F = ma$.
@@ -58,11 +64,13 @@ Med $\mu = 0{,}2$ og $\alpha = 30^\circ$ blir $a_x = 9{,}81\,(0{,}2\cos30^\circ 
 
 **d)** Motkreftene: sekken slår tilbake på hånda di med $\vec F'$, sekken drar i taket med $\vec S'$, og sekken trekker jorda med $\vec G'$.
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Mesternes mester?** En deltaker ($M = 79\ \mathrm{kg}$) henger i ro i to armer. Venstre arm danner vinkelen $\alpha = 60^\circ$ med vannrett, høyre arm $\beta = 70^\circ$. Hvor store krefter $S_V$ og $S_H$ virker i armene?
 
+::: {.losning}
 Personen henger i ro, så $\sum\vec F = \vec 0$. Vi dekomponerer armkreftene: $(S_V)_x = S_V\cos\alpha$, $(S_V)_y = S_V\sin\alpha$, og tilsvarende for $S_H$ med $\beta$.
 
 **1.** $\sum F_x = -S_V\cos\alpha + S_H\cos\beta = 0 \quad\Rightarrow\quad S_V = S_H\dfrac{\cos\beta}{\cos\alpha}$
@@ -75,6 +83,7 @@ S_H = \frac{\cos\alpha}{\sin(\alpha + \beta)}M\mathrm{g}, \qquad S_V = \frac{\co
 $$
 
 **4.** Med tall: $S_H \approx 5{,}1\cdot10^2\ \mathrm{N}$ og $S_V \approx 3{,}5\cdot10^2\ \mathrm{N}$. Den brattere armen (høyre) bærer mest.
+:::
 :::
 
 :::: {.oppgaver}

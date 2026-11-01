@@ -39,11 +39,17 @@ Treghetsmomentet er *rotasjonstreghet*: det sier hvor vanskelig det er å endre 
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Treghetsmomentet til en skive.** En skive med radius $R$ har flatetetthet $\sigma = \mathrm{d}M/\mathrm{d}A$. Del den i tynne ringer med radius $r$ og tykkelse $\mathrm{d}r$: $\mathrm{d}M = \sigma\cdot2\pi r\,\mathrm{d}r$.
+**Eksempel: Treghetsmomentet til en skive.** En skive med radius $R$ har flatetetthet $\sigma = \mathrm{d}M/\mathrm{d}A$.
+
+Finn treghetsmomentet om aksen gjennom sentrum.
+
+::: {.losning}
+Del den i tynne ringer med radius $r$ og tykkelse $\mathrm{d}r$: $\mathrm{d}M = \sigma\cdot2\pi r\,\mathrm{d}r$.
 $$
 I = \int_0^R r^2\,\sigma\,2\pi r\,\mathrm{d}r = 2\pi\sigma\left[\frac{r^4}{4}\right]_0^R = \tfrac12\,\underbrace{\pi R^2\sigma}_{M}\,R^2 = \tfrac12 MR^2
 $$
 Skiva har halvparten av treghetsmomentet til en ring med samme masse og radius, fordi mye av massen er nær aksen.
+:::
 :::
 
 ## Steiners sats
@@ -58,7 +64,12 @@ $$
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: En plate («slabb»).** En plate med sider $a$ og $b$ og konstant tetthet $\sigma$ roterer om en akse normalt på platen gjennom sentrum. Med $\mathrm{d}m = \sigma\,\mathrm{d}x\,\mathrm{d}y$ og $r^2 = x^2 + y^2$:
+**Eksempel: En plate («slabb»).** En plate med sider $a$ og $b$ og konstant tetthet $\sigma$ roterer om en akse normalt på platen gjennom sentrum.
+
+Finn treghetsmomentet om denne aksen.
+
+::: {.losning}
+Med $\mathrm{d}m = \sigma\,\mathrm{d}x\,\mathrm{d}y$ og $r^2 = x^2 + y^2$:
 $$
 I_\text{cm} = \sigma\int_{-b/2}^{b/2}\int_{-a/2}^{a/2}(x^2 + y^2)\,\mathrm{d}x\,\mathrm{d}y = \frac{\sigma}{12}(a^3b + ab^3) = \tfrac1{12}M(a^2 + b^2)
 $$
@@ -67,17 +78,23 @@ $$
 I_\text{hjørne} = \tfrac1{12}M(a^2 + b^2) + \tfrac14 M(a^2 + b^2) = \tfrac13 M(a^2 + b^2)
 $$
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Energi i sykkeldekket.** En sykkel holder $40\ \mathrm{km/h}$. Dekket veier $800\ \mathrm{g}$ med all massen mellom $R_1 = 30\ \mathrm{cm}$ og $R_2 = 35\ \mathrm{cm}$.
 
+**a)** Hvor stor er rotasjonsenergien i dekket?\
+**b)** Hva er treghetsmomentet om en akse $0{,}50\ \mathrm{m}$ fra sentrum?
+
+::: {.losning}
 **a)** $I_\text{cm} = \frac12 M(R_1^2 + R_2^2) = \frac12\cdot0{,}800\,(0{,}30^2 + 0{,}35^2)\ \mathrm{kg\,m^2} \approx 0{,}085\ \mathrm{kg\,m^2}$. Ren rulling gir $\omega = v/R_2 = 11{,}1/0{,}35\ \mathrm{s^{-1}} \approx 31{,}7\ \mathrm{s^{-1}}$, og
 $$
 (E_K)_\text{rot} = \tfrac12\cdot0{,}085\cdot31{,}7^2\ \mathrm{J} \approx 43\ \mathrm{J}
 $$
 
 **b)** Om en akse $d = 0{,}50\ \mathrm{m}$ fra sentrum: $I_L = 0{,}085 + 0{,}800\cdot0{,}50^2 \approx 0{,}29\ \mathrm{kg\,m^2}$. Større enn $I_\text{cm}$, som det skal være.
+:::
 :::
 
 ## Massesenter
@@ -93,7 +110,12 @@ $$
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Massesenteret til en trekant.** En likebeint trekant har grunnlinjen $2H$ langs $y$-aksen (ved $x = 0$) og spissen i $x = L$. Flatetettheten er $\lambda$. En smal stripe i avstand $x$ har høyde $2y(x) = 2(H - \frac{H}{L}x)$, så
+**Eksempel: Massesenteret til en trekant.** En likebeint trekant har grunnlinjen $2H$ langs $y$-aksen (ved $x = 0$) og spissen i $x = L$. Flatetettheten er $\lambda$.
+
+Hvor ligger massesenteret?
+
+::: {.losning}
+En smal stripe i avstand $x$ har høyde $2y(x) = 2(H - \frac{H}{L}x)$, så
 $$
 \mathrm{d}m = 2\lambda\left(H - \tfrac{H}{L}x\right)\mathrm{d}x
 $$
@@ -104,6 +126,7 @@ $$
 x_\text{cm} = \frac{\lambda HL^2/3}{\lambda HL} = \frac{L}{3}, \qquad y_\text{cm} = 0 \ \text{(symmetri)}
 $$
 Massesenteret ligger en tredjedel av veien fra grunnlinjen mot spissen.
+:::
 :::
 
 ### Potensiell energi for et utstrakt legeme

@@ -21,19 +21,26 @@ Strømregningen måles i kilowattimer: $1\ \mathrm{kWh} = 1000\ \mathrm{W}\cdot3
 <!-- fra notatene -->
 **Eksempel: Fjærkanon med friksjon.** En kule ($m = 100\ \mathrm{g}$) skytes vannrett ut av en fjærkanon som er presset sammen $x = 10\ \mathrm{cm}$.
 
-**a)** Uten friksjon er utgangsfarten $2{,}1\ \mathrm{m/s}$. Fjæra gjør arbeidet $W = \int_0^x kx'\,\mathrm{d}x' = \frac12 kx^2$, som blir til kinetisk energi:
+**a)** Uten friksjon er utgangsfarten $2{,}1\ \mathrm{m/s}$. Finn fjærkonstanten.\
+**b)** Med friksjon blir utgangsfarten $1{,}9\ \mathrm{m/s}$. Hvor stort er friksjonsarbeidet?\
+**c)** Finn friksjonstallet $\mu_k$.\
+**d)** Utskytingen tar $0{,}5\ \mathrm{s}$. Hva er gjennomsnittlig effekt fra friksjonen?
+
+::: {.losning}
+**a)** Fjæra gjør arbeidet $W = \int_0^x kx'\,\mathrm{d}x' = \frac12 kx^2$, som blir til kinetisk energi:
 $$
 k = \frac{mv_0^2}{x^2} = \frac{0{,}100\cdot2{,}1^2}{0{,}10^2}\ \mathrm{N/m} \approx 44\ \mathrm{N/m}
 $$
 
-**b)** Med friksjon blir utgangsfarten $1{,}9\ \mathrm{m/s}$. Friksjonsarbeidet er forskjellen i kinetisk energi:
+**b)** Friksjonsarbeidet er forskjellen i kinetisk energi:
 $$
 W_f = \tfrac12\cdot0{,}100\,(1{,}9^2 - 2{,}1^2)\ \mathrm{J} = -0{,}040\ \mathrm{J}
 $$
 
 **c)** Friksjonskoeffisienten: $W_f = -\mu_k m\mathrm{g}x$, så $\mu_k = \dfrac{0{,}040}{0{,}100\cdot9{,}81\cdot0{,}10} \approx 0{,}41$.
 
-**d)** Utskytingen tar $0{,}5\ \mathrm{s}$. Gjennomsnittlig effekt fra friksjonen: $P = W/\Delta t = 0{,}040\ \mathrm{J}/0{,}50\ \mathrm{s} = 80\ \mathrm{mW}$.
+**d)** Gjennomsnittlig effekt fra friksjonen: $P = W/\Delta t = 0{,}040\ \mathrm{J}/0{,}50\ \mathrm{s} = 80\ \mathrm{mW}$.
+:::
 :::
 
 :::: {.oppgaver}

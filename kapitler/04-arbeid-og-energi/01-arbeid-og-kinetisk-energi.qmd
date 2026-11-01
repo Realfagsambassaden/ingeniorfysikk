@@ -59,16 +59,21 @@ Den følger av Newtons 2. lov: $\int\sum F\,\mathrm{d}s = \int m\frac{\mathrm{d}
 <!-- fra notatene -->
 **Eksempel: Friksjonsarbeid.** En bil med masse $1200\ \mathrm{kg}$ bremser med låste hjul fra $72\ \mathrm{km/h}$ til $36\ \mathrm{km/h}$ på flat vei.
 
-**a)** Hvor stort arbeid gjør friksjonskraften? Friksjonen er den eneste kraften langs bevegelsen, så
+**a)** Hvor stort arbeid gjør friksjonskraften?\
+**b)** Med $\mu = 0{,}90$, hvor lang er bremsestrekningen?
+
+::: {.losning}
+**a)** Friksjonen er den eneste kraften langs bevegelsen, så
 $$
 W_f = \Delta E_K = \tfrac12\cdot1200\ \mathrm{kg}\left[\left(\tfrac{36}{3{,}6}\right)^2 - \left(\tfrac{72}{3{,}6}\right)^2\right]\mathrm{m^2/s^2} = -0{,}18\ \mathrm{MJ}
 $$
 Minus: friksjonen *tar* energi fra bilen (den blir til varme i dekk og vei).
 
-**b)** Med $\mu = 0{,}90$, hvor lang er bremsestrekningen? Loddrett er $N = m\mathrm{g}$, så $a = -f/m = -\mu\mathrm{g}$, som er konstant:
+**b)** Loddrett er $N = m\mathrm{g}$, så $a = -f/m = -\mu\mathrm{g}$, som er konstant:
 $$
 2as = v^2 - v_0^2 \quad\Rightarrow\quad s = -\frac{v^2 - v_0^2}{2\mu\mathrm{g}} = \frac{20^2 - 10^2}{2\cdot0{,}90\cdot9{,}81}\ \mathrm{m} \approx 17\ \mathrm{m}
 $$
+:::
 :::
 
 :::: {.oppgaver}

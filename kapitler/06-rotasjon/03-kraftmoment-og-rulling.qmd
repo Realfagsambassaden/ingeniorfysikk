@@ -23,21 +23,29 @@ Derfor sitter håndtaket på en dør langt fra hengslene, og derfor er det lette
 <!-- fra notatene -->
 **Eksempel: Hvordan feste staven?** En maskin gir et bestemt kraftmoment $\tau$. Vi vil gi en metallstav (lengde $L$, radius $R$) størst mulig vinkelakselerasjon. Skal maskinen feste staven ved enden (A), på midten (B) eller rotere den om sin egen lengdeakse (C)?
 
+::: {.losning}
 Fra $\alpha = \tau/I$ vil vi ha **minst mulig** $I$:
 $$
 I_A = \tfrac1{12}ML^2 + M\left(\tfrac L2\right)^2 = \tfrac13 ML^2, \qquad I_B = \tfrac1{12}ML^2, \qquad I_C = \tfrac12 MR^2
 $$
 $I_A > I_B$ alltid. $I_C < I_B$ når $\frac12 MR^2 < \frac1{12}ML^2$, altså når $L > \sqrt6\,R$. For en vanlig stav (lang og tynn) gir **C** størst vinkelakselerasjon.
 :::
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Stav som faller.** En stav holdes vannrett, festet i den ene enden, og slippes. Tyngden virker i massesenteret, $L/2$ fra aksen:
+**Eksempel: Stav som faller.** En stav holdes vannrett, festet i den ene enden, og slippes.
+
+Hvor stor blir vinkelakselerasjonen, og akselerasjonen til enden av staven?
+
+::: {.losning}
+Tyngden virker i massesenteret, $L/2$ fra aksen:
 $$
 \tau = M\mathrm{g}\frac{L}{2} = I\alpha = \tfrac13 ML^2\,\alpha \quad\Rightarrow\quad \alpha = \frac{3\mathrm{g}}{2L}
 $$
 <!-- tillegg: Claude -->
 Enden av staven får da akselerasjonen $a = L\alpha = \frac32\mathrm{g}$, *større* enn i fritt fall. Det er derfor et høyt tre som brekker ved roten, kan knekke på veien ned: toppen vil falle raskere enn resten av stammen klarer å følge med.
+:::
 :::
 
 ## Rulling ned et skråplan
@@ -76,7 +84,16 @@ Legg merke til at massen og radien forsvinner: alle massive sylindre ruller like
 <!-- fra notatene -->
 **Eksempel: Disk mot ring.** En massiv sylinder (A) og en hul sylinder (B) med samme masse og radius ruller fra ro ned samme skråplan, høyde $h$ og lengde $s$.
 
-**a)** Hvem kommer først? Fra $s = \frac12 at^2$ er $t = \sqrt{2s/a}$. Disken har størst akselerasjon, så **disken kommer først**.
+**a)** Hvem kommer først?\
+**b)** Hvor stor mekanisk energi har de i bunnen?\
+**c)** Hvor stort arbeid gjør tyngden?\
+**d)** Hvor stor er friksjonen, og hva gjør den med energien?\
+**e)** Hvor stor er farten og translasjonsenergien i bunnen?\
+**f)** Hvor stor er rotasjonsenergien?\
+**g)** Hva blir summen?
+
+::: {.losning}
+**a)** Fra $s = \frac12 at^2$ er $t = \sqrt{2s/a}$. Disken har størst akselerasjon, så **disken kommer først**.
 
 **b)** Mekanisk energi i bunnen: begge har $E = M\mathrm{g}h$, siden energien er bevart.
 
@@ -89,6 +106,7 @@ Legg merke til at massen og radien forsvinner: alle massive sylindre ruller like
 **f)** Rotasjonsenergien med $\omega = v/R$: $\frac13 E_p$ for disken og $\frac12 E_p$ for ringen.
 
 **g)** Summen er $E_p$ i begge tilfeller: energien er bevart. ✓ Ren rulling gir ikke friksjonstap, fordi kontaktpunktet ikke glir.
+:::
 :::
 
 ## Arbeid og effekt ved rotasjon
@@ -106,13 +124,20 @@ $$
 <!-- fra notatene -->
 **Eksempel: Treningssykkel.** Du må bruke et kraftmoment $\tau = 50\ \mathrm{N\,m}$ for å holde $30\ \mathrm{km/h}$. Hjulet har radius $35\ \mathrm{cm}$.
 
+**a)** Hvor stor effekt yter du?\
+**b)** Hvor lenge må du sykle for å lade en Tesla med $75\ \mathrm{kWh}$?\
+**c)** Hvor stort arbeid gjør du per pedalomdreining?\
+**d)** Pedalen er $15\ \mathrm{cm}$ fra navet. Hvor stor kraft må du tråkke med? Er det realistisk?
+
+::: {.losning}
 **a)** Effekten: $\omega = v/r = (30/3{,}6)/0{,}35\ \mathrm{rad/s} \approx 23{,}8\ \mathrm{rad/s}$, så $P = \tau\omega \approx 1{,}2\ \mathrm{kW}$.
 
-**b)** Hvor lenge må du sykle for å lade en Tesla med $75\ \mathrm{kWh}$? $\ 75\ \mathrm{kWh}/1{,}2\ \mathrm{kW} \approx 63$ timer.
+**b)** $75\ \mathrm{kWh}/1{,}2\ \mathrm{kW} \approx 63$ timer.
 
 **c)** Arbeidet per pedalomdreining: $W = \int_0^{2\pi}50\,\mathrm{d}\theta = 2\pi\cdot50\ \mathrm{J} \approx 0{,}31\ \mathrm{kJ}$.
 
-**d)** Pedalen er $15\ \mathrm{cm}$ fra navet. Kraften du må tråkke med: $F = \tau/r = 50/0{,}15\ \mathrm{N} \approx 0{,}33\ \mathrm{kN}$, som tilsvarer tyngden av $34\ \mathrm{kg}$. Realistisk?
+**d)** $F = \tau/r = 50/0{,}15\ \mathrm{N} \approx 0{,}33\ \mathrm{kN}$, som tilsvarer tyngden av $34\ \mathrm{kg}$. Realistisk?
+:::
 :::
 
 :::: {.oppgaver}

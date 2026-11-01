@@ -51,6 +51,7 @@ Startfarten dekomponeres som en vanlig vektor: $v_{0x} = v_0\cos\theta$ og $v_{0
 
 ![](../../bilder/stuper.svg){.tikz-fig style="width:230px"}
 
+::: {.losning}
 **1. Dekomponer.** Startfarten er vannrett, så $v_{0x} = v_0$ og $v_{0y} = 0$. Med origo på toppen:
 $$
 x(t) = v_0 t, \qquad y(t) = -\tfrac12 \mathrm{g} t^2
@@ -68,6 +69,7 @@ $$
 $$
 v_0 = \frac{d}{\sqrt{2h/\mathrm{g}}} = \frac{1{,}75\ \mathrm{m}}{\sqrt{2\cdot9{,}00\ \mathrm{m}/9{,}81\ \mathrm{m/s^2}}} \approx \underline{\underline{1{,}3\ \mathrm{m/s}}}
 $$
+:::
 :::
 
 <!-- tillegg: Claude -->

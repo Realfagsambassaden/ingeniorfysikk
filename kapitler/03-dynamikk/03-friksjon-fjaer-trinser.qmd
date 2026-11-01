@@ -45,10 +45,12 @@ og kraften virker mot utstrekningen. Fjærkonstanten $k$ (enhet $\mathrm{N/m}$) 
 <!-- fra notatene -->
 **Eksempel: Trampoline.** En person på $70\ \mathrm{kg}$ står i ro på en trampoline som virker som en fjær med $k = 2500\ \mathrm{N/m}$. Hvor mye er duken presset ned?
 
+::: {.losning}
 I likevekt er $a = 0$, så $\sum F = F_k - G = 0$ og $kx = m\mathrm{g}$:
 $$
 x = \frac{m\mathrm{g}}{k} = \frac{70\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}}{2{,}5\cdot10^3\ \mathrm{N/m}} \approx 27\ \mathrm{cm}
 $$
+:::
 :::
 
 ## Trinser og systemer av legemer
@@ -66,6 +68,9 @@ Klosser kan kobles sammen med en snor over en friksjonsfri trinse. Tre ting er v
 <!-- fra notatene -->
 **Eksempel: Lodd på trinse.** Kloss $M_1$ ligger på et bord, kloss $M_2$ henger i snora. Finn akselerasjonen.
 
+Gjør det først uten friksjon, og så med kinetisk friksjonstall $\mu_k$ mellom $M_1$ og bordet.
+
+::: {.losning}
 **Uten friksjon ($\mu = 0$):** For $M_1$ er $N_1 = G_1$ (ingen bevegelse loddrett). Langs snora er den eneste ytre kraften som driver systemet, tyngden $G_2 = M_2\mathrm{g}$. Hele systemet har massen $M_1 + M_2$:
 $$
 M_2\mathrm{g} = (M_1 + M_2)\,a \quad\Rightarrow\quad a = \frac{M_2}{M_1 + M_2}\,\mathrm{g}
@@ -77,6 +82,7 @@ M_2\mathrm{g} - \mu_k M_1\mathrm{g} = (M_1 + M_2)\,a \quad\Rightarrow\quad a = \
 $$
 <!-- tillegg: Claude -->
 Sjekk: med $\mu_k = 0$ får vi resultatet over igjen. Og er $\mu_k M_1 > M_2$, blir $a$ negativ, som betyr at systemet ikke kommer i gang (da tar den statiske friksjonen over).
+:::
 :::
 
 :::: {.oppgaver}
