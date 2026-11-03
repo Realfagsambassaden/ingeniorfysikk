@@ -1,0 +1,8 @@
+\begin{tikzpicture}[scale=1.2]
+\coordinate (A) at (0,0); \coordinate (B) at (4,2.2);
+\draw[very thick,rod,->] (A) .. controls (0.3,2.6) and (2.5,3.2) .. (B) node[pos=0.35,above left]{\small $C_1$};
+\draw[very thick,bla,->] (A) .. controls (2.0,-0.6) and (2.6,1.6) .. (B) node[pos=0.5,below right]{\small $C_2$};
+\node[circle,fill=black,inner sep=2pt,label=below left:{\small $A$}] at (A){};
+\node[circle,fill=black,inner sep=2pt,label=right:{\small $B$}] at (B){};
+\node[align=left,anchor=west] at (4.6,0.6){\small samme arbeid langs $C_1$ og $C_2$:\\ \small $W_{A\to B}=-(U_B-U_A)$};
+\end{tikzpicture}

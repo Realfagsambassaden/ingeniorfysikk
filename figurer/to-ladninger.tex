@@ -1,0 +1,14 @@
+\begin{tikzpicture}[scale=1.1]
+\coordinate (A) at (-2,0); \coordinate (B) at (2,0); \coordinate (P) at (0,3.2);
+\draw[thin,dashed](-3,0)--(3,0);
+\draw[thin,dashed](A)--(P)--(B); \draw[thin,dashed](0,0)--(P);
+\node[circle,fill=black,inner sep=2pt,label=below:{\small $q_1$}] at (A){};
+\node[circle,fill=black,inner sep=2pt,label=below:{\small $q_2$}] at (B){};
+\node[circle,fill=white,draw,inner sep=1.6pt,label=above:{\small $P$}] at (P){};
+\draw ($(P)+(0,-0.8)$) arc (-90:{-90-32}:0.8); \node at ($(P)+(-0.22,-1.05)$){\small $\theta$};
+\node at (0.25,1.5){\small $z$}; \node at (-1.25,1.75){\small $r$}; \node at (1.25,1.75){\small $r$};
+\draw[|<->|](-2,-0.75)--(2,-0.75) node[midway,fill=white]{\small $d$};
+\draw[vek,gronn](P)--($(P)!-1.1cm!(A)$) node[right]{\small $\hat r_1$};
+\draw[vek,gronn](P)--($(P)!-1.1cm!(B)$) node[left]{\small $\hat r_2$};
+\draw[akse](3.4,0)--(4.2,0) node[right]{\small $x$}; \draw[akse](3.4,0)--(3.4,0.8) node[above]{\small $y$};
+\end{tikzpicture}

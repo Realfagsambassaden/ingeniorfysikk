@@ -1,0 +1,16 @@
+---
+title: "Elektrisk potensial"
+tegning: e-felt
+del: "Elektrisitet og magnetisme"
+---
+
+<!-- fra notatene -->
+I mekanikken så vi at energi ofte er en enklere vei til svaret enn krefter. Det samme gjelder for elektrisitet. Den elektriske kraften er **konservativ**, akkurat som tyngdekraften, og derfor kan vi knytte en **potensiell energi** til ladninger.
+
+<!-- tillegg: Claude -->
+Gangen i kapittelet er slik:
+
+1. **Elektrisk potensiell energi:** konservative krefter, arbeid og energien til ladninger som virker på hverandre.
+2. **Elektrisk potensial og spenning:** potensiell energi *per ladning*, som gir oss begrepet spenning og enheten volt.
+
+Tilsvarer kapittel 7 i OpenStax *University Physics*, bind 2.

@@ -1,0 +1,14 @@
+\begin{tikzpicture}[scale=1]
+\tikzset{pl/.style={circle,draw,thick,minimum size=7mm,inner sep=0pt}}
+% like ladninger frastøter
+\node[pl] (a) at (0,0) {$+$}; \node[pl] (b) at (3,0) {$+$};
+\draw[vek,rod](a.west)--++(-1.1,0); \draw[vek,rod](b.east)--++(1.1,0);
+\node[anchor=west] at (5.0,0){\small like ladninger frastøter hverandre};
+\node[pl] (c) at (0,-1.4) {$-$}; \node[pl] (d) at (3,-1.4) {$-$};
+\draw[vek,rod](c.west)--++(-1.1,0); \draw[vek,rod](d.east)--++(1.1,0);
+% ulike tiltrekker
+\node[pl] (e) at (0,-2.8) {$+$}; \node[pl] (f) at (3,-2.8) {$-$};
+\draw[vek,bla](e.east)--++(1.0,0); \draw[vek,bla](f.west)--++(-1.0,0);
+\node[anchor=west] at (5.0,-2.8){\small ulike ladninger tiltrekker hverandre};
+\node at (0,0.75){\small $q_1$}; \node at (3,0.75){\small $q_2$};
+\end{tikzpicture}
