@@ -1,0 +1,16 @@
+\begin{tikzpicture}[scale=1.15]
+\tikzset{pl/.style={circle,fill=black,inner sep=1.6pt}}
+\coordinate (P) at (0,0);
+\coordinate (q1) at (-2.4,-1.6); \coordinate (q2) at (2.6,-0.3); \coordinate (q3) at (-2.0,1.5); \coordinate (q4) at (1.2,1.9);
+\foreach \q in {q1,q2,q3,q4}{\draw[thin,dashed,black!45](\q)--(P);}
+\node[pl,label=below left:{\small $q_1=\mathrm{e}$}] at (q1){};
+\node[pl,label=right:{\small $q_2=-3\mathrm{e}$}] at (q2){};
+\node[pl,label=above left:{\small $q_3=-\mathrm{e}$}] at (q3){};
+\node[pl,label=above right:{\small $q_4=2\mathrm{e}$}] at (q4){};
+% feltet i P peker bort fra positive og mot negative ladninger
+\draw[vek,rod](P)--($(P)!-0.8cm!(q1)$) node[above right=-1pt]{\small $\vec E_1$};
+\draw[vek,bla](P)--($(P)!1.6cm!(q2)$) node[above]{\small $\vec E_2$};
+\draw[vek,bla](P)--($(P)!0.9cm!(q3)$) node[left]{\small $\vec E_3$};
+\draw[vek,rod](P)--($(P)!-1.4cm!(q4)$) node[below]{\small $\vec E_4$};
+\node[circle,fill=white,draw,thick,inner sep=1.8pt,label={[label distance=1pt]-80:{\small $P$}}] at (P){};
+\end{tikzpicture}

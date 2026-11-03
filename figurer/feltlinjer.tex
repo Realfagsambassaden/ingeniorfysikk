@@ -1,0 +1,10 @@
+\begin{tikzpicture}[scale=1]
+\foreach \cx/\s in {0/+,5/-}{
+  \node[circle,draw,thick,minimum size=7mm,inner sep=0pt,fill=white] at (\cx,0) {$\s$};
+  \foreach \a in {0,45,...,315}{
+    \ifnum\cx=0 \draw[vek,rod] ({\cx+0.45*cos(\a)},{0.45*sin(\a)})--({\cx+1.7*cos(\a)},{1.7*sin(\a)});
+    \else \draw[vek,bla] ({\cx+1.7*cos(\a)},{1.7*sin(\a)})--({\cx+0.45*cos(\a)},{0.45*sin(\a)}); \fi }
+}
+\node at (0,-2.3){\small positiv ladning: feltet peker \emph{ut}};
+\node at (5,-2.3){\small negativ ladning: feltet peker \emph{inn}};
+\end{tikzpicture}

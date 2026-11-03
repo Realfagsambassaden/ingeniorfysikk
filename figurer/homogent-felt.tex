@@ -1,0 +1,13 @@
+\begin{tikzpicture}[scale=1.1]
+\fill[black!12](-0.3,-3)rectangle(0,1); \draw[thick](0,-3)--(0,1); \node at (-0.15,1.3){$+$};
+\fill[black!12](6,-3)rectangle(6.3,1); \draw[thick](6,-3)--(6,1); \node at (6.15,1.3){$-$};
+\foreach \y in {0.6,-0.2,...,-2.8}{\draw[->,black!40](0.15,\y)--(5.85,\y);}
+\node[black!60] at (3,1.25){\small homogent felt $\vec E$};
+\node[circle,fill=black,inner sep=2pt,label=above:{\small $q,\ m$}] (Q) at (0.6,0.2){};
+\draw[very thick,dashed,rod](0.6,0.2) parabola (5.4,-2.4);
+\draw[vek,bla](0.6,0.2)--++(1.2,0) node[above]{\small $q\vec E$};
+\draw[vek,gronn](0.6,0.2)--++(0,-1.0) node[left]{\small $m\vec{\mathrm g}$};
+\draw[|<->|](0.6,-3.3)--(5.4,-3.3) node[midway,fill=white]{\small $L$};
+\draw[vek](5.4,-2.4)--++(1.0,-0.9) node[right]{\small $\vec v$};
+\draw[dashed](5.4,-2.4)--++(1.1,0); \draw(6.05,-2.4) arc (0:-41:0.65); \node at (6.35,-2.62){\small $\theta$};
+\end{tikzpicture}

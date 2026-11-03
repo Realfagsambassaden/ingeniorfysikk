@@ -1,0 +1,21 @@
+---
+title: "Elektrisk ladning og felt"
+tegning: e-felt
+del: "Elektrisitet og magnetisme"
+---
+
+{{< video https://www.youtube.com/watch?v=aBr6tw3pTXg >}}
+
+<!-- fra notatene -->
+Vi har møtt to av naturens grunnleggende krefter før: tyngdekraften, som virker mellom masser. Nå tar vi for oss den **elektriske kraften**, som virker mellom **ladninger**. Den holder atomer og molekyler sammen, og den står bak alt fra lyn til batterier og datamaskiner.
+
+<!-- tillegg: Claude -->
+Gangen i kapittelet er slik:
+
+1. **Elektrisk ladning:** hva ladning er, og hvorfor den er bevart og kommer i små «pakker».
+2. **Coulombs lov:** kraften mellom to punktladninger, og hvordan vi legger sammen krefter fra mange ladninger.
+3. **Elektrisk felt:** i stedet for å regne ut kraften på hver ladning, beskriver vi hva ladningene gjør med rommet rundt seg.
+4. **Felt fra flere ladninger:** superposisjon med komponenter og enhetsvektorer.
+5. **Ladning i homogent felt:** bevegelse når både elektrisk kraft og tyngdekraft virker.
+
+Tilsvarer kapittel 5 i OpenStax *University Physics*, bind 2.
