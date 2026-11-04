@@ -24,14 +24,19 @@ bilder/                  – tegninger og figurer
 
 ## 3. Emner – viktig!
 
-Alt stoff på nettstedene er ordnet **etter emne**, ikke etter kurs eller universitet. Hver side må derfor si hvilket emne den hører til, øverst i fila:
+Alt stoff på nettstedene er ordnet **etter emne**, ikke etter kurs eller universitet. Hver side må derfor si hvilket emne og **delemne** den hører til, øverst i fila:
 
 ```yaml
 ---
 title: "Arbeid gjort av en kraft"
 emne: arbeid-og-energi
+delemne: arbeid
 ---
 ```
+
+Hvert emne er delt i noen få delemner (se `delemner` under emnet i emner.yml). Ekstraoppgaver får `delemne: oppgaver`. Sider om samme delemne på ulike nivåer kobles automatisk sammen, og studentene får en knapp for å bytte nivå.
+
+**Nivå** (`forkurs`, `ingenior` eller `fordypning`) settes for hele faget i `fag.yml` i plattformen. En enkelt side kan overstyre med `niva: fordypning` øverst i fila.
 
 Gyldige emner står i [emner.yml i plattformen](https://github.com/Realfagsambassaden/Plattform/blob/main/emner.yml), for eksempel `kinematikk`, `newtons-lover`, `arbeid-og-energi`, `hydrostatikk`, `elektrisk-felt`, `kvantefysikk`. Mangler emnet ditt? Si fra, så legger vi det til.
 

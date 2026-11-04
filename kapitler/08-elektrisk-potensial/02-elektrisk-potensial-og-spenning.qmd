@@ -1,6 +1,7 @@
 ---
 title: "Elektrisk potensial og spenning"
 emne: elektrisk-potensial
+delemne: potensial
 ---
 
 ## Potensial: energi per ladning

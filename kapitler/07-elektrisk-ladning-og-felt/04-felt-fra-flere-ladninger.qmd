@@ -1,6 +1,7 @@
 ---
 title: "Felt fra flere ladninger"
 emne: elektrisk-felt
+delemne: felt
 ---
 
 ## Vektorkomponenter og enhetsvektorer

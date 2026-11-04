@@ -1,6 +1,7 @@
 ---
 title: "Friksjon, fjærer og trinser"
 emne: newtons-lover
+delemne: friksjon-fjaer-snorer
 ---
 
 ## Friksjon

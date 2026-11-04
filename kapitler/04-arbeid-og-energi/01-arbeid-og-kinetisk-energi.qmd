@@ -1,6 +1,7 @@
 ---
 title: "Arbeid og kinetisk energi"
 emne: arbeid-og-energi
+delemne: arbeid
 ---
 
 {{< video https://www.youtube.com/watch?v=RDi3DD0Cehk >}}

@@ -1,6 +1,7 @@
 ---
 title: "Luftmotstand, terminalfart og Eulers metode"
 emne: newtons-lover
+delemne: luftmotstand
 ---
 
 ## Luftmotstand

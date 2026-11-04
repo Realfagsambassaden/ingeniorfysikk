@@ -1,6 +1,7 @@
 ---
 title: "Kraftmoment, rulling og arbeid ved rotasjon"
 emne: rotasjon
+delemne: rulling
 ---
 
 ## Kraftmoment og Newtons 2. lov for rotasjon

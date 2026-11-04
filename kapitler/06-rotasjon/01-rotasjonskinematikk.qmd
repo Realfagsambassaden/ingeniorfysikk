@@ -1,6 +1,7 @@
 ---
 title: "Vinkelfart og vinkelakselerasjon"
 emne: rotasjon
+delemne: rotasjonskinematikk
 ---
 
 <!-- fra notatene -->

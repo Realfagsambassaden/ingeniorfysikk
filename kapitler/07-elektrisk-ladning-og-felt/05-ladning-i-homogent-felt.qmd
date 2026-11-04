@@ -1,6 +1,7 @@
 ---
 title: "Ladning i homogent felt"
 emne: elektrisk-felt
+delemne: homogent-felt
 ---
 
 ## Homogent felt

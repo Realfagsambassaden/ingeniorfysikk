@@ -1,6 +1,7 @@
 ---
 title: "Bevaring av bevegelsesmengde og kollisjoner"
 emne: bevegelsesmengde
+delemne: kollisjoner
 ---
 
 ## Loven om bevaring av bevegelsesmengde

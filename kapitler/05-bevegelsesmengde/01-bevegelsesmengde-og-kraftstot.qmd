@@ -1,6 +1,7 @@
 ---
 title: "Bevegelsesmengde og kraftstøt"
 emne: bevegelsesmengde
+delemne: kraftstot
 ---
 
 ## Bevegelsesmengde

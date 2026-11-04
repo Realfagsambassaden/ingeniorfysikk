@@ -1,6 +1,7 @@
 ---
 title: "Potensiell energi og bevaring av energi"
 emne: arbeid-og-energi
+delemne: energibevaring
 ---
 
 ## Potensiell energi
