@@ -1,6 +1,7 @@
 ---
 title: "Krefter i planet: skråplan og kraftdiagram"
 emne: newtons-lover
+delemne: krefter-i-planet
 ---
 
 {{< video https://www.youtube.com/watch?v=yUWWR755VEY >}}

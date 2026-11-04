@@ -1,6 +1,7 @@
 ---
 title: "Treghetsmoment, rotasjonsenergi og massesenter"
 emne: rotasjon
+delemne: treghetsmoment
 ---
 
 ## Rotasjonsenergi

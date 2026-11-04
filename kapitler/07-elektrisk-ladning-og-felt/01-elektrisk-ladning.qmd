@@ -1,6 +1,7 @@
 ---
 title: "Elektrisk ladning"
 emne: elektrisk-felt
+delemne: ladning
 ---
 
 ## To typer naturkrefter

@@ -1,6 +1,7 @@
 ---
 title: "Elektrisk potensiell energi"
 emne: elektrisk-potensial
+delemne: potensiell-energi
 ---
 
 ## Konservative krefter

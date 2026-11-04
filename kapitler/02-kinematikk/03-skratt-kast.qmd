@@ -1,6 +1,7 @@
 ---
 title: "Bevegelse i to dimensjoner: skrått kast"
 emne: kinematikk
+delemne: to-dimensjoner
 ---
 
 <!-- fra notatene -->

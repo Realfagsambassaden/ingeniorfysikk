@@ -1,6 +1,7 @@
 ---
 title: "Effekt"
 emne: arbeid-og-energi
+delemne: effekt
 ---
 
 <!-- fra notatene -->

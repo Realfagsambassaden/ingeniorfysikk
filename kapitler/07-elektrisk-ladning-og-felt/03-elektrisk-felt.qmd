@@ -1,6 +1,7 @@
 ---
 title: "Elektrisk felt"
 emne: elektrisk-felt
+delemne: felt
 ---
 
 ## Hva er et felt?

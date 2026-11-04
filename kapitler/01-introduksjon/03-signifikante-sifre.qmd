@@ -1,6 +1,7 @@
 ---
 title: "Signifikante sifre og standardform"
 emne: maling-og-usikkerhet
+delemne: gjeldende-siffer
 ---
 
 {{< video https://www.youtube.com/watch?v=EwD-_OH2gLo >}}
