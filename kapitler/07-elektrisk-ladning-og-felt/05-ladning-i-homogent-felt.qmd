@@ -11,7 +11,7 @@ Mellom to store, parallelle plater med motsatt ladning er det elektriske feltet 
 $$
 \vec a = \frac{q\vec E}{m}
 $$
-er også konstant. Det betyr at vi kan bruke bevegelseslikningene for konstant akselerasjon fra [kinematikken](../02-kinematikk/02-konstant-akselerasjon.qmd), akkurat som for skrått kast.
+er også konstant. Det betyr at vi kan bruke bevegelseslikningene for konstant akselerasjon fra [kinematikken](/emner/mekanikk/kinematikk/konstant-akselerasjon.html), akkurat som for skrått kast.
 
 ## Bevegelse i kryssede felt
 

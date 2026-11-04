@@ -39,10 +39,10 @@ Klassisk fysikk er altså ikke «feil». Den er en svært god modell innenfor si
 3. **Regn ut** hva modellen forutsier.
 4. **Sammenlign** med målinger. Stemmer det ikke, forbedrer vi modellen.
 
-## I dette faget
+## På ingeniørnivå
 
 <!-- fra notatene -->
-Vi ser på **mekanikk** (newtonsk), og deretter **elektromagnetisme** eller **fluid- og bølgefysikk**. Mekanikken starter med *kinematikk*, som beskriver bevegelse, og fortsetter med *dynamikk*, der Newtons lover forklarer bevegelsen ut fra kreftene.
+På ingeniørnivå starter vi med **mekanikk** (newtonsk), og fortsetter med **elektromagnetisme** eller **fluid- og bølgefysikk**. Mekanikken starter med *kinematikk*, som beskriver bevegelse, og fortsetter med *dynamikk*, der Newtons lover forklarer bevegelsen ut fra kreftene.
 
 {{< video https://www.youtube.com/watch?v=f5J60Vaof0M >}}
 
