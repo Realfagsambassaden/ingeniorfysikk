@@ -7,8 +7,8 @@ del: "Mekanikk"
 Før vi kan beskrive bevegelse, trenger vi et felles språk: **fysiske størrelser** med **enheter**, en ryddig måte å skrive tall på, og **vektorer** for alt som har en retning. Her samler vi verktøyene som brukes i resten av mekanikken.
 
 ::: {.kort}
-- **Hva er fysikk?** Hvilke teorier gjelder hvor, og hvordan fysikere lager og tester modeller.
-- **Størrelser og enheter** SI-systemet, avledede enheter og enhetskontroll.
-- **Gjeldende siffer** Hvor nøyaktig et svar kan være, standardform og prefikser.
-- **Vektorer** Komponenter, sum, skalarprodukt og kryssprodukt.
+- **[Hva er fysikk?](01-hva-er-fysikk.qmd)** Hvilke teorier gjelder hvor, og hvordan fysikere lager og tester modeller.
+- **[Størrelser og enheter](02-enheter.qmd)** SI-systemet, avledede enheter og enhetskontroll.
+- **[Gjeldende siffer](03-signifikante-sifre.qmd)** Hvor nøyaktig et svar kan være, standardform og prefikser.
+- **[Vektorer](04-vektorer.qmd)** Komponenter, sum, skalarprodukt og kryssprodukt.
 :::

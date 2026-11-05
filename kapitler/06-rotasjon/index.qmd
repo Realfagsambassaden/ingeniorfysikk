@@ -21,4 +21,12 @@ Hittil har vi behandlet alt som **punktmasser**: hele legemet samlet i ett punkt
 | likevekt: $\sum\vec F = \vec 0$ | likevekt: $\sum\vec\tau = \vec 0$ |
 :::
 
+::: {.kort}
+- **[Rotasjonskinematikk](01-rotasjonskinematikk.qmd)** Vinkel, vinkelfart og vinkelakselerasjon.
+- **[Treghetsmoment](02-treghetsmoment.qmd)** Treghetsmoment, Steiners sats og rotasjonsenergi.
+- **[Kraftmoment og rulling](03-kraftmoment-og-rulling.qmd)** Newtons 2. lov for rotasjon og ren rulling.
+- **[Statisk likevekt](04-statisk-likevekt.qmd)** Når både kraftsummen og kraftmomentet er null.
+- **[Dreieimpuls](05-dreieimpuls.qmd)** Bevaring av dreieimpuls og gyroskopet.
+:::
+
 Tilsvarende stoff finnes i OpenStax *University Physics*, bind 1, kapittel 10, 11 og 12.

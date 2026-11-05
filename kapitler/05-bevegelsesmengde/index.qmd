@@ -8,9 +8,9 @@ del: "Mekanikk"
 Når to ting kolliderer, er kreftene mellom dem ofte enorme og kortvarige, og vanskelige å beskrive. Likevel kan vi si nøyaktig hvordan de beveger seg etterpå, takket være **bevegelsesmengden** og loven om at den er bevart.
 
 ::: {.kort}
-- **Bevegelsesmengde og kraftstøt** Newtons 2. lov skrevet med $\vec p$, og hva et kortvarig støt gjør.
-- **Bevaring og kollisjoner** Elastiske og uelastiske støt, i én og to dimensjoner.
-- **Massesenter** Punktet som beveger seg som om all massen og alle de ytre kreftene var samlet der.
+- **[Bevegelsesmengde og kraftstøt](01-bevegelsesmengde-og-kraftstot.qmd)** Newtons 2. lov skrevet med $\vec p$, og hva et kortvarig støt gjør.
+- **[Bevaring og kollisjoner](02-bevaring-og-kollisjoner.qmd)** Elastiske og uelastiske støt, i én og to dimensjoner.
+- **[Massesenter](03-massesenter.qmd)** Punktet som beveger seg som om all massen og alle de ytre kreftene var samlet der.
 :::
 
 Tilsvarende stoff finnes i OpenStax *University Physics*, bind 1, kapittel 9.

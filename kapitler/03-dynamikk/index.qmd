@@ -8,11 +8,11 @@ del: "Mekanikk"
 I kinematikken beskrev vi *hvordan* ting beveger seg. Nå spør vi *hvorfor*. Svaret er **krefter**, og sammenhengen mellom kraft og bevegelse er **Newtons lover**.
 
 ::: {.kort}
-- **Newtons lover** Hva en kraft er, de tre lovene, og forskjellen på tyngde og masse.
-- **Friksjon, fjærer og trinser** De vanligste kreftene, og systemer av legemer koblet med snorer.
-- **Krefter i planet** Kraftdiagram, dekomponering og Newtons 2. lov i hver retning.
-- **Sirkelbevegelse** Hvilken kraftsum som trengs for å holde noe i en sirkelbane.
-- **Luftmotstand** Terminalfart og numerisk løsning av bevegelseslikningen i Python.
+- **[Newtons lover](01-newtons-lover.qmd)** Hva en kraft er, de tre lovene, og forskjellen på tyngde og masse.
+- **[Friksjon, fjærer og trinser](02-friksjon-fjaer-trinser.qmd)** De vanligste kreftene, og systemer av legemer koblet med snorer.
+- **[Krefter i planet](03-krefter-i-planet.qmd)** Kraftdiagram, dekomponering og Newtons 2. lov i hver retning.
+- **[Sirkelbevegelse](04-sirkelbevegelse-og-krefter.qmd)** Hvilken kraftsum som trengs for å holde noe i en sirkelbane.
+- **[Luftmotstand](05-luftmotstand.qmd)** Terminalfart og numerisk løsning av bevegelseslikningen i Python.
 :::
 
 Tilsvarende stoff finnes i OpenStax *University Physics*, bind 1, kapittel 5 og 6.
