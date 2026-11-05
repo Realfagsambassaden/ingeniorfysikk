@@ -1,0 +1,9 @@
+\begin{tikzpicture}[boks/.style={draw,very thick,rounded corners=6pt,minimum width=2.9cm,minimum height=1.3cm,align=center}]
+\node[boks] (s) at (0,0) {\large posisjon\\[2pt] $s(t)$};
+\node[boks,bla] (v) at (5,0) {\large hastighet\\[2pt] $v(t)$};
+\node[boks,rod] (a) at (10,0) {\large akselerasjon\\[2pt] $a(t)$};
+\draw[->,very thick] ([yshift=4mm]s.east)--([yshift=4mm]v.west) node[midway,above,align=center,font=\small]{deriver\\stigningstall};
+\draw[->,very thick] ([yshift=4mm]v.east)--([yshift=4mm]a.west) node[midway,above,align=center,font=\small]{deriver\\stigningstall};
+\draw[->,very thick,gronn] ([yshift=-4mm]v.west)--([yshift=-4mm]s.east) node[midway,below,align=center,font=\small]{integrer\\areal under};
+\draw[->,very thick,gronn] ([yshift=-4mm]a.west)--([yshift=-4mm]v.east) node[midway,below,align=center,font=\small]{integrer\\areal under};
+\end{tikzpicture}

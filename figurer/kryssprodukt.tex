@@ -1,0 +1,12 @@
+\begin{tikzpicture}[scale=1.2]
+\coordinate (O) at (0,0);
+\coordinate (A) at (3,0.2);
+\coordinate (B) at (1.2,1.4);
+\fill[black!8] (O)--(A)--($(A)+(B)$)--(B)--cycle;
+\draw[vek,bla] (O)--(A) node[below right]{$\vec a$};
+\draw[vek,rod] (O)--(B) node[above left]{$\vec b$};
+\draw[vek,gronn] (O)--(0.2,3.0) node[above]{$\vec a\times\vec b$};
+\draw (0.6,0.04) arc (4:49:0.6); \node at (0.75,0.35){$\theta$};
+\node[align=left,font=\small] at (5.6,0.9) {arealet $= ab\sin\theta$\\$= |\vec a\times\vec b|$};
+\node[align=left,font=\small,gronn] at (1.9,3.0) {står vinkelrett på\\både $\vec a$ og $\vec b$};
+\end{tikzpicture}

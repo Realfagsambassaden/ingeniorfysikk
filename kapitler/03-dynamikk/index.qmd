@@ -5,4 +5,14 @@ del: "Mekanikk"
 ---
 
 <!-- fra notatene -->
-I kinematikken beskrev vi *hvordan* ting beveger seg. Nå spør vi *hvorfor*. Svaret er **krefter**, og sammenhengen mellom kraft og bevegelse er **Newtons lover**. Vi lærer å tegne kreftene som virker (kraftdiagram), dekomponere dem, og bruke Newtons 2. lov i hver retning. Til slutt ser vi på friksjon, krefter i sirkelbevegelse og luftmotstand, der vi også løser bevegelseslikningen numerisk i Python. Tilsvarer kapittel 5 og 6 i OpenStax *University Physics*.
+I kinematikken beskrev vi *hvordan* ting beveger seg. Nå spør vi *hvorfor*. Svaret er **krefter**, og sammenhengen mellom kraft og bevegelse er **Newtons lover**.
+
+::: {.kort}
+- **Newtons lover** Hva en kraft er, de tre lovene, og forskjellen på tyngde og masse.
+- **Friksjon, fjærer og trinser** De vanligste kreftene, og systemer av legemer koblet med snorer.
+- **Krefter i planet** Kraftdiagram, dekomponering og Newtons 2. lov i hver retning.
+- **Sirkelbevegelse** Hvilken kraftsum som trengs for å holde noe i en sirkelbane.
+- **Luftmotstand** Terminalfart og numerisk løsning av bevegelseslikningen i Python.
+:::
+
+Tilsvarende stoff finnes i OpenStax *University Physics*, bind 1, kapittel 5 og 6.

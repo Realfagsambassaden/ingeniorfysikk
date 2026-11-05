@@ -15,6 +15,8 @@ For å beskrive en bevegelse trenger vi tre størrelser. Alle er funksjoner av t
 | hastighet | $\vec v(t)$ | hvor fort posisjonen endres | $\mathrm{m/s}$ |
 | akselerasjon | $\vec a(t)$ | hvor fort hastigheten endres | $\mathrm{m/s^2}$ |
 
+Vi starter med bevegelse langs en rett linje. Da kan vi la posisjonen være ett tall $s$ (eller $x$), og fortegnet viser retningen.
+
 ## Gjennomsnittsfart
 
 <!-- fra notatene -->
@@ -50,20 +52,20 @@ $$
 :::
 
 <!-- tillegg: Claude -->
-Geometrisk: linja gjennom to punkter P og Q på grafen blir til **tangenten** i P når Q glir mot P. Momentanfarten er stigningstallet til tangenten. Speedometeret i bilen viser momentanfarten.
+Geometrisk: Linja gjennom to punkter P og Q på grafen blir til **tangenten** i P når Q glir mot P. Momentanfarten er stigningstallet til tangenten. Speedometeret i bilen viser momentanfarten.
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Usain Bolt.** En modell for posisjonen til en sprinter er $s(t) = 0{,}548\ \mathrm{m/s^2}\cdot t^2$. Finn gjennomsnittsfarten de første 10 sekundene, og momentanfarten etter 4 sekunder.
+**Eksempel: Sprinteren.** En enkel modell for posisjonen til en sprinter i starten av et løp er $s(t) = 0.548\ \mathrm{m/s^2}\cdot t^2$. Finn gjennomsnittsfarten de første $10\ \mathrm{s}$, og momentanfarten etter $4.0\ \mathrm{s}$.
 
 ::: {.losning}
 Gjennomsnittsfarten:
 $$
-\bar v = \frac{s(10\ \mathrm{s}) - s(0)}{10\ \mathrm{s} - 0} = \frac{54{,}8\ \mathrm{m} - 0}{10\ \mathrm{s}} \approx 5{,}48\ \mathrm{m/s}
+\bar v = \frac{s(10\ \mathrm{s}) - s(0)}{10\ \mathrm{s} - 0} = \frac{54.8\ \mathrm{m} - 0}{10\ \mathrm{s}} \approx \underline{\underline{5.5\ \mathrm{m/s}}}
 $$
-Momentanfarten: vi deriverer med regelen $(t^n)' = n\,t^{n-1}$:
+Momentanfarten: Vi deriverer med regelen $(t^n)' = n\,t^{n-1}$:
 $$
-v(t) = s'(t) = 2\cdot0{,}548\ \mathrm{m/s^2}\cdot t \quad\Rightarrow\quad v(4{,}0\ \mathrm{s}) = 2\cdot0{,}548\cdot4{,}0\ \mathrm{m/s} \approx \underline{\underline{4{,}4\ \mathrm{m/s}}}
+v(t) = s'(t) = 2\cdot0.548\ \mathrm{m/s^2}\cdot t \quad\Rightarrow\quad v(4.0\ \mathrm{s}) = 2\cdot0.548\cdot4.0\ \mathrm{m/s} \approx \underline{\underline{4.4\ \mathrm{m/s}}}
 $$
 :::
 :::
@@ -95,38 +97,40 @@ $$
 $$
 Momentanakselerasjonen er $a(t) = v'(t) = 2t$, så
 $$
-a(0{,}5\ \mathrm{s}) = 1\ \mathrm{m/s^2}, \qquad a(2{,}5\ \mathrm{s}) = 5\ \mathrm{m/s^2}
+a(0.5\ \mathrm{s}) = 1\ \mathrm{m/s^2}, \qquad a(2.5\ \mathrm{s}) = 5\ \mathrm{m/s^2}
 $$
-Legg merke til at gjennomsnittet over et intervall er lik momentanverdien midt i intervallet. Det gjelder når akselerasjonen endrer seg jevnt.
+Legg merke til at gjennomsnittet over et intervall er lik momentanverdien midt i intervallet. Det gjelder når akselerasjonen endrer seg jevnt (lineært).
 :::
 :::
 
-## I én dimensjon
+## I én og flere dimensjoner
 
 Langs en rett linje legger vi en $x$-akse langs bevegelsen, og skriver $s(t) = x(t)$:
 $$
 v(t) = x'(t) = \frac{\mathrm{d}x}{\mathrm{d}t}, \qquad a(t) = x''(t) = \frac{\mathrm{d}^2x}{\mathrm{d}t^2}
 $$
-Egentlig er posisjon, hastighet og akselerasjon **vektorer**, $\vec s = [s_x,\ s_y]$, $\vec v = [v_x,\ v_y]$ og $\vec a = [a_x,\ a_y]$. Det bruker vi når bevegelsen ikke er rettlinjet, i [skrått kast](03-skratt-kast.qmd).
+Egentlig er posisjon, hastighet og akselerasjon **vektorer**, $\vec s = [s_x,\ s_y]$, $\vec v = [v_x,\ v_y]$ og $\vec a = [a_x,\ a_y]$, og vi deriverer komponent for komponent. Det bruker vi når bevegelsen ikke er rettlinjet, i [skrått kast](03-skratt-kast.qmd).
 
 {{< video https://www.youtube.com/watch?v=giCcfGv-uTc >}}
 
 ## Fart og hastighet er ikke det samme
 
-**Fart** er hvor fort noe går, uten retning. Det er et tall, for eksempel $v = 10\ \mathrm{m/s}$. **Hastighet** er fart *med retning*, altså en vektor, for eksempel $\vec v = (6{,}0,\ 8{,}0)\ \mathrm{m/s}$. Farten er lengden av hastighetsvektoren: $\sqrt{6^2+8^2} = 10\ \mathrm{m/s}$.
+**Fart** er hvor fort noe går, uten retning. Det er et tall, for eksempel $v = 10\ \mathrm{m/s}$. **Hastighet** er fart *med retning*, altså en vektor, for eksempel $\vec v = [6.0,\ 8.0]\ \mathrm{m/s}$. Farten er lengden av hastighetsvektoren: $\sqrt{6.0^2+8.0^2}\ \mathrm{m/s} = 10\ \mathrm{m/s}$.
 
-En bil som holder $50\ \mathrm{km/h}$ gjennom en sving, har konstant fart men *endrer hastighet*, fordi retningen endres. Den har altså en akselerasjon, selv om speedometeret står stille. Dette kommer vi tilbake til under sirkelbevegelse.
+En bil som holder $50\ \mathrm{km/h}$ gjennom en sving, har konstant fart men *endrer hastighet*, fordi retningen endres. Den har altså en akselerasjon, selv om speedometeret står stille. Dette kommer vi tilbake til under *sirkelbevegelse*.
 
 ## Å lese grafer
 
 {{< video https://www.youtube.com/watch?v=Q4S15FxYehk >}}
 
-Sammenhengen mellom grafene er nyttig å kunne utenat:
+Sammenhengen mellom de tre grafene er nyttig å kunne utenat. Mot høyre deriverer vi (stigningstall), mot venstre integrerer vi (areal under grafen):
 
-- **Stigningstallet** til $s(t)$-grafen er hastigheten. Stigningstallet til $v(t)$-grafen er akselerasjonen.
-- **Arealet under** $a(t)$-grafen er endringen i hastighet. Arealet under $v(t)$-grafen er forflytningen.
+![](../../bilder/kinematikk-kjede.svg){.tikz-fig style="width:640px"}
 
-Det andre punktet er integralregning: $\displaystyle\int_{t_1}^{t_2} a(t)\,\mathrm{d}t = v(t_2) - v(t_1)$.
+Arealet under $v(t)$-grafen er forflytningen, og arealet under $a(t)$-grafen er endringen i hastighet:
+$$
+\int_{t_1}^{t_2} v(t)\,\mathrm{d}t = s(t_2) - s(t_1), \qquad \int_{t_1}^{t_2} a(t)\,\mathrm{d}t = v(t_2) - v(t_1)
+$$
 
 ::: {.callout-note title="Tenk selv: tog som akselererer"}
 <!-- fra notatene -->
@@ -134,6 +138,57 @@ Et tog starter fra ro. Akselerasjonen er først positiv, så negativ, og til slu
 :::
 
 :::: {.oppgaver}
+
+::: {.oppgave tittel="Fra posisjon til akselerasjon"}
+<!-- tillegg: Claude -->
+Posisjonen til en heis er $x(t) = 2.0\ \mathrm{m/s^3}\cdot t^3 - 6.0\ \mathrm{m/s}\cdot t$ for $0 \le t \le 2.0\ \mathrm{s}$.
+
+a) Finn $v(t)$ og $a(t)$.
+
+b) Når står heisen stille et øyeblikk?
+
+c) Hva er gjennomsnittsfarten fra $t = 0$ til $t = 2.0\ \mathrm{s}$?
+
+::: {.losning}
+**a)** Vi deriverer to ganger:
+$$
+v(t) = 6.0\ \mathrm{m/s^3}\cdot t^2 - 6.0\ \mathrm{m/s}, \qquad a(t) = 12\ \mathrm{m/s^3}\cdot t
+$$
+
+**b)** $v(t) = 0$ gir $t^2 = 1.0\ \mathrm{s^2}$, så $\underline{\underline{t = 1.0\ \mathrm{s}}}$.
+
+**c)** $x(2.0\ \mathrm{s}) = 2.0\cdot8.0 - 6.0\cdot2.0 = 4.0\ \mathrm{m}$ og $x(0) = 0$, så
+$$
+\bar v = \frac{4.0\ \mathrm{m} - 0}{2.0\ \mathrm{s}} = \underline{\underline{2.0\ \mathrm{m/s}}}
+$$
+Legg merke til at heisen først går nedover (negativ $v$) og så oppover. Gjennomsnittsfarten skjuler dette.
+:::
+:::
+
+::: {.oppgave tittel="Fra akselerasjon til posisjon" niva="Middels"}
+<!-- tillegg: Claude -->
+En bil starter fra ro i $x = 0$ med akselerasjonen $a(t) = 3.0\ \mathrm{m/s^2} - 0.30\ \mathrm{m/s^3}\cdot t$ til akselerasjonen er null.
+
+a) Når er akselerasjonen null?
+
+b) Finn farten da.
+
+c) Hvor langt har bilen kjørt?
+
+::: {.losning}
+**a)** $a = 0$ når $t = 3.0/0.30\ \mathrm{s} = \underline{\underline{10\ \mathrm{s}}}$.
+
+**b)** Vi integrerer med $v(0) = 0$: $v(t) = 3.0t - 0.15t^2$ (i m/s). Ved $t = 10\ \mathrm{s}$:
+$$
+v = 30 - 15\ \mathrm{m/s} = \underline{\underline{15\ \mathrm{m/s}}}
+$$
+
+**c)** Vi integrerer en gang til med $x(0) = 0$: $x(t) = 1.5t^2 - 0.050t^3$ (i m).
+$$
+x(10\ \mathrm{s}) = 150 - 50\ \mathrm{m} = \underline{\underline{100\ \mathrm{m}}}
+$$
+:::
+:::
 
 ::: {.oppgave tittel="Akselerasjonsgrafen til et tog" niva="Middels"}
 Grafen viser akselerasjonen til et tog som kjører rett fram mellom to stasjoner.
@@ -159,7 +214,7 @@ e) Hva forteller stigningstallet til grafen?
 
 **d)** Arealet er integralet $\int_{t_1}^{t_2} a(t)\,\mathrm{d}t = v(t_2) - v(t_1)$, altså **hvor mye farten øker** i dette tidsrommet.
 
-**e)** Stigningstallet sier hvor raskt *akselerasjonen* endrer seg. Det kalles **ryk** (engelsk *jerk*), med enhet $\mathrm{m/s^3}$. Det sier ikke direkte noe om farten, men kjennes godt i kroppen når toget rykker i gang.
+**e)** Stigningstallet sier hvor raskt *akselerasjonen* endrer seg. Det kalles **rykk** (engelsk *jerk*), med enhet $\mathrm{m/s^3}$. Det sier ikke direkte noe om farten, men kjennes godt i kroppen når toget rykker i gang.
 :::
 :::
 

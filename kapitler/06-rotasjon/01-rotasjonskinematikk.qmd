@@ -4,8 +4,14 @@ emne: rotasjon
 delemne: rotasjonskinematikk
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/06-01-rotasjonskinematikk) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- fra notatene -->
-Når et legeme roterer, beskriver vi bevegelsen med vinkelen $\theta$ (i radianer) det har rotert:
+Når et stivt legeme roterer om en fast akse, går alle punktene i sirkler rundt aksen. Vi beskriver bevegelsen med vinkelen $\theta$ legemet har rotert.
+
+<!-- tillegg: Claude -->
+Vinkelen måles i **radianer**: Et punkt i avstand $r$ fra aksen går buen $s$, og vinkelen er $\theta = s/r$. Én hel runde er buen $2\pi r$, altså $2\pi\ \mathrm{rad} = 360^\circ$. Radianer er forholdet mellom to lengder, så enheten «rad» er egentlig et rent tall. Vinkelfarten og vinkelakselerasjonen er de deriverte av vinkelen:
 
 ::: {.graa}
 $$
@@ -47,7 +53,7 @@ På vektorform er $\vec v = \vec\omega\times\vec r$. Vinkelfarten er en vektor l
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Dekk på bil.** Et dekk med $R = 0{,}40\ \mathrm{m}$ starter fra ro og har vinkelakselerasjonen $\alpha = -1{,}0\ \mathrm{rad/s^2}$ (bilen kjører mot høyre, så hjulet roterer med klokka, som er negativ retning). Ingen spinning.
+**Eksempel: Dekk på bil.** Et dekk med $R = 0.40\ \mathrm{m}$ starter fra ro og har vinkelakselerasjonen $\alpha = -1.0\ \mathrm{rad/s^2}$ (bilen kjører mot høyre, så hjulet roterer med klokka, som er negativ retning). Ingen spinning.
 
 **a)** Hvor lang tid tar det å nå $\omega = -2\pi\ \mathrm{rad/s}$?\
 **b)** Hvor stor er bilens fart da?\
@@ -55,13 +61,13 @@ På vektorform er $\vec v = \vec\omega\times\vec r$. Vinkelfarten er en vektor l
 **d)** Hva er farten etter at hjulet har rotert én runde fra ro?
 
 ::: {.losning}
-**a)** $\omega = \omega_0 + \alpha t$ med $\omega_0 = 0$ gir $t = \omega/\alpha = 2\pi\ \mathrm{s} \approx 6{,}3\ \mathrm{s}$.
+**a)** $\omega = \omega_0 + \alpha t$ med $\omega_0 = 0$ gir $t = \omega/\alpha = 2\pi\ \mathrm{s} \approx 6.3\ \mathrm{s}$.
 
-**b)** Bilens fart da: $v = R\omega = 0{,}40\cdot2\pi\ \mathrm{m/s} \approx 2{,}5\ \mathrm{m/s}$.
+**b)** Bilens fart da: $v = R\omega = 0.40\cdot2\pi\ \mathrm{m/s} \approx 2.5\ \mathrm{m/s}$.
 
-**c)** Bilens akselerasjon: $a = R\alpha = 0{,}40\ \mathrm{m/s^2}$.
+**c)** Bilens akselerasjon: $a = R\alpha = 0.40\ \mathrm{m/s^2}$.
 
-**d)** Farten etter at hjulet har rotert én runde fra ro: $2\alpha\Delta\theta = \omega^2$ med $\Delta\theta = -2\pi$ gir $\omega = \sqrt{4\pi}\ \mathrm{rad/s}$ og $v = R\omega = 0{,}40\sqrt{4\pi}\ \mathrm{m/s} \approx 1{,}4\ \mathrm{m/s}$.
+**d)** Farten etter at hjulet har rotert én runde fra ro: $2\alpha\Delta\theta = \omega^2$ med $\Delta\theta = -2\pi$ gir $\omega = \sqrt{4\pi}\ \mathrm{rad/s}$ og $v = R\omega = 0.40\sqrt{4\pi}\ \mathrm{m/s} \approx 1.4\ \mathrm{m/s}$.
 :::
 :::
 
@@ -75,57 +81,57 @@ På vektorform er $\vec v = \vec\omega\times\vec r$. Vinkelfarten er en vektor l
 **d)** Hvor langt beveger sokken seg på 2 minutter?
 
 ::: {.losning}
-**a)** Vinkelfart og banefart: $\omega = \dfrac{1400\cdot2\pi}{60\ \mathrm{s}} \approx 146{,}6\ \mathrm{rad/s}$ og $v = R\omega \approx 29\ \mathrm{m/s}$, over $100\ \mathrm{km/h}$!
+**a)** Vinkelfart og banefart: $\omega = \dfrac{1400\cdot2\pi}{60\ \mathrm{s}} \approx 146.6\ \mathrm{rad/s}$ og $v = R\omega \approx 29\ \mathrm{m/s}$, over $100\ \mathrm{km/h}$!
 
 **b)** Vinkelakselerasjonen: $\omega$ er konstant, så $\alpha = 0$.
 
-**c)** Sentripetalakselerasjonen: $a_\perp = R\omega^2 = 0{,}20\cdot146{,}6^2\ \mathrm{m/s^2} \approx 4{,}3\ \mathrm{km/s^2}$.
+**c)** Sentripetalakselerasjonen: $a_\perp = R\omega^2 = 0.20\cdot146.6^2\ \mathrm{m/s^2} \approx 4.3\ \mathrm{km/s^2}$.
 
-**d)** Strekning på 2 minutter: $s = vt = 29\ \mathrm{m/s}\cdot120\ \mathrm{s} \approx 3{,}5\ \mathrm{km}$.
+**d)** Strekning på 2 minutter: $s = vt = 29\ \mathrm{m/s}\cdot120\ \mathrm{s} \approx 3.5\ \mathrm{km}$.
 :::
 :::
 
 :::: {.oppgaver}
 
 ::: {.oppgave tittel="Svinghjul"}
-Svinghjulet på en spinningsykkel øker jevnt fra ro til $90\ \text{rpm}$ på $5{,}0\ \mathrm{s}$.
+Svinghjulet på en spinningsykkel øker jevnt fra ro til $90\ \text{rpm}$ på $5.0\ \mathrm{s}$.
 
 a) Finn vinkelakselerasjonen.
 
-b) Hjulet øker jevnt fra 0 til $90\ \text{rpm}$ på $5{,}0\ \mathrm{s}$, holder farten i $60\ \mathrm{s}$, og bremses jevnt til ro på $5{,}0\ \mathrm{s}$. Hvor mange omdreininger har det gjort?
+b) Hjulet øker jevnt fra 0 til $90\ \text{rpm}$ på $5.0\ \mathrm{s}$, holder farten i $60\ \mathrm{s}$, og bremses jevnt til ro på $5.0\ \mathrm{s}$. Hvor mange omdreininger har det gjort?
 
 ::: {.losning}
-**a)** $\alpha = \dfrac{\Delta\omega}{\Delta t} = \dfrac{90\cdot2\pi/60\ \mathrm{rad/s}}{5{,}0\ \mathrm{s}} \approx \underline{\underline{1{,}9\ \mathrm{rad/s^2}}}$
+**a)** $\alpha = \dfrac{\Delta\omega}{\Delta t} = \dfrac{90\cdot2\pi/60\ \mathrm{rad/s}}{5.0\ \mathrm{s}} \approx \underline{\underline{1.9\ \mathrm{rad/s^2}}}$
 
-**b)** Fase 1 og 3 er like: $\theta_1 = \dfrac{\omega^2}{2\alpha} = \dfrac{(3\pi)^2}{2\cdot1{,}88}\ \mathrm{rad} \approx 23{,}6\ \mathrm{rad}$. Fase 2: $\theta_2 = \omega\Delta t = 3\pi\cdot60\ \mathrm{rad} = 180\pi\ \mathrm{rad}$.
+**b)** Fase 1 og 3 er like: $\theta_1 = \dfrac{\omega^2}{2\alpha} = \dfrac{(3\pi)^2}{2\cdot1.88}\ \mathrm{rad} \approx 23.6\ \mathrm{rad}$. Fase 2: $\theta_2 = \omega\Delta t = 3\pi\cdot60\ \mathrm{rad} = 180\pi\ \mathrm{rad}$.
 $$
-n = \frac{2\cdot23{,}6 + 180\pi}{2\pi} \approx \underline{\underline{98\ \text{omdreininger}}}
+n = \frac{2\cdot23.6 + 180\pi}{2\pi} \approx \underline{\underline{98\ \text{omdreininger}}}
 $$
 :::
 :::
 
 ::: {.oppgave tittel="Sykkelhjul"}
-En sykkel har hjul med diameter 29 tommer ($1\ \text{tomme} = 2{,}54\ \mathrm{cm}$). Hvor mange omdreininger per minutt gjør hjulet når sykkelen triller i $30\ \mathrm{km/h}$ uten å gli?
+En sykkel har hjul med diameter 29 tommer ($1\ \text{tomme} = 2.54\ \mathrm{cm}$). Hvor mange omdreininger per minutt gjør hjulet når sykkelen triller i $30\ \mathrm{km/h}$ uten å gli?
 
 ::: {.losning}
 Ren rulling: $v = r\omega$ med $r = d/2$:
 $$
-\omega = \frac{2v}{d} = \frac{2\cdot30/3{,}6\ \mathrm{m/s}}{29\cdot0{,}0254\ \mathrm{m}} \approx 22{,}6\ \mathrm{rad/s}
+\omega = \frac{2v}{d} = \frac{2\cdot30/3.6\ \mathrm{m/s}}{29\cdot0.0254\ \mathrm{m}} \approx 22.6\ \mathrm{rad/s}
 $$
 $$
-22{,}6\ \mathrm{rad/s}\cdot\frac{60\ \mathrm{s/min}}{2\pi\ \mathrm{rad}} \approx \underline{\underline{2{,}2\cdot10^2\ \text{omdreininger/min}}}
+22.6\ \mathrm{rad/s}\cdot\frac{60\ \mathrm{s/min}}{2\pi\ \mathrm{rad}} \approx \underline{\underline{2.2\cdot10^2\ \text{omdreininger/min}}}
 $$
 :::
 :::
 
 ::: {.oppgave tittel="Skrumaskinen" niva="Middels"}
-Vinkelfarten til en skrumaskin er $\omega(t) = (10\ \mathrm{rad/s})\left(1 - e^{-(t/0{,}50\,\mathrm{s})^2}\right)$.
+Vinkelfarten til en skrumaskin er $\omega(t) = (10\ \mathrm{rad/s})\left(1 - \mathrm{e}^{-(t/0.50\,\mathrm{s})^2}\right)$.
 
 a) Skisser $\alpha(t)$.
 
 b) Hvor mange omdreininger roterer den fra $t = 0$ til $t = 10\ \mathrm{s}$?
 
-c) En annen motor har $\alpha(t) = bt$ med $b = 1{,}0\ \mathrm{rad/s^3}$. Finn $\omega(t)$ og $\theta(t)$ når begge er null ved $t = 0$.
+c) En annen motor har $\alpha(t) = bt$ med $b = 1.0\ \mathrm{rad/s^3}$. Finn $\omega(t)$ og $\theta(t)$ når begge er null ved $t = 0$.
 
 ::: {.losning}
 **a)** $\alpha$ er stigningstallet til $\omega(t)$. Grafen for $\omega$ stiger og flater ut mot $10\ \mathrm{rad/s}$, så $\alpha$ starter med en topp og går mot null.

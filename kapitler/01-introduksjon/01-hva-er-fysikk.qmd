@@ -11,7 +11,7 @@ Fysikk er vitenskapen om naturen: hva alt er bygget av, hvilke krefter som virke
 
 ## Fysikk og de andre fagene
 
-Fysikken står nederst i en slags trapp. Kjemi bygger på fysikk, biologi bygger på kjemi, og samfunnsfag som sosiologi bygger på biologi. Fysikken låner sitt språk fra **matematikken**, og spørsmålene om hva kunnskap er, hører til **filosofien**.
+Fysikken står nederst i en slags trapp. Kjemi bygger på fysikk, biologi bygger på kjemi, og samfunnsfag som sosiologi bygger på biologi. Fysikken låner språket sitt fra **matematikken**, og spørsmålene om hva kunnskap er, hører til **filosofien**.
 
 $$
 \text{matematikk} \;\to\; \textbf{fysikk} \;\to\; \text{kjemi} \;\to\; \text{biologi} \;\to\; \text{sosiologi}
@@ -25,21 +25,25 @@ Hvilken teori vi trenger, avhenger av hvor *store* tingene er og hvor *fort* de 
 
 ![](../../bilder/fysikkens-omrader.svg){.tikz-fig style="width:420px"}
 
-- For vanlige ting med vanlige farter gjelder **klassisk fysikk**: Newtons lover. Det er her vi holder oss.
-- Nærmer farten seg lyshastigheten $\mathrm{c}$, trenger vi **relativitetsteori**.
-- For svært små ting, som atomer og elektroner, trenger vi **kvantemekanikk**.
+::: {.kort}
+- **Klassisk fysikk** Vanlige ting med vanlige farter. Her gjelder Newtons lover, og det er her vi holder oss.
+- **Relativitetsteori** Når farten nærmer seg lysfarten $\mathrm{c}$.
+- **Kvantemekanikk** For svært små ting, som atomer og elektroner.
+:::
 
 <!-- tillegg: Claude -->
 Klassisk fysikk er altså ikke «feil». Den er en svært god modell innenfor sitt område, og det er nesten alltid der ingeniører jobber: broer, biler, maskiner og bygg.
 
 ## Slik jobber fysikere (og ingeniører)
 
-1. **Observer** noe i naturen eller i et forsøk.
-2. **Lag en modell**: en forenklet beskrivelse med matematikk. Ofte ser vi bort fra noe, for eksempel luftmotstand.
-3. **Regn ut** hva modellen forutsier.
-4. **Sammenlign** med målinger. Stemmer det ikke, forbedrer vi modellen.
+Fysikk handler om å lage **modeller**: forenklede beskrivelser av virkeligheten, skrevet med matematikk. En modell er god hvis den forutsier det vi måler. Arbeidet går i en sløyfe:
 
-## På ingeniørnivå
+![](../../bilder/arbeidsmetode.svg){.tikz-fig style="width:680px"}
+
+<!-- tillegg: Claude -->
+Et eksempel: Vi slipper en stein og vil vite hvor lang tid den bruker ned. *Modellen* er at steinen faller med konstant akselerasjon, og at luftmotstanden er så liten at vi kan se bort fra den. Vi *regner ut* falltiden, *sammenligner* med en måling, og ser at det stemmer godt. Slipper vi en fjær, stemmer det dårlig. Da må modellen forbedres med luftmotstand.
+
+## Mekanikk på ingeniørnivå
 
 <!-- fra notatene -->
 På ingeniørnivå starter vi med **mekanikk** (newtonsk), og fortsetter med **elektromagnetisme** eller **fluid- og bølgefysikk**. Mekanikken starter med *kinematikk*, som beskriver bevegelse, og fortsetter med *dynamikk*, der Newtons lover forklarer bevegelsen ut fra kreftene.
@@ -49,3 +53,39 @@ På ingeniørnivå starter vi med **mekanikk** (newtonsk), og fortsetter med **e
 ::: {.callout-tip title="Slik jobber du best"}
 Se videoen, les teksten, og prøv oppgavene *før* du ser på løsningen. Står du fast, bruk hint-knappen. Det er i oppgavene du lærer mest.
 :::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Hvilken teori?"}
+<!-- tillegg: Claude -->
+Hvilken teori trenger vi for å beskrive
+
+a) en bil som bremser,
+
+b) et elektron i et atom,
+
+c) et romskip som går med 90 % av lysfarten,
+
+d) en satellitt i bane rundt jorda?
+
+::: {.losning}
+**a)** Klassisk mekanikk: vanlig størrelse og vanlig fart.
+
+**b)** Kvantemekanikk: elektronet er svært lite.
+
+**c)** Relativitetsteori: farten er nær lysfarten.
+
+**d)** Klassisk mekanikk. Satellitten går fort i dagligdags forstand (omtrent $8\ \mathrm{km/s}$), men det er bare $3\cdot10^{-5}$ av lysfarten. (GPS-satellittene er et unntak når vi trenger svært høy nøyaktighet: Da må klokkene korrigeres med relativitetsteori.)
+:::
+:::
+
+::: {.oppgave tittel="Hva ser modellen bort fra?"}
+<!-- tillegg: Claude -->
+Vi regner ut hvor langt en fotball går når den sparkes, og bruker modellen «konstant akselerasjon $\mathrm{g}$ rett ned». Nevn to ting modellen ser bort fra, og si om svaret blir for langt eller for kort.
+
+::: {.losning}
+Modellen ser bort fra **luftmotstand**, som bremser ballen, og fra at ballen **spinner**, som kan gi løft eller skru den til siden. Luftmotstanden gjør at det virkelige sparket blir *kortere* enn modellen sier. Spinnet kan gå begge veier.
+:::
+:::
+
+::::

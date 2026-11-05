@@ -4,6 +4,9 @@ emne: newtons-lover
 delemne: luftmotstand
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/03-05-luftmotstand) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 ## Luftmotstand
 
 <!-- fra notatene -->
@@ -18,11 +21,11 @@ $$
 | Symbol | Betyr |
 |---|---|
 | $C$ | motstandskoeffisient (dimensjonsløs, $[C] = 1$), avhenger av formen |
-| $\rho$ | lufttettheten, ca. $1{,}2\ \mathrm{kg/m^3}$ |
+| $\rho$ | lufttettheten, ca. $1.2\ \mathrm{kg/m^3}$ ved bakken |
 | $A$ | frontarealet, arealet legemet «viser» mot fartsretningen |
 | $v$ | farten |
 
-Legg merke til $v^2$: dobbelt så stor fart gir fire ganger så stor luftmotstand.
+Legg merke til $v^2$: Dobbelt så stor fart gir fire ganger så stor luftmotstand. (For svært små eller langsomme legemer, som støvkorn, er luftmotstanden i stedet nesten proporsjonal med $v$.)
 
 ## Terminalfart
 
@@ -33,14 +36,14 @@ $$
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Kule.** En kule med masse $5\ \mathrm{kg}$ og radius $R = 10\ \mathrm{cm}$ faller mot jorda. $C = 0{,}45$ og $\rho = 1{,}2\ \mathrm{kg/m^3}$.
+**Eksempel: Kule.** En kule med masse $5\ \mathrm{kg}$ og radius $R = 10\ \mathrm{cm}$ faller mot jorda. $C = 0.45$ og $\rho = 1.2\ \mathrm{kg/m^3}$.
 
 Hvor stor blir terminalfarten?
 
 ::: {.losning}
 Frontarealet er en sirkel, $A = \pi R^2$:
 $$
-v_t = \sqrt{\frac{2\cdot5\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}}{0{,}45\cdot1{,}2\ \mathrm{kg/m^3}\cdot\pi(0{,}10\ \mathrm{m})^2}} \approx 76\ \mathrm{m/s} \approx 2{,}7\cdot10^2\ \mathrm{km/h}
+v_t = \sqrt{\frac{2\cdot5\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}}{0.45\cdot1.2\ \mathrm{kg/m^3}\cdot\pi(0.10\ \mathrm{m})^2}} \approx 76\ \mathrm{m/s} \approx 2.7\cdot10^2\ \mathrm{km/h}
 $$
 :::
 :::
@@ -64,7 +67,7 @@ $$
 $$
 v_{n+1} = v_n + h\left(\mathrm{g} - Kv_n^2\right)
 $$
-Vi starter med $v_0 = 0$ og regner ut $v_1$, så $v_2$, og så videre. Med $C = 0{,}45$, $A = 0{,}5\ \mathrm{m^2}$, $\rho = 1{,}2\ \mathrm{kg/m^3}$ og $m = 80\ \mathrm{kg}$:
+Vi starter med $v_0 = 0$ og regner ut $v_1$, så $v_2$, og så videre. Med $C = 0.45$, $A = 0.5\ \mathrm{m^2}$, $\rho = 1.2\ \mathrm{kg/m^3}$ og $m = 80\ \mathrm{kg}$:
 
 ```{.python .kjor}
 import numpy as np
@@ -95,7 +98,7 @@ Endre `h` til `1.0` og se hva som skjer. Eulers metode blir mer nøyaktig jo min
 :::: {.oppgaver}
 
 ::: {.oppgave tittel="To fallskjermhoppere" niva="Utfordrende"}
-To fallskjermhoppere med masse $m = 70\ \mathrm{kg}$ faller fra samme høyde. A faller med hodet først ($A = 0{,}17\ \mathrm{m^2}$, $C = 0{,}70$). B faller liggende ($A = 1{,}0\ \mathrm{m^2}$, $C = 1{,}0$). Bruk $\rho = 1{,}29\ \mathrm{kg/m^3}$.
+To fallskjermhoppere med masse $m = 70\ \mathrm{kg}$ faller fra samme høyde. A faller med hodet først ($A = 0.17\ \mathrm{m^2}$, $C = 0.70$). B faller liggende ($A = 1.0\ \mathrm{m^2}$, $C = 1.0$). Bruk $\rho = 1.29\ \mathrm{kg/m^3}$.
 
 a) Finn terminalfarten for A og B.
 
@@ -108,13 +111,13 @@ def drag(A, C, v):
     ?
 ```
 
-c) Bruk Eulers metode med $\Delta t = 0{,}10\ \mathrm{s}$ til å finne tiden det tar før hopperne har nådd 98 % av terminalfarten, og hvor langt de har falt da.
+c) Bruk Eulers metode med $\Delta t = 0.10\ \mathrm{s}$ til å finne tiden det tar før hopperne har nådd 98 % av terminalfarten, og hvor langt de har falt da.
 
 ::: {.losning}
 **a)** Fra $v_t = \sqrt{2m\mathrm{g}/(C\rho A)}$:
 $$
-v_{t,A} = \sqrt{\frac{2\cdot70\cdot9{,}81}{0{,}70\cdot1{,}29\cdot0{,}17}}\ \mathrm{m/s} \approx \underline{\underline{95\ \mathrm{m/s}}}, \qquad
-v_{t,B} = \sqrt{\frac{2\cdot70\cdot9{,}81}{1{,}0\cdot1{,}29\cdot1{,}0}}\ \mathrm{m/s} \approx \underline{\underline{33\ \mathrm{m/s}}}
+v_{t,A} = \sqrt{\frac{2\cdot70\cdot9.81}{0.70\cdot1.29\cdot0.17}}\ \mathrm{m/s} \approx \underline{\underline{95\ \mathrm{m/s}}}, \qquad
+v_{t,B} = \sqrt{\frac{2\cdot70\cdot9.81}{1.0\cdot1.29\cdot1.0}}\ \mathrm{m/s} \approx \underline{\underline{33\ \mathrm{m/s}}}
 $$
 
 **b)** `return k*v**2`, som er $\frac12\rho A C v^2$.
@@ -141,7 +144,7 @@ for navn, A, C in [("A", 0.17, 0.70), ("B", 1.0, 1.0)]:
     print(f"{navn}: 98 % av {v_t:.0f} m/s etter {t:.1f} s, falt {y:.0f} m")
 ```
 
-A bruker ca. $22\ \mathrm{s}$ og faller ca. $1{,}5\ \mathrm{km}$; B bruker ca. $7{,}5\ \mathrm{s}$ og faller ca. $170\ \mathrm{m}$. (Svarene avhenger litt av hvordan du oppdaterer $y$ og $v$ i løkka.)
+A bruker ca. $22\ \mathrm{s}$ og faller ca. $1.5\ \mathrm{km}$; B bruker ca. $7.5\ \mathrm{s}$ og faller ca. $170\ \mathrm{m}$. (Svarene avhenger litt av hvordan du oppdaterer $y$ og $v$ i løkka.)
 :::
 :::
 

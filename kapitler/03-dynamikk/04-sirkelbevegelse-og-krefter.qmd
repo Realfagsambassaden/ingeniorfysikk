@@ -4,8 +4,11 @@ emne: sirkelbevegelse
 delemne: sirkel-krefter
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/03-04-sirkelbevegelse-og-krefter) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- fra notatene -->
-I kinematikken så vi at et legeme i sirkelbevegelse med konstant fart har akselerasjonen $a = v^2/r$, rettet inn mot sentrum. Newtons 2. lov sier da hvor stor kraftsum som trengs:
+Under *sirkelbevegelse og sentripetalakselerasjon* så vi at et legeme i sirkelbevegelse med konstant fart har akselerasjonen $a = v^2/r$, rettet inn mot sentrum. Newtons 2. lov sier da hvor stor kraftsum som trengs:
 
 ::: {.graa}
 $$
@@ -23,12 +26,12 @@ Det er ingen ny kraft. Det er *summen* av de vanlige kreftene (friksjon, normalk
 **b)** Hvor stor er kraftsummen på bilen, og hvilken kraft sørger for den?
 
 ::: {.losning}
-**a)** Akselerasjonen: $v = 36/3{,}6\ \mathrm{m/s} = 10\ \mathrm{m/s}$, så
+**a)** Akselerasjonen: $v = 36/3.6\ \mathrm{m/s} = 10\ \mathrm{m/s}$, så
 $$
-a = \frac{v^2}{R} = \frac{(10\ \mathrm{m/s})^2}{20\ \mathrm{m}} = 5{,}0\ \mathrm{m/s^2}
+a = \frac{v^2}{R} = \frac{(10\ \mathrm{m/s})^2}{20\ \mathrm{m}} = 5.0\ \mathrm{m/s^2}
 $$
 
-**b)** Kraftsummen: $\sum F = m\dfrac{v^2}{R} = 1000\ \mathrm{kg}\cdot5{,}0\ \mathrm{m/s^2} = 5{,}0\ \mathrm{kN}$. Loddrett er $N = G$. Det er **friksjonen** mellom dekk og vei som gir kraften inn mot sentrum. Er veien glatt, klarer ikke friksjonen dette, og bilen sklir rett fram.
+**b)** Kraftsummen: $\sum F = m\dfrac{v^2}{R} = 1000\ \mathrm{kg}\cdot5.0\ \mathrm{m/s^2} = 5.0\ \mathrm{kN}$. Loddrett er $N = G$. Det er **friksjonen** mellom dekk og vei som gir kraften inn mot sentrum. Er veien glatt, klarer ikke friksjonen dette, og bilen sklir rett fram.
 :::
 :::
 
@@ -59,6 +62,29 @@ Skal en bil kjøre med fart $v$ gjennom en sving med radius $r$ uten å trenge f
 :::
 :::
 
+## Strategi
+
+<!-- tillegg: Claude -->
+::: {.steg}
+1. **Finn sentrum** av sirkelbanen og radien $r$.
+2. **Tegn kraftdiagram** og velg positiv retning *inn mot sentrum*.
+3. **Sett opp** $\sum F_\text{inn} = mv^2/r$, og $\sum F = 0$ i retningen vinkelrett på banen (for eksempel loddrett).
+4. **Løs**, og spør deg selv hvilken kraft som faktisk gir sentripetalkraften.
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Hvor fort kan bilen ta svingen?** Svingen har radius $r = 50\ \mathrm{m}$ og er flat, og friksjonstallet mellom dekk og vei er $\mu_s = 0.70$. Hva er største fart uten å skli?
+
+::: {.losning}
+Loddrett: $N = m\mathrm{g}$. Inn mot sentrum er hvilefriksjonen den eneste kraften, og den kan høyst være $\mu_s N$:
+$$
+m\frac{v^2}{r} \le \mu_s m\mathrm{g} \quad\Rightarrow\quad v_\text{maks} = \sqrt{\mu_s\mathrm{g}r} = \sqrt{0.70\cdot9.81\cdot50}\ \mathrm{m/s} \approx \underline{\underline{19\ \mathrm{m/s}}} \approx 67\ \mathrm{km/h}
+$$
+Massen forsvinner: En tung lastebil og en lett bil har samme grensefart, så lenge dekkene er like. Det er *hvile*friksjon fordi dekkene ikke glir sidelengs.
+:::
+:::
+
 ## Loop: berg-og-dalbane
 
 ![](../../bilder/loop.svg){.tikz-fig style="width:440px"}
@@ -66,9 +92,11 @@ Skal en bil kjøre med fart $v$ gjennom en sving med radius $r$ uten å trenge f
 <!-- fra notatene -->
 I en loop endrer kreftene seg rundt sirkelen. Vi velger positiv retning **inn mot sentrum**:
 
-- **I bunnen (A):** normalkraften peker opp (inn), tyngden ned (ut): $N - G = m v_A^2/r$, så $N = G + mv_A^2/r$. Du kjenner deg tyngre.
-- **Midtveis (B):** bare normalkraften peker inn mot sentrum: $N = mv_B^2/r$. Tyngden virker langs banen og bremser vogna med $a = \mathrm{g}$.
-- **På toppen (C):** både normalkraften og tyngden peker ned (inn): $N + G = mv_C^2/r$.
+::: {.kort}
+- **I bunnen (A)** Normalkraften peker opp (inn), tyngden ned (ut): $N - G = m v_A^2/r$, så $N = G + mv_A^2/r$. Du kjenner deg tyngre.
+- **Midtveis (B)** Bare normalkraften peker inn mot sentrum: $N = mv_B^2/r$. Tyngden virker langs banen og bremser vogna med $\mathrm{g}$.
+- **På toppen (C)** Både normalkraften og tyngden peker ned (inn): $N + G = mv_C^2/r$.
+:::
 
 Vogna mister kontakten med banen hvis $N$ blir null. Det skjer først på toppen.
 
@@ -99,7 +127,7 @@ Riktige påstander: **B og D**.
 :::
 :::
 
-::: {.oppgave tittel="Karusell uten friksjon"}
+::: {.oppgave tittel="Bunn og topp i loopen"}
 <!-- fra notatene -->
 Skriv Newtons 2. lov for en bil i bunnen (A) og på toppen (B) av en vertikal loop med radius $r$, og forklar hvorfor $N_B < N_A$ hvis farten var lik.
 
@@ -109,6 +137,31 @@ I bunnen: $N_A - G = m\dfrac{v_A^2}{r}$, så $N_A = m\dfrac{v_A^2}{r} + G$.
 På toppen: $N_B + G = m\dfrac{v_B^2}{r}$, så $N_B = m\dfrac{v_B^2}{r} - G$.
 
 Med samme fart er forskjellen $N_A - N_B = 2G$. I bunnen må normalkraften både bære tyngden og gi sentripetalkraften; på toppen hjelper tyngden til. (I virkeligheten er farten også lavere på toppen, så forskjellen blir enda større.)
+:::
+:::
+
+::: {.oppgave tittel="Kjeglependel" niva="Middels"}
+<!-- tillegg: Claude -->
+En kule med masse $m$ henger i en snor med lengde $L$ og går rundt i en vannrett sirkel, slik at snora danner vinkelen $\theta$ med loddlinja.
+
+a) Tegn kreftene og finn snordraget.
+
+b) Vis at omløpstiden er $T = 2\pi\sqrt{L\cos\theta/\mathrm{g}}$.
+
+::: {.losning}
+**a)** Bare tyngden $\vec G$ og snordraget $\vec S$ virker. Sirkelen har radius $r = L\sin\theta$, og sentrum ligger rett under opphengspunktet. Loddrett er det ingen akselerasjon:
+$$
+S\cos\theta = m\mathrm{g} \quad\Rightarrow\quad \underline{\underline{S = \frac{m\mathrm{g}}{\cos\theta}}}
+$$
+
+**b)** Den vannrette delen av snordraget peker inn mot sentrum:
+$$
+S\sin\theta = m\frac{v^2}{r} \quad\Rightarrow\quad m\mathrm{g}\tan\theta = m\frac{v^2}{L\sin\theta} \quad\Rightarrow\quad v^2 = \mathrm{g}L\sin\theta\tan\theta
+$$
+Omløpstiden er $T = 2\pi r/v$:
+$$
+T = \frac{2\pi L\sin\theta}{\sqrt{\mathrm{g}L\sin\theta\tan\theta}} = 2\pi\sqrt{\frac{L\sin\theta\cos\theta}{\mathrm{g}\sin\theta}} = 2\pi\sqrt{\frac{L\cos\theta}{\mathrm{g}}}
+$$
 :::
 :::
 

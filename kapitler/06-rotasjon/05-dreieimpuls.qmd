@@ -2,7 +2,11 @@
 title: "Dreieimpuls"
 emne: rotasjon
 delemne: dreieimpuls
+aliases: ["04-dreieimpuls.html"]
 ---
+
+<!-- video: kommer (videoer/ingeniorfysikk/06-05-dreieimpuls) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
 <!-- fra notatene -->
 **Dreieimpulsen** (spinnet, angulærmomentet) er rotasjonens svar på bevegelsesmengden:
@@ -36,14 +40,14 @@ $$
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Roterende hjul.** Et hjul med masse $M = 500\ \mathrm{g}$ jevnt fordelt, radius $R = 0{,}35\ \mathrm{m}$, ruller med $v_\text{cm} = 30\ \mathrm{km/h}$.
+**Eksempel: Roterende hjul.** Et hjul med masse $M = 500\ \mathrm{g}$ jevnt fordelt, radius $R = 0.35\ \mathrm{m}$, ruller med $v_\text{cm} = 30\ \mathrm{km/h}$.
 
 Hvor stor er dreieimpulsen om massesenteret?
 
 ::: {.losning}
-Dreieimpulsen om massesenteret, med $I = \frac12 MR^2$ og $\omega = v/R \approx 23{,}8\ \mathrm{rad/s}$:
+Dreieimpulsen om massesenteret, med $I = \frac12 MR^2$ og $\omega = v/R \approx 23.8\ \mathrm{rad/s}$:
 $$
-L = \tfrac12 MR^2\omega = \tfrac12\cdot0{,}500\cdot0{,}35^2\cdot23{,}8\ \mathrm{J\,s} \approx 0{,}73\ \mathrm{J\,s}
+L = \tfrac12 MR^2\omega = \tfrac12\cdot0.500\cdot0.35^2\cdot23.8\ \mathrm{J\,s} \approx 0.73\ \mathrm{J\,s}
 $$
 :::
 :::
@@ -85,7 +89,7 @@ T_\text{NS} = T_\text{kjerne}\,\frac{R_\text{NS}^2}{R_\text{kjerne}^2}
 $$
 Estimat: $T_\text{kjerne} = 1350\ \mathrm{s}$, $R_\text{kjerne} = 6400\ \mathrm{km}$ og $R_\text{NS} = 20\ \mathrm{km}$ gir
 $$
-T_\text{NS} = 1350\ \mathrm{s}\cdot\frac{(20\ \mathrm{km})^2}{(6400\ \mathrm{km})^2} \approx 0{,}013\ \mathrm{s}
+T_\text{NS} = 1350\ \mathrm{s}\cdot\frac{(20\ \mathrm{km})^2}{(6400\ \mathrm{km})^2} \approx 0.013\ \mathrm{s}
 $$
 Nesten 80 runder i sekundet! Slike raskt roterende nøytronstjerner observeres som **pulsarer**.
 :::
@@ -108,7 +112,7 @@ $$
 
 Jo raskere snurrebassen spinner (større $I\omega$), jo langsommere presesserer den.
 
-**Fun fact:** Jorda er et gigantisk gyroskop. Sola og månen drar i jordas «mage» ved ekvator, og jordaksen presesserer med en periode på omtrent $26\,000$ år.
+**Fun fact:** Jorda er et gigantisk gyroskop. Sola og månen drar i jordas «mage» ved ekvator, og jordaksen presesserer med en periode på omtrent $2.6\cdot10^4$ år.
 
 :::: {.oppgaver}
 
@@ -118,11 +122,11 @@ En bil med masse $m = 1500\ \mathrm{kg}$ og fart $v = 30\ \mathrm{km/h}$ kjører
 a) Hva er bilens bevegelsesmengde? b) Hva er dreieimpulsen om sentrum av rundkjøringen?
 
 ::: {.losning}
-**a)** $p = mv = 1500\cdot\frac{30}{3{,}6}\ \mathrm{kg\,m/s} \approx \underline{\underline{1{,}3\cdot10^4\ \mathrm{kg\,m/s}}}$
+**a)** $p = mv = 1500\cdot\frac{30}{3.6}\ \mathrm{kg\,m/s} \approx \underline{\underline{1.3\cdot10^4\ \mathrm{kg\,m/s}}}$
 
 **b)** Farten står vinkelrett på $\vec R$, så $\sin = 1$ i kryssproduktet:
 $$
-L = Rmv = 15\cdot1500\cdot\tfrac{30}{3{,}6}\ \mathrm{kg\,m^2/s} \approx \underline{\underline{1{,}9\cdot10^5\ \mathrm{kg\,m^2/s}}}
+L = Rmv = 15\cdot1500\cdot\tfrac{30}{3.6}\ \mathrm{kg\,m^2/s} \approx \underline{\underline{1.9\cdot10^5\ \mathrm{kg\,m^2/s}}}
 $$
 :::
 :::
@@ -142,12 +146,12 @@ $$
 
 ::: {.oppgave tittel="Skøyteløperen i tall"}
 <!-- tillegg: Claude -->
-En skøyteløper snurrer med $1{,}0$ omdreining per sekund med armene ute ($I = 4{,}0\ \mathrm{kg\,m^2}$). Hun trekker armene inn til $I = 1{,}6\ \mathrm{kg\,m^2}$. Hvor fort snurrer hun nå, og hva skjer med rotasjonsenergien?
+En skøyteløper snurrer med $1.0$ omdreining per sekund med armene ute ($I = 4.0\ \mathrm{kg\,m^2}$). Hun trekker armene inn til $I = 1.6\ \mathrm{kg\,m^2}$. Hvor fort snurrer hun nå, og hva skjer med rotasjonsenergien?
 
 ::: {.losning}
-$L$ er bevart: $\omega_\text{etter} = \frac{4{,}0}{1{,}6}\cdot1{,}0\ \mathrm{omdr/s} = \underline{\underline{2{,}5\ \mathrm{omdr/s}}}$.
+$L$ er bevart: $\omega_\text{etter} = \frac{4.0}{1.6}\cdot1.0\ \mathrm{omdr/s} = \underline{\underline{2.5\ \mathrm{omdr/s}}}$.
 
-Rotasjonsenergien er $\frac12 I\omega^2 = \frac{L^2}{2I}$. Med samme $L$ og $I$ redusert til $0{,}4$ av den opprinnelige, blir energien $2{,}5$ ganger så stor. Den ekstra energien kommer fra arbeidet musklene gjør når hun drar armene inn mot «sentrifugalkraften».
+Rotasjonsenergien er $\frac12 I\omega^2 = \frac{L^2}{2I}$. Med samme $L$ og $I$ redusert til $0.4$ av den opprinnelige, blir energien $2.5$ ganger så stor. Den ekstra energien kommer fra arbeidet musklene gjør når hun drar armene inn mot «sentrifugalkraften».
 :::
 :::
 

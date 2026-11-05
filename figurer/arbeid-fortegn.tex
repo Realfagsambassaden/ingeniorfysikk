@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\foreach \x/\v/\t/\c in {0/35/{$W>0$: kraften gir energi}/gronn, 5/90/{$W=0$: ingen energi overføres}/bla, 10/150/{$W<0$: kraften tar energi}/rod}{
+  \begin{scope}[shift={(\x,0)}]
+  \draw[thick] (-1.6,0)--(2.4,0);
+  \draw[very thick,fill=black!10] (-0.6,0) rectangle (0.6,0.9);
+  \draw[->,very thick,dashed] (0.9,-0.45)--(2.3,-0.45) node[right,font=\small]{$\Delta\vec s$};
+  \draw[vek,\c] (0,0.45)--++(\v:1.9) node[pos=1.12,font=\small]{$\vec F$};
+  \draw (0.55,0.45) arc (0:\v:0.55); \node[font=\small] at ({\v/2}:0.95) [shift={(0,0.45)}] {$\theta$};
+  \node[align=center,font=\small] at (0.4,-1.2) {\t};
+  \end{scope}}
+\end{tikzpicture}

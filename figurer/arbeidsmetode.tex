@@ -1,0 +1,10 @@
+\begin{tikzpicture}[boks/.style={draw,very thick,rounded corners=6pt,text width=3.3cm,minimum height=1.35cm,align=center,font=\sffamily}]
+\node[boks] (o) at (0,0) {\textbf{Observer}\\[-1pt]\small et fenomen};
+\node[boks,bla] (m) at (4.4,0) {\textbf{Lag en modell}\\[-1pt]\small forenkle og skriv med matematikk};
+\node[boks,gronn] (r) at (8.8,0) {\textbf{Regn ut}\\[-1pt]\small hva modellen forutsier};
+\node[boks,rod] (s) at (13.2,0) {\textbf{Sammenlign}\\[-1pt]\small med målinger};
+\draw[->,very thick] (o)--(m);
+\draw[->,very thick] (m)--(r);
+\draw[->,very thick] (r)--(s);
+\draw[->,very thick,dashed] (s.south) to[out=-90,in=-90,looseness=0.55] node[pos=0.5,below,font=\sffamily\small]{stemmer det ikke? forbedre modellen} (m.south);
+\end{tikzpicture}
