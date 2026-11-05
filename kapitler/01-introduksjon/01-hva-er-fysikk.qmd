@@ -11,13 +11,11 @@ Fysikk er vitenskapen om naturen: hva alt er bygget av, hvilke krefter som virke
 
 ## Fysikk og de andre fagene
 
-Fysikken står nederst i en slags trapp. Kjemi bygger på fysikk, biologi bygger på kjemi, og samfunnsfag som sosiologi bygger på biologi. Fysikken låner språket sitt fra **matematikken**, og spørsmålene om hva kunnskap er, hører til **filosofien**.
+Tenk på vitenskapene som en trapp. **Fysikken er det nederste trinnet**: Den handler om det alt består av, og hvordan det påvirker hverandre. Kjemi bygger på fysikk, biologi bygger på kjemi, og samfunnsfag som sosiologi bygger på biologi. Fysikken har selv mange greiner.
 
-$$
-\text{matematikk} \;\to\; \textbf{fysikk} \;\to\; \text{kjemi} \;\to\; \text{biologi} \;\to\; \text{sosiologi}
-$$
+![](../../bilder/fagtrappen.svg){.tikz-fig style="width:760px"}
 
-Fysikk har selv mange greiner: mekanikk, termofysikk, bølgefysikk, fluidmekanikk, elektromagnetisme, kvantemekanikk, relativitetsteori og flere til.
+Men hva står trappa på? Fysikken skriver lovene sine med **matematikk**, så matematikken er grunnmuren under hele trappa. Og spørsmålet om hva vi egentlig *vet*, og hvordan vi kan være sikre, hører til **filosofien**. Den er rekkverket du kan holde deg i hele veien opp.
 
 ## Hvor gjelder det vi lærer?
 
