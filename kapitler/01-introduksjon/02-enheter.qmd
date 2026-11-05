@@ -30,7 +30,7 @@ Forskere og ingeniører over hele verden bruker de samme grunnenhetene, **SI-enh
 | mol, $\mathrm{mol}$ | stoffmengde |
 | candela, $\mathrm{cd}$ | lysstyrke |
 
-Siden 2019 er alle sju definert ut fra sju **naturkonstanter** med fastsatte verdier, blant annet lyshastigheten $\mathrm{c} = 299\,792\,458\ \mathrm{m/s}$, Plancks konstant $\mathrm{h}$, elementærladningen $\mathrm{e}$, Boltzmanns konstant $\mathrm{k_B}$ og Avogadros tall $\mathrm{N_A}$. Meteren er for eksempel definert som hvor langt lyset går på $1/299\,792\,458$ sekund. Vi trenger alle unntatt candela.
+Siden 2019 er alle sju definert ut fra sju **naturkonstanter** med fastsatte verdier, blant annet lyshastigheten $\mathrm{c} = 299792458\ \mathrm{m/s}$, Plancks konstant $\mathrm{h}$, elementærladningen $\mathrm{e}$, Boltzmanns konstant $\mathrm{k_B}$ og Avogadros tall $\mathrm{N_A}$. Meteren er for eksempel definert som hvor langt lyset går på $1/299792458$ sekund. Vi trenger alle unntatt candela.
 
 ## Avledede enheter
 
@@ -79,7 +79,7 @@ Vi bruker $1\ \mathrm{km} = 1000\ \mathrm{m}$ og $1\ \mathrm{h} = 3600\ \mathrm{
 $$
 72\ \frac{\mathrm{km}}{\mathrm{h}} = 72 \cdot \frac{1000\ \mathrm{m}}{3600\ \mathrm{s}} = 20\ \mathrm{m/s}
 $$
-Huskeregel: del på 3,6 for å gå fra km/h til m/s.
+Huskeregel: del på 3.6 for å gå fra km/h til m/s.
 :::
 :::
 
@@ -90,17 +90,17 @@ a) Hvor mange $\mathrm{m/s^2}$ tilsvarer en akselerasjon på $1\ \mathrm{km/h^2}
 
 b) En elbil bruker $1\ \mathrm{kWh}$ per mil ved blandet kjøring. Hva er dette i joule per meter?
 
-*Oppgitt:* $1\ \mathrm{kWh} = 3{,}6\cdot10^6\ \mathrm{J}$ og $1\ \mathrm{mil} = 10\ \mathrm{km}$.
+*Oppgitt:* $1\ \mathrm{kWh} = 3.6\cdot10^6\ \mathrm{J}$ og $1\ \mathrm{mil} = 10\ \mathrm{km}$.
 
 ::: {.losning}
 **a)** Vi skriver om enhetene: $1\ \mathrm{km} = 1000\ \mathrm{m}$ og $1\ \mathrm{h} = 3600\ \mathrm{s}$. Legg merke til at timen er *kvadrert*:
 $$
-1\ \frac{\mathrm{km}}{\mathrm{h^2}} = \frac{1000\ \mathrm{m}}{(3600\ \mathrm{s})^2} = \frac{1000}{12\,960\,000}\ \mathrm{m/s^2} \approx \underline{\underline{7{,}7\cdot10^{-5}\ \mathrm{m/s^2}}}
+1\ \frac{\mathrm{km}}{\mathrm{h^2}} = \frac{1000\ \mathrm{m}}{(3600\ \mathrm{s})^2} = \frac{1000}{1.296\cdot10^{7}}\ \mathrm{m/s^2} \approx \underline{\underline{7.7\cdot10^{-5}\ \mathrm{m/s^2}}}
 $$
 
-**b)** Vi gjør om energien til joule og strekningen til meter: $1\ \mathrm{mil} = 10\,000\ \mathrm{m}$.
+**b)** Vi gjør om energien til joule og strekningen til meter: $1\ \mathrm{mil} = 10^{4}\ \mathrm{m}$.
 $$
-\frac{3{,}6\cdot10^6\ \mathrm{J}}{10\,000\ \mathrm{m}} = \underline{\underline{360\ \mathrm{J/m}}}
+\frac{3.6\cdot10^6\ \mathrm{J}}{10^{4}\ \mathrm{m}} = \underline{\underline{360\ \mathrm{J/m}}}
 $$
 :::
 :::
@@ -111,9 +111,9 @@ Et nytt lyntog mellom Oslo og Trondheim kan holde en gjennomsnittsfart på $320\
 ::: {.losning}
 Fra definisjonen av fart, $v = s/t$, får vi $t = s/v$:
 $$
-t = \frac{500\ \mathrm{km}}{320\ \mathrm{km/h}} = 1{,}5625\ \mathrm{h}
+t = \frac{500\ \mathrm{km}}{320\ \mathrm{km/h}} = 1.5625\ \mathrm{h}
 $$
-$0{,}5625\ \mathrm{h} \cdot 60\ \mathrm{min/h} \approx 34\ \mathrm{min}$, så toget bruker **1 time og 34 minutter**.
+$0.5625\ \mathrm{h} \cdot 60\ \mathrm{min/h} \approx 34\ \mathrm{min}$, så toget bruker **1 time og 34 minutter**.
 :::
 :::
 

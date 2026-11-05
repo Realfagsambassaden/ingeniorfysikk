@@ -57,12 +57,12 @@ Ja! Akselerasjon er endring i *hastighet*, og hastighet er en vektor. Selv om fa
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Vaskemaskin.** En vaskemaskin sentrifugerer med $1300$ omdreininger per minutt. Trommelen har radius $R = 0{,}25\ \mathrm{m}$. Hvor stor er akselerasjonen til klærne langs veggen?
+**Eksempel: Vaskemaskin.** En vaskemaskin sentrifugerer med $1300$ omdreininger per minutt. Trommelen har radius $R = 0.25\ \mathrm{m}$. Hvor stor er akselerasjonen til klærne langs veggen?
 
 ::: {.losning}
-Frekvensen i omdreininger per sekund: $f = 1300/60\ \mathrm{s^{-1}} \approx 21{,}7\ \mathrm{Hz}$. Farten er konstant, så
+Frekvensen i omdreininger per sekund: $f = 1300/60\ \mathrm{s^{-1}} \approx 21.7\ \mathrm{Hz}$. Farten er konstant, så
 $$
-a = 4\pi^2 f^2 R = 4\pi^2\cdot(21{,}7\ \mathrm{s^{-1}})^2\cdot0{,}25\ \mathrm{m} \approx \underline{\underline{4{,}6\cdot10^3\ \mathrm{m/s^2}}}
+a = 4\pi^2 f^2 R = 4\pi^2\cdot(21.7\ \mathrm{s^{-1}})^2\cdot0.25\ \mathrm{m} \approx \underline{\underline{4.6\cdot10^3\ \mathrm{m/s^2}}}
 $$
 Det er nesten **500 ganger** tyngdeakselerasjonen! Derfor blir vannet slynget ut av klærne.
 :::
@@ -91,7 +91,7 @@ En satellitt går i sirkelbane $500\ \mathrm{km}$ over jordoverflaten. Jordas ra
 <!-- fra notatene -->
 Radien i banen måles fra jordas sentrum: $R = 6370\ \mathrm{km} + 500\ \mathrm{km} = 6870\ \mathrm{km}$. På én periode $T$ går satellitten én omkrets:
 $$
-v = \frac{s}{T} = \frac{2\pi R}{T} = \frac{2\pi\cdot6{,}87\cdot10^6\ \mathrm{m}}{95\cdot60\ \mathrm{s}} \approx 7{,}6\cdot10^3\ \mathrm{m/s} = \underline{\underline{7{,}6\ \mathrm{km/s}}}
+v = \frac{s}{T} = \frac{2\pi R}{T} = \frac{2\pi\cdot6.87\cdot10^6\ \mathrm{m}}{95\cdot60\ \mathrm{s}} \approx 7.6\cdot10^3\ \mathrm{m/s} = \underline{\underline{7.6\ \mathrm{km/s}}}
 $$
 :::
 :::
@@ -101,7 +101,7 @@ En bil starter fra ro og kjører med jevnt økende fart rundt i en sirkelformet 
 
 a) Skisser $a_\parallel(t)$ og $a_\perp(t)$. Hva skjer hvis bilen slutter å øke farten når den når $v_{\max}$?
 
-b) Radien er $60\ \mathrm{m}$, og farten øker jevnt fra 0 til $60\ \mathrm{km/h}$ på $6{,}0\ \mathrm{s}$. Finn $a_\parallel$, $a_\perp$ og den totale akselerasjonen idet farten er $60\ \mathrm{km/h}$.
+b) Radien er $60\ \mathrm{m}$, og farten øker jevnt fra 0 til $60\ \mathrm{km/h}$ på $6.0\ \mathrm{s}$. Finn $a_\parallel$, $a_\perp$ og den totale akselerasjonen idet farten er $60\ \mathrm{km/h}$.
 
 ::: {.losning}
 <!-- fra notatene -->
@@ -115,15 +115,15 @@ som vokser som en **parabel**. Når $v_{\max}$ er nådd, faller $a_\parallel$ ti
 
 **b)** Baneakselerasjonen:
 $$
-a_\parallel = \frac{\Delta v}{\Delta t} = \frac{60/3{,}6\ \mathrm{m/s}}{6{,}0\ \mathrm{s}} \approx \underline{\underline{2{,}8\ \mathrm{m/s^2}}}
+a_\parallel = \frac{\Delta v}{\Delta t} = \frac{60/3.6\ \mathrm{m/s}}{6.0\ \mathrm{s}} \approx \underline{\underline{2.8\ \mathrm{m/s^2}}}
 $$
 Sentripetalakselerasjonen ved $60\ \mathrm{km/h}$:
 $$
-a_\perp = \frac{v^2}{R} = \frac{(60/3{,}6\ \mathrm{m/s})^2}{60\ \mathrm{m}} \approx \underline{\underline{4{,}6\ \mathrm{m/s^2}}}
+a_\perp = \frac{v^2}{R} = \frac{(60/3.6\ \mathrm{m/s})^2}{60\ \mathrm{m}} \approx \underline{\underline{4.6\ \mathrm{m/s^2}}}
 $$
 De står vinkelrett på hverandre, så
 $$
-a = \sqrt{a_\parallel^2 + a_\perp^2} = \sqrt{2{,}78^2 + 4{,}63^2}\ \mathrm{m/s^2} \approx \underline{\underline{5{,}4\ \mathrm{m/s^2}}}
+a = \sqrt{a_\parallel^2 + a_\perp^2} = \sqrt{2.78^2 + 4.63^2}\ \mathrm{m/s^2} \approx \underline{\underline{5.4\ \mathrm{m/s^2}}}
 $$
 Her antar vi at bilen fortsatt akselererer akkurat idet den når $60\ \mathrm{km/h}$.
 :::
