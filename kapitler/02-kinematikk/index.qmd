@@ -16,4 +16,11 @@ Her holder vi oss til kinematikken. Vi starter langs en rett linje, går videre 
 
 ![](../../bilder/kinematikk-kjede.svg){.tikz-fig style="width:640px"}
 
+::: {.kort}
+- **[Posisjon, hastighet og akselerasjon](01-posisjon-fart-akselerasjon.qmd)** Gjennomsnitt og momentanverdier, derivasjon og grafer.
+- **[Konstant akselerasjon](02-konstant-akselerasjon.qmd)** De fire bevegelseslikningene og fritt fall.
+- **[Skrått kast](03-skratt-kast.qmd)** Bevegelse i to dimensjoner, kastlengde og bane.
+- **[Sirkelbevegelse](04-sirkelbevegelse.qmd)** Vinkelfart, periode og sentripetalakselerasjon.
+:::
+
 Tilsvarende stoff finnes i OpenStax *University Physics*, bind 1, kapittel 3 og 4.

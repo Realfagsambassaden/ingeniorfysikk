@@ -8,9 +8,9 @@ del: "Mekanikk"
 Energi er et av de kraftigste verktøyene i fysikken. Mange problemer som er tunge med Newtons lover, blir enkle når vi i stedet regner med energi før og etter.
 
 ::: {.kort}
-- **Arbeid og kinetisk energi** Hvordan en kraft overfører energi, og arbeid-energi-setningen.
-- **Potensiell energi og energibevaring** Lagret energi, konservative krefter og energidiagram.
-- **Effekt** Hvor raskt energien overføres.
+- **[Arbeid og kinetisk energi](01-arbeid-og-kinetisk-energi.qmd)** Hvordan en kraft overfører energi, og arbeid-energi-setningen.
+- **[Potensiell energi og energibevaring](02-potensiell-energi-og-energibevaring.qmd)** Lagret energi, konservative krefter og energidiagram.
+- **[Effekt](03-effekt.qmd)** Hvor raskt energien overføres.
 :::
 
 Tilsvarende stoff finnes i OpenStax *University Physics*, bind 1, kapittel 7 og 8.
