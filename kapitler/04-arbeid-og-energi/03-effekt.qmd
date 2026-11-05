@@ -4,6 +4,9 @@ emne: arbeid-og-energi
 delemne: effekt
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/04-03-effekt) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- fra notatene -->
 **Effekt** er hvor raskt arbeid utføres, altså arbeid per tid:
 
@@ -13,34 +16,57 @@ P = \frac{\mathrm{d}W}{\mathrm{d}t} = \vec F\cdot\vec v
 $$
 :::
 
-Enheten er $\mathrm{J/s} = \mathrm{W}$ (watt). Den siste formen kommer fra $W = \int\vec F\cdot\vec v\,\mathrm{d}t$.
+Enheten er $\mathrm{J/s} = \mathrm{W}$ (watt). Den siste formen får vi fordi kraften på et lite stykke $\mathrm{d}\vec s = \vec v\,\mathrm{d}t$ gjør arbeidet $\mathrm{d}W = \vec F\cdot\mathrm{d}\vec s = \vec F\cdot\vec v\,\mathrm{d}t$.
 
 <!-- tillegg: Claude -->
-Strømregningen måles i kilowattimer: $1\ \mathrm{kWh} = 1000\ \mathrm{W}\cdot3600\ \mathrm{s} = 3{,}6\ \mathrm{MJ}$. Det er en enhet for *energi*, ikke effekt.
+Over et tidsrom $\Delta t$ er **gjennomsnittseffekten** $\bar P = W/\Delta t$. Ingen maskin er perfekt, og **virkningsgraden** sier hvor stor del av den tilførte effekten som blir nyttig:
+$$
+\eta = \frac{P_\text{nyttig}}{P_\text{tilført}}, \qquad 0 \le \eta \le 1
+$$
+
+<!-- tillegg: Claude -->
+Strømregningen måles i kilowattimer: $1\ \mathrm{kWh} = 1000\ \mathrm{W}\cdot3600\ \mathrm{s} = 3.6\ \mathrm{MJ}$. Det er en enhet for *energi*, ikke effekt.
 
 ::: {.eksempel}
 <!-- fra notatene -->
 **Eksempel: Fjærkanon med friksjon.** En kule ($m = 100\ \mathrm{g}$) skytes vannrett ut av en fjærkanon som er presset sammen $x = 10\ \mathrm{cm}$.
 
-**a)** Uten friksjon er utgangsfarten $2{,}1\ \mathrm{m/s}$. Finn fjærkonstanten.\
-**b)** Med friksjon blir utgangsfarten $1{,}9\ \mathrm{m/s}$. Hvor stort er friksjonsarbeidet?\
+**a)** Uten friksjon er utgangsfarten $2.1\ \mathrm{m/s}$. Finn fjærkonstanten.\
+**b)** Med friksjon blir utgangsfarten $1.9\ \mathrm{m/s}$. Hvor stort er friksjonsarbeidet?\
 **c)** Finn friksjonstallet $\mu_k$.\
-**d)** Utskytingen tar $0{,}5\ \mathrm{s}$. Hva er gjennomsnittlig effekt fra friksjonen?
+**d)** Utskytingen tar $0.5\ \mathrm{s}$. Hva er gjennomsnittlig effekt fra friksjonen?
 
 ::: {.losning}
 **a)** Fjæra gjør arbeidet $W = \int_0^x kx'\,\mathrm{d}x' = \frac12 kx^2$, som blir til kinetisk energi:
 $$
-k = \frac{mv_0^2}{x^2} = \frac{0{,}100\cdot2{,}1^2}{0{,}10^2}\ \mathrm{N/m} \approx 44\ \mathrm{N/m}
+k = \frac{mv_0^2}{x^2} = \frac{0.100\cdot2.1^2}{0.10^2}\ \mathrm{N/m} \approx 44\ \mathrm{N/m}
 $$
 
 **b)** Friksjonsarbeidet er forskjellen i kinetisk energi:
 $$
-W_f = \tfrac12\cdot0{,}100\,(1{,}9^2 - 2{,}1^2)\ \mathrm{J} = -0{,}040\ \mathrm{J}
+W_f = \tfrac12\cdot0.100\,(1.9^2 - 2.1^2)\ \mathrm{J} = -0.040\ \mathrm{J}
 $$
 
-**c)** Friksjonskoeffisienten: $W_f = -\mu_k m\mathrm{g}x$, så $\mu_k = \dfrac{0{,}040}{0{,}100\cdot9{,}81\cdot0{,}10} \approx 0{,}41$.
+**c)** Friksjonskoeffisienten: $W_f = -\mu_k m\mathrm{g}x$, så $\mu_k = \dfrac{0.040}{0.100\cdot9.81\cdot0.10} \approx 0.41$.
 
-**d)** Gjennomsnittlig effekt fra friksjonen: $P = W/\Delta t = 0{,}040\ \mathrm{J}/0{,}50\ \mathrm{s} = 80\ \mathrm{mW}$.
+**d)** Gjennomsnittlig effekt fra friksjonen: $P = W/\Delta t = 0.040\ \mathrm{J}/0.50\ \mathrm{s} = 80\ \mathrm{mW}$.
+:::
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Luftmotstand koster.** En bil med frontareal $A = 2.2\ \mathrm{m^2}$ og motstandskoeffisient $C = 0.30$ kjører med konstant fart. Hvor stor effekt går med til å overvinne luftmotstanden ved $80\ \mathrm{km/h}$ og ved $110\ \mathrm{km/h}$? Bruk $\rho = 1.2\ \mathrm{kg/m^3}$.
+
+::: {.losning}
+Med konstant fart må motoren gi en kraft like stor som luftmotstanden $F_D = \tfrac12C\rho Av^2$ (se *luftmotstand*), i fartsretningen. Effekten er
+$$
+P = F_Dv = \tfrac12C\rho A\,v^3
+$$
+Ved $80\ \mathrm{km/h} = 22.2\ \mathrm{m/s}$: $P = \tfrac12\cdot0.30\cdot1.2\cdot2.2\cdot22.2^3\ \mathrm{W} \approx \underline{\underline{4.3\ \mathrm{kW}}}$.
+
+Ved $110\ \mathrm{km/h} = 30.6\ \mathrm{m/s}$: $P \approx \underline{\underline{11\ \mathrm{kW}}}$.
+
+Effekten går som $v^3$: $(110/80)^3 \approx 2.6$. Litt høyere fart koster mye mer effekt.
 :::
 :::
 
@@ -51,7 +77,7 @@ En elektrisk buss kjører med konstant fart nedover en bakke med helning $\theta
 
 a) Finn et uttrykk for effekten bremsene genererer.
 
-b) Hvor mye energi genererer en buss på $4{,}0$ tonn på én time i en bakke med $\theta = 5^\circ$, hvis farten er $36\ \mathrm{km/h}$?
+b) Hvor mye energi genererer en buss på $4.0$ tonn på én time i en bakke med $\theta = 5^\circ$, hvis farten er $36\ \mathrm{km/h}$?
 
 ::: {.losning}
 <!-- fra notatene -->
@@ -62,10 +88,28 @@ $$
 
 **b)** Med $v = 10\ \mathrm{m/s}$ og $t = 1\ \mathrm{h} = 3600\ \mathrm{s}$:
 $$
-E = Pt = 4{,}0\cdot10^3\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}\cdot\sin5^\circ\cdot10\ \mathrm{m/s}\cdot3600\ \mathrm{s} \approx \underline{\underline{1{,}2\cdot10^2\ \mathrm{MJ} \approx 34\ \mathrm{kWh}}}
+E = Pt = 4.0\cdot10^3\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}\cdot\sin5^\circ\cdot10\ \mathrm{m/s}\cdot3600\ \mathrm{s} \approx \underline{\underline{1.2\cdot10^2\ \mathrm{MJ} \approx 34\ \mathrm{kWh}}}
 $$
-<!-- tillegg: Claude: notatene glemte g her og fikk 3,5 kWh -->
+<!-- tillegg: Claude: notatene glemte g her og fikk 3.5 kWh -->
 Effekten er $P \approx 34\ \mathrm{kW}$. (Forutsatt at all energien kan tas vare på.)
+:::
+:::
+
+::: {.oppgave tittel="Heisen"}
+<!-- tillegg: Claude -->
+En heis med masse $800\ \mathrm{kg}$ (med passasjerer) løftes $30\ \mathrm{m}$ på $20\ \mathrm{s}$ med konstant fart. Motoren har virkningsgrad $\eta = 0.75$.
+
+a) Hvor stor nyttig effekt gir motoren?
+
+b) Hvor stor elektrisk effekt bruker den?
+
+::: {.losning}
+**a)** Konstant fart betyr at motorkraften er lik tyngden, $F = m\mathrm{g}$, og $v = 30/20\ \mathrm{m/s} = 1.5\ \mathrm{m/s}$:
+$$
+P_\text{nyttig} = Fv = 800\cdot9.81\cdot1.5\ \mathrm{W} \approx \underline{\underline{12\ \mathrm{kW}}}
+$$
+
+**b)** $P_\text{tilført} = P_\text{nyttig}/\eta = 11.8/0.75\ \mathrm{kW} \approx \underline{\underline{16\ \mathrm{kW}}}$
 :::
 :::
 

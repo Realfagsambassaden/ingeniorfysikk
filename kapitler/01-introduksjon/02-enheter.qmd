@@ -30,7 +30,7 @@ Forskere og ingeniører over hele verden bruker de samme grunnenhetene, **SI-enh
 | mol, $\mathrm{mol}$ | stoffmengde |
 | candela, $\mathrm{cd}$ | lysstyrke |
 
-Siden 2019 er alle sju definert ut fra sju **naturkonstanter** med fastsatte verdier, blant annet lyshastigheten $\mathrm{c} = 299\,792\,458\ \mathrm{m/s}$, Plancks konstant $\mathrm{h}$, elementærladningen $\mathrm{e}$, Boltzmanns konstant $\mathrm{k_B}$ og Avogadros tall $\mathrm{N_A}$. Meteren er for eksempel definert som hvor langt lyset går på $1/299\,792\,458$ sekund. Vi trenger alle unntatt candela.
+Siden 2019 er alle sju definert ut fra sju **naturkonstanter** med fastsatte verdier, blant annet lysfarten $\mathrm{c} = 2.99792458\cdot10^{8}\ \mathrm{m/s}$, Plancks konstant $\mathrm{h}$, elementærladningen $\mathrm{e}$, Boltzmanns konstant $\mathrm{k_B}$ og Avogadros tall $\mathrm{N_A}$. Meteren er for eksempel definert som hvor langt lyset går på $1/(2.99792458\cdot10^{8})$ sekund. I mekanikken og elektrisitetslæren trenger vi alle unntatt candela.
 
 ## Avledede enheter
 
@@ -47,17 +47,17 @@ I mekanikken klarer vi oss med meter, kilogram og sekund. Alle andre enheter er 
 | hertz, $\mathrm{Hz}$ | frekvens | $f = 1/T$ | $\mathrm{s^{-1}}$ |
 :::
 
-Vi skriver «enheten til $F$» med hakeparentes: $[F] = [m][a] = \mathrm{kg\cdot m/s^2} = \mathrm{N}$.
+Formlene i tabellen er forklart der de hører hjemme, under *Newtons lover*, *arbeid* og *effekt*. Her bruker vi dem bare til å finne enhetene. Vi skriver «enheten til $F$» med hakeparentes: $[F] = [m][a] = \mathrm{kg\cdot m/s^2} = \mathrm{N}$.
 
 ## To regler for å regne med enheter
 
 <!-- fra notatene -->
-::: {.graa}
-1. **Samme enhet i alle ledd.** Alle ledd på begge sider av likhetstegnet må ha samme enhet. Du kan ikke legge sammen epler og druer: $3\ \text{epler} \neq 2\ \text{druer} + 1\ \text{banan}$.
-2. **Enheter følger algebra.** De kan ganges, deles og forkortes akkurat som bokstaver: $5\ \mathrm{m/s} + 2\ \mathrm{m/s} = (5+2)\ \mathrm{m/s} = 7\ \mathrm{m/s}$.
+::: {.kort}
+- **Samme enhet i alle ledd** Alle ledd på begge sider av likhetstegnet må ha samme enhet. Du kan ikke legge sammen epler og druer: $3\ \text{epler} \neq 2\ \text{druer} + 1\ \text{banan}$.
+- **Enheter følger algebra** De kan ganges, deles og forkortes akkurat som bokstaver: $5\ \mathrm{m/s} + 2\ \mathrm{m/s} = (5+2)\ \mathrm{m/s} = 7\ \mathrm{m/s}$.
 :::
 
-Regel 1 er en gratis kontroll: får du ulike enheter på hver side av likhetstegnet, har du regnet feil et sted.
+Den første regelen er en gratis kontroll: Får du ulike enheter på hver side av likhetstegnet, har du regnet feil et sted.
 
 ::: {.eksempel}
 **Eksempel:** Er $50\ \mathrm{N}$ det samme som $50\ \mathrm{kg\,m/s^2}$?
@@ -67,9 +67,22 @@ Ja. Fra $F = ma$ er $[F] = [m][a]$, så $\mathrm{N} = \mathrm{kg\cdot m/s^2}$.
 :::
 :::
 
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Er formelen riktig?** En student husker ikke om farten etter et fall fra høyden $h$ er $v = \sqrt{2\mathrm{g}h}$ eller $v = 2\mathrm{g}h$. Hvilken kan være riktig?
+
+::: {.losning}
+Vi sjekker enhetene. $[\mathrm{g}h] = \mathrm{m/s^2}\cdot\mathrm{m} = \mathrm{m^2/s^2}$. Da er
+$$
+[\sqrt{2\mathrm{g}h}] = \sqrt{\mathrm{m^2/s^2}} = \mathrm{m/s}, \qquad [2\mathrm{g}h] = \mathrm{m^2/s^2}
+$$
+Bare $v = \sqrt{2\mathrm{g}h}$ har enheten til en fart. Den andre *kan ikke* være riktig. (Enhetskontroll kan ikke avsløre feil tallfaktorer: Den sier ikke om 2-tallet skal være der.)
+:::
+:::
+
 ## Å regne om enheter
 
-Trikset er å **erstatte hver enhet med det den er lik i SI**, og så regne ut tallet. Enhetene oppfører seg akkurat som bokstaver i algebra: de kan ganges, deles og forkortes.
+Trikset er å **erstatte hver enhet med det den er lik i SI**, og så regne ut tallet. Enhetene oppfører seg akkurat som bokstaver i algebra: De kan ganges, deles og forkortes.
 
 ::: {.eksempel}
 **Eksempel:** Hvor mange m/s er $72\ \mathrm{km/h}$?
@@ -79,7 +92,7 @@ Vi bruker $1\ \mathrm{km} = 1000\ \mathrm{m}$ og $1\ \mathrm{h} = 3600\ \mathrm{
 $$
 72\ \frac{\mathrm{km}}{\mathrm{h}} = 72 \cdot \frac{1000\ \mathrm{m}}{3600\ \mathrm{s}} = 20\ \mathrm{m/s}
 $$
-Huskeregel: del på 3,6 for å gå fra km/h til m/s.
+Huskeregel: Del på 3.6 for å gå fra km/h til m/s.
 :::
 :::
 
@@ -90,17 +103,17 @@ a) Hvor mange $\mathrm{m/s^2}$ tilsvarer en akselerasjon på $1\ \mathrm{km/h^2}
 
 b) En elbil bruker $1\ \mathrm{kWh}$ per mil ved blandet kjøring. Hva er dette i joule per meter?
 
-*Oppgitt:* $1\ \mathrm{kWh} = 3{,}6\cdot10^6\ \mathrm{J}$ og $1\ \mathrm{mil} = 10\ \mathrm{km}$.
+*Oppgitt:* $1\ \mathrm{kWh} = 3.6\ \mathrm{MJ}$ og $1\ \mathrm{mil} = 10\ \mathrm{km}$.
 
 ::: {.losning}
 **a)** Vi skriver om enhetene: $1\ \mathrm{km} = 1000\ \mathrm{m}$ og $1\ \mathrm{h} = 3600\ \mathrm{s}$. Legg merke til at timen er *kvadrert*:
 $$
-1\ \frac{\mathrm{km}}{\mathrm{h^2}} = \frac{1000\ \mathrm{m}}{(3600\ \mathrm{s})^2} = \frac{1000}{12\,960\,000}\ \mathrm{m/s^2} \approx \underline{\underline{7{,}7\cdot10^{-5}\ \mathrm{m/s^2}}}
+1\ \frac{\mathrm{km}}{\mathrm{h^2}} = \frac{1000\ \mathrm{m}}{(3600\ \mathrm{s})^2} = \frac{1000}{1.296\cdot10^{7}}\ \mathrm{m/s^2} \approx \underline{\underline{7.7\cdot10^{-5}\ \mathrm{m/s^2}}}
 $$
 
-**b)** Vi gjør om energien til joule og strekningen til meter: $1\ \mathrm{mil} = 10\,000\ \mathrm{m}$.
+**b)** Vi gjør om energien til joule og strekningen til meter: $1\ \mathrm{mil} = 1.0\cdot10^4\ \mathrm{m}$.
 $$
-\frac{3{,}6\cdot10^6\ \mathrm{J}}{10\,000\ \mathrm{m}} = \underline{\underline{360\ \mathrm{J/m}}}
+\frac{3.6\cdot10^6\ \mathrm{J}}{1.0\cdot10^4\ \mathrm{m}} = \underline{\underline{360\ \mathrm{J/m}}}
 $$
 :::
 :::
@@ -111,9 +124,9 @@ Et nytt lyntog mellom Oslo og Trondheim kan holde en gjennomsnittsfart på $320\
 ::: {.losning}
 Fra definisjonen av fart, $v = s/t$, får vi $t = s/v$:
 $$
-t = \frac{500\ \mathrm{km}}{320\ \mathrm{km/h}} = 1{,}5625\ \mathrm{h}
+t = \frac{500\ \mathrm{km}}{320\ \mathrm{km/h}} = 1.5625\ \mathrm{h}
 $$
-$0{,}5625\ \mathrm{h} \cdot 60\ \mathrm{min/h} \approx 34\ \mathrm{min}$, så toget bruker **1 time og 34 minutter**.
+$0.5625\ \mathrm{h} \cdot 60\ \mathrm{min/h} \approx 34\ \mathrm{min}$, så toget bruker **1 time og 34 minutter**.
 :::
 :::
 
@@ -127,7 +140,7 @@ er $[A] = \mathrm{K}$, $[C] = \mathrm{m/s}$ og $[D] = \mathrm{K\,s/m}$. Finn enh
 
 ::: {.losning}
 <!-- tillegg: Claude -->
-Vi bruker regel 1: alle ledd som legges sammen, må ha samme enhet.
+Vi bruker den første regelen: Alle ledd som legges sammen, må ha samme enhet.
 
 - $B$ legges sammen med $A$, så $[B] = [A] = \underline{\underline{\mathrm{K}}}$.
 - $\frac{A+B}{C}$ har enheten $\frac{\mathrm{K}}{\mathrm{m/s}} = \mathrm{K\,s/m}$. Det stemmer med $[D]$, så formelen henger sammen.
@@ -156,6 +169,23 @@ Vi tar utgangspunkt i formelen som definerer hver størrelse.
 **d)** Watt er enheten for **effekt**, som er energi per tid: $\ \mathrm{W} = \mathrm{J/s} = \mathrm{kg\,m^2/s^3}$.
 
 **e)** Hertz er enheten for **frekvens**, antall svingninger per sekund: $\ \mathrm{Hz} = \mathrm{s^{-1}}$.
+:::
+:::
+
+::: {.oppgave tittel="Svingetiden til en pendel" niva="Middels"}
+<!-- tillegg: Claude -->
+Svingetiden $T$ til en pendel kan bare avhenge av snorlengden $L$, massen $m$ og tyngdeakselerasjonen $\mathrm{g}$. Anta at $T = C\,L^a m^b \mathrm{g}^c$, der $C$ er et rent tall. Bruk enhetene til å finne $a$, $b$ og $c$.
+
+::: {.losning}
+Enhetene må være like på begge sider:
+$$
+\mathrm{s} = \mathrm{m}^a\,\mathrm{kg}^b\,(\mathrm{m\,s^{-2}})^c = \mathrm{m}^{a+c}\,\mathrm{kg}^b\,\mathrm{s}^{-2c}
+$$
+Vi sammenligner eksponentene: kilogram gir $b = 0$, sekund gir $-2c = 1$, så $c = -\tfrac12$, og meter gir $a + c = 0$, så $a = \tfrac12$. Dermed
+$$
+\underline{\underline{T = C\sqrt{\frac{L}{\mathrm{g}}}}}
+$$
+Svingetiden avhenger ikke av massen. (En full utledning gir $C = 2\pi$.)
 :::
 :::
 

@@ -4,6 +4,9 @@ emne: rotasjon
 delemne: rulling
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/06-03-kraftmoment-og-rulling) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 ## Kraftmoment og Newtons 2. lov for rotasjon
 
 <!-- fra notatene -->
@@ -15,7 +18,10 @@ $$
 $$
 :::
 
-Her er $\alpha$ i $rF\sin\alpha$ vinkelen mellom $\vec r$ og $\vec F$. Bare den delen av kraften som står vinkelrett på armen, gir dreiing.
+Her er $\vec r$ vektoren fra aksen til punktet der kraften angriper, og $\alpha$ i $rF\sin\alpha$ er vinkelen mellom $\vec r$ og $\vec F$. (Kryssproduktet er forklart under *vektorer*.) Bare den delen av kraften som står vinkelrett på $\vec r$, gir dreiing.
+
+<!-- tillegg: Claude -->
+Det samme kan skrives $\tau = F\,d$, der **armen** $d = r\sin\alpha$ er den vinkelrette avstanden fra aksen til kraftens virkelinje. I planet regner vi kraftmoment mot klokka som positivt og med klokka som negativt. Enheten er $\mathrm{N\,m}$ (ikke joule, selv om enheten er den samme: Kraftmoment er ikke energi).
 
 <!-- tillegg: Claude -->
 Derfor sitter håndtaket på en dør langt fra hengslene, og derfor er det lettere å løsne en mutter med en lang nøkkel.
@@ -56,11 +62,13 @@ Enden av staven får da akselerasjonen $a = L\alpha = \frac32\mathrm{g}$, *stør
 <!-- fra notatene -->
 Et legeme med masse $M$, radius $R$ og treghetsmoment $I$ ruller uten å gli ned et skråplan med helning $\theta$. Vi trenger begge versjonene av Newtons 2. lov:
 
-1. **Langs planet:** $\sum F_x = G\sin\theta - f = Ma_\text{cm}$
-2. **Rotasjon om massesenteret:** bare friksjonen har arm, så $fR = I\alpha$
-3. **Ren rulling:** $a_\text{cm} = R\alpha$, slik at $f = \dfrac{I}{R^2}a_\text{cm}$
+::: {.steg}
+1. **Langs planet** $\sum F_x = G\sin\theta - f = Ma_\text{cm}$
+2. **Rotasjon om massesenteret** Bare friksjonen har arm, så $fR = I\alpha$.
+3. **Ren rulling** $a_\text{cm} = R\alpha$, slik at $f = \dfrac{I}{R^2}a_\text{cm}$.
+:::
 
-Setter vi 3 inn i 1:
+Setter vi den tredje inn i den første:
 $$
 M\mathrm{g}\sin\theta - \frac{I}{R^2}a_\text{cm} = Ma_\text{cm}
 $$
@@ -131,39 +139,39 @@ $$
 **d)** Pedalen er $15\ \mathrm{cm}$ fra navet. Hvor stor kraft må du tråkke med? Er det realistisk?
 
 ::: {.losning}
-**a)** Effekten: $\omega = v/r = (30/3{,}6)/0{,}35\ \mathrm{rad/s} \approx 23{,}8\ \mathrm{rad/s}$, så $P = \tau\omega \approx 1{,}2\ \mathrm{kW}$.
+**a)** Effekten: $\omega = v/r = (30/3.6)/0.35\ \mathrm{rad/s} \approx 23.8\ \mathrm{rad/s}$, så $P = \tau\omega \approx 1.2\ \mathrm{kW}$.
 
-**b)** $75\ \mathrm{kWh}/1{,}2\ \mathrm{kW} \approx 63$ timer.
+**b)** $75\ \mathrm{kWh}/1.2\ \mathrm{kW} \approx 63$ timer.
 
-**c)** Arbeidet per pedalomdreining: $W = \int_0^{2\pi}50\,\mathrm{d}\theta = 2\pi\cdot50\ \mathrm{J} \approx 0{,}31\ \mathrm{kJ}$.
+**c)** Arbeidet per pedalomdreining: $W = \int_0^{2\pi}50\,\mathrm{d}\theta = 2\pi\cdot50\ \mathrm{J} \approx 0.31\ \mathrm{kJ}$.
 
-**d)** $F = \tau/r = 50/0{,}15\ \mathrm{N} \approx 0{,}33\ \mathrm{kN}$, som tilsvarer tyngden av $34\ \mathrm{kg}$. Realistisk?
+**d)** $F = \tau/r = 50/0.15\ \mathrm{N} \approx 0.33\ \mathrm{kN}$, som tilsvarer tyngden av $34\ \mathrm{kg}$. Realistisk?
 :::
 :::
 
 :::: {.oppgaver}
 
 ::: {.oppgave tittel="Kraftmoment"}
-En kraft $F = 400\ \mathrm{N}$ virker i en arm $r = 0{,}5\ \mathrm{m}$, med vinkelen $\theta = 30^\circ$ mellom arm og kraft. Hvor stort er kraftmomentet om punktet?
+En kraft $F = 400\ \mathrm{N}$ virker i avstanden $r = 0.50\ \mathrm{m}$ fra aksen, med vinkelen $\theta = 30^\circ$ mellom arm og kraft. Hvor stort er kraftmomentet om punktet?
 
 ::: {.losning}
-$\tau = rF\sin\theta = 0{,}5\cdot400\cdot\sin30^\circ\ \mathrm{N\,m} = 100\ \mathrm{N\,m}$. Med ett signifikant siffer i armen: $\underline{\underline{0{,}1\ \mathrm{kN\,m}}}$.
+$\tau = rF\sin\theta = 0.50\cdot400\cdot\sin30^\circ\ \mathrm{N\,m} = \underline{\underline{0.10\ \mathrm{kN\,m}}}$
 :::
 :::
 
 ::: {.oppgave tittel="Vinsjen"}
-En vinsj med radius $R = 50\ \mathrm{cm}$ trekker en buss opp fra grøfta med konstant kraft $F = 30\ \mathrm{kN}$. Den snurrer 5 omdreininger med vinkelfart $\omega = 1{,}1\ \mathrm{s^{-1}}$.
+En vinsj med radius $R = 50\ \mathrm{cm}$ trekker en buss opp fra grøfta med konstant kraft $F = 30\ \mathrm{kN}$. Den snurrer 5 omdreininger med vinkelfart $\omega = 1.1\ \mathrm{s^{-1}}$.
 
 a) Hvor stort arbeid gjør vinsjen? b) Hva er effekten?
 
 ::: {.losning}
 **a)** $\tau = FR$ er konstant, og $\Delta\theta = 5\cdot2\pi = 10\pi$:
 $$
-W = \tau\,\Delta\theta = FR\cdot10\pi = 30\cdot10^3\cdot0{,}50\cdot10\pi\ \mathrm{J} \approx \underline{\underline{0{,}47\ \mathrm{MJ}}}
+W = \tau\,\Delta\theta = FR\cdot10\pi = 30\cdot10^3\cdot0.50\cdot10\pi\ \mathrm{J} \approx \underline{\underline{0.47\ \mathrm{MJ}}}
 $$
 Det er det samme som kraft ganger strekning, $F\cdot2\pi R\cdot5$.
 
-**b)** $P = \tau\omega = FR\omega = 30\cdot10^3\cdot0{,}50\cdot1{,}1\ \mathrm{W} \approx \underline{\underline{16\ \mathrm{kW}}}$
+**b)** $P = \tau\omega = FR\omega = 30\cdot10^3\cdot0.50\cdot1.1\ \mathrm{W} \approx \underline{\underline{16\ \mathrm{kW}}}$
 :::
 :::
 
@@ -218,13 +226,42 @@ $$
 v^2 = \frac{10\mathrm{g}h}{7} = \frac{30}{7}\mathrm{g}R \quad\Rightarrow\quad \underline{\underline{v = \sqrt{\tfrac{30}{7}\mathrm{g}R}}}
 $$
 
-**b)** I bunnen: $N - G = mv^2/R = \frac{30}{7}m\mathrm{g}$, så $\underline{\underline{N = \tfrac{37}{7}G}} \approx 5{,}3G$.
+**b)** I bunnen: $N - G = mv^2/R = \frac{30}{7}m\mathrm{g}$, så $\underline{\underline{N = \tfrac{37}{7}G}} \approx 5.3G$.
 
 **c)** På toppen må $N \ge 0$. På grensen er $m\mathrm{g} = mv_3^2/R$, så $v_3^2 = \mathrm{g}R$. Energien fra start til toppen (høyden $\Delta h$ over toppen):
 $$
 m\mathrm{g}\Delta h = \tfrac12 mv_3^2\cdot\tfrac75 = \tfrac{7}{10}m\mathrm{g}R \quad\Rightarrow\quad \Delta h = \tfrac{7}{10}R
 $$
-Toppen er $2R$ over bunnen, så $\underline{\underline{h_\text{min} = 2{,}7R}}$. (For en gli-vogn uten rotasjon var svaret $2{,}5R$: rotasjonen krever litt ekstra energi.)
+Toppen er $2R$ over bunnen, så $\underline{\underline{h_\text{min} = 2.7R}}$. (For en gli-vogn uten rotasjon var svaret $2.5R$: rotasjonen krever litt ekstra energi.)
+:::
+:::
+
+::: {.oppgave tittel="Trekanten som faller" niva="Utfordrende"}
+En likebeint trekant med grunnlinje $2H = 20\ \mathrm{cm}$ og lengde $L = 30\ \mathrm{cm}$ har flatetetthet $\sigma = 1.0\ \mathrm{g/cm^2}$. Massesenteret er $h_\text{cm} = 4.0\ \mathrm{m}$ over bakken.
+
+a) Finn den potensielle energien. (Den potensielle energien til et utstrakt legeme er $m\mathrm{g}h_\text{cm}$, se *massesenter*.)
+
+b) Trekanten slippes fra ro (massesenteret har null fart), men samtidig settes den i rotasjon med $\omega = 2.0\ \mathrm{rad/s}$ om massesenteret. Treghetsmomentet om massesenteret er $I = \frac{m}{36}(L^2 + 4H^2)$. Hvor stor er rotasjonsenergien?
+
+c) Hvor stor er farten til massesenteret etter at det har falt $2.0\ \mathrm{m}$? Endrer rotasjonen seg underveis? Se bort fra luftmotstand.
+
+::: {.losning}
+**a)** Arealet er $A = \frac12\cdot20\cdot30\ \mathrm{cm^2} = 300\ \mathrm{cm^2}$, så $m = \sigma A = 300\ \mathrm{g} = 0.30\ \mathrm{kg}$.
+$$
+E_p = m\mathrm{g}h_\text{cm} = 0.30\cdot9.81\cdot4.0\ \mathrm{J} \approx \underline{\underline{12\ \mathrm{J}}}
+$$
+
+<!-- fra notatene; rettet av Claude: tyngden gir ikke kraftmoment om massesenteret, så rotasjonsenergien kan ikke komme fra høydeenergien -->
+**b)** $L^2 + 4H^2 = 0.09 + 0.04\ \mathrm{m^2} = 0.13\ \mathrm{m^2}$, så $I = \frac{0.30}{36}\cdot0.13\ \mathrm{kg\,m^2} \approx 1.08\cdot10^{-3}\ \mathrm{kg\,m^2}$ og
+$$
+E_\text{rot} = \tfrac12I\omega^2 = \tfrac12\cdot1.08\cdot10^{-3}\cdot2.0^2\ \mathrm{J} \approx \underline{\underline{2.2\ \mathrm{mJ}}}
+$$
+
+**c)** Tyngden virker i massesenteret, så den gir **ikke** noe kraftmoment om massesenteret. Rotasjonen er derfor uendret, $\omega = 2.0\ \mathrm{rad/s}$ hele veien, og rotasjonsenergien får ikke noe av høydeenergien. Massesenteret faller som en punktmasse (se *massesenter*):
+$$
+m\mathrm{g}\Delta h = \tfrac12mv_\text{cm}^2 \quad\Rightarrow\quad v_\text{cm} = \sqrt{2\mathrm{g}\Delta h} = \sqrt{2\cdot9.81\cdot2.0}\ \mathrm{m/s} \approx \underline{\underline{6.3\ \mathrm{m/s}}}
+$$
+Translasjon og rotasjon om massesenteret er uavhengige når tyngden er den eneste kraften.
 :::
 :::
 

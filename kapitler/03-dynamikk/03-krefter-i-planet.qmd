@@ -2,6 +2,7 @@
 title: "Krefter i planet: skråplan og kraftdiagram"
 emne: newtons-lover
 delemne: krefter-i-planet
+aliases: ["02-krefter-i-planet.html"]
 ---
 
 {{< video https://www.youtube.com/watch?v=yUWWR755VEY >}}
@@ -45,7 +46,7 @@ a_x = \mathrm{g}\left(\mu\cos\alpha - \sin\alpha\right)
 $$
 :::
 
-Med $\mu = 0{,}2$ og $\alpha = 30^\circ$ blir $a_x = 9{,}81\,(0{,}2\cos30^\circ - \sin30^\circ)\ \mathrm{m/s^2} \approx -3{,}2\ \mathrm{m/s^2}$. Minus betyr at klossen akselererer *ned* planet.
+Med $\mu = 0.2$ og $\alpha = 30^\circ$ blir $a_x = 9.81\,(0.2\cos30^\circ - \sin30^\circ)\ \mathrm{m/s^2} \approx -3.2\ \mathrm{m/s^2}$. Minus betyr at klossen akselererer *ned* planet.
 
 ::: {.eksempel}
 <!-- fra notatene -->
@@ -61,7 +62,7 @@ Med $\mu = 0{,}2$ og $\alpha = 30^\circ$ blir $a_x = 9{,}81\,(0{,}2\cos30^\circ 
 
 **b)** Loddrett: $\sum F_V = S - G = 0$, så $S = m\mathrm{g}$. Vannrett (positiv retning mot deg): $\sum F_H = -F = ma$.
 
-**c)** Akselerasjonen: $a = -\dfrac{F}{m} = -\dfrac{200\ \mathrm{N}}{30\ \mathrm{kg}} \approx -6{,}7\ \mathrm{m/s^2}$ (bort fra deg).
+**c)** Akselerasjonen: $a = -\dfrac{F}{m} = -\dfrac{200\ \mathrm{N}}{30\ \mathrm{kg}} \approx -6.7\ \mathrm{m/s^2}$ (bort fra deg).
 
 **d)** Motkreftene: sekken slår tilbake på hånda di med $\vec F'$, sekken drar i taket med $\vec S'$, og sekken trekker jorda med $\vec G'$.
 :::
@@ -83,7 +84,7 @@ $$
 S_H = \frac{\cos\alpha}{\sin(\alpha + \beta)}M\mathrm{g}, \qquad S_V = \frac{\cos\beta}{\sin(\alpha + \beta)}M\mathrm{g}
 $$
 
-**4.** Med tall: $S_H \approx 5{,}1\cdot10^2\ \mathrm{N}$ og $S_V \approx 3{,}5\cdot10^2\ \mathrm{N}$. Den brattere armen (høyre) bærer mest.
+**4.** Med tall: $S_H \approx 5.1\cdot10^2\ \mathrm{N}$ og $S_V \approx 3.5\cdot10^2\ \mathrm{N}$. Den brattere armen (høyre) bærer mest.
 :::
 :::
 
@@ -106,7 +107,7 @@ $$
 
 **b)** Når $\theta \to 0$ går $\sin\theta \to 0$ og $S \to \infty$. Et tau kan aldri strammes helt vannrett med en vekt i: det krever uendelig stort drag.
 
-**c)** $S = \dfrac{50\cdot9{,}81}{2\cdot0{,}5}\ \mathrm{N} \approx \underline{\underline{0{,}49\ \mathrm{kN}}}$
+**c)** $S = \dfrac{50\cdot9.81}{2\cdot0.5}\ \mathrm{N} \approx \underline{\underline{0.49\ \mathrm{kN}}}$
 :::
 :::
 
@@ -133,7 +134,7 @@ $$
 :::
 
 ::: {.oppgave tittel="Bråbrems" niva="Middels"}
-En bil med $m = 1500\ \mathrm{kg}$ kjører i $v_0 = 80\ \mathrm{km/h}$ og bråbremser. Med ABS-bremser virker maksimal hvilefriksjon hele tiden, med $\mu_s = 0{,}80$.
+En bil med $m = 1500\ \mathrm{kg}$ kjører i $v_0 = 80\ \mathrm{km/h}$ og bråbremser. Med ABS-bremser virker maksimal hvilefriksjon hele tiden, med $\mu_s = 0.80$.
 
 a) Hvor lang bremsestrekning $s$ trenger bilen på flat vei?
 
@@ -145,18 +146,18 @@ c) Hvor lang bremsestrekning trenger bilen fra $80\ \mathrm{km/h}$ nedover en ba
 <!-- fra notatene -->
 **a)** Loddrett: $N = m\mathrm{g}$. Vannrett: $-f_s = ma$, så $-\mu_s m\mathrm{g} = ma$ og $a = -\mu_s\mathrm{g}$, som er konstant. Da bruker vi $2as = v^2 - v_0^2$ med $v = 0$:
 $$
-s = \frac{v_0^2}{2\mu_s\mathrm{g}} = \frac{(80/3{,}6\ \mathrm{m/s})^2}{2\cdot0{,}80\cdot9{,}81\ \mathrm{m/s^2}} \approx \underline{\underline{31\ \mathrm{m}}}
+s = \frac{v_0^2}{2\mu_s\mathrm{g}} = \frac{(80/3.6\ \mathrm{m/s})^2}{2\cdot0.80\cdot9.81\ \mathrm{m/s^2}} \approx \underline{\underline{31\ \mathrm{m}}}
 $$
 
-**b)** Med $v_0 = 90/3{,}6\ \mathrm{m/s} = 25\ \mathrm{m/s}$ og samme $s$:
+**b)** Med $v_0 = 90/3.6\ \mathrm{m/s} = 25\ \mathrm{m/s}$ og samme $s$:
 $$
-v = \sqrt{v_0^2 - 2\mu_s\mathrm{g}s} \approx 11{,}4\ \mathrm{m/s} \approx \underline{\underline{41\ \mathrm{km/h}}}
+v = \sqrt{v_0^2 - 2\mu_s\mathrm{g}s} \approx 11.4\ \mathrm{m/s} \approx \underline{\underline{41\ \mathrm{km/h}}}
 $$
 Litt høyere startfart gir altså stor fart i hindringen.
 
-**c)** 15 % stigning betyr $0{,}15\ \mathrm{m}$ opp per meter vannrett: $\alpha = \arctan0{,}15 \approx 8{,}5^\circ$. Nedover bakken blir oppbremsingen $a = -\mathrm{g}(\mu_s\cos\alpha - \sin\alpha)$, så
+**c)** 15 % stigning betyr $0.15\ \mathrm{m}$ opp per meter vannrett: $\alpha = \arctan0.15 \approx 8.5^\circ$. Nedover bakken blir oppbremsingen $a = -\mathrm{g}(\mu_s\cos\alpha - \sin\alpha)$, så
 $$
-s = \frac{v_0^2}{2\mathrm{g}(\mu_s\cos\alpha - \sin\alpha)} = \frac{(80/3{,}6)^2}{2\cdot9{,}81\,(0{,}80\cos8{,}5^\circ - \sin8{,}5^\circ)}\ \mathrm{m} \approx \underline{\underline{39\ \mathrm{m}}}
+s = \frac{v_0^2}{2\mathrm{g}(\mu_s\cos\alpha - \sin\alpha)} = \frac{(80/3.6)^2}{2\cdot9.81\,(0.80\cos8.5^\circ - \sin8.5^\circ)}\ \mathrm{m} \approx \underline{\underline{39\ \mathrm{m}}}
 $$
 :::
 :::

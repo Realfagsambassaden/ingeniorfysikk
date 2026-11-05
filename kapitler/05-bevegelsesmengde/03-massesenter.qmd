@@ -1,0 +1,176 @@
+---
+title: "Massesenter og systemer av legemer"
+emne: statikk
+delemne: massesenter
+---
+
+<!-- video: kommer (videoer/ingeniorfysikk/05-03-massesenter) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
+<!-- tillegg: Claude -->
+Kaster du en hammer, snurrer den på en komplisert måte. Likevel følger ett punkt i hammeren en helt vanlig kasteparabel, som om hele hammeren var en punktmasse. Det punktet er **massesenteret**. Det gjør at alt vi har lært om punktmasser, også gjelder for store legemer og for systemer av mange legemer.
+
+## Definisjon
+
+<!-- fra notatene -->
+Massesenteret er et *vektet gjennomsnitt* av posisjonene, der hver posisjon teller like mye som massen som er der. For massene $m_1, m_2, \ldots$ i posisjonene $x_1, x_2, \ldots$ med samlet masse $M = \sum m_i$:
+
+::: {.graa}
+$$
+x_\text{cm} = \frac{\sum m_ix_i}{M} \;\xrightarrow{\text{kontinuerlig}}\; x_\text{cm} = \frac{\int x\,\mathrm{d}m}{\int\mathrm{d}m}, \qquad y_\text{cm} = \frac{\int y\,\mathrm{d}m}{\int\mathrm{d}m}, \qquad z_\text{cm} = \frac{\int z\,\mathrm{d}m}{\int\mathrm{d}m}
+$$
+:::
+
+På vektorform er $\vec r_\text{cm} = \frac{1}{M}\sum m_i\vec r_i$. Har legemet en symmetri, ligger massesenteret på symmetriaksen: midt i en homogen stav, i sentrum av en kule eller en ring.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Jorda og månen.** Jorda har masse $5.97\cdot10^{24}\ \mathrm{kg}$ og månen $7.35\cdot10^{22}\ \mathrm{kg}$. Avstanden mellom sentrene er $3.84\cdot10^{8}\ \mathrm{m}$. Hvor ligger massesenteret?
+
+::: {.losning}
+Origo i jordas sentrum, $x$-aksen mot månen:
+$$
+x_\text{cm} = \frac{m_J\cdot0 + m_M\cdot d}{m_J + m_M} = \frac{7.35\cdot10^{22}\cdot3.84\cdot10^{8}}{6.04\cdot10^{24}}\ \mathrm{m} \approx \underline{\underline{4.67\cdot10^{6}\ \mathrm{m}}}
+$$
+Det er inne i jorda, omtrent $1700\ \mathrm{km}$ under overflaten (jordradien er $6370\ \mathrm{km}$). Både jorda og månen går rundt dette punktet.
+:::
+:::
+
+::: {.eksempel}
+<!-- fra notatene -->
+**Eksempel: Massesenteret til en trekant.** En likebeint trekant har grunnlinjen $2H$ langs $y$-aksen (ved $x = 0$) og spissen i $x = L$. Flatetettheten (masse per areal) er $\sigma$.
+
+Hvor ligger massesenteret?
+
+::: {.losning}
+En smal stripe i avstand $x$ har høyde $2y(x) = 2\left(H - \frac{H}{L}x\right)$ og bredde $\mathrm{d}x$, så
+$$
+\mathrm{d}m = 2\sigma\left(H - \tfrac{H}{L}x\right)\mathrm{d}x
+$$
+$$
+\int_0^L x\,\mathrm{d}m = 2\sigma H\left[\frac{x^2}{2} - \frac{x^3}{3L}\right]_0^L = \frac{\sigma HL^2}{3}, \qquad M = \int_0^L\mathrm{d}m = \sigma HL
+$$
+$$
+x_\text{cm} = \frac{\sigma HL^2/3}{\sigma HL} = \frac{L}{3}, \qquad y_\text{cm} = 0 \ \text{(symmetri)}
+$$
+Massesenteret ligger en tredjedel av veien fra grunnlinjen mot spissen.
+:::
+:::
+
+## Massesenteret beveger seg som en punktmasse
+
+<!-- tillegg: Claude -->
+Deriverer vi definisjonen med hensyn på tiden, får vi massesenterets hastighet:
+$$
+M\vec v_\text{cm} = \sum m_i\vec v_i = \vec p_\text{tot}
+$$
+Den totale bevegelsesmengden til et system er altså den samlede massen ganger massesenterets hastighet. Deriverer vi en gang til og bruker Newtons 2. lov på hver del, faller alle de indre kreftene bort (de kommer i par etter Newtons 3. lov):
+
+::: {.graa}
+$$
+\sum\vec F_\text{ytre} = M\vec a_\text{cm}
+$$
+:::
+
+::: {.kort}
+- **Hammeren i lufta** Den eneste ytre kraften er tyngden, så massesenteret følger en kasteparabel, uansett hvordan hammeren snurrer.
+- **Fyrverkeriraketten** Eksploderer den i lufta, fortsetter massesenteret til bitene langs den samme parabelen, helt til den første biten treffer bakken.
+- **Ingen ytre krefter** Da er $\vec v_\text{cm}$ konstant. Det er en annen måte å si at bevegelsesmengden er bevart.
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Gå i en båt.** En person på $70\ \mathrm{kg}$ står i den ene enden av en $4.0\ \mathrm{m}$ lang båt på $130\ \mathrm{kg}$, som ligger i ro. Personen går til den andre enden. Hvor langt flytter båten seg? Se bort fra vannmotstanden.
+
+::: {.losning}
+Vannrett virker ingen ytre krefter, og alt starter i ro. Da står massesenteret stille. Personen flytter seg $\Delta x_p$ og båten $\Delta x_b$ i forhold til vannet, og
+$$
+70\,\Delta x_p + 130\,\Delta x_b = 0
+$$
+Personen går $4.0\ \mathrm{m}$ i forhold til båten: $\Delta x_p - \Delta x_b = 4.0\ \mathrm{m}$. Setter vi $\Delta x_p = 4.0 + \Delta x_b$ inn:
+$$
+70\,(4.0 + \Delta x_b) + 130\,\Delta x_b = 0 \quad\Rightarrow\quad \Delta x_b = -\frac{280}{200}\ \mathrm{m} = \underline{\underline{-1.4\ \mathrm{m}}}
+$$
+Båten flytter seg $1.4\ \mathrm{m}$ motsatt vei, og personen $2.6\ \mathrm{m}$ framover i forhold til vannet.
+:::
+:::
+
+## Potensiell energi for et utstrakt legeme
+
+<!-- fra notatene -->
+Hvert masse-element har potensiell energi $\mathrm{d}U = \mathrm{g}y\,\mathrm{d}m$. Totalt:
+$$
+U = \int\mathrm{g}y\,\mathrm{d}m = \mathrm{g}\int y\,\mathrm{d}m = M\mathrm{g}y_\text{cm}
+$$
+
+::: {.graa}
+Vi kan regne ut potensiell energi **som om all massen var samlet i massesenteret**: $U = M\mathrm{g}h_\text{cm}$.
+:::
+
+Det samme gjelder tyngden: Den virker som om den angriper i massesenteret. Derfor kalles det også **tyngdepunktet**. Det bruker vi under *rotasjon* og *statisk likevekt*.
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Tre masser"}
+<!-- tillegg: Claude -->
+Tre punktmasser ligger i $xy$-planet: $2.0\ \mathrm{kg}$ i $[0,\ 0]$, $1.0\ \mathrm{kg}$ i $[3.0,\ 0]\ \mathrm{m}$ og $3.0\ \mathrm{kg}$ i $[1.0,\ 2.0]\ \mathrm{m}$. Finn massesenteret.
+
+::: {.losning}
+$M = 6.0\ \mathrm{kg}$.
+$$
+x_\text{cm} = \frac{2.0\cdot0 + 1.0\cdot3.0 + 3.0\cdot1.0}{6.0}\ \mathrm{m} = 1.0\ \mathrm{m}, \qquad y_\text{cm} = \frac{0 + 0 + 3.0\cdot2.0}{6.0}\ \mathrm{m} = 1.0\ \mathrm{m}
+$$
+$\vec r_\text{cm} = \underline{\underline{[1.0,\ 1.0]\ \mathrm{m}}}$
+:::
+:::
+
+::: {.oppgave tittel="L-formet plate" niva="Middels"}
+<!-- tillegg: Claude -->
+En tynn, homogen plate har form som en L: et rektangel $0 \le x \le 4$, $0 \le y \le 1$ (i dm) og et rektangel $0 \le x \le 1$, $1 \le y \le 3$. Finn massesenteret.
+
+::: {.losning}
+Del platen i to rektangler. Massen er proporsjonal med arealet, så vi kan bruke arealene som «masser»:
+
+- Rektangel 1: areal $4$, massesenter $[2,\ 0.5]$.
+- Rektangel 2: areal $2$, massesenter $[0.5,\ 2]$.
+
+$$
+x_\text{cm} = \frac{4\cdot2 + 2\cdot0.5}{6}\ \mathrm{dm} = 1.5\ \mathrm{dm}, \qquad y_\text{cm} = \frac{4\cdot0.5 + 2\cdot2}{6}\ \mathrm{dm} = 1.0\ \mathrm{dm}
+$$
+$\vec r_\text{cm} = \underline{\underline{[1.5,\ 1.0]\ \mathrm{dm}}}$. Legg merke til at punktet ligger *utenfor* platen, i hjørnet av L-en. Massesenteret trenger ikke ligge i selve legemet.
+:::
+:::
+
+::: {.oppgave tittel="Massesenteret til en stav med varierende tetthet" niva="Middels"}
+<!-- tillegg: Claude -->
+En stav med lengde $L$ ligger langs $x$-aksen fra $0$ til $L$. Massen per lengde øker lineært: $\lambda(x) = \lambda_0\,x/L$. Finn massen og massesenteret.
+
+::: {.losning}
+Med $\mathrm{d}m = \lambda\,\mathrm{d}x$:
+$$
+M = \int_0^L\frac{\lambda_0x}{L}\,\mathrm{d}x = \frac{\lambda_0L}{2}, \qquad \int_0^Lx\,\mathrm{d}m = \int_0^L\frac{\lambda_0x^2}{L}\,\mathrm{d}x = \frac{\lambda_0L^2}{3}
+$$
+$$
+x_\text{cm} = \frac{\lambda_0L^2/3}{\lambda_0L/2} = \underline{\underline{\tfrac23L}}
+$$
+Massesenteret ligger nærmere den tunge enden, som ventet.
+:::
+:::
+
+::: {.oppgave tittel="Eksplosjonen" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En granat skytes ut med $v_0 = 40\ \mathrm{m/s}$ i $60^\circ$ vinkel. På toppen av banen sprenges den i to like store deler. Den ene delen faller rett ned (farten er null rett etter eksplosjonen). Hvor langt fra utskytingsstedet lander den andre delen? Se bort fra luftmotstand.
+
+::: {.losning}
+Massesenteret følger banen granaten ville hatt uten eksplosjon, og lander i
+$$
+x_\text{cm} = \frac{v_0^2}{\mathrm{g}}\sin120^\circ = \frac{1600}{9.81}\cdot0.866\ \mathrm{m} \approx 141\ \mathrm{m}
+$$
+Toppen ligger midt på banen, i $x = 70.6\ \mathrm{m}$, og der lander del 1. Begge delene faller fra samme høyde og lander samtidig. Da er massesenteret midt mellom dem:
+$$
+x_\text{cm} = \frac{x_1 + x_2}{2} \quad\Rightarrow\quad x_2 = 2x_\text{cm} - x_1 = 2\cdot141 - 70.6\ \mathrm{m} \approx \underline{\underline{212\ \mathrm{m}}}
+$$
+:::
+:::
+
+::::

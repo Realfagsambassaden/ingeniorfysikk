@@ -4,8 +4,11 @@ emne: kinematikk
 delemne: to-dimensjoner
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/02-03-skratt-kast) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- fra notatene -->
-Når noe beveger seg i et plan, for eksempel en ball som kastes, er banen krum. Da bruker vi vektorer. Trikset er å **dekomponere**: vi deler bevegelsen i en $x$-del og en $y$-del og behandler dem hver for seg.
+Når noe beveger seg i et plan, for eksempel en ball som kastes, er banen krum. Da bruker vi vektorer. Trikset er å **dekomponere**: Vi deler bevegelsen i en $x$-del og en $y$-del og behandler dem hver for seg.
 $$
 \vec s(t) = [x(t),\ y(t)], \qquad \vec v(t) = [x'(t),\ y'(t)], \qquad \vec a(t) = [x''(t),\ y''(t)]
 $$
@@ -21,19 +24,21 @@ Er akselerasjonen konstant, gjelder bevegelseslikningene i hver retning for seg:
 | $v_x = v_{0x} + a_x t$ | $v_y = v_{0y} + a_y t$ |
 :::
 
+Tiden $t$ er den samme i begge retninger. Det er den som binder de to bevegelsene sammen.
+
 ## Skrått kast
 
 <!-- tillegg: Claude -->
-Uten luftmotstand er tyngdekraften den eneste kraften. Den virker bare loddrett. Med $x$-aksen vannrett og $y$-aksen oppover blir
+Uten luftmotstand har et kastet legeme bare tyngdeakselerasjonen, og den peker rett ned. Med $x$-aksen vannrett og $y$-aksen oppover blir
 $$
 a_x = 0, \qquad a_y = -\mathrm{g}
 $$
-Det betyr:
 
+::: {.kort}
 - **Vannrett** går legemet med *konstant fart*: $v_x = v_{0x}$ hele tiden.
 - **Loddrett** er det fritt fall med startfart $v_{0y}$.
-
-De to bevegelsene påvirker ikke hverandre. Det kalles **uavhengighetsprinsippet**.
+- **Uavhengige** De to bevegelsene påvirker ikke hverandre. Det kalles uavhengighetsprinsippet.
+:::
 
 ![](../../bilder/skratt-kast.svg){.tikz-fig style="width:520px"}
 
@@ -42,13 +47,15 @@ Startfarten dekomponeres som en vanlig vektor: $v_{0x} = v_0\cos\theta$ og $v_{0
 ## Fire steg som alltid virker
 
 <!-- fra notatene -->
+::: {.steg}
 1. **Dekomponer** bevegelseslikningene i $x$- og $y$-retning. Skriv opp hva du vet ($a_x = 0$, $a_y = -\mathrm{g}$, startfarter).
 2. **Finn tiden** fra den retningen der du har nok opplysninger, som oftest $y$-retningen.
 3. **Bruk tiden** i den andre retningen.
 4. **Sett sammen** og løs.
+:::
 
 ::: {.eksempel}
-**Eksempel: Stuperen.** En stuper hopper vannrett ut fra en klippe. Et utspring med bredde $d = 1{,}75\ \mathrm{m}$ ligger $h = 9{,}00\ \mathrm{m}$ under toppen. Hvor stor vannrett fart $v_0$ må stuperen minst ha for å komme klar av utspringet?
+**Eksempel: Stuperen.** En stuper hopper vannrett ut fra en klippe. Et utspring med bredde $d = 1.75\ \mathrm{m}$ ligger $h = 9.00\ \mathrm{m}$ under toppen. Hvor stor vannrett fart $v_0$ må stuperen minst ha for å komme klar av utspringet?
 
 ![](../../bilder/stuper.svg){.tikz-fig style="width:230px"}
 
@@ -64,11 +71,11 @@ $$
 -h = -\tfrac12 \mathrm{g} T^2 \quad\Rightarrow\quad T = \sqrt{\frac{2h}{\mathrm{g}}}
 $$
 
-**3. Finn farten fra $x$-retningen.** På tiden $T$ må stuperen ha kommet minst $d$ ut: $d = v_0 T$, så $v_0 = d/T$.
+**3. Bruk tiden i $x$-retningen.** På tiden $T$ må stuperen ha kommet minst $d$ ut: $d = v_0 T$, så $v_0 = d/T$.
 
 **4. Sett sammen:**
 $$
-v_0 = \frac{d}{\sqrt{2h/\mathrm{g}}} = \frac{1{,}75\ \mathrm{m}}{\sqrt{2\cdot9{,}00\ \mathrm{m}/9{,}81\ \mathrm{m/s^2}}} \approx \underline{\underline{1{,}3\ \mathrm{m/s}}}
+v_0 = \frac{d}{\sqrt{2h/\mathrm{g}}} = \frac{1.75\ \mathrm{m}}{\sqrt{2\cdot9.00\ \mathrm{m}/9.81\ \mathrm{m/s^2}}} \approx \underline{\underline{1.29\ \mathrm{m/s}}}
 $$
 :::
 :::
@@ -91,49 +98,77 @@ Dette er likningen for **banen**: en parabel. Lander legemet på samme høyde so
 $$
 x = \frac{2v_0^2}{\mathrm{g}}\sin\theta\cos\theta = \frac{v_0^2}{\mathrm{g}}\sin 2\theta
 $$
-Den er størst når $\sin 2\theta = 1$:
+Her har vi brukt $2\sin\theta\cos\theta = \sin2\theta$. Kastlengden er størst når $\sin 2\theta = 1$:
 
 ::: {.graa}
-På flat mark gir $\theta = 45^\circ$ lengst kast (uten luftmotstand).
+På flat mark gir $\theta = 45^\circ$ lengst kast (uten luftmotstand). To vinkler som til sammen gir $90^\circ$, for eksempel $30^\circ$ og $60^\circ$, gir like langt kast.
 :::
+
+<!-- tillegg: Claude -->
+**Toppunktet.** På toppen er $v_y = v_0\sin\theta - \mathrm{g}t = 0$, så stigetiden er $t_\text{topp} = v_0\sin\theta/\mathrm{g}$, og høyden er
+$$
+h_\text{maks} = \frac{(v_0\sin\theta)^2}{2\mathrm{g}}
+$$
+Den siste finner du også fra $2a_ys = v_y^2 - v_{0y}^2$ med $v_y = 0$.
 
 :::: {.oppgaver}
 
 ::: {.oppgave tittel="Finn startfarten"}
-En ball ruller utfor en bordkant $0{,}80\ \mathrm{m}$ over gulvet og treffer gulvet $0{,}85\ \mathrm{m}$ fra bordkanten (målt vannrett). Hvor stor fart hadde ballen da den forlot bordet?
+En ball ruller utfor en bordkant $0.80\ \mathrm{m}$ over gulvet og treffer gulvet $0.85\ \mathrm{m}$ fra bordkanten (målt vannrett). Hvor stor fart hadde ballen da den forlot bordet?
 
 ::: {.losning}
 <!-- fra notatene -->
-**1.** Ved $t = 0$ er $v_{0y} = 0$ og $\vec v_0 = v_{0x}\,\hat x$. Akselerasjonen er $a_y = -\mathrm{g}$ og $a_x = 0$.
+**1.** Ved $t = 0$ er $v_{0y} = 0$ og $\vec v_0 = v_{0x}\,\hat x$. Akselerasjonen er $a_y = -\mathrm{g}$ og $a_x = 0$. Origo legger vi på gulvet rett under bordkanten, så $y_0 = 0.80\ \mathrm{m}$.
 
 **2.** Vi finner tiden $t^*$ til ballen treffer gulvet ($y = 0$) fra $y = y_0 + v_{0y}t + \frac12 a_y t^2$ med $v_{0y} = 0$:
 $$
-t^* = \sqrt{\frac{2(y - y_0)}{a_y}} = \sqrt{\frac{2(0 - 0{,}80\ \mathrm{m})}{-9{,}81\ \mathrm{m/s^2}}} \approx 0{,}404\ \mathrm{s}
+t^* = \sqrt{\frac{2(y - y_0)}{a_y}} = \sqrt{\frac{2(0 - 0.80\ \mathrm{m})}{-9.81\ \mathrm{m/s^2}}} \approx 0.404\ \mathrm{s}
 $$
 
 **3.** I $x$-retning er farten konstant, så $v_{0x} = x^*/t^*$:
 $$
-v_{0x} = \frac{0{,}85\ \mathrm{m}}{0{,}404\ \mathrm{s}} \approx 2{,}1\ \mathrm{m/s}
+v_{0x} = \frac{0.85\ \mathrm{m}}{0.404\ \mathrm{s}} \approx 2.1\ \mathrm{m/s}
 $$
 
-**4.** Startfarten er $v_0 = v_{0x} \approx \underline{\underline{2{,}1\ \mathrm{m/s}}}$.
+**4.** Startfarten er $v_0 = v_{0x} \approx \underline{\underline{2.1\ \mathrm{m/s}}}$.
 :::
 :::
 
 ::: {.oppgave tittel="Hvor fort treffer stuperen vannet?"}
-Hvor stor er den totale farten til stuperen i eksempelet over idet hun treffer vannet ved foten av utspringet?
+Hvor stor er den totale farten til stuperen i eksempelet over idet hun treffer vannet ved foten av utspringet, $9.00\ \mathrm{m}$ under toppen?
 
 ::: {.losning}
 <!-- tillegg: Claude -->
-Vannrett er farten fortsatt $v_x = v_0 \approx 1{,}29\ \mathrm{m/s}$. Loddrett har stuperen falt i tiden $T = \sqrt{2h/\mathrm{g}} \approx 1{,}35\ \mathrm{s}$, så
+Vannrett er farten fortsatt $v_x = v_0 \approx 1.29\ \mathrm{m/s}$. Loddrett har stuperen falt i tiden $T = \sqrt{2h/\mathrm{g}} \approx 1.35\ \mathrm{s}$, så
 $$
-v_y = -\mathrm{g}T \approx -13{,}3\ \mathrm{m/s}
+v_y = -\mathrm{g}T \approx -13.3\ \mathrm{m/s}
 $$
 Den totale farten er lengden av hastighetsvektoren:
 $$
-v = \sqrt{v_x^2 + v_y^2} = \sqrt{1{,}29^2 + 13{,}3^2}\ \mathrm{m/s} \approx \underline{\underline{13\ \mathrm{m/s}}}
+v = \sqrt{v_x^2 + v_y^2} = \sqrt{1.29^2 + 13.3^2}\ \mathrm{m/s} \approx \underline{\underline{13.4\ \mathrm{m/s}}}
 $$
 Nesten all farten er loddrett.
+:::
+:::
+
+::: {.oppgave tittel="Fotballsparket"}
+<!-- tillegg: Claude -->
+En fotball sparkes fra bakken med $v_0 = 20\ \mathrm{m/s}$ i $35^\circ$ vinkel. Se bort fra luftmotstand.
+
+a) Hvor høyt går ballen?
+
+b) Hvor lang tid er den i lufta, og hvor langt går den?
+
+::: {.losning}
+Startfarten dekomponeres: $v_{0x} = 20\cos35^\circ\ \mathrm{m/s} = 16.4\ \mathrm{m/s}$ og $v_{0y} = 20\sin35^\circ\ \mathrm{m/s} = 11.5\ \mathrm{m/s}$.
+
+**a)** $h_\text{maks} = \dfrac{v_{0y}^2}{2\mathrm{g}} = \dfrac{11.5^2}{2\cdot9.81}\ \mathrm{m} \approx \underline{\underline{6.7\ \mathrm{m}}}$
+
+**b)** Ballen lander når $y = 0$: $t = 2v_{0y}/\mathrm{g} = 2\cdot11.5/9.81\ \mathrm{s} \approx \underline{\underline{2.3\ \mathrm{s}}}$. Lengden er
+$$
+x = v_{0x}t = 16.4\ \mathrm{m/s}\cdot2.34\ \mathrm{s} \approx \underline{\underline{38\ \mathrm{m}}}
+$$
+Sjekk med formelen: $\frac{v_0^2}{\mathrm{g}}\sin70^\circ = \frac{400}{9.81}\cdot0.940\ \mathrm{m} \approx 38\ \mathrm{m}$. ✓
 :::
 :::
 
@@ -150,16 +185,17 @@ To kanoner med munning i samme punkt på bakken avfyres samtidig. De skyter kule
 <!-- fra notatene -->
 **Tiden:** Begge har samme loddrette akselerasjon $\mathrm{g}$. Fra $y(t) = v_{0y}t - \frac12\mathrm{g}t^2 = 0$ får vi $t = 2v_{0y}/\mathrm{g}$. Den grønne har størst $v_{0y}$, går høyest og er lengst i lufta. Den blå treffer først: **B** er riktig.
 
-**Farten:** Uten luftmotstand er energien bevart. Begge starter på samme høyde med samme fart, og lander på samme høyde. Da er
+<!-- tillegg: Claude -->
+**Farten:** Når en kule lander, er $t = 2v_{0y}/\mathrm{g}$, så $v_y = v_{0y} - \mathrm{g}t = -v_{0y}$. Den loddrette farten har samme størrelse som ved start, bare motsatt retning. Den vannrette er uendret. Da er
 $$
-\tfrac12 m v_1^2 = \tfrac12 m v_2^2 \quad\Rightarrow\quad v_1 = v_2
+v_\text{slutt} = \sqrt{v_{0x}^2 + v_{0y}^2} = v_0
 $$
-**E** er riktig. Riktige påstander: **B og E**.
+for begge kulene. **E** er riktig. Riktige påstander: **B og E**. (Under *arbeid og energi* ser vi en raskere grunn: Uten luftmotstand er energien bevart.)
 :::
 :::
 
 ::: {.oppgave tittel="Fjærkanon: finn vinkelen med Python" niva="Utfordrende"}
-En fjærkanon skyter en kule med startfart $v_0 = 4{,}0\ \mathrm{m/s}$ mot en blink som ligger $x = 1{,}5\ \mathrm{m}$ unna vannrett og $0{,}40\ \mathrm{m}$ *under* munningen ($y = -0{,}40\ \mathrm{m}$, med $y$ positiv oppover).
+En fjærkanon skyter en kule med startfart $v_0 = 4.0\ \mathrm{m/s}$ mot en blink som ligger $x = 1.5\ \mathrm{m}$ unna vannrett og $0.40\ \mathrm{m}$ *under* munningen ($y = -0.40\ \mathrm{m}$, med $y$ positiv oppover).
 
 a) Skriv kravet om at kula treffer blinken som en likning $f(\alpha) = 0$ for utskytingsvinkelen $\alpha$.
 

@@ -18,6 +18,7 @@ Hittil har vi behandlet alt som **punktmasser**: hele legemet samlet i ett punkt
 | bevegelsesmengde $\vec p = m\vec v$ | dreieimpuls $\vec L = I\vec\omega$ |
 | $E_K = \frac12 mv^2$ | $E_K = \frac12 I\omega^2$ |
 | $P = Fv$ | $P = \tau\omega$ |
+| likevekt: $\sum\vec F = \vec 0$ | likevekt: $\sum\vec\tau = \vec 0$ |
 :::
 
-Tilsvarer kapittel 10 og 11.1 i OpenStax *University Physics*.
+Tilsvarende stoff finnes i OpenStax *University Physics*, bind 1, kapittel 10, 11 og 12.

@@ -4,6 +4,9 @@ emne: bevegelsesmengde
 delemne: kollisjoner
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/05-02-bevaring-og-kollisjoner) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 ## Loven om bevaring av bevegelsesmengde
 
 <!-- fra notatene -->
@@ -26,7 +29,7 @@ Krefter *mellom* delene av systemet (indre krefter) kommer i par etter Newtons 3
 ::: {.losning}
 Ingen ytre krefter, så $p_\text{før} = p_\text{etter}$:
 $$
-0 = m_Ev_E + m_Av_A \quad\Rightarrow\quad v_A = -\frac{m_E}{m_A}v_E = -\frac{0{,}200}{100}\cdot10\ \mathrm{m/s} = -0{,}02\ \mathrm{m/s}
+0 = m_Ev_E + m_Av_A \quad\Rightarrow\quad v_A = -\frac{m_E}{m_A}v_E = -\frac{0.200}{100}\cdot10\ \mathrm{m/s} = -0.02\ \mathrm{m/s}
 $$
 Astronauten glir sakte motsatt vei. Det er akkurat slik en **rakett** kan bevege seg i tomt rom: den skyter ut eksos bakover og får bevegelsesmengde framover.
 :::
@@ -34,11 +37,9 @@ Astronauten glir sakte motsatt vei. Det er akkurat slik en **rakett** kan bevege
 
 ## Tre typer støt
 
-::: {.graa}
-- **Elastisk støt:** bevegelsesmengden *og* den kinetiske energien er bevart.
-- **Uelastisk støt:** bevegelsesmengden er bevart, men noe kinetisk energi går til varme, lyd og deformasjon.
-- **Fullstendig uelastisk støt:** legemene henger sammen etterpå. Her tapes mest kinetisk energi.
-:::
+![](../../bilder/stottyper.svg){.tikz-fig style="width:620px"}
+
+I alle tre typene er bevegelsesmengden bevart. Forskjellen er hvor mye kinetisk energi som går over til varme, lyd og deformasjon: ingenting i et **elastisk** støt, noe i et **uelastisk** støt, og mest mulig i et **fullstendig uelastisk** støt, der legemene henger sammen etterpå.
 
 <!-- fra notatene -->
 Oversikten: Newtons 2. lov, $\sum\vec F_\text{ytre} = \mathrm{d}\vec p/\mathrm{d}t$. Er $\sum\vec F_\text{ytre} = \vec 0$, er bevegelsesmengden bevart. Er i tillegg kinetisk energi bevart, er støtet elastisk.
@@ -73,11 +74,14 @@ $$
 **Lik masse** ($m_1 = m_2$): $v_2 = 0$ og $U = v_1$. Den første vogna stopper helt, og den andre overtar all farten. Det ser du på biljardbordet!
 
 <!-- tillegg: Claude -->
-**Tung mot lett** ($m_1 \gg m_2$): $v_2 \approx v_1$ og $U \approx 2v_1$. **Lett mot tung** ($m_1 \ll m_2$): $v_2 \approx -v_1$, den lette spretter tilbake, og $U \approx 0$.
+::: {.kort}
+- **Tung mot lett** ($m_1 \gg m_2$): $v_2 \approx v_1$ og $U \approx 2v_1$. Den tunge merker nesten ikke støtet.
+- **Lett mot tung** ($m_1 \ll m_2$): $v_2 \approx -v_1$, den lette spretter tilbake, og $U \approx 0$.
+:::
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Ball i vogn (fullstendig uelastisk).** En ball ($m = 1{,}0\ \mathrm{kg}$) kastes med $v = 20\ \mathrm{m/s}$ inn i en vogn ($M = 10\ \mathrm{kg}$) som står i ro. Ballen blir liggende i en pute i vogna.
+**Eksempel: Ball i vogn (fullstendig uelastisk).** En ball ($m = 1.0\ \mathrm{kg}$) kastes med $v = 20\ \mathrm{m/s}$ inn i en vogn ($M = 10\ \mathrm{kg}$) som står i ro. Ballen blir liggende i en pute i vogna.
 
 **1.** Hvor fort beveger vogna seg etterpå?\
 **2.** Er energien bevart?
@@ -85,10 +89,48 @@ $$
 ::: {.losning}
 **1.** Ingen ytre krefter vannrett, så bevegelsesmengden er bevart:
 $$
-mv + M\cdot0 = (m + M)V_E \quad\Rightarrow\quad V_E = \frac{m}{m + M}v = \frac{1}{11}\cdot20\ \mathrm{m/s} \approx 1{,}8\ \mathrm{m/s}
+mv + M\cdot0 = (m + M)V_E \quad\Rightarrow\quad V_E = \frac{m}{m + M}v = \frac{1}{11}\cdot20\ \mathrm{m/s} \approx 1.8\ \mathrm{m/s}
 $$
 
-**2.** Er energien bevart? $E_\text{før} = \frac12\cdot1\cdot20^2\ \mathrm{J} = 200\ \mathrm{J}$, men $E_\text{etter} = \frac12\cdot11\cdot1{,}8^2\ \mathrm{J} \approx 18\ \mathrm{J}$. Hele $182\ \mathrm{J}$ har gått til varme og støy i puta.
+**2.** Er energien bevart? $E_\text{før} = \frac12\cdot1\cdot20^2\ \mathrm{J} = 200\ \mathrm{J}$, men $E_\text{etter} = \frac12\cdot11\cdot1.8^2\ \mathrm{J} \approx 18\ \mathrm{J}$. Hele $182\ \mathrm{J}$ har gått til varme og støy i puta.
+:::
+:::
+
+## Støt i to dimensjoner
+
+<!-- tillegg: Claude -->
+Bevegelsesmengden er en vektor, så bevaringsloven gjelder i hver retning for seg:
+$$
+\sum p_x\ \text{før} = \sum p_x\ \text{etter}, \qquad \sum p_y\ \text{før} = \sum p_y\ \text{etter}
+$$
+Det gir to likninger. Er støtet elastisk, får vi en tredje fra den kinetiske energien.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Kollisjon i krysset.** En bil på $1200\ \mathrm{kg}$ kjører østover i $15\ \mathrm{m/s}$, og en bil på $1600\ \mathrm{kg}$ kjører nordover i $10\ \mathrm{m/s}$. De kolliderer og henger sammen. Finn farten og retningen rett etter støtet.
+
+::: {.losning}
+$x$-aksen mot øst og $y$-aksen mot nord. Fullstendig uelastisk støt, så felles fart $\vec V$:
+$$
+x:\ 1200\cdot15 = 2800\,V_x \Rightarrow V_x = 6.43\ \mathrm{m/s}, \qquad y:\ 1600\cdot10 = 2800\,V_y \Rightarrow V_y = 5.71\ \mathrm{m/s}
+$$
+$$
+V = \sqrt{6.43^2 + 5.71^2}\ \mathrm{m/s} \approx \underline{\underline{8.6\ \mathrm{m/s}}}, \qquad \theta = \arctan\frac{5.71}{6.43} \approx \underline{\underline{42^\circ}}\ \text{nord for øst}
+$$
+Slike beregninger brukes når politiet rekonstruerer ulykker ut fra bremsespor.
+:::
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Biljard.** En biljardkule treffer en like tung kule i ro skrått, og støtet er elastisk. Vis at kulene går ut i rett vinkel på hverandre.
+
+::: {.losning}
+Massene er like og forkortes. Bevaring av bevegelsesmengde og kinetisk energi gir
+$$
+\vec v_1 = \vec v_1' + \vec v_2', \qquad v_1^2 = v_1'^2 + v_2'^2
+$$
+Kvadrerer vi den første (skalarprodukt med seg selv), får vi $v_1^2 = v_1'^2 + v_2'^2 + 2\,\vec v_1'\cdot\vec v_2'$. Sammenligner vi med den andre, må $\vec v_1'\cdot\vec v_2' = 0$. Hastighetene står altså vinkelrett på hverandre (så lenge ingen av dem er null).
 :::
 :::
 
@@ -108,7 +150,7 @@ Altså går $\underline{\underline{2/3 \approx 67\ \%}}$ av den kinetiske energi
 :::
 
 ::: {.oppgave tittel="Curling"}
-To curlingsteiner med masse $19\ \mathrm{kg}$ kolliderer rett. Før støtet har A fart $3{,}0\ \mathrm{m/s}$ mot høyre og B $5{,}0\ \mathrm{m/s}$ mot venstre. Etter støtet har A fart $4{,}5\ \mathrm{m/s}$ mot venstre.
+To curlingsteiner med masse $19\ \mathrm{kg}$ kolliderer rett. Før støtet har A fart $3.0\ \mathrm{m/s}$ mot høyre og B $5.0\ \mathrm{m/s}$ mot venstre. Etter støtet har A fart $4.5\ \mathrm{m/s}$ mot venstre.
 
 a) Finn farten til B etter støtet.
 
@@ -117,11 +159,11 @@ b) Var støtet elastisk?
 ::: {.losning}
 **a)** Positiv retning mot høyre. Massene er like og forkortes bort:
 $$
-v_A + v_B = u_A + u_B \quad\Rightarrow\quad u_B = 3{,}0 + (-5{,}0) - (-4{,}5)\ \mathrm{m/s} = \underline{\underline{2{,}5\ \mathrm{m/s}}}
+v_A + v_B = u_A + u_B \quad\Rightarrow\quad u_B = 3.0 + (-5.0) - (-4.5)\ \mathrm{m/s} = \underline{\underline{2.5\ \mathrm{m/s}}}
 $$
 mot høyre.
 
-**b)** $E_\text{før} = \frac12\cdot19\,(3{,}0^2 + 5{,}0^2)\ \mathrm{J} = 323\ \mathrm{J}$ og $E_\text{etter} = \frac12\cdot19\,(4{,}5^2 + 2{,}5^2)\ \mathrm{J} \approx 252\ \mathrm{J}$. Energi har gått tapt, så støtet var **ikke elastisk**.
+**b)** $E_\text{før} = \frac12\cdot19\,(3.0^2 + 5.0^2)\ \mathrm{J} = 323\ \mathrm{J}$ og $E_\text{etter} = \frac12\cdot19\,(4.5^2 + 2.5^2)\ \mathrm{J} \approx 252\ \mathrm{J}$. Energi har gått tapt, så støtet var **ikke elastisk**.
 :::
 :::
 
@@ -140,15 +182,15 @@ b) Hva blir farten $u_2$ til B med kassen?
 :::
 
 ::: {.oppgave tittel="Proton og positron" niva="Utfordrende"}
-Et proton med fart $v = 1{,}0\cdot10^6\ \mathrm{m/s}$ treffer et positron i ro i et rett, elastisk støt. Positronet har masse $m = M/2000$, der $M$ er protonmassen. Hva blir farten til hver partikkel?
+Et proton med fart $v = 1.0\cdot10^6\ \mathrm{m/s}$ treffer et positron i ro i et rett, elastisk støt. Positronet har masse $m = M/2000$, der $M$ er protonmassen. Hva blir farten til hver partikkel?
 
 ::: {.losning}
 Fra formlene for elastisk støt med $m_1 = M$ og $m_2 = m$:
 $$
-u_\text{positron} = \frac{2M}{M + m}v = \frac{2}{1 + 1/2000}v \approx \underline{\underline{2{,}0\cdot10^6\ \mathrm{m/s}}}
+u_\text{positron} = \frac{2M}{M + m}v = \frac{2}{1 + 1/2000}v \approx \underline{\underline{2.0\cdot10^6\ \mathrm{m/s}}}
 $$
 $$
-u_\text{proton} = \frac{M - m}{M + m}v = \frac{1999}{2001}v \approx \underline{\underline{1{,}0\cdot10^6\ \mathrm{m/s}}}
+u_\text{proton} = \frac{M - m}{M + m}v = \frac{1999}{2001}v \approx \underline{\underline{1.0\cdot10^6\ \mathrm{m/s}}}
 $$
 Det tunge protonet merker nesten ikke støtet, mens det lette positronet får dobbelt så stor fart. (Tung mot lett.)
 :::

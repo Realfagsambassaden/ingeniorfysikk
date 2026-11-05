@@ -1,8 +1,12 @@
 ---
-title: "Treghetsmoment, rotasjonsenergi og massesenter"
+title: "Treghetsmoment og rotasjonsenergi"
 emne: rotasjon
 delemne: treghetsmoment
+aliases: ["02-treghetsmoment-og-massesenter.html"]
 ---
+
+<!-- video: kommer (videoer/ingeniorfysikk/06-02-treghetsmoment) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
 ## Rotasjonsenergi
 
@@ -86,60 +90,16 @@ $$
 **Eksempel: Energi i sykkeldekket.** En sykkel holder $40\ \mathrm{km/h}$. Dekket veier $800\ \mathrm{g}$ med all massen mellom $R_1 = 30\ \mathrm{cm}$ og $R_2 = 35\ \mathrm{cm}$.
 
 **a)** Hvor stor er rotasjonsenergien i dekket?\
-**b)** Hva er treghetsmomentet om en akse $0{,}50\ \mathrm{m}$ fra sentrum?
+**b)** Hva er treghetsmomentet om en akse $0.50\ \mathrm{m}$ fra sentrum?
 
 ::: {.losning}
-**a)** $I_\text{cm} = \frac12 M(R_1^2 + R_2^2) = \frac12\cdot0{,}800\,(0{,}30^2 + 0{,}35^2)\ \mathrm{kg\,m^2} \approx 0{,}085\ \mathrm{kg\,m^2}$. Ren rulling gir $\omega = v/R_2 = 11{,}1/0{,}35\ \mathrm{s^{-1}} \approx 31{,}7\ \mathrm{s^{-1}}$, og
+**a)** $I_\text{cm} = \frac12 M(R_1^2 + R_2^2) = \frac12\cdot0.800\,(0.30^2 + 0.35^2)\ \mathrm{kg\,m^2} \approx 0.085\ \mathrm{kg\,m^2}$. Ren rulling gir $\omega = v/R_2 = 11.1/0.35\ \mathrm{s^{-1}} \approx 31.7\ \mathrm{s^{-1}}$, og
 $$
-(E_K)_\text{rot} = \tfrac12\cdot0{,}085\cdot31{,}7^2\ \mathrm{J} \approx 43\ \mathrm{J}
+(E_K)_\text{rot} = \tfrac12\cdot0.085\cdot31.7^2\ \mathrm{J} \approx 43\ \mathrm{J}
 $$
 
-**b)** Om en akse $d = 0{,}50\ \mathrm{m}$ fra sentrum: $I_L = 0{,}085 + 0{,}800\cdot0{,}50^2 \approx 0{,}29\ \mathrm{kg\,m^2}$. Større enn $I_\text{cm}$, som det skal være.
+**b)** Om en akse $d = 0.50\ \mathrm{m}$ fra sentrum: $I_L = 0.085 + 0.800\cdot0.50^2 \approx 0.29\ \mathrm{kg\,m^2}$. Større enn $I_\text{cm}$, som det skal være.
 :::
-:::
-
-## Massesenter
-
-<!-- fra notatene -->
-Tenk deg en vippe med massene $m_1, m_2, \ldots$ i posisjonene $x_1, x_2, \ldots$, i balanse på et punkt $x_\text{cm}$. Krafta i balansepunktet må bære alt: $F = \mathrm{g}M$ med $M = \sum m_i$. At vippa ikke tipper, gir $F\,x_\text{cm} = \mathrm{g}\sum m_ix_i$, altså
-
-::: {.graa}
-$$
-x_\text{cm} = \frac{\sum m_ix_i}{M} \;\xrightarrow{\text{kontinuerlig}}\; x_\text{cm} = \frac{\int x\,\mathrm{d}m}{\int\mathrm{d}m}, \qquad y_\text{cm} = \frac{\int y\,\mathrm{d}m}{\int\mathrm{d}m}, \qquad z_\text{cm} = \frac{\int z\,\mathrm{d}m}{\int\mathrm{d}m}
-$$
-:::
-
-::: {.eksempel}
-<!-- fra notatene -->
-**Eksempel: Massesenteret til en trekant.** En likebeint trekant har grunnlinjen $2H$ langs $y$-aksen (ved $x = 0$) og spissen i $x = L$. Flatetettheten er $\lambda$.
-
-Hvor ligger massesenteret?
-
-::: {.losning}
-En smal stripe i avstand $x$ har høyde $2y(x) = 2(H - \frac{H}{L}x)$, så
-$$
-\mathrm{d}m = 2\lambda\left(H - \tfrac{H}{L}x\right)\mathrm{d}x
-$$
-$$
-\int_0^L x\,\mathrm{d}m = 2\lambda H\left[\frac{x^2}{2} - \frac{x^3}{3L}\right]_0^L = \frac{\lambda HL^2}{3}, \qquad M = \int_0^L\mathrm{d}m = \lambda HL
-$$
-$$
-x_\text{cm} = \frac{\lambda HL^2/3}{\lambda HL} = \frac{L}{3}, \qquad y_\text{cm} = 0 \ \text{(symmetri)}
-$$
-Massesenteret ligger en tredjedel av veien fra grunnlinjen mot spissen.
-:::
-:::
-
-### Potensiell energi for et utstrakt legeme
-
-<!-- fra notatene -->
-Hvert masse-element har potensiell energi $\mathrm{d}U = \mathrm{g}y\,\mathrm{d}m$. Totalt:
-$$
-U = \int\mathrm{g}y\,\mathrm{d}m = \mathrm{g}\int y\,\mathrm{d}m = \mathrm{g}My_\text{cm}
-$$
-
-::: {.graa}
-Vi kan regne ut potensiell energi **som om all massen var samlet i massesenteret**: $U = M\mathrm{g}h_\text{cm}$.
 :::
 
 :::: {.oppgaver}
@@ -158,11 +118,11 @@ All massen i et sykkelhjul ($700\ \mathrm{g}$) ligger jevnt mellom $R_I = 33\ \m
 a) Finn treghetsmomentet. b) Finn rotasjonsenergien. c) Finn translasjonsenergien.
 
 ::: {.losning}
-**a)** $I = \frac12 m(R_I^2 + R_Y^2) = \frac12\cdot0{,}7\,(0{,}33^2 + 0{,}37^2)\ \mathrm{kg\,m^2} \approx \underline{\underline{0{,}086\ \mathrm{kg\,m^2}}}$
+**a)** $I = \frac12 m(R_I^2 + R_Y^2) = \frac12\cdot0.7\,(0.33^2 + 0.37^2)\ \mathrm{kg\,m^2} \approx \underline{\underline{0.086\ \mathrm{kg\,m^2}}}$
 
-**b)** $\omega = v/R_Y = (40/3{,}6)/0{,}37\ \mathrm{rad/s} \approx 30\ \mathrm{rad/s}$, så $E_\text{rot} = \frac12 I\omega^2 \approx \underline{\underline{39\ \mathrm{J}}}$.
+**b)** $\omega = v/R_Y = (40/3.6)/0.37\ \mathrm{rad/s} \approx 30\ \mathrm{rad/s}$, så $E_\text{rot} = \frac12 I\omega^2 \approx \underline{\underline{39\ \mathrm{J}}}$.
 
-**c)** $E_\text{trans} = \frac12 mv^2 = \frac12\cdot0{,}7\cdot(40/3{,}6)^2\ \mathrm{J} \approx \underline{\underline{43\ \mathrm{J}}}$. For et hjul med nesten all massen ytterst er rotasjonsenergien nesten like stor som translasjonsenergien.
+**c)** $E_\text{trans} = \frac12 mv^2 = \frac12\cdot0.7\cdot(40/3.6)^2\ \mathrm{J} \approx \underline{\underline{43\ \mathrm{J}}}$. For et hjul med nesten all massen ytterst er rotasjonsenergien nesten like stor som translasjonsenergien.
 :::
 :::
 
@@ -187,41 +147,17 @@ c) Hva blir det for en person på $70\ \mathrm{kg}$ med hodeomkrets $60\ \mathrm
 **b)** Vi summerer delene (Steiners sats for beina):
 $$
 \begin{aligned}
-I_1 &= \tfrac25(0{,}05m)r^2 = 0{,}02\,mr^2 \\
-I_2 &= \tfrac12(0{,}55m)(2r)^2 = 1{,}10\,mr^2 \\
-I_3 &= (2\cdot0{,}05m)(2r)^2 = 0{,}40\,mr^2 \\
-I_4 &= 2\cdot0{,}15m\left[\tfrac12\left(\tfrac{2r}{3}\right)^2 + r^2\right] = 0{,}37\,mr^2
+I_1 &= \tfrac25(0.05m)r^2 = 0.02\,mr^2 \\
+I_2 &= \tfrac12(0.55m)(2r)^2 = 1.10\,mr^2 \\
+I_3 &= (2\cdot0.05m)(2r)^2 = 0.40\,mr^2 \\
+I_4 &= 2\cdot0.15m\left[\tfrac12\left(\tfrac{2r}{3}\right)^2 + r^2\right] = 0.37\,mr^2
 \end{aligned}
 $$
 $$
-I = I_1 + I_2 + I_3 + I_4 \approx \underline{\underline{1{,}9\,mr^2}}
+I = I_1 + I_2 + I_3 + I_4 \approx \underline{\underline{1.9\,mr^2}}
 $$
 
-**c)** $r = 0{,}60\ \mathrm{m}/(2\pi) \approx 0{,}095\ \mathrm{m}$, så $I \approx 1{,}9\cdot70\cdot0{,}095^2\ \mathrm{kg\,m^2} \approx \underline{\underline{1{,}2\ \mathrm{kg\,m^2}}}$.
-:::
-:::
-
-::: {.oppgave tittel="Trekanten som faller" niva="Utfordrende"}
-En likebeint trekant med grunnlinje $2H = 20\ \mathrm{cm}$ og lengde $L = 30\ \mathrm{cm}$ har flatetetthet $\sigma = 1{,}0\ \mathrm{g/cm^2}$. Massesenteret er $h_\text{cm} = 4{,}0\ \mathrm{m}$ over bakken.
-
-a) Finn den potensielle energien.
-
-b) Trekanten slippes og får vinkelfarten $\omega = 2{,}0\ \mathrm{rad/s}$ uten friksjon. Treghetsmomentet om massesenteret er $I = \frac{m}{36}(L^2 + 4H^2)$. Hvor stor er farten til massesenteret etter at det har falt $2{,}0\ \mathrm{m}$?
-
-::: {.losning}
-**a)** Arealet er $A = \frac12\cdot20\cdot30\ \mathrm{cm^2} = 300\ \mathrm{cm^2}$, så $m = \sigma A = 300\ \mathrm{g} = 0{,}30\ \mathrm{kg}$.
-$$
-E_p = m\mathrm{g}h_\text{cm} = 0{,}30\cdot9{,}81\cdot4{,}0\ \mathrm{J} \approx \underline{\underline{12\ \mathrm{J}}}
-$$
-
-**b)** Energibevaring: høydeenergien blir til både translasjons- og rotasjonsenergi:
-$$
-m\mathrm{g}\Delta h = \tfrac12 mv_\text{cm}^2 + \tfrac12\cdot\frac{m}{36}(L^2 + 4H^2)\,\omega^2
-$$
-$$
-v_\text{cm} = \sqrt{2\mathrm{g}\Delta h - \tfrac1{36}(L^2 + 4H^2)\,\omega^2} = \sqrt{2\cdot9{,}81\cdot2{,}0 - \tfrac{0{,}09 + 0{,}04}{36}\cdot4}\ \mathrm{m/s} \approx \underline{\underline{6{,}3\ \mathrm{m/s}}}
-$$
-Rotasjonen tar bare en liten del av energien her.
+**c)** $r = 0.60\ \mathrm{m}/(2\pi) \approx 0.095\ \mathrm{m}$, så $I \approx 1.9\cdot70\cdot0.095^2\ \mathrm{kg\,m^2} \approx \underline{\underline{1.2\ \mathrm{kg\,m^2}}}$.
 :::
 :::
 

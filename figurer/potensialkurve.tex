@@ -1,0 +1,12 @@
+\begin{tikzpicture}[xscale=1.25,yscale=1]
+\draw[akse] (0,0)--(8.6,0) node[right]{$x$};
+\draw[akse] (0,0)--(0,5.4) node[above]{$U(x)$};
+\draw[very thick,bla,domain=0.35:8.2,samples=120] plot (\x,{3.2-2.6*exp(-((\x-2.2)^2)/0.9)+1.5*exp(-((\x-4.6)^2)/0.6)-2.0*exp(-((\x-6.6)^2)/0.8)+0.08*(\x-4)^2});
+\draw[thick,rod] (0.3,2.35)--(8.3,2.35) node[right]{$E$};
+\node[font=\small,align=center] at (2.2,0.35) {stabil\\likevekt};
+\node[font=\small,align=center] at (4.6,5.0) {ustabil likevekt};
+\fill (1.38,2.35) circle (2pt) node[above left,font=\small]{vendepunkt};
+\fill (3.38,2.35) circle (2pt) node[above right,font=\small]{vendepunkt};
+\draw[<->,thick,gronn] (1.45,2.65)--(3.3,2.65) node[midway,above,font=\small]{bevegelse mulig};
+\draw[->,very thick,lilla] (5.45,3.1)--(5.95,2.2); \node[font=\small,align=left,lilla] at (7.0,0.85) {pilen: kraften $F=-\dfrac{\mathrm{d}U}{\mathrm{d}x}$\\peker nedover bakken};
+\end{tikzpicture}

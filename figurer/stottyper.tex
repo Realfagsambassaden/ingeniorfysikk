@@ -1,0 +1,20 @@
+\begin{tikzpicture}[k/.style={circle,draw,very thick,minimum size=7mm,inner sep=0pt,font=\small}]
+\foreach \y/\navn/\info in {0/{Elastisk}/{$\vec p$ og $E_K$ bevart}, -1.7/{Uelastisk}/{$\vec p$ bevart, noe $E_K$ tapt}, -3.4/{Fullstendig uelastisk}/{$\vec p$ bevart, mest $E_K$ tapt}}{
+  \node[anchor=west,font=\sffamily\bfseries] at (-0.2,\y+0.55) {\navn};
+  \node[anchor=west,font=\small] at (-0.2,\y+0.12) {\info};
+}
+% før
+\node[font=\sffamily] at (5.6,1.25) {før};
+\node[font=\sffamily] at (10.2,1.25) {etter};
+\foreach \y in {0,-1.7,-3.4}{
+  \node[k,bla] (a) at (4.6,\y+0.3) {1}; \node[k,rod] at (6.6,\y+0.3) {2};
+  \draw[->,very thick,bla] (a.east)++(0.05,0)--++(0.9,0);
+}
+\node[k,bla] (a1) at (8.8,0.3) {1}; \node[k,rod] (b1) at (10.8,0.3) {2};
+\draw[->,very thick,rod] (b1.east)++(0.05,0)--++(0.9,0);
+\node[k,bla] (a2) at (9.0,-1.4) {1}; \node[k,rod] (b2) at (10.6,-1.4) {2};
+\draw[->,thick,bla] (a2.east)++(0.05,0)--++(0.3,0); \draw[->,thick,rod] (b2.east)++(0.05,0)--++(0.6,0);
+\node[k,bla] (a3) at (9.6,-3.1) {1}; \node[k,rod] (b3) at (10.3,-3.1) {2};
+\draw[->,thick,lilla] (b3.east)++(0.05,0)--++(0.5,0);
+\draw[thick,dashed,black!50] (7.7,1.4)--(7.7,-3.8);
+\end{tikzpicture}

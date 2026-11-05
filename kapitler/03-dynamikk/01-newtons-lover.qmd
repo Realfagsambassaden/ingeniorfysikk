@@ -29,16 +29,16 @@ Kraft har både størrelse og retning, så den beskrives med en **vektor**. Vi t
 | fjærkraft | $F_k = kx$ | kontaktkraft |
 :::
 
-Her er $\mu$ friksjonskoeffisienten, $k$ fjærkonstanten og $x$ hvor mye fjæra er strukket eller presset sammen. Andre eksempler er elektriske og magnetiske krefter, som kommer senere i faget.
+Her er $\mu$ friksjonstallet, $k$ fjærkonstanten og $x$ hvor mye fjæra er strukket eller presset sammen. Friksjon og fjærer ser vi nærmere på under *friksjon, fjærer og trinser*. Andre eksempler er elektriske og magnetiske krefter, som også er fjernkrefter.
 
 Fordi kraft er en vektor, kan vi **dekomponere** den, og vi kan **legge sammen** flere krefter til en kraftsum: $\sum\vec F = \vec G + \vec F_1 + \ldots$
 
 ## Newtons lover
 
-::: {.graa}
-1. **Loven om treghet:** $\displaystyle\sum\vec F = \vec 0 \;\Rightarrow\; \vec v = \text{konstant}$
-2. **Loven om akselerasjon:** $\displaystyle\sum\vec F = m\vec a$ (summen av de *ytre* kreftene)
-3. **Loven om gjensidig påvirkning:** kraft = motkraft, $\vec F' = -\vec F$. Kraft og motkraft virker **alltid på to forskjellige legemer**.
+::: {.kort}
+- **1. lov: treghet** $\displaystyle\sum\vec F = \vec 0 \;\Rightarrow\; \vec v = \text{konstant}$. Uten kraftsum fortsetter legemet med samme hastighet.
+- **2. lov: akselerasjon** $\displaystyle\sum\vec F = m\vec a$, der summen er over de *ytre* kreftene på legemet.
+- **3. lov: kraft og motkraft** $\vec F' = -\vec F$. Kraft og motkraft virker **alltid på to forskjellige legemer**.
 :::
 
 De to første lovene sier hvordan kraft og bevegelse henger sammen. Den tredje sier at krefter er vekselvirkninger.
@@ -48,7 +48,17 @@ De to første lovene sier hvordan kraft og bevegelse henger sammen. Den tredje s
 Newtons 1. lov sier ikke at ting stopper av seg selv. Uten krefter fortsetter et legeme i samme fart og retning for alltid. At en bil triller ut og stopper, skyldes friksjon og luftmotstand, altså krefter.
 :::
 
-### Eksempler
+## Slik tegner du et kraftdiagram
+
+<!-- tillegg: Claude -->
+::: {.steg}
+1. **Velg legemet** du vil se på, og tegn det alene, løst fra omgivelsene.
+2. **Fjernkrefter:** Tegn tyngden $\vec G$ rett ned fra midten av legemet.
+3. **Kontaktkrefter:** Gå rundt legemet. Overalt der noe berører det, kan det virke en kraft: normalkraft, friksjon, snordrag, fjærkraft.
+4. **Sjekk:** Hver kraft må ha en «avsender». Fart er ingen kraft, og motkrefter tegnes på det *andre* legemet.
+:::
+
+## Eksempler på de tre lovene
 
 <!-- fra notatene -->
 **N1:** En lyspære henger i ro i en ledning. Den har $v = 0$, altså konstant fart, så $\sum F = 0$: snordraget er lik tyngden, $S = G$. En colaboks i verdensrommet, langt fra alt, fortsetter med konstant fart.
@@ -71,7 +81,7 @@ Men hva *er* masse? Vi kan måle tyngden $G$ med et newtonmeter og tyngdeakseler
 $$
 m = \frac{G}{\mathrm{g}}
 $$
-Forholdet mellom tyngde og masse er altså det samme for alle legemer: $G/m = \mathrm{g} = 9{,}81\ \mathrm{m/s^2}$.
+Forholdet mellom tyngde og masse er altså det samme for alle legemer: $G/m = \mathrm{g} = 9.81\ \mathrm{m/s^2}$.
 
 **Fritt fall** betyr at legemet *bare* påvirkes av tyngdekraften. Da er akselerasjonen $a = \mathrm{g}$, konstant nær jordoverflaten og **uavhengig av massen**.
 
@@ -138,7 +148,7 @@ En kloss med masse $m = 50\ \mathrm{kg}$ henger i ro i en spiralfjær med fjærk
 <!-- fra notatene -->
 Klossen er i ro, så $\sum F = 0$: $F_k - G = 0$, altså $kx = m\mathrm{g}$.
 $$
-x = \frac{m\mathrm{g}}{k} = \frac{50\ \mathrm{kg}\cdot9{,}81\ \mathrm{m/s^2}}{300\ \mathrm{N/m}} \approx \underline{\underline{1{,}6\ \mathrm{m}}}
+x = \frac{m\mathrm{g}}{k} = \frac{50\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}}{300\ \mathrm{N/m}} \approx \underline{\underline{1.6\ \mathrm{m}}}
 $$
 Enheten: $\frac{\mathrm{kg\,m/s^2}}{\mathrm{N/m}} = \frac{\mathrm{N}}{\mathrm{N/m}} = \mathrm{m}$. ✓
 :::
