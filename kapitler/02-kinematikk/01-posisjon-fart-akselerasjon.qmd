@@ -54,16 +54,16 @@ Geometrisk: linja gjennom to punkter P og Q på grafen blir til **tangenten** i 
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Usain Bolt.** En modell for posisjonen til en sprinter er $s(t) = 0{,}548\ \mathrm{m/s^2}\cdot t^2$. Finn gjennomsnittsfarten de første 10 sekundene, og momentanfarten etter 4 sekunder.
+**Eksempel: Usain Bolt.** En modell for posisjonen til en sprinter er $s(t) = 0.548\ \mathrm{m/s^2}\cdot t^2$. Finn gjennomsnittsfarten de første 10 sekundene, og momentanfarten etter 4 sekunder.
 
 ::: {.losning}
 Gjennomsnittsfarten:
 $$
-\bar v = \frac{s(10\ \mathrm{s}) - s(0)}{10\ \mathrm{s} - 0} = \frac{54{,}8\ \mathrm{m} - 0}{10\ \mathrm{s}} \approx 5{,}48\ \mathrm{m/s}
+\bar v = \frac{s(10\ \mathrm{s}) - s(0)}{10\ \mathrm{s} - 0} = \frac{54.8\ \mathrm{m} - 0}{10\ \mathrm{s}} \approx 5.48\ \mathrm{m/s}
 $$
 Momentanfarten: vi deriverer med regelen $(t^n)' = n\,t^{n-1}$:
 $$
-v(t) = s'(t) = 2\cdot0{,}548\ \mathrm{m/s^2}\cdot t \quad\Rightarrow\quad v(4{,}0\ \mathrm{s}) = 2\cdot0{,}548\cdot4{,}0\ \mathrm{m/s} \approx \underline{\underline{4{,}4\ \mathrm{m/s}}}
+v(t) = s'(t) = 2\cdot0.548\ \mathrm{m/s^2}\cdot t \quad\Rightarrow\quad v(4.0\ \mathrm{s}) = 2\cdot0.548\cdot4.0\ \mathrm{m/s} \approx \underline{\underline{4.4\ \mathrm{m/s}}}
 $$
 :::
 :::
@@ -95,7 +95,7 @@ $$
 $$
 Momentanakselerasjonen er $a(t) = v'(t) = 2t$, så
 $$
-a(0{,}5\ \mathrm{s}) = 1\ \mathrm{m/s^2}, \qquad a(2{,}5\ \mathrm{s}) = 5\ \mathrm{m/s^2}
+a(0.5\ \mathrm{s}) = 1\ \mathrm{m/s^2}, \qquad a(2.5\ \mathrm{s}) = 5\ \mathrm{m/s^2}
 $$
 Legg merke til at gjennomsnittet over et intervall er lik momentanverdien midt i intervallet. Det gjelder når akselerasjonen endrer seg jevnt.
 :::
@@ -113,7 +113,7 @@ Egentlig er posisjon, hastighet og akselerasjon **vektorer**, $\vec s = [s_x,\ s
 
 ## Fart og hastighet er ikke det samme
 
-**Fart** er hvor fort noe går, uten retning. Det er et tall, for eksempel $v = 10\ \mathrm{m/s}$. **Hastighet** er fart *med retning*, altså en vektor, for eksempel $\vec v = (6{,}0,\ 8{,}0)\ \mathrm{m/s}$. Farten er lengden av hastighetsvektoren: $\sqrt{6^2+8^2} = 10\ \mathrm{m/s}$.
+**Fart** er hvor fort noe går, uten retning. Det er et tall, for eksempel $v = 10\ \mathrm{m/s}$. **Hastighet** er fart *med retning*, altså en vektor, for eksempel $\vec v = [6.0,\ 8.0]\ \mathrm{m/s}$. Farten er lengden av hastighetsvektoren: $\sqrt{6^2+8^2} = 10\ \mathrm{m/s}$.
 
 En bil som holder $50\ \mathrm{km/h}$ gjennom en sving, har konstant fart men *endrer hastighet*, fordi retningen endres. Den har altså en akselerasjon, selv om speedometeret står stille. Dette kommer vi tilbake til under sirkelbevegelse.
 

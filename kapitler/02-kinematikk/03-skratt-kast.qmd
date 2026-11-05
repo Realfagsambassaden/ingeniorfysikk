@@ -48,7 +48,7 @@ Startfarten dekomponeres som en vanlig vektor: $v_{0x} = v_0\cos\theta$ og $v_{0
 4. **Sett sammen** og løs.
 
 ::: {.eksempel}
-**Eksempel: Stuperen.** En stuper hopper vannrett ut fra en klippe. Et utspring med bredde $d = 1{,}75\ \mathrm{m}$ ligger $h = 9{,}00\ \mathrm{m}$ under toppen. Hvor stor vannrett fart $v_0$ må stuperen minst ha for å komme klar av utspringet?
+**Eksempel: Stuperen.** En stuper hopper vannrett ut fra en klippe. Et utspring med bredde $d = 1.75\ \mathrm{m}$ ligger $h = 9.00\ \mathrm{m}$ under toppen. Hvor stor vannrett fart $v_0$ må stuperen minst ha for å komme klar av utspringet?
 
 ![](../../bilder/stuper.svg){.tikz-fig style="width:230px"}
 
@@ -68,8 +68,9 @@ $$
 
 **4. Sett sammen:**
 $$
-v_0 = \frac{d}{\sqrt{2h/\mathrm{g}}} = \frac{1{,}75\ \mathrm{m}}{\sqrt{2\cdot9{,}00\ \mathrm{m}/9{,}81\ \mathrm{m/s^2}}} \approx \underline{\underline{1{,}3\ \mathrm{m/s}}}
+v_0 = \frac{d}{\sqrt{2h/\mathrm{g}}} = \frac{1.75\ \mathrm{m}}{\sqrt{2\cdot9.00\ \mathrm{m}/9.81\ \mathrm{m/s^2}}} \approx \underline{\underline{1.29\ \mathrm{m/s}}}
 $$
+<!-- tillegg: Claude: notasjon, svaret gitt med 3 gjeldende siffer som dataene (var 1.3 m/s) -->
 :::
 :::
 
@@ -100,7 +101,7 @@ På flat mark gir $\theta = 45^\circ$ lengst kast (uten luftmotstand).
 :::: {.oppgaver}
 
 ::: {.oppgave tittel="Finn startfarten"}
-En ball ruller utfor en bordkant $0{,}80\ \mathrm{m}$ over gulvet og treffer gulvet $0{,}85\ \mathrm{m}$ fra bordkanten (målt vannrett). Hvor stor fart hadde ballen da den forlot bordet?
+En ball ruller utfor en bordkant $0.80\ \mathrm{m}$ over gulvet og treffer gulvet $0.85\ \mathrm{m}$ fra bordkanten (målt vannrett). Hvor stor fart hadde ballen da den forlot bordet?
 
 ::: {.losning}
 <!-- fra notatene -->
@@ -108,15 +109,15 @@ En ball ruller utfor en bordkant $0{,}80\ \mathrm{m}$ over gulvet og treffer gul
 
 **2.** Vi finner tiden $t^*$ til ballen treffer gulvet ($y = 0$) fra $y = y_0 + v_{0y}t + \frac12 a_y t^2$ med $v_{0y} = 0$:
 $$
-t^* = \sqrt{\frac{2(y - y_0)}{a_y}} = \sqrt{\frac{2(0 - 0{,}80\ \mathrm{m})}{-9{,}81\ \mathrm{m/s^2}}} \approx 0{,}404\ \mathrm{s}
+t^* = \sqrt{\frac{2(y - y_0)}{a_y}} = \sqrt{\frac{2(0 - 0.80\ \mathrm{m})}{-9.81\ \mathrm{m/s^2}}} \approx 0.404\ \mathrm{s}
 $$
 
 **3.** I $x$-retning er farten konstant, så $v_{0x} = x^*/t^*$:
 $$
-v_{0x} = \frac{0{,}85\ \mathrm{m}}{0{,}404\ \mathrm{s}} \approx 2{,}1\ \mathrm{m/s}
+v_{0x} = \frac{0.85\ \mathrm{m}}{0.404\ \mathrm{s}} \approx 2.1\ \mathrm{m/s}
 $$
 
-**4.** Startfarten er $v_0 = v_{0x} \approx \underline{\underline{2{,}1\ \mathrm{m/s}}}$.
+**4.** Startfarten er $v_0 = v_{0x} \approx \underline{\underline{2.1\ \mathrm{m/s}}}$.
 :::
 :::
 
@@ -125,14 +126,15 @@ Hvor stor er den totale farten til stuperen i eksempelet over idet hun treffer v
 
 ::: {.losning}
 <!-- tillegg: Claude -->
-Vannrett er farten fortsatt $v_x = v_0 \approx 1{,}29\ \mathrm{m/s}$. Loddrett har stuperen falt i tiden $T = \sqrt{2h/\mathrm{g}} \approx 1{,}35\ \mathrm{s}$, så
+Vannrett er farten fortsatt $v_x = v_0 \approx 1.29\ \mathrm{m/s}$. Loddrett har stuperen falt i tiden $T = \sqrt{2h/\mathrm{g}} \approx 1.35\ \mathrm{s}$, så
 $$
-v_y = -\mathrm{g}T \approx -13{,}3\ \mathrm{m/s}
+v_y = -\mathrm{g}T \approx -13.3\ \mathrm{m/s}
 $$
 Den totale farten er lengden av hastighetsvektoren:
 $$
-v = \sqrt{v_x^2 + v_y^2} = \sqrt{1{,}29^2 + 13{,}3^2}\ \mathrm{m/s} \approx \underline{\underline{13\ \mathrm{m/s}}}
+v = \sqrt{v_x^2 + v_y^2} = \sqrt{1.29^2 + 13.3^2}\ \mathrm{m/s} \approx \underline{\underline{13.4\ \mathrm{m/s}}}
 $$
+<!-- tillegg: Claude: notasjon, svaret gitt med 3 gjeldende siffer (var 13 m/s) -->
 Nesten all farten er loddrett.
 :::
 :::
@@ -159,7 +161,7 @@ $$
 :::
 
 ::: {.oppgave tittel="Fjærkanon: finn vinkelen med Python" niva="Utfordrende"}
-En fjærkanon skyter en kule med startfart $v_0 = 4{,}0\ \mathrm{m/s}$ mot en blink som ligger $x = 1{,}5\ \mathrm{m}$ unna vannrett og $0{,}40\ \mathrm{m}$ *under* munningen ($y = -0{,}40\ \mathrm{m}$, med $y$ positiv oppover).
+En fjærkanon skyter en kule med startfart $v_0 = 4.0\ \mathrm{m/s}$ mot en blink som ligger $x = 1.5\ \mathrm{m}$ unna vannrett og $0.40\ \mathrm{m}$ *under* munningen ($y = -0.40\ \mathrm{m}$, med $y$ positiv oppover).
 
 a) Skriv kravet om at kula treffer blinken som en likning $f(\alpha) = 0$ for utskytingsvinkelen $\alpha$.
 
