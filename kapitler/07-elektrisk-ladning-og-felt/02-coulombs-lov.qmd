@@ -4,6 +4,8 @@ emne: elektrisk-felt
 delemne: coulomb
 ---
 
+<!-- tillegg: Claude: notasjon v2 (desimalpunktum; konstantene k_e, G, m_e, m_p og µ i rett skrift) -->
+
 {{< video https://www.youtube.com/watch?v=ZxyEAg1aP54 >}}
 
 ## Kraften mellom to punktladninger
@@ -13,18 +15,18 @@ Kraften mellom to punktladninger $q$ og $Q$ i avstand $r$ fra hverandre er gitt 
 
 ::: {.graa}
 $$
-F = k\frac{|q\,Q|}{r^2}, \qquad k = 8{,}99\cdot10^{9}\ \mathrm{\frac{N\,m^2}{C^2}}
+F = \mathrm{k_e}\frac{|q\,Q|}{r^2}, \qquad \mathrm{k_e} = 8.99\cdot10^{9}\ \mathrm{\frac{N\,m^2}{C^2}}
 $$
 :::
 
 Merk at
 $$
-k = \frac{1}{4\pi\varepsilon_0}, \qquad \varepsilon_0 = 8{,}85\cdot10^{-12}\ \mathrm{\frac{C^2}{N\,m^2}},
+\mathrm{k_e} = \frac{1}{4\pi\varepsilon_0}, \qquad \varepsilon_0 = 8.85\cdot10^{-12}\ \mathrm{\frac{C^2}{N\,m^2}},
 $$
 der $\varepsilon_0$ er **vakuumpermittiviteten**.
 
 <!-- tillegg: Claude -->
-Legg merke til hvor lik Coulombs lov er gravitasjonsloven $G = \gamma Mm/r^2$: begge avtar som $1/r^2$. Forskjellene er at ladning kan ha begge fortegn, og at den elektriske kraften er enormt mye sterkere. Mellom et proton og et elektron er den elektriske kraften omtrent $10^{39}$ ganger større enn gravitasjonskraften.
+Legg merke til hvor lik Coulombs lov er gravitasjonsloven $G = \mathrm{G} Mm/r^2$: begge avtar som $1/r^2$. Forskjellene er at ladning kan ha begge fortegn, og at den elektriske kraften er enormt mye sterkere. Mellom et proton og et elektron er den elektriske kraften omtrent $10^{39}$ ganger større enn gravitasjonskraften.
 
 Formelen over gir bare **størrelsen** på kraften. **Retningen** finner vi med fortegnene: like ladninger frastøter, ulike tiltrekker.
 
@@ -33,7 +35,7 @@ Formelen over gir bare **størrelsen** på kraften. **Retningen** finner vi med 
 <!-- tillegg: Claude -->
 For å regne med flere ladninger trenger vi kraften som vektor. La $\hat r$ være **enhetsvektoren** som peker *fra* ladningen $q$ *mot* ladningen $Q$. Da er kraften på $Q$
 $$
-\vec F = k\frac{q\,Q}{r^2}\,\hat r
+\vec F = \mathrm{k_e}\frac{q\,Q}{r^2}\,\hat r
 $$
 Nå bestemmer fortegnet på produktet $qQ$ retningen av seg selv: er $qQ > 0$ (like ladninger), peker kraften langs $\hat r$, altså bort fra $q$. Er $qQ < 0$, peker den mot $q$.
 
@@ -64,17 +66,17 @@ Dette kalles **superposisjonsprinsippet**. Hver ladning virker på $Q$ som om de
 
 ::: {.eksempel}
 <!-- tillegg: Claude -->
-**Eksempel: Tre ladninger på en linje.** Ladningen $q_1 = +2{,}0\ \mu\mathrm{C}$ ligger i $x = 0$, og $q_2 = -3{,}0\ \mu\mathrm{C}$ ligger i $x = 0{,}40\ \mathrm{m}$. Finn kraften på $Q = +1{,}0\ \mu\mathrm{C}$ som ligger i $x = 0{,}20\ \mathrm{m}$.
+**Eksempel: Tre ladninger på en linje.** Ladningen $q_1 = +2.0\ \mathrm{\mu C}$ ligger i $x = 0$, og $q_2 = -3.0\ \mathrm{\mu C}$ ligger i $x = 0.40\ \mathrm{m}$. Finn kraften på $Q = +1.0\ \mathrm{\mu C}$ som ligger i $x = 0.20\ \mathrm{m}$.
 
 ::: {.losning}
-Begge avstandene er $r = 0{,}20\ \mathrm{m}$.
+Begge avstandene er $r = 0.20\ \mathrm{m}$.
 
 - $q_1$ er positiv og ligger til venstre: den **frastøter** $Q$, altså mot høyre.
 - $q_2$ er negativ og ligger til høyre: den **tiltrekker** $Q$, altså også mot høyre.
 
 Begge kreftene peker i $+x$-retning, så vi kan legge sammen størrelsene:
 $$
-F = \frac{k\,Q}{r^2}\big(|q_1| + |q_2|\big) = \frac{8{,}99\cdot10^{9}\cdot1{,}0\cdot10^{-6}}{(0{,}20)^2}\,(2{,}0 + 3{,}0)\cdot10^{-6}\ \mathrm{N} \approx \underline{\underline{1{,}1\ \mathrm{N}}}
+F = \frac{\mathrm{k_e}\,Q}{r^2}\big(|q_1| + |q_2|\big) = \frac{8.99\cdot10^{9}\cdot1.0\cdot10^{-6}}{(0.20)^2}\,(2.0 + 3.0)\cdot10^{-6}\ \mathrm{N} \approx \underline{\underline{1.1\ \mathrm{N}}}
 $$
 i positiv $x$-retning.
 :::
@@ -84,18 +86,19 @@ i positiv $x$-retning.
 
 ::: {.oppgave tittel="Elektron og proton"}
 <!-- tillegg: Claude -->
-I et hydrogenatom er avstanden mellom elektronet og protonet omtrent $r = 5{,}3\cdot10^{-11}\ \mathrm{m}$. Finn den elektriske kraften mellom dem, og sammenlign med gravitasjonskraften. ($m_\mathrm{e} = 9{,}11\cdot10^{-31}\ \mathrm{kg}$, $m_\mathrm{p} = 1{,}67\cdot10^{-27}\ \mathrm{kg}$, $\gamma = 6{,}67\cdot10^{-11}\ \mathrm{N\,m^2/kg^2}$.)
+I et hydrogenatom er avstanden mellom elektronet og protonet omtrent $r = 5.3\cdot10^{-11}\ \mathrm{m}$. Finn den elektriske kraften mellom dem, og sammenlign med gravitasjonskraften. ($\mathrm{m_e} = 9.11\cdot10^{-31}\ \mathrm{kg}$, $\mathrm{m_p} = 1.67\cdot10^{-27}\ \mathrm{kg}$, $\mathrm{G} = 6.67\cdot10^{-11}\ \mathrm{N\,m^2/kg^2}$.)
 
 ::: {.losning}
 Elektrisk kraft:
 $$
-F_\mathrm{e} = k\frac{\mathrm{e}^2}{r^2} = 8{,}99\cdot10^{9}\cdot\frac{(1{,}60\cdot10^{-19})^2}{(5{,}3\cdot10^{-11})^2}\ \mathrm{N} \approx \underline{\underline{8{,}2\cdot10^{-8}\ \mathrm{N}}}
+F_\mathrm{e} = \mathrm{k_e}\frac{\mathrm{e}^2}{r^2} = 8.99\cdot10^{9}\cdot\frac{(1.60\cdot10^{-19})^2}{(5.3\cdot10^{-11})^2}\ \mathrm{N} \approx \underline{\underline{8.2\cdot10^{-8}\ \mathrm{N}}}
 $$
 Gravitasjonskraft:
 $$
-F_\mathrm{g} = \gamma\frac{m_\mathrm{e}m_\mathrm{p}}{r^2} = 6{,}67\cdot10^{-11}\cdot\frac{9{,}11\cdot10^{-31}\cdot1{,}67\cdot10^{-27}}{(5{,}3\cdot10^{-11})^2}\ \mathrm{N} \approx 3{,}6\cdot10^{-47}\ \mathrm{N}
+F_\mathrm{g} = \mathrm{G}\frac{\mathrm{m_e}\mathrm{m_p}}{r^2} = 6.67\cdot10^{-11}\cdot\frac{9.11\cdot10^{-31}\cdot1.67\cdot10^{-27}}{(5.3\cdot10^{-11})^2}\ \mathrm{N} \approx 3.6\cdot10^{-47}\ \mathrm{N}
 $$
-Forholdet er $F_\mathrm{e}/F_\mathrm{g} \approx 2\cdot10^{39}$. I atomer kan vi trygt se bort fra gravitasjonen.
+Forholdet er $F_\mathrm{e}/F_\mathrm{g} \approx 2.3\cdot10^{39}$. I atomer kan vi trygt se bort fra gravitasjonen.
+<!-- tillegg: Claude: notasjon, forholdet med to gjeldende siffer (var 2·10^39) -->
 :::
 :::
 
@@ -113,15 +116,15 @@ $$
 
 ::: {.oppgave tittel="Ladning i likevekt" niva="Middels"}
 <!-- tillegg: Claude -->
-Ladningen $q_1 = +4{,}0\ \mathrm{nC}$ ligger i $x = 0$, og $q_2 = +1{,}0\ \mathrm{nC}$ ligger i $x = 0{,}30\ \mathrm{m}$. Hvor på $x$-aksen kan en tredje ladning $Q$ plasseres slik at den totale kraften på den er null? Spiller fortegnet til $Q$ noen rolle?
+Ladningen $q_1 = +4.0\ \mathrm{nC}$ ligger i $x = 0$, og $q_2 = +1.0\ \mathrm{nC}$ ligger i $x = 0.30\ \mathrm{m}$. Hvor på $x$-aksen kan en tredje ladning $Q$ plasseres slik at den totale kraften på den er null? Spiller fortegnet til $Q$ noen rolle?
 
 ::: {.losning}
-Mellom ladningene peker kreftene fra $q_1$ og $q_2$ i motsatt retning, så der kan de oppheve hverandre. Med $Q$ i $x$ ($0 < x < 0{,}30\ \mathrm{m}$):
+Mellom ladningene peker kreftene fra $q_1$ og $q_2$ i motsatt retning, så der kan de oppheve hverandre. Med $Q$ i $x$ ($0 < x < 0.30\ \mathrm{m}$):
 $$
-k\frac{q_1 Q}{x^2} = k\frac{q_2 Q}{(0{,}30 - x)^2} \quad\Rightarrow\quad \frac{0{,}30 - x}{x} = \sqrt{\frac{q_2}{q_1}} = \frac12
+\mathrm{k_e}\frac{q_1 Q}{x^2} = \mathrm{k_e}\frac{q_2 Q}{(0.30 - x)^2} \quad\Rightarrow\quad \frac{0.30 - x}{x} = \sqrt{\frac{q_2}{q_1}} = \frac12
 $$
 $$
-\Rightarrow\quad x = \underline{\underline{0{,}20\ \mathrm{m}}}
+\Rightarrow\quad x = \underline{\underline{0.20\ \mathrm{m}}}
 $$
 $Q$ forkortes bort, så verken størrelsen eller fortegnet til $Q$ spiller noen rolle. (Utenfor ladningene peker begge kreftene samme vei, så der finnes ingen likevekt.)
 :::

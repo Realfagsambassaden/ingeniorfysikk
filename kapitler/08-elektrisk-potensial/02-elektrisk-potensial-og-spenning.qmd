@@ -4,6 +4,8 @@ emne: elektrisk-potensial
 delemne: potensial
 ---
 
+<!-- tillegg: Claude: notasjon v2 (desimalpunktum; konstantene k_e, G, m_e, m_p og µ i rett skrift) -->
+
 ## Potensial: energi per ladning
 
 <!-- fra notatene -->
@@ -47,17 +49,17 @@ For en punktladning $q$ får vi nå
 
 ::: {.graa}
 $$
-V(r) = k\frac{q}{r}
+V(r) = \mathrm{k_e}\frac{q}{r}
 $$
 :::
 
 <!-- tillegg: Claude: notatene har r² i nevneren her; potensialet går som 1/r (feltet som 1/r²) – rettet -->
 <!-- tillegg: Claude -->
-Utregningen: feltet peker radielt, $E = kq/r^2$, så
+Utregningen: feltet peker radielt, $E = \mathrm{k_e}q/r^2$, så
 $$
-V(r) = -\int_\infty^{r} k\frac{q}{r'^2}\,\mathrm{d}r' = -\left[-k\frac{q}{r'}\right]_\infty^{r} = k\frac{q}{r}
+V(r) = -\int_\infty^{r} \mathrm{k_e}\frac{q}{r'^2}\,\mathrm{d}r' = -\left[-\mathrm{k_e}\frac{q}{r'}\right]_\infty^{r} = \mathrm{k_e}\frac{q}{r}
 $$
-Potensialet avtar som $1/r$, mens feltet avtar som $1/r^2$. Potensialet fra flere ladninger er summen av potensialene fra hver ladning, $V = k\sum q_i/r_i$, og fordi $V$ er et **tall** og ikke en vektor, er det mye enklere å legge sammen enn felt.
+Potensialet avtar som $1/r$, mens feltet avtar som $1/r^2$. Potensialet fra flere ladninger er summen av potensialene fra hver ladning, $V = \mathrm{k_e}\sum q_i/r_i$, og fordi $V$ er et **tall** og ikke en vektor, er det mye enklere å legge sammen enn felt.
 
 ## Homogent felt
 
@@ -76,7 +78,7 @@ der $d$ er avstanden mellom platene. <!-- tillegg: Claude --> Dette gir også en
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Energi fra batterier.** *(Eksempel 7.4 i OpenStax* University Physics*, bind 2, CC BY 4.0.)* Et $12{,}0\ \mathrm{V}$ motorsykkelbatteri kan flytte $5000\ \mathrm{C}$ ladning, og et $12{,}0\ \mathrm{V}$ bilbatteri kan flytte $60\,000\ \mathrm{C}$. Hvor mye energi kan hvert av dem levere?
+**Eksempel: Energi fra batterier.** *(Eksempel 7.4 i OpenStax* University Physics*, bind 2, CC BY 4.0.)* Et $12.0\ \mathrm{V}$ motorsykkelbatteri kan flytte $5.00\cdot10^{3}\ \mathrm{C}$ ladning, og et $12.0\ \mathrm{V}$ bilbatteri kan flytte $6.00\cdot10^{4}\ \mathrm{C}$. Hvor mye energi kan hvert av dem levere?
 
 ::: {.losning}
 Fra definisjonen av potensial:
@@ -85,9 +87,11 @@ $$
 $$
 Husk at $12\ \mathrm{V} = 12\ \mathrm{J/C}$.
 
-**Batteri 1:** $\Delta U_1 = 12{,}0\ \mathrm{V}\cdot5000\ \mathrm{C} = \underline{\underline{6{,}00\cdot10^{4}\ \mathrm{J}}}$
+**Batteri 1:** $\Delta U_1 = 12.0\ \mathrm{V}\cdot5.00\cdot10^{3}\ \mathrm{C} = 6.00\cdot10^{4}\ \mathrm{J} = \underline{\underline{60.0\ \mathrm{kJ}}}$
 
-**Batteri 2:** $\Delta U_2 = 12{,}0\ \mathrm{V}\cdot60\,000\ \mathrm{C} = \underline{\underline{7{,}20\cdot10^{5}\ \mathrm{J}}}$
+**Batteri 2:** $\Delta U_2 = 12.0\ \mathrm{V}\cdot6.00\cdot10^{4}\ \mathrm{C} = 7.20\cdot10^{5}\ \mathrm{J} = \underline{\underline{720\ \mathrm{kJ}}}$
+
+<!-- tillegg: Claude: notasjon, tusenskille og svar med prefiks (var 5000 C, 60 000 C og J i standardform) -->
 
 <!-- tillegg: Claude -->
 Spenningen er den samme, men bilbatteriet kan flytte tolv ganger så mye ladning og leverer derfor tolv ganger så mye energi.
@@ -96,7 +100,7 @@ Spenningen er den samme, men bilbatteriet kan flytte tolv ganger så mye ladning
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Elektroner gjennom en frontlykt.** *(Eksempel 7.5 i OpenStax.)* Et $12{,}0\ \mathrm{V}$ bilbatteri driver en frontlykt på $30{,}0\ \mathrm{W}$. Hvor mange elektroner går gjennom lykta hvert sekund?
+**Eksempel: Elektroner gjennom en frontlykt.** *(Eksempel 7.5 i OpenStax.)* Et $12.0\ \mathrm{V}$ bilbatteri driver en frontlykt på $30.0\ \mathrm{W}$. Hvor mange elektroner går gjennom lykta hvert sekund?
 
 ::: {.losning}
 **1.** Vi trenger sammenhengen mellom ladning, spenning og arbeid:
@@ -106,21 +110,21 @@ $$
 
 **2.** Hva er så $W$? Effekt er arbeid per tid:
 $$
-P = \frac{W}{t} \quad\Rightarrow\quad W = P\cdot t = 30{,}0\ \mathrm{W}\cdot1{,}00\ \mathrm{s} = 30{,}0\ \mathrm{J}
+P = \frac{W}{t} \quad\Rightarrow\quad W = P\cdot t = 30.0\ \mathrm{W}\cdot1.00\ \mathrm{s} = 30.0\ \mathrm{J}
 $$
 
 **3.** Mengden ladning gjennom lykta på ett sekund:
 $$
-q = -\frac{W}{\Delta V} = -\frac{30{,}0\ \mathrm{J}}{12{,}0\ \mathrm{V}} = -2{,}50\ \mathrm{C}
+q = -\frac{W}{\Delta V} = -\frac{30.0\ \mathrm{J}}{12.0\ \mathrm{V}} = -2.50\ \mathrm{C}
 $$
 Hvert elektron har ladningen $-\mathrm{e}$, så antallet er
 $$
-n = \frac{q}{-\mathrm{e}} = \frac{-2{,}50\ \mathrm{C}}{-1{,}60\cdot10^{-19}\ \mathrm{C}} = \underline{\underline{1{,}56\cdot10^{19}}}
+n = \frac{q}{-\mathrm{e}} = \frac{-2.50\ \mathrm{C}}{-1.60\cdot10^{-19}\ \mathrm{C}} = \underline{\underline{1.56\cdot10^{19}}}
 $$
 
 **Alternativ utregning** (for den som kjenner $P = VI$): Med $P = VI$ og $P = W/t$ er $W = VIt = Vq$, så
 $$
-q = \frac{W}{V} = 2{,}50\ \mathrm{C} \quad\Rightarrow\quad n = 1{,}56\cdot10^{19}
+q = \frac{W}{V} = 2.50\ \mathrm{C} \quad\Rightarrow\quad n = 1.56\cdot10^{19}
 $$
 :::
 :::
@@ -133,12 +137,12 @@ $$
 <!-- tillegg: Claude -->
 Energien er bevart. Elektronet taper potensiell energi $|\Delta U| = \mathrm{e}\,\Delta V$, og den blir til kinetisk energi:
 $$
-\tfrac12 m_\mathrm{e}v^2 = \mathrm{e}\,\Delta V \quad\Rightarrow\quad v = \sqrt{\frac{2\mathrm{e}\,\Delta V}{m_\mathrm{e}}}
+\tfrac12 \mathrm{m_e}v^2 = \mathrm{e}\,\Delta V \quad\Rightarrow\quad v = \sqrt{\frac{2\mathrm{e}\,\Delta V}{\mathrm{m_e}}}
 $$
 $$
-v = \sqrt{\frac{2\cdot1{,}60\cdot10^{-19}\ \mathrm{C}\cdot100\ \mathrm{V}}{9{,}11\cdot10^{-31}\ \mathrm{kg}}} \approx \underline{\underline{5{,}93\cdot10^{6}\ \mathrm{m/s}}}
+v = \sqrt{\frac{2\cdot1.60\cdot10^{-19}\ \mathrm{C}\cdot100\ \mathrm{V}}{9.11\cdot10^{-31}\ \mathrm{kg}}} \approx \underline{\underline{5.93\cdot10^{6}\ \mathrm{m/s}}}
 $$
-Det er omtrent $2\ \%$ av lysfarten, etter bare $100\ \mathrm{V}$. Energien $\mathrm{e}\cdot1\ \mathrm{V} = 1{,}60\cdot10^{-19}\ \mathrm{J}$ kalles **ett elektronvolt** ($1\ \mathrm{eV}$), så elektronet her har fått $100\ \mathrm{eV}$.
+Det er omtrent $2\ \%$ av lysfarten, etter bare $100\ \mathrm{V}$. Energien $\mathrm{e}\cdot1\ \mathrm{V} = 1.60\cdot10^{-19}\ \mathrm{J}$ kalles **ett elektronvolt** ($1\ \mathrm{eV}$), så elektronet her har fått $100\ \mathrm{eV}$.
 :::
 :::
 
@@ -146,13 +150,13 @@ Det er omtrent $2\ \%$ av lysfarten, etter bare $100\ \mathrm{V}$. Energien $\ma
 
 ::: {.oppgave tittel="Høyeste spenning mellom to plater"}
 <!-- fra notatene -->
-*(Eksempel 7.7 i OpenStax* University Physics*, bind 2, CC BY 4.0. «Gjør selv!»)* Tørr luft tåler et elektrisk felt på omtrent $3{,}0\cdot10^{6}\ \mathrm{V/m}$. Over det blir lufta ionisert og leder strøm, og det slår gnister. Hva er den høyeste spenningen vi kan ha mellom to parallelle plater med $2{,}5\ \mathrm{cm}$ avstand i tørr luft?
+*(Eksempel 7.7 i OpenStax* University Physics*, bind 2, CC BY 4.0. «Gjør selv!»)* Tørr luft tåler et elektrisk felt på omtrent $3.0\cdot10^{6}\ \mathrm{V/m}$. Over det blir lufta ionisert og leder strøm, og det slår gnister. Hva er den høyeste spenningen vi kan ha mellom to parallelle plater med $2.5\ \mathrm{cm}$ avstand i tørr luft?
 
 ::: {.losning}
 <!-- tillegg: Claude -->
 Feltet mellom platene er homogent, så $\Delta V = Ed$:
 $$
-\Delta V_\mathrm{maks} = 3{,}0\cdot10^{6}\ \mathrm{V/m}\cdot0{,}025\ \mathrm{m} = \underline{\underline{7{,}5\cdot10^{4}\ \mathrm{V}}}
+\Delta V_\mathrm{maks} = 3.0\cdot10^{6}\ \mathrm{V/m}\cdot0.025\ \mathrm{m} = 7.5\cdot10^{4}\ \mathrm{V} = \underline{\underline{75\ \mathrm{kV}}}
 $$
 $75\ \mathrm{kV}$ høres mye ut, men en gnist på et par centimeter etter at du har gått på et teppe, betyr nettopp at du har vært ladet opp til titusener av volt.
 :::
@@ -160,19 +164,19 @@ $75\ \mathrm{kV}$ høres mye ut, men en gnist på et par centimeter etter at du 
 
 ::: {.oppgave tittel="Potensialet mellom to ladninger" niva="Middels"}
 <!-- tillegg: Claude -->
-Ladningen $q_1 = +4{,}0\ \mathrm{nC}$ ligger i $x = 0$ og $q_2 = -2{,}0\ \mathrm{nC}$ ligger i $x = 0{,}40\ \mathrm{m}$.
+Ladningen $q_1 = +4.0\ \mathrm{nC}$ ligger i $x = 0$ og $q_2 = -2.0\ \mathrm{nC}$ ligger i $x = 0.40\ \mathrm{m}$.
 
-**a)** Finn potensialet i $x = 0{,}20\ \mathrm{m}$.\
-**b)** Hvor stort arbeid gjør det elektriske feltet når en ladning $Q = +1{,}0\ \mathrm{nC}$ flyttes fra uendelig langt unna til dette punktet?
+**a)** Finn potensialet i $x = 0.20\ \mathrm{m}$.\
+**b)** Hvor stort arbeid gjør det elektriske feltet når en ladning $Q = +1.0\ \mathrm{nC}$ flyttes fra uendelig langt unna til dette punktet?
 
 ::: {.losning}
 **a)** Potensialene legges sammen som tall:
 $$
-V = k\left(\frac{q_1}{r_1} + \frac{q_2}{r_2}\right) = 8{,}99\cdot10^{9}\left(\frac{4{,}0\cdot10^{-9}}{0{,}20} + \frac{-2{,}0\cdot10^{-9}}{0{,}20}\right)\mathrm{V} \approx \underline{\underline{90\ \mathrm{V}}}
+V = \mathrm{k_e}\left(\frac{q_1}{r_1} + \frac{q_2}{r_2}\right) = 8.99\cdot10^{9}\left(\frac{4.0\cdot10^{-9}}{0.20} + \frac{-2.0\cdot10^{-9}}{0.20}\right)\mathrm{V} \approx \underline{\underline{90\ \mathrm{V}}}
 $$
-**b)** $\Delta U = Q\,\Delta V = 1{,}0\cdot10^{-9}\cdot(90 - 0)\ \mathrm{J} = 9{,}0\cdot10^{-8}\ \mathrm{J}$, og feltet gjør arbeidet
+**b)** $\Delta U = Q\,\Delta V = 1.0\cdot10^{-9}\cdot(90 - 0)\ \mathrm{J} = 9.0\cdot10^{-8}\ \mathrm{J}$, og feltet gjør arbeidet
 $$
-W = -\Delta U = \underline{\underline{-9{,}0\cdot10^{-8}\ \mathrm{J}}}
+W = -\Delta U = \underline{\underline{-9.0\cdot10^{-8}\ \mathrm{J}}}
 $$
 Arbeidet er negativt: Vi må dytte den positive ladningen inn mot et område med høyere potensial.
 :::
@@ -180,17 +184,17 @@ Arbeidet er negativt: Vi må dytte den positive ladningen inn mot et område med
 
 ::: {.oppgave tittel="Elektronkanon" niva="Middels"}
 <!-- tillegg: Claude -->
-I en elektronkanon akselereres elektroner fra ro mellom to plater med $\Delta V = 2{,}0\ \mathrm{kV}$ og avstand $d = 1{,}0\ \mathrm{cm}$.
+I en elektronkanon akselereres elektroner fra ro mellom to plater med $\Delta V = 2.0\ \mathrm{kV}$ og avstand $d = 1.0\ \mathrm{cm}$.
 
 **a)** Hvor sterkt er feltet mellom platene?\
 **b)** Hvor stor kinetisk energi (i eV og J) og fart har elektronene når de kommer ut?
 
 ::: {.losning}
-**a)** $E = \dfrac{\Delta V}{d} = \dfrac{2{,}0\cdot10^{3}\ \mathrm{V}}{0{,}010\ \mathrm{m}} = \underline{\underline{2{,}0\cdot10^{5}\ \mathrm{V/m}}}$
+**a)** $E = \dfrac{\Delta V}{d} = \dfrac{2.0\cdot10^{3}\ \mathrm{V}}{0.010\ \mathrm{m}} = \underline{\underline{2.0\cdot10^{5}\ \mathrm{V/m}}}$
 
-**b)** $E_K = \mathrm{e}\,\Delta V = \underline{\underline{2{,}0\ \mathrm{keV}}} = 2{,}0\cdot10^{3}\cdot1{,}60\cdot10^{-19}\ \mathrm{J} = \underline{\underline{3{,}2\cdot10^{-16}\ \mathrm{J}}}$
+**b)** $E_K = \mathrm{e}\,\Delta V = \underline{\underline{2.0\ \mathrm{keV}}} = 2.0\cdot10^{3}\cdot1.60\cdot10^{-19}\ \mathrm{J} = \underline{\underline{3.2\cdot10^{-16}\ \mathrm{J}}}$
 $$
-v = \sqrt{\frac{2E_K}{m_\mathrm{e}}} = \sqrt{\frac{2\cdot3{,}2\cdot10^{-16}}{9{,}11\cdot10^{-31}}}\ \mathrm{m/s} \approx \underline{\underline{2{,}7\cdot10^{7}\ \mathrm{m/s}}}
+v = \sqrt{\frac{2E_K}{\mathrm{m_e}}} = \sqrt{\frac{2\cdot3.2\cdot10^{-16}}{9.11\cdot10^{-31}}}\ \mathrm{m/s} \approx \underline{\underline{2.7\cdot10^{7}\ \mathrm{m/s}}}
 $$
 Legg merke til at farten ikke avhenger av avstanden $d$, bare av spenningen.
 :::

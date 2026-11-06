@@ -4,6 +4,8 @@ emne: elektrisk-felt
 delemne: felt
 ---
 
+<!-- tillegg: Claude: notasjon v2 (desimalpunktum; konstantene k_e, G, m_e, m_p og µ i rett skrift) -->
+
 ## Hva er et felt?
 
 {{< video https://www.youtube.com/watch?v=CENxROW4o8w >}}
@@ -22,7 +24,7 @@ Coulombs lov sier hvordan to ladninger virker på hverandre. Nå deler vi opp te
 <!-- fra notatene -->
 Det elektriske feltet $\vec E$ generert av ladningen $q$ er
 $$
-\vec E = k\frac{q}{r^2}\,\hat r,
+\vec E = \mathrm{k_e}\frac{q}{r^2}\,\hat r,
 $$
 der $\hat r$ er enhetsvektoren som peker *fra* $q$ og ut til punktet vi ser på. Enheten er $\mathrm{N/C}$.
 :::
@@ -85,7 +87,7 @@ Merk at vi legger sammen **vektorer**, ikke tall. To felt som er like sterke, me
 ::: {.losning}
 **a)** Alle vektorene $\vec r_i$ tegnes *fra* ladningen $q_i$ *inn mot* punktet $P$ der vi skal finne feltet.
 
-**b)** Fortegnet på den feltgenererende ladningen avgjør retningen, siden $\vec E_i = k\dfrac{q_i}{r_i^2}\hat r_i$:
+**b)** Fortegnet på den feltgenererende ladningen avgjør retningen, siden $\vec E_i = \mathrm{k_e}\dfrac{q_i}{r_i^2}\hat r_i$:
 
 ![](../../bilder/fire-ladninger-felt.svg){.tikz-fig style="width:440px"}
 
@@ -93,7 +95,7 @@ Feltene fra de positive ladningene ($q_1$ og $q_4$) peker bort fra dem, og felte
 
 **c)** Kraften på $Q$ fra hver ladning er
 $$
-\vec F_i = k\frac{q_i\,Q}{r_i^2}\,\hat r_i = Q\,\vec E_i
+\vec F_i = \mathrm{k_e}\frac{q_i\,Q}{r_i^2}\,\hat r_i = Q\,\vec E_i
 $$
 Med $Q = +\mathrm{e}$ peker hver kraft **samme vei** som det tilhørende feltet.
 
@@ -111,25 +113,25 @@ Med $Q = +\mathrm{e}$ peker hver kraft **samme vei** som det tilhørende feltet.
 **b)** Hva er kraften på en ladning $Q = 2\mathrm{e}$ som plasseres i $P_1$? Enn om den plasseres i $P_2$?
 
 ::: {.losning}
-**a)** Vi bruker $\vec E_i = k\dfrac{q_i}{r_i^2}\hat r_i$ for hver ladning og legger sammen: $\vec E = \vec E_1 + \vec E_2$.
+**a)** Vi bruker $\vec E_i = \mathrm{k_e}\dfrac{q_i}{r_i^2}\hat r_i$ for hver ladning og legger sammen: $\vec E = \vec E_1 + \vec E_2$.
 
 **Punkt $P_1$:** Avstanden til begge ladningene er $L/2$. Enhetsvektoren fra $q_1$ til $P_1$ peker mot høyre, $\hat r_1 = \hat e_x$, mens enhetsvektoren fra $q_2$ til $P_1$ peker mot venstre, $\hat r_2 = -\hat e_x$. **NB!** Pass på retningen på enhetsvektorene.
 $$
-\vec E = k\frac{-\mathrm{e}}{(L/2)^2}\,\hat e_x + k\frac{\mathrm{e}}{(L/2)^2}\,(-\hat e_x) = \underline{\underline{-\frac{8k\mathrm{e}}{L^2}\,\hat e_x}}
+\vec E = \mathrm{k_e}\frac{-\mathrm{e}}{(L/2)^2}\,\hat e_x + \mathrm{k_e}\frac{\mathrm{e}}{(L/2)^2}\,(-\hat e_x) = \underline{\underline{-\frac{8\mathrm{k_e}\mathrm{e}}{L^2}\,\hat e_x}}
 $$
 Begge feltene peker mot venstre: bort fra $q_2$ (positiv) og mot $q_1$ (negativ).
 
 **Punkt $P_2$:** Nå ligger begge ladningene til venstre, så $\hat r_1 = \hat r_2 = \hat e_x$. Avstanden til $q_1$ er $3L/2$, og til $q_2$ er den $L/2$:
 $$
-\vec E = k\frac{-\mathrm{e}}{(3L/2)^2}\,\hat e_x + k\frac{\mathrm{e}}{(L/2)^2}\,\hat e_x = \frac{k\mathrm{e}}{L^2}\left(-\frac49 + 4\right)\hat e_x = \underline{\underline{\frac{32}{9}\,\frac{k\mathrm{e}}{L^2}\,\hat e_x}}
+\vec E = \mathrm{k_e}\frac{-\mathrm{e}}{(3L/2)^2}\,\hat e_x + \mathrm{k_e}\frac{\mathrm{e}}{(L/2)^2}\,\hat e_x = \frac{\mathrm{k_e}\mathrm{e}}{L^2}\left(-\frac49 + 4\right)\hat e_x = \underline{\underline{\frac{32}{9}\,\frac{\mathrm{k_e}\mathrm{e}}{L^2}\,\hat e_x}}
 $$
 <!-- tillegg: Claude: notatene har 2/5 her; rettet til 32/9 – må sjekkes av fagansvarlig -->
 Feltet peker mot høyre: $q_2$ er nærmest og dominerer.
 
 **b)** Kraften er $\vec F = Q\vec E = 2\mathrm{e}\,\vec E$.
 
-- I $P_1$: $\displaystyle \vec F = \underline{\underline{-\frac{16k\mathrm{e}^2}{L^2}\,\hat e_x}}$
-- I $P_2$: $\displaystyle \vec F = \underline{\underline{\frac{64}{9}\,\frac{k\mathrm{e}^2}{L^2}\,\hat e_x}}$
+- I $P_1$: $\displaystyle \vec F = \underline{\underline{-\frac{16\mathrm{k_e}\mathrm{e}^2}{L^2}\,\hat e_x}}$
+- I $P_2$: $\displaystyle \vec F = \underline{\underline{\frac{64}{9}\,\frac{\mathrm{k_e}\mathrm{e}^2}{L^2}\,\hat e_x}}$
 :::
 :::
 
@@ -137,15 +139,15 @@ Feltet peker mot høyre: $q_2$ er nærmest og dominerer.
 
 ::: {.oppgave tittel="Feltet fra en punktladning"}
 <!-- tillegg: Claude -->
-Hvor sterkt er det elektriske feltet $0{,}50\ \mathrm{m}$ fra en punktladning på $q = +3{,}0\ \mathrm{nC}$? Hvilken kraft får et elektron som plasseres der, og hvilken vei peker den?
+Hvor sterkt er det elektriske feltet $0.50\ \mathrm{m}$ fra en punktladning på $q = +3.0\ \mathrm{nC}$? Hvilken kraft får et elektron som plasseres der, og hvilken vei peker den?
 
 ::: {.losning}
 $$
-E = k\frac{q}{r^2} = 8{,}99\cdot10^{9}\cdot\frac{3{,}0\cdot10^{-9}}{(0{,}50)^2}\ \mathrm{N/C} \approx \underline{\underline{1{,}1\cdot10^{2}\ \mathrm{N/C}}}
+E = \mathrm{k_e}\frac{q}{r^2} = 8.99\cdot10^{9}\cdot\frac{3.0\cdot10^{-9}}{(0.50)^2}\ \mathrm{N/C} \approx \underline{\underline{1.1\cdot10^{2}\ \mathrm{N/C}}}
 $$
 Kraften på elektronet:
 $$
-F = \mathrm{e}E = 1{,}60\cdot10^{-19}\cdot108\ \mathrm{N} \approx \underline{\underline{1{,}7\cdot10^{-17}\ \mathrm{N}}}
+F = \mathrm{e}E = 1.60\cdot10^{-19}\cdot108\ \mathrm{N} \approx \underline{\underline{1.7\cdot10^{-17}\ \mathrm{N}}}
 $$
 Feltet peker bort fra den positive ladningen, men elektronet er negativt, så kraften peker **mot** ladningen (tiltrekning).
 :::
@@ -158,7 +160,7 @@ Ladningen $q_1 = +\mathrm{e}$ ligger i $x = 0$ og $q_2 = +4\mathrm{e}$ ligger i 
 ::: {.losning}
 Feltet kan bare bli null mellom ladningene, der feltene peker motsatt vei. Med punktet i $x$:
 $$
-k\frac{\mathrm{e}}{x^2} = k\frac{4\mathrm{e}}{(d - x)^2} \quad\Rightarrow\quad d - x = 2x \quad\Rightarrow\quad x = \underline{\underline{\frac d3}}
+\mathrm{k_e}\frac{\mathrm{e}}{x^2} = \mathrm{k_e}\frac{4\mathrm{e}}{(d - x)^2} \quad\Rightarrow\quad d - x = 2x \quad\Rightarrow\quad x = \underline{\underline{\frac d3}}
 $$
 Punktet ligger nærmest den minste ladningen, slik vi skulle vente.
 :::
@@ -166,17 +168,18 @@ Punktet ligger nærmest den minste ladningen, slik vi skulle vente.
 
 ::: {.oppgave tittel="Kraft eller felt?"}
 <!-- tillegg: Claude -->
-I et punkt $P$ er det elektriske feltet $\vec E = 2{,}0\cdot10^{4}\ \mathrm{N/C}$ rettet nedover. Hvilken kraft får **a)** et proton og **b)** et elektron i $P$? **c)** Hvilken av dem får størst akselerasjon, og hvor mye større?
+I et punkt $P$ er det elektriske feltet $\vec E = 2.0\cdot10^{4}\ \mathrm{N/C}$ rettet nedover. Hvilken kraft får **a)** et proton og **b)** et elektron i $P$? **c)** Hvilken av dem får størst akselerasjon, og hvor mye større?
 
 ::: {.losning}
-**a)** $F = \mathrm{e}E = 1{,}60\cdot10^{-19}\cdot2{,}0\cdot10^{4}\ \mathrm{N} = \underline{\underline{3{,}2\cdot10^{-15}\ \mathrm{N}}}$, nedover (samme vei som feltet).
+**a)** $F = \mathrm{e}E = 1.60\cdot10^{-19}\cdot2.0\cdot10^{4}\ \mathrm{N} = \underline{\underline{3.2\cdot10^{-15}\ \mathrm{N}}}$, nedover (samme vei som feltet).
 
 **b)** Like stor kraft, men **oppover** fordi ladningen er negativ.
 
 **c)** $a = F/m$, og kreftene er like store. Elektronet er mye lettere:
 $$
-\frac{a_\mathrm{e}}{a_\mathrm{p}} = \frac{m_\mathrm{p}}{m_\mathrm{e}} = \frac{1{,}67\cdot10^{-27}}{9{,}11\cdot10^{-31}} \approx 1800
+\frac{a_\mathrm{e}}{a_\mathrm{p}} = \frac{\mathrm{m_p}}{\mathrm{m_e}} = \frac{1.67\cdot10^{-27}}{9.11\cdot10^{-31}} \approx 1.83\cdot10^{3}
 $$
+<!-- tillegg: Claude: notasjon, tre gjeldende siffer (var 1800) -->
 Elektronet får omtrent 1800 ganger større akselerasjon.
 :::
 :::
