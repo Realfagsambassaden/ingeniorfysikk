@@ -89,7 +89,7 @@ T_\text{NS} = T_\text{kjerne}\,\frac{R_\text{NS}^2}{R_\text{kjerne}^2}
 $$
 Estimat: $T_\text{kjerne} = 1350\ \mathrm{s}$, $R_\text{kjerne} = 6400\ \mathrm{km}$ og $R_\text{NS} = 20\ \mathrm{km}$ gir
 $$
-T_\text{NS} = 1350\ \mathrm{s}\cdot\frac{(20\ \mathrm{km})^2}{(6400\ \mathrm{km})^2} \approx 0.013\ \mathrm{s}
+T_\text{NS} = 1350\ \mathrm{s}\cdot\frac{(20\ \mathrm{km})^2}{(6400\ \mathrm{km})^2} \approx 0.013\ \mathrm{s} = 13\ \mathrm{ms}
 $$
 Nesten 80 runder i sekundet! Slike raskt roterende nøytronstjerner observeres som **pulsarer**.
 :::
