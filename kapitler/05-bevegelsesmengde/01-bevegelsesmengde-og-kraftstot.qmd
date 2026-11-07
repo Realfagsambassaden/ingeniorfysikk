@@ -68,9 +68,10 @@ $$
 
 ::: {.eksempel}
 <!-- fra notatene -->
-**Eksempel: Ball mot vegg.** En ball treffer en vegg. Støtet varer $0.050\ \mathrm{s}$, ballen presses sammen maksimalt $x_\text{maks} = 0.0010\ \mathrm{m}$, og den oppfører seg som en fjær med $k = 5.00\ \mathrm{kN/m}$. Vi antar sammenpressingen $x(t) = x_\text{maks}\sin(\omega t)$ med $\omega = 2\pi/T$, der støtet varer en halv periode, så $T = 0.10\ \mathrm{s}$.
+**Eksempel: Ball mot vegg.** En ball treffer en vegg. Støtet varer $50\ \mathrm{ms}$, ballen presses sammen maksimalt $x_\text{maks} = 1.0\ \mathrm{mm}$, og den oppfører seg som en fjær med $k = 5.00\ \mathrm{kN/m}$. Vi antar sammenpressingen $x(t) = x_\text{maks}\sin(\omega t)$ med $\omega = 2\pi/T$, der støtet varer en halv periode, så $T = 0.10\ \mathrm{s}$.
 
-Finn endringen i bevegelsesmengde, og farten ballen hadde før støtet (massen er $0.017\ \mathrm{kg}$).
+Finn endringen i bevegelsesmengde, og farten ballen hadde før støtet (massen er $17\ \mathrm{g}$).
+<!-- tillegg: Claude: notasjon v2, dekadiske prefikser i oppgaveteksten (tallene er uendret) -->
 
 ::: {.losning}
 Fjærkraften er $F = -kx$, så
