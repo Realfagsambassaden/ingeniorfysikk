@@ -1,7 +1,7 @@
 ---
 title: "Potensiell energi og bevaring av energi"
-emne: arbeid-og-energi
-delemne: energibevaring
+tema: arbeid-og-energi
+undertema: energibevaring
 ---
 
 <!-- video: kommer (videoer/ingeniorfysikk/04-02-potensiell-energi-og-energibevaring) -->

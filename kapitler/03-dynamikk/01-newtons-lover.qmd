@@ -1,7 +1,7 @@
 ---
 title: "Kraft og Newtons tre lover"
-emne: newtons-lover
-delemne: newtons-lover
+tema: newtons-lover
+undertema: newtons-lover
 ---
 
 {{< video https://www.youtube.com/watch?v=i6viZK9dZxI >}}

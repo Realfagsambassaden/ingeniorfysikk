@@ -1,7 +1,7 @@
 ---
 title: "Bevegelse i to dimensjoner: skrått kast"
-emne: kinematikk
-delemne: to-dimensjoner
+tema: kinematikk
+undertema: to-dimensjoner
 ---
 
 <!-- video: kommer (videoer/ingeniorfysikk/02-03-skratt-kast) -->
