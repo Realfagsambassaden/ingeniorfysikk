@@ -1,7 +1,7 @@
 ---
 title: "Elektrisk potensiell energi"
-emne: elektrisk-potensial
-delemne: potensiell-energi
+tema: elektrisk-potensial
+undertema: potensiell-energi
 ---
 
 <!-- tillegg: Claude: notasjon v2 (desimalpunktum; konstantene k_e, G, m_e, m_p og µ i rett skrift) -->

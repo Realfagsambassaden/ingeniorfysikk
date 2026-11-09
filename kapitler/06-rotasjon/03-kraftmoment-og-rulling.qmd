@@ -1,7 +1,7 @@
 ---
 title: "Kraftmoment, rulling og arbeid ved rotasjon"
-emne: rotasjon
-delemne: rulling
+tema: rotasjon
+undertema: rulling
 ---
 
 <!-- video: kommer (videoer/ingeniorfysikk/06-03-kraftmoment-og-rulling) -->

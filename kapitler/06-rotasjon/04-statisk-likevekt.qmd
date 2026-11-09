@@ -1,7 +1,7 @@
 ---
 title: "Statisk likevekt"
-emne: statikk
-delemne: kraftlikevekt
+tema: statikk
+undertema: kraftlikevekt
 ---
 
 <!-- video: kommer (videoer/ingeniorfysikk/06-04-statisk-likevekt) -->

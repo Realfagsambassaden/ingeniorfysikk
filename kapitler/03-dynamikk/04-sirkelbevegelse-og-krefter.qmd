@@ -1,7 +1,7 @@
 ---
 title: "Newtons 2. lov i sirkelbevegelse"
-emne: sirkelbevegelse
-delemne: sirkel-krefter
+tema: sirkelbevegelse
+undertema: sirkel-krefter
 ---
 
 <!-- video: kommer (videoer/ingeniorfysikk/03-04-sirkelbevegelse-og-krefter) -->
