@@ -20,6 +20,8 @@ Kraft har både størrelse og retning, så den beskrives med en **vektor**. Vi t
 
 ## Fire viktige krefter
 
+{{< video https://www.youtube.com/watch?v=kfCsQh_cSlA >}}
+
 ::: {.graa}
 | Kraft | Formel | Type |
 |---|---|---|
@@ -49,6 +51,8 @@ Newtons 1. lov sier ikke at ting stopper av seg selv. Uten krefter fortsetter et
 :::
 
 ## Slik tegner du et kraftdiagram
+
+{{< video https://www.youtube.com/watch?v=rIv98LcFbPE >}}
 
 <!-- tillegg: Claude -->
 ::: {.steg}
