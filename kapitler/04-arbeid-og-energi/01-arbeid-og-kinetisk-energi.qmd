@@ -51,6 +51,8 @@ $$
 
 ## Kinetisk energi og arbeid-energi-setningen
 
+{{< video https://www.youtube.com/watch?v=m-UQgJPcYc0 >}}
+
 **Kinetisk energi** er energien et legeme har fordi det beveger seg:
 
 ::: {.graa}
