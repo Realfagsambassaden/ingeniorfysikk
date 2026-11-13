@@ -1,0 +1,18 @@
+---
+title: "Elektrisk strøm"
+tema: kretser
+undertema: strom-spenning
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om elektrisk strøm. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Strøm og strømtetthet
+- Driftsfart
+- Sammenhengen mellom felt og strøm i en leder
+- Eksempler og oppgaver med løsning

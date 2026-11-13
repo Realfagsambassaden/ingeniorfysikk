@@ -1,0 +1,15 @@
+---
+title: "Kondensatorer"
+tegning: e-felt
+del: "Elektrisitet og magnetisme"
+---
+
+<!-- tillegg: Claude -->
+En kondensator lagrer ladning og energi i et elektrisk felt. Den finnes i nesten all elektronikk.
+
+Gangen i kapittelet er slik:
+
+1. **Kapasitans**
+2. **Serie- og parallellkobling**
+3. **Energi i en kondensator**
+4. **Dielektrikum**

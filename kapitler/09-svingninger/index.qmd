@@ -1,0 +1,15 @@
+---
+title: "Svingninger"
+tegning: flaske
+del: "Svingninger og bølger"
+---
+
+<!-- tillegg: Claude -->
+En svingning er en bevegelse som gjentar seg. Vi starter med den enkle harmoniske svingningen og legger så til demping og en ytre drivkraft.
+
+Gangen i kapittelet er slik:
+
+1. **Enkel harmonisk svingning**
+2. **Matematisk og fysisk pendel**
+3. **Dempede svingninger**
+4. **Tvungne svingninger og resonans**

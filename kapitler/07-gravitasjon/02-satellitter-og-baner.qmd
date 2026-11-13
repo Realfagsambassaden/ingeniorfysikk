@@ -1,0 +1,19 @@
+---
+title: "Satellitter og baner"
+tema: gravitasjon
+undertema: satellitter
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om satellitter og baner. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Sirkelbane: banefart og omløpstid
+- Geostasjonære satellitter
+- Unnslippingsfart
+- Keplers lover i korte trekk
+- Eksempler og oppgaver med løsning

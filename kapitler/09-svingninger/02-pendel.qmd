@@ -1,0 +1,18 @@
+---
+title: "Matematisk og fysisk pendel"
+tema: svingninger
+undertema: pendel
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om matematisk og fysisk pendel. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Masse i fjær
+- Matematisk pendel og småvinkeltilnærmingen
+- Fysisk pendel og treghetsmoment
+- Eksempler og oppgaver med løsning

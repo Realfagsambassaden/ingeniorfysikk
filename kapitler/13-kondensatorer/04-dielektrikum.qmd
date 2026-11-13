@@ -1,0 +1,17 @@
+---
+title: "Dielektrikum"
+tema: kondensatorer
+undertema: dielektrikum
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om dielektrikum. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Hva et dielektrikum gjør med kapasitansen
+- Dielektrisitetskonstant
+- Eksempler og oppgaver med løsning

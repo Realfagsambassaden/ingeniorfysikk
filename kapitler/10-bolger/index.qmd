@@ -1,0 +1,18 @@
+---
+title: "Bølger og lyd"
+tegning: bernoulli
+del: "Svingninger og bølger"
+---
+
+<!-- tillegg: Claude -->
+En bølge flytter energi uten å flytte stoff. Her beskriver vi bølger matematisk og ser på interferens, stående bølger og lyd.
+
+Gangen i kapittelet er slik:
+
+1. **Bølger: begreper og typer**
+2. **Bølgefunksjonen og bølgefart**
+3. **Energi og intensitet**
+4. **Superposisjon og interferens**
+5. **Stående bølger**
+6. **Lyd og lydnivå**
+7. **Dopplereffekten**

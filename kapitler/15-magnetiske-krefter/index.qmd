@@ -1,0 +1,15 @@
+---
+title: "Magnetiske krefter og felt"
+tegning: e-felt
+del: "Elektrisitet og magnetisme"
+---
+
+<!-- tillegg: Claude -->
+Et magnetfelt virker med kraft på ladning som beveger seg. Vi ser på kraften på enkeltladninger, på ledere og på strømsløyfer.
+
+Gangen i kapittelet er slik:
+
+1. **Magnetfelt og feltlinjer**
+2. **Kraft på ladning i bevegelse**
+3. **Kraft på strømførende leder**
+4. **Dreiemoment på strømsløyfe**

@@ -1,0 +1,16 @@
+---
+title: "Dopplereffekten"
+tema: bolger-og-lyd
+undertema: doppler
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om dopplereffekten. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Bevegelig kilde og bevegelig observatør
+- Eksempler og oppgaver med løsning

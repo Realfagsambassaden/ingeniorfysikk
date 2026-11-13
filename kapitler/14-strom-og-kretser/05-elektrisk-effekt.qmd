@@ -1,0 +1,17 @@
+---
+title: "Elektrisk effekt og energi"
+tema: kretser
+undertema: effekt
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om elektrisk effekt og energi. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Effekt $P = VI$
+- Energi i kWh og strømpris
+- Eksempler og oppgaver med løsning

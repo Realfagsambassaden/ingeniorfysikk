@@ -2,6 +2,7 @@
 title: "Ladning i homogent felt"
 tema: elektrisk-felt
 undertema: homogent-felt
+aliases: ["../07-elektrisk-ladning-og-felt/05-ladning-i-homogent-felt.html"]
 ---
 
 <!-- tillegg: Claude: notasjon v2 (desimalpunktum; konstantene k_e, G, m_e, m_p og µ i rett skrift) -->

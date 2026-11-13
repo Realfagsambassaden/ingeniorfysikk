@@ -2,6 +2,7 @@
 title: "Elektrisk ladning og felt"
 tegning: e-felt
 del: "Elektrisitet og magnetisme"
+aliases: ["../07-elektrisk-ladning-og-felt/index.html"]
 ---
 
 {{< video https://www.youtube.com/watch?v=aBr6tw3pTXg >}}

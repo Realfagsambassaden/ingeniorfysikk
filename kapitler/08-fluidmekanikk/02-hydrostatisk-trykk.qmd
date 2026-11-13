@@ -1,0 +1,18 @@
+---
+title: "Hydrostatisk trykk og Pascals lov"
+tema: hydrostatikk
+undertema: trykk
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om hydrostatisk trykk og Pascals lov. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Trykket øker med dybden: $p = p_0 + \rho g h$
+- Pascals lov og hydrauliske systemer
+- Manometer og barometer
+- Eksempler og oppgaver med løsning

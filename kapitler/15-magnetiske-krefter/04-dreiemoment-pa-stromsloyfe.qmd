@@ -1,0 +1,18 @@
+---
+title: "Dreiemoment på strømsløyfe"
+tema: magnetisme
+undertema: dreiemoment
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om dreiemoment på strømsløyfe. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Magnetisk dipolmoment
+- Dreiemoment $\vec\tau = \vec\mu \times \vec B$
+- Elektromotoren
+- Eksempler og oppgaver med løsning

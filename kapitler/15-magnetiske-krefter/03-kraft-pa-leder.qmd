@@ -1,0 +1,16 @@
+---
+title: "Kraft på strømførende leder"
+tema: magnetisme
+undertema: kraft-leder
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om kraft på strømførende leder. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- $\vec F = I\vec L \times \vec B$
+- Eksempler og oppgaver med løsning

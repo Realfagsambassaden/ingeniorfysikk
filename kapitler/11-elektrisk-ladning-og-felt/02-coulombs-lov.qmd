@@ -2,6 +2,7 @@
 title: "Coulombs lov"
 tema: elektrisk-felt
 undertema: coulomb
+aliases: ["../07-elektrisk-ladning-og-felt/02-coulombs-lov.html"]
 ---
 
 <!-- tillegg: Claude: notasjon v2 (desimalpunktum; konstantene k_e, G, m_e, m_p og µ i rett skrift) -->

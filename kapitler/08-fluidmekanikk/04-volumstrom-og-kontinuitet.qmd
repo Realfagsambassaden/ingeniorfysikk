@@ -1,0 +1,18 @@
+---
+title: "Volumstrøm og kontinuitetslikningen"
+tema: stromning
+undertema: kontinuitet
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om volumstrøm og kontinuitetslikningen. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Ideell strømning og strømlinjer
+- Volumstrøm og massestrøm
+- Kontinuitetslikningen $A_1 v_1 = A_2 v_2$
+- Eksempler og oppgaver med løsning

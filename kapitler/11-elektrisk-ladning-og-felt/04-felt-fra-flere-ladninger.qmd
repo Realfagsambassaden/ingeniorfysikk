@@ -2,6 +2,7 @@
 title: "Felt fra flere ladninger"
 tema: elektrisk-felt
 undertema: felt
+aliases: ["../07-elektrisk-ladning-og-felt/04-felt-fra-flere-ladninger.html"]
 ---
 
 <!-- tillegg: Claude: notasjon v2 (desimalpunktum; konstantene k_e, G, m_e, m_p og µ i rett skrift) -->

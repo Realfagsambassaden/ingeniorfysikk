@@ -1,6 +1,6 @@
 # Ingeniørfysikk
 
-Faget **Ingeniørfysikk** på [fysikkhjelp.no](https://fysikkhjelp.no/ingeniorfysikk/): mekanikkdelen av IFYA/IFYT/IFYG1000 og 1002 (NTNU), med video, forelesningsnotater, eksempler og oppgaver med løsning.
+Faget **Ingeniørfysikk** på [fysikkhjelp.no](https://fysikkhjelp.no/ingeniorfysikk/): fysikk for ingeniørstudenter (mekanikk, fluidmekanikk, svingninger og bølger, elektrisitet og magnetisme), med video, forelesningsnotater, eksempler og oppgaver med løsning. Kapitlene følger en vanlig universitetslærebok. Emnene IFYA1000 og IFYA1002 (NTNU) er løyper på fysikkhjelp.no som plukker ut det de trenger.
 
 - `kapitler/` – én mappe per kapittel, én `.qmd`-fil per side. Hver side har `tema:` og `undertema:` øverst.
 - `bilder/` – figurer og bilder.
