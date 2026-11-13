@@ -1,0 +1,13 @@
+---
+title: "Gravitasjon"
+tegning: rakett
+del: "Mekanikk"
+---
+
+<!-- tillegg: Claude -->
+Newtons gravitasjonslov forklarer både hvorfor epla faller og hvorfor månen går i bane. Her bruker vi den på planeter og satellitter.
+
+Gangen i kapittelet er slik:
+
+1. **Newtons gravitasjonslov**
+2. **Satellitter og baner**

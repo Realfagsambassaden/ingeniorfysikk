@@ -1,0 +1,18 @@
+---
+title: "Bølgefunksjonen og bølgefart"
+tema: bolger-og-lyd
+undertema: bolgefart
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om bølgefunksjonen og bølgefart. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Harmonisk bølge $y(x,t) = A\sin(kx - \omega t + \phi)$
+- Hvilken vei går bølgen?
+- Bølgefart på en streng og bølgelikningen
+- Eksempler og oppgaver med løsning

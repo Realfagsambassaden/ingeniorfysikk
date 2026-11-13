@@ -1,0 +1,18 @@
+---
+title: "Kapasitans"
+tema: kondensatorer
+undertema: kapasitans
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om kapasitans. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Kapasitans $C = Q/V$
+- Platekondensatoren og feltet mellom platene
+- Ladning–spenning-grafer
+- Eksempler og oppgaver med løsning

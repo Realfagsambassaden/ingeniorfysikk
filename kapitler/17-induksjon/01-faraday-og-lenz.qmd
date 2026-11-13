@@ -1,0 +1,18 @@
+---
+title: "Faradays og Lenz' lov"
+tema: induksjon
+undertema: faraday
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om Faradays og Lenz' lov. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Magnetisk fluks
+- Faradays lov
+- Lenz' lov: retningen på den induserte strømmen
+- Eksempler og oppgaver med løsning

@@ -1,0 +1,18 @@
+---
+title: "Stående bølger"
+tema: bolger-og-lyd
+undertema: staende
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om stående bølger. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Noder og bukter
+- Stående bølger på en streng: grunntone og overtoner
+- Resonans i rør
+- Eksempler og oppgaver med løsning

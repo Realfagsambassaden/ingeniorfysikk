@@ -1,0 +1,17 @@
+---
+title: "Emf og indre resistans"
+tema: kretser
+undertema: emf
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om emf og indre resistans. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Elektromotorisk spenning
+- Indre resistans og polspenning
+- Eksempler og oppgaver med løsning

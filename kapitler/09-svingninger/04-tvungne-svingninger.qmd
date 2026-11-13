@@ -1,0 +1,18 @@
+---
+title: "Tvungne svingninger og resonans"
+tema: svingninger
+undertema: tvungen
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om tvungne svingninger og resonans. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Drevet svingning
+- Resonans og resonanskurven
+- Hvordan demping påvirker resonansen
+- Eksempler og oppgaver med løsning

@@ -1,0 +1,15 @@
+---
+title: "Elektromagnetisk induksjon"
+tegning: e-felt
+del: "Elektrisitet og magnetisme"
+---
+
+<!-- tillegg: Claude -->
+Et magnetfelt som endrer seg, lager en spenning. Dette er prinsippet bak generatorer, transformatorer og induksjonstopper.
+
+Gangen i kapittelet er slik:
+
+1. **Faradays og Lenz' lov**
+2. **Bevegelsesindusert emf**
+3. **Generator og motor**
+4. **Induktans**

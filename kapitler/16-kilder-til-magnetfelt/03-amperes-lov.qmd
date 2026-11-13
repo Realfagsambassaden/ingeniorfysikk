@@ -1,0 +1,17 @@
+---
+title: "Ampères lov"
+tema: kilder-magnetfelt
+undertema: ampere
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om Ampères lov. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Ampères lov
+- Feltet inne i og utenfor en leder
+- Eksempler og oppgaver med løsning

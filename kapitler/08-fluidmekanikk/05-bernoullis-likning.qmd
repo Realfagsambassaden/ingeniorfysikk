@@ -1,0 +1,19 @@
+---
+title: "Bernoullis likning"
+tema: stromning
+undertema: bernoulli
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om Bernoullis likning. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Bernoullis likning som energibevaring for strømmende væske
+- Torricellis lov: utstrømning fra en tank
+- Venturirør og trykk i rør med ulik diameter
+- Effekt i vannkraft og pumper
+- Eksempler og oppgaver med løsning

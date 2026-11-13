@@ -2,6 +2,7 @@
 title: "Elektrisk potensial"
 tegning: e-felt
 del: "Elektrisitet og magnetisme"
+aliases: ["../08-elektrisk-potensial/index.html"]
 ---
 
 <!-- fra notatene -->

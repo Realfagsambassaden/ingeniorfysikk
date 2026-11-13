@@ -1,0 +1,18 @@
+---
+title: "Fluidmekanikk"
+tegning: hydraulikk
+del: "Fluidmekanikk"
+---
+
+<!-- tillegg: Claude -->
+Væsker og gasser kaller vi fluider. Først ser vi på fluider i ro (trykk og oppdrift), så på fluider i bevegelse: volumstrøm, Bernoulli og tap i rør.
+
+Gangen i kapittelet er slik:
+
+1. **Tetthet og trykk**
+2. **Hydrostatisk trykk og Pascals lov**
+3. **Oppdrift og Arkimedes' lov**
+4. **Volumstrøm og kontinuitetslikningen**
+5. **Bernoullis likning**
+6. **Viskositet og Reynolds' tall**
+7. **Strømning i rør: tap og Moody-diagrammet**

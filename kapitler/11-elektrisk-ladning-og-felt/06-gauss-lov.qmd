@@ -1,0 +1,18 @@
+---
+title: "Elektrisk fluks og Gauss' lov"
+tema: elektrisk-felt
+undertema: gauss
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om elektrisk fluks og Gauss' lov. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Elektrisk fluks
+- Gauss' lov
+- Felt fra ladet kule, linje og plan
+- Eksempler og oppgaver med løsning

@@ -1,0 +1,15 @@
+---
+title: "Kilder til magnetfelt"
+tegning: e-felt
+del: "Elektrisitet og magnetisme"
+---
+
+<!-- tillegg: Claude -->
+Strøm lager magnetfelt. Her regner vi ut feltet fra ledere, sløyfer og spoler.
+
+Gangen i kapittelet er slik:
+
+1. **Biot–Savarts lov**
+2. **Kraft mellom parallelle ledere**
+3. **Ampères lov**
+4. **Spole og solenoide**

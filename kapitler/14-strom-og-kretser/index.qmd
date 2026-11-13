@@ -1,0 +1,17 @@
+---
+title: "Strøm og kretser"
+tegning: e-felt
+del: "Elektrisitet og magnetisme"
+---
+
+<!-- tillegg: Claude -->
+Når ladning beveger seg, har vi strøm. Her bygger vi opp likestrømskretser fra Ohms lov til Kirchhoffs lover og RC-kretser.
+
+Gangen i kapittelet er slik:
+
+1. **Elektrisk strøm**
+2. **Resistans og resistivitet**
+3. **Emf og indre resistans**
+4. **Serie, parallell og Kirchhoffs lover**
+5. **Elektrisk effekt og energi**
+6. **RC-kretser**

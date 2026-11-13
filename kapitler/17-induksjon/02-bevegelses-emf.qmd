@@ -1,0 +1,17 @@
+---
+title: "Bevegelsesindusert emf"
+tema: induksjon
+undertema: bevegelses-emf
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om bevegelsesindusert emf. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Stang som glir på skinner
+- Indusert strøm, effekt og oppbremsing
+- Eksempler og oppgaver med løsning

@@ -1,0 +1,18 @@
+---
+title: "Spole og solenoide"
+tema: kilder-magnetfelt
+undertema: solenoide
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om spole og solenoide. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Feltet i en solenoide: $B = \mu_0 n I$
+- Toroide
+- Feltlinjene rundt en spole
+- Eksempler og oppgaver med løsning

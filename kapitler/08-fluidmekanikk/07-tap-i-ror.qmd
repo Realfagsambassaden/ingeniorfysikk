@@ -1,0 +1,19 @@
+---
+title: "Strømning i rør: tap og Moody-diagrammet"
+tema: stromning
+undertema: rortap
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om strømning i rør: tap og Moody-diagrammet. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Bernoullis likning med tapsledd og tapshøyde
+- Friksjonstap i rør (Darcy–Weisbach) og Moody-diagrammet
+- Engangstap i innløp, utløp og bend
+- Pumpeeffekt og virkningsgrad
+- Eksempler og oppgaver med løsning

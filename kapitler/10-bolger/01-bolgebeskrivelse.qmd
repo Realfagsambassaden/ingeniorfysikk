@@ -1,0 +1,18 @@
+---
+title: "Bølger: begreper og typer"
+tema: bolger-og-lyd
+undertema: bolger
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om bølger, begreper og typer. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Transversale og longitudinale bølger
+- Bølgelengde, periode, frekvens og bølgefart
+- Bølgetall og vinkelfrekvens
+- Eksempler og oppgaver med løsning

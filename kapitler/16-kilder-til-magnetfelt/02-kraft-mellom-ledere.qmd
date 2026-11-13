@@ -1,0 +1,17 @@
+---
+title: "Kraft mellom parallelle ledere"
+tema: kilder-magnetfelt
+undertema: ledere
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om kraft mellom parallelle ledere. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Felt rundt en lang, rett leder
+- Tiltrekning og frastøting mellom ledere
+- Eksempler og oppgaver med løsning

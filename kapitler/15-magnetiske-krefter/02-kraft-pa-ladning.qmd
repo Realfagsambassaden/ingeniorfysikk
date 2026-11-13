@@ -1,0 +1,18 @@
+---
+title: "Kraft på ladning i bevegelse"
+tema: magnetisme
+undertema: kraft-ladning
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om kraft på ladning i bevegelse. Siden fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Lorentzkraften $\vec F = q\vec v \times \vec B$
+- Høyrehåndsregelen
+- Sirkelbevegelse i magnetfelt og massespektrometeret
+- Eksempler og oppgaver med løsning
