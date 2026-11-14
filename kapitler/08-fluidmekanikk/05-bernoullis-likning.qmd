@@ -5,6 +5,8 @@ undertema: bernoulli
 plassholder: true
 ---
 
+{{< video https://www.youtube.com/watch?v=lJ-DaEj_jrM >}}
+
 <!-- tillegg: Claude -->
 ::: {.callout-note title="Kommer snart"}
 Her kommer stoff om Bernoullis likning. Siden fylles ut snart.

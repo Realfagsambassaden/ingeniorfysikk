@@ -5,6 +5,8 @@ undertema: rortap
 plassholder: true
 ---
 
+{{< video https://www.youtube.com/watch?v=UAEZfgxVHZ8 >}}
+
 <!-- tillegg: Claude -->
 ::: {.callout-note title="Kommer snart"}
 Her kommer stoff om strømning i rør: tap og Moody-diagrammet. Siden fylles ut snart.
