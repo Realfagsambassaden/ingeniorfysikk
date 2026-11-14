@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+\fill (0,1) circle (3pt) node[left]{$S_1$}; \fill (0,-1) circle (3pt) node[left]{$S_2$};
+\foreach \r in {0.6,1.2,...,4.2} { \draw[bla!60] (0,1) ++(-60:\r) arc (-60:60:\r); \draw[gronn!70] (0,-1) ++(-60:\r) arc (-60:60:\r); }
+\fill (4.5,2.0) circle (3pt) node[right]{$P$};
+\draw[thick] (0,1) -- node[above]{$r_1$} (4.5,2.0); \draw[thick] (0,-1) -- node[below right]{$r_2$} (4.5,2.0);
+\node[right,align=left] at (5.2,0) {konstruktiv: $r_2 - r_1 = n\lambda$\\ destruktiv: $r_2 - r_1 = (n+\tfrac12)\lambda$};
+\end{tikzpicture}
