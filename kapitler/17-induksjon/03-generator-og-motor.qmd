@@ -2,17 +2,135 @@
 title: "Generator og motor"
 tema: induksjon
 undertema: generator
-plassholder: true
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/17-03-generator-og-motor) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om generator og motor. Siden fylles ut snart.
+Nesten all elektrisk energi i verden lages ved at en spole dreier i et magnetfelt – i vannkraftverk, vindturbiner og gasskraftverk. Og nesten all elektrisk energi som blir til bevegelse, går gjennom en elektromotor. Generatoren og motoren er den samme maskinen, kjørt hver sin vei.
+
+## Vekselstrømsgeneratoren
+
+![En spole dreier med vinkelfarten $\omega$ mellom polene på en magnet. Fluksen gjennom spolen endrer seg, og spenningen blir sinusformet.](../../bilder/generator.svg){.tikz-fig style="width:540px"}
+
+<!-- tillegg: Claude -->
+En spole med $N$ vindinger og areal $A$ dreier med konstant vinkelfart $\omega$ i et homogent felt $B$. Vinkelen mellom feltet og normalen til spolen er $\theta = \omega t$, så fluksen er
+$$
+\Phi_B = BA\cos(\omega t)
+$$
+Faradays lov gir
+
+::: {.callout-important title="Generatorspenning"}
+<!-- tillegg: Claude -->
+$$
+\mathcal E = NBA\omega\sin(\omega t) = \mathcal E_0\sin(\omega t), \qquad \mathcal E_0 = NBA\omega
+$$
 :::
 
-## Dette kommer på siden
+<!-- tillegg: Claude -->
+Spenningen er størst når spolen ligger **langs** feltet (fluksen er null, men endrer seg raskest), og null når spolen står vinkelrett på feltet (fluksen er størst, men endrer seg ikke). Spenningen skifter fortegn to ganger per omdreining: Det er **vekselspenning**. I Norge er frekvensen $50\ \mathrm{Hz}$.
 
-- Vekselstrømsgeneratoren
-- Motor og mot-emf
-- Virvelstrømmer og induksjonstopper
-- Eksempler og oppgaver med løsning
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Generator.** En generator har $100$ vindinger med areal $0.010\ \mathrm{m^2}$, i et felt på $0.50\ \mathrm{T}$, og dreier $50$ ganger i sekundet. Finn toppspenningen.
+
+::: {.losning}
+$$
+\omega = 2\pi f = 314\ \mathrm{s^{-1}}, \qquad \mathcal E_0 = NBA\omega = 100\cdot0.50\cdot0.010\cdot314\ \mathrm{V} = \underline{\underline{157\ \mathrm{V}}}
+$$
+:::
+:::
+
+::: {.callout-note title="Hvorfor er det tungt å sykle med lyset på?" .graa}
+<!-- tillegg: Claude -->
+Så lenge ingen strøm går, dreier generatoren lett. Når lampa er koblet til, går det strøm i spolen, og strømmen i magnetfeltet gir et dreiemoment som **motvirker** rotasjonen (Lenz' lov). Effekten du tråkker inn, $\tau\omega$, er lik den elektriske effekten $\mathcal EI$.
+:::
+
+## Motor og mot-emf
+
+<!-- tillegg: Claude -->
+I en motor sender vi strøm gjennom spolen, og dreiemomentet på strømsløyfa (se *dreiemoment på strømsløyfe*) får den til å rotere. Men en spole som roterer i et magnetfelt, er jo en generator! Motoren induserer derfor en spenning som motvirker den påtrykte spenningen: **mot-emf**, $\mathcal E_\text{mot}$. Strømmen gjennom motoren er
+$$
+I = \frac{V - \mathcal E_\text{mot}}{R}
+$$
+der $R$ er resistansen i viklingene. Mot-emf er proporsjonal med turtallet.
+
+::: {.kort}
+- **Ved start** står motoren stille, $\mathcal E_\text{mot} = 0$, og strømmen er stor: $I = V/R$. Derfor blinker lyset når en stor motor starter.
+- **Uten last** går motoren så fort at $\mathcal E_\text{mot}$ nesten er lik $V$. Strømmen blir liten.
+- **Med last** går motoren saktere, $\mathcal E_\text{mot}$ synker, og strømmen øker. Motoren tar selv mer strøm når den må jobbe hardere.
+- **Fastkjørt motor** får full startstrøm hele tiden – og kan brenne opp.
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Likestrømsmotor.** En motor på $12\ \mathrm{V}$ har viklingsresistans $2.0\ \Omega$. Ved fullt turtall er mot-emf $10\ \mathrm{V}$. Finn startstrømmen og strømmen ved fullt turtall. Hvor stor del av effekten blir mekanisk arbeid?
+
+::: {.losning}
+$$
+I_\text{start} = \frac{12}{2.0}\ \mathrm{A} = \underline{\underline{6.0\ \mathrm{A}}}, \qquad I = \frac{12-10}{2.0}\ \mathrm{A} = \underline{\underline{1.0\ \mathrm{A}}}
+$$
+Tilført effekt er $VI = 12\ \mathrm{W}$. Mekanisk effekt er $\mathcal E_\text{mot}I = 10\ \mathrm{W}$, og $I^2R = 2\ \mathrm{W}$ blir varme. Andelen er $\underline{\underline{83\,\%}}$.
+:::
+:::
+
+## Virvelstrømmer
+
+<!-- tillegg: Claude -->
+Induksjon skjer ikke bare i ledninger. I en metallplate i et endrende magnetfelt går det strømmer i sløyfer inni metallet – **virvelstrømmer**. De kan være nyttige eller plagsomme:
+
+::: {.kort}
+- **Induksjonstopp:** En spole under glassplata fører vekselstrøm. Virvelstrømmene i bunnen av kjelen varmer den opp, mens selve plata holder seg nesten kald.
+- **Virvelstrømsbrems:** En metallplate som beveger seg forbi en magnet, bremses (se *bevegelsesindusert emf*).
+- **Metalldetektor:** Virvelstrømmene i metallet lager et felt som detektoren registrerer.
+- **Tap i transformatorer:** Virvelstrømmer i jernkjernen gir varmetap. Derfor bygges kjernen av tynne, isolerte plater.
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Dobbel fart"}
+<!-- tillegg: Claude -->
+Hva skjer med toppspenningen og frekvensen fra en generator hvis den dreier dobbelt så fort?
+
+::: {.losning}
+$\mathcal E_0 = NBA\omega$: Toppspenningen **dobles**, og frekvensen **dobles**.
+:::
+:::
+
+::: {.oppgave tittel="Antall vindinger"}
+<!-- tillegg: Claude -->
+En generator skal gi toppspenningen $325\ \mathrm{V}$ ved $50\ \mathrm{Hz}$. Feltet er $0.40\ \mathrm{T}$ og spolearealet $0.030\ \mathrm{m^2}$. Hvor mange vindinger trengs?
+
+::: {.losning}
+$$
+N = \frac{\mathcal E_0}{BA\omega} = \frac{325}{0.40\cdot0.030\cdot2\pi\cdot50} = 86.2 \quad\Rightarrow\quad \underline{\underline{N = 87}}
+$$
+:::
+:::
+
+::: {.oppgave tittel="Motor med last" niva="Middels"}
+<!-- tillegg: Claude -->
+En motor på $230\ \mathrm{V}$ har viklingsresistans $5.0\ \Omega$ og trekker $4.0\ \mathrm{A}$ ved normal drift. Finn mot-emf og mekanisk effekt. Hva blir strømmen hvis motoren kjører seg fast?
+
+::: {.losning}
+$$
+\mathcal E_\text{mot} = V - IR = 230 - 4.0\cdot5.0 = \underline{\underline{210\ \mathrm{V}}}, \qquad P_\text{mek} = \mathcal E_\text{mot}I = \underline{\underline{840\ \mathrm{W}}}
+$$
+Fastkjørt: $I = 230/5.0\ \mathrm{A} = \underline{\underline{46\ \mathrm{A}}}$, og hele $10.6\ \mathrm{kW}$ blir varme i viklingene.
+:::
+:::
+
+::: {.oppgave tittel="Dreiemoment på generatoren" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+Generatoren fra eksempelet ($\mathcal E_0 = 157\ \mathrm{V}$, $f = 50\ \mathrm{Hz}$) er koblet til en motstand på $50\ \Omega$. Finn gjennomsnittlig elektrisk effekt og det gjennomsnittlige dreiemomentet som må til for å holde den i gang. Se bort fra resistansen i spolen.
+
+::: {.losning}
+Effekten er $P = \mathcal E^2/R = \dfrac{\mathcal E_0^2}{R}\sin^2(\omega t)$, og gjennomsnittet av $\sin^2$ er $\tfrac12$:
+$$
+\bar P = \frac{\mathcal E_0^2}{2R} = \frac{157^2}{2\cdot50}\ \mathrm{W} = \underline{\underline{246\ \mathrm{W}}}, \qquad \bar\tau = \frac{\bar P}{\omega} = \frac{246}{314}\ \mathrm{N\,m} = \underline{\underline{0.78\ \mathrm{N\,m}}}
+$$
+:::
+:::
+
+::::
