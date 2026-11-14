@@ -2,17 +2,153 @@
 title: "Serie- og parallellkobling"
 tema: kondensatorer
 undertema: kobling
-plassholder: true
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/13-02-serie-og-parallell) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om serie- og parallellkobling. Siden fylles ut snart.
+Kondensatorer kommer i faste størrelser. Trenger du en verdi som ikke finnes, kan du koble flere sammen. Kobler du dem side om side (parallelt), får du større kapasitans. Kobler du dem etter hverandre (i serie), får du mindre. Reglene er nesten motsatt av reglene for resistanser.
+
+![Kondensatorer i serie (til venstre) har samme ladning. Kondensatorer i parallell (til høyre) har samme spenning.](../../bilder/kondensator-koblinger.svg){.tikz-fig style="width:560px"}
+
+## Parallellkobling
+
+<!-- tillegg: Claude -->
+Kondensatorer i parallell er koblet til de samme to punktene. Derfor har de **samme spenning** $V$. Hver av dem får ladningen $Q_i = C_iV$, og den samlede ladningen er summen:
+$$
+Q = Q_1 + Q_2 + \dots = (C_1 + C_2 + \dots)V
+$$
+
+::: {.callout-important title="Parallellkobling"}
+<!-- tillegg: Claude -->
+$$
+C = C_1 + C_2 + C_3 + \dots
+$$
 :::
 
-## Dette kommer på siden
+<!-- tillegg: Claude -->
+Det er som å gjøre platene større: Arealet legges sammen, og kapasitansen øker.
 
-- Kondensatorer i serie
-- Kondensatorer i parallell
-- Sammensatte koblinger
-- Eksempler og oppgaver med løsning
+## Seriekobling
+
+<!-- tillegg: Claude -->
+I en seriekobling henger kondensatorene etter hverandre. Batteriet flytter ladning bare til den ytterste platen på hver side. Platene i midten er koblet sammen og var nøytrale fra starten, så de får like store og motsatte ladninger. Derfor har alle kondensatorene **samme ladning** $Q$. Spenningene legges sammen:
+$$
+V = V_1 + V_2 + \dots = \frac{Q}{C_1} + \frac{Q}{C_2} + \dots
+$$
+
+::: {.callout-important title="Seriekobling"}
+<!-- tillegg: Claude -->
+$$
+\frac1C = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \dots
+$$
+:::
+
+<!-- tillegg: Claude -->
+Den samlede kapasitansen er alltid **mindre** enn den minste kondensatoren. Det er som å øke avstanden mellom platene. For to kondensatorer er det praktisk å bruke
+$$
+C = \frac{C_1C_2}{C_1 + C_2}
+$$
+
+::: {.kort}
+- **Parallell:** samme $V$, ladningene legges sammen, $C$ legges sammen.
+- **Serie:** samme $Q$, spenningene legges sammen, $1/C$ legges sammen.
+- **Motsatt av resistanser:** Resistanser i serie legges sammen, i parallell legges $1/R$ sammen.
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Tre kondensatorer.** Finn den samlede kapasitansen til kondensatorer på $2.0\ \mathrm{\mu F}$, $3.0\ \mathrm{\mu F}$ og $6.0\ \mathrm{\mu F}$ i parallell og i serie.
+
+::: {.losning}
+Parallell:
+$$
+C = 2.0 + 3.0 + 6.0\ \mathrm{\mu F} = \underline{\underline{11\ \mathrm{\mu F}}}
+$$
+Serie:
+$$
+\frac1C = \frac{1}{2.0} + \frac{1}{3.0} + \frac{1}{6.0}\ \mathrm{\mu F^{-1}} = \frac{3 + 2 + 1}{6.0}\ \mathrm{\mu F^{-1}} = 1.0\ \mathrm{\mu F^{-1}} \quad\Rightarrow\quad C = \underline{\underline{1.0\ \mathrm{\mu F}}}
+$$
+:::
+:::
+
+## Sammensatte koblinger
+
+<!-- tillegg: Claude -->
+En krets med både serie- og parallellkoblinger løses steg for steg. Erstatt grupper som er rent i serie eller rent i parallell med én kondensator, og fortsett til det bare er én igjen. Gå så baklengs for å finne ladning og spenning på hver enkelt.
+
+![En kondensator på $3.0\ \mathrm{\mu F}$ i serie med en parallellkobling av $4.0\ \mathrm{\mu F}$ og $2.0\ \mathrm{\mu F}$.](../../bilder/kondensator-kombinasjon.svg){.tikz-fig style="width:380px"}
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Sammensatt krets.** Finn den samlede kapasitansen og ladning og spenning på hver kondensator i kretsen over.
+
+::: {.losning}
+**Steg 1:** $4.0\ \mathrm{\mu F}$ og $2.0\ \mathrm{\mu F}$ står i parallell: $C_p = 6.0\ \mathrm{\mu F}$.
+
+**Steg 2:** $C_p$ står i serie med $3.0\ \mathrm{\mu F}$:
+$$
+C = \frac{3.0\cdot6.0}{3.0 + 6.0}\ \mathrm{\mu F} = \underline{\underline{2.0\ \mathrm{\mu F}}}
+$$
+**Steg 3:** Samlet ladning: $Q = CV = 2.0\ \mathrm{\mu F}\cdot12\ \mathrm{V} = 24\ \mathrm{\mu C}$. Den går gjennom både $3.0\ \mathrm{\mu F}$ og parallellgruppen (de står i serie):
+$$
+V_{3} = \frac{24\ \mathrm{\mu C}}{3.0\ \mathrm{\mu F}} = \underline{\underline{8.0\ \mathrm{V}}}, \qquad V_p = \frac{24\ \mathrm{\mu C}}{6.0\ \mathrm{\mu F}} = \underline{\underline{4.0\ \mathrm{V}}}
+$$
+Sjekk: $8.0 + 4.0 = 12\ \mathrm{V}$. ✓
+
+**Steg 4:** Parallellgruppen har spenningen $4.0\ \mathrm{V}$ over begge:
+$$
+Q_4 = 4.0\ \mathrm{\mu F}\cdot4.0\ \mathrm{V} = \underline{\underline{16\ \mathrm{\mu C}}}, \qquad Q_2 = 2.0\ \mathrm{\mu F}\cdot4.0\ \mathrm{V} = \underline{\underline{8.0\ \mathrm{\mu C}}}
+$$
+Sjekk: $16 + 8.0 = 24\ \mathrm{\mu C}$. ✓
+:::
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="To like i serie"}
+<!-- tillegg: Claude -->
+To like kondensatorer på $10\ \mathrm{\mu F}$ kobles i serie til $9.0\ \mathrm{V}$. Hva er den samlede kapasitansen og spenningen over hver?
+
+::: {.losning}
+$C = 10\cdot10/(10 + 10)\ \mathrm{\mu F} = \underline{\underline{5.0\ \mathrm{\mu F}}}$. De er like, så spenningen deles likt: $\underline{\underline{4.5\ \mathrm{V}}}$ over hver.
+:::
+:::
+
+::: {.oppgave tittel="Hvilken kobling?"}
+<!-- tillegg: Claude -->
+Du har tre kondensatorer på $4.0\ \mathrm{\mu F}$. Hvordan kan du koble dem for å få $6.0\ \mathrm{\mu F}$?
+
+::: {.losning}
+To i serie gir $2.0\ \mathrm{\mu F}$. Kobler du den tredje i parallell med dem, får du $2.0 + 4.0 = \underline{\underline{6.0\ \mathrm{\mu F}}}$.
+:::
+:::
+
+::: {.oppgave tittel="Ulike i serie" niva="Middels"}
+<!-- tillegg: Claude -->
+En kondensator på $2.0\ \mathrm{\mu F}$ og en på $6.0\ \mathrm{\mu F}$ kobles i serie til $16\ \mathrm{V}$. Finn ladningen og spenningen over hver. Hvilken får størst spenning?
+
+::: {.losning}
+$C = 2.0\cdot6.0/8.0\ \mathrm{\mu F} = 1.5\ \mathrm{\mu F}$, så $Q = 1.5\cdot16\ \mathrm{\mu C} = \underline{\underline{24\ \mathrm{\mu C}}}$ på begge.
+$$
+V_{2} = \frac{24}{2.0}\ \mathrm{V} = \underline{\underline{12\ \mathrm{V}}}, \qquad V_{6} = \frac{24}{6.0}\ \mathrm{V} = \underline{\underline{4.0\ \mathrm{V}}}
+$$
+Den **minste** kondensatoren får størst spenning, fordi $V = Q/C$ og ladningen er den samme.
+:::
+:::
+
+::: {.oppgave tittel="Koble sammen ladede kondensatorer" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En kondensator på $3.0\ \mathrm{\mu F}$ er ladet til $12\ \mathrm{V}$. Den kobles fra batteriet og kobles i parallell med en uladet kondensator på $6.0\ \mathrm{\mu F}$. Hva blir spenningen til slutt?
+
+::: {.losning}
+Ladningen er bevart: $Q = 3.0\cdot12\ \mathrm{\mu C} = 36\ \mathrm{\mu C}$. Den fordeler seg på parallellkoblingen med $C = 9.0\ \mathrm{\mu F}$:
+$$
+V = \frac{Q}{C} = \frac{36}{9.0}\ \mathrm{V} = \underline{\underline{4.0\ \mathrm{V}}}
+$$
+(Energien er ikke bevart: Den går fra $216\ \mathrm{\mu J}$ til $72\ \mathrm{\mu J}$. Resten blir varme og stråling i ledningene når strømmen går.)
+:::
+:::
+
+::::
