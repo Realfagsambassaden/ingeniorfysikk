@@ -1,0 +1,12 @@
+\begin{tikzpicture}[xscale=1.0,yscale=2]
+\draw[akse] (0,0) -- (8.3,0) node[right]{$t$};
+\draw[akse] (0,-0.6) -- (0,1.2) node[above]{$x$};
+% omega0 = 2 (per enhet), gamma = 0.4 (under), 2 (kritisk), 5 (over)
+\draw[bla,very thick,domain=0:8,samples=200] plot (\x,{exp(-0.4*\x)*(cos(deg(1.833*\x))+0.4/1.833*sin(deg(1.833*\x)))});
+\draw[rod,very thick,domain=0:8,samples=100] plot (\x,{(1+2*\x)*exp(-2*\x)});
+\draw[gronn,very thick,domain=0:8,samples=100] plot (\x,{((5+4.583)*exp((-5+4.583)*\x)-(5-4.583)*exp((-5-4.583)*\x))/(2*4.583)});
+\node[bla,right] at (2.2,-0.42) {underkritisk};
+\node[rod] at (1.7,0.15) [above right] {kritisk};
+\node[gronn,right] at (4.8,0.25) {overkritisk};
+\node[left] at (0,1) {$A$};
+\end{tikzpicture}

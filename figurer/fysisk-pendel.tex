@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+\draw[thick,fill=black!12,rotate=-20] (-0.25,0.3) rectangle (0.25,-4.3);
+\fill (0,0) circle (3pt); \node[left] at (-0.3,0.1) {opphengspunkt $O$};
+\draw[dashed] (0,0) -- (0,-4.5);
+\coordinate (cm) at (-110:2.0);
+\fill[rod] (cm) circle (3pt); \node[left] at ($(cm)+(-0.3,0)$) {massesenter};
+\draw[<->] (0.05,0.0) ++(-20:0) -- node[right,pos=0.6]{$d$} ($(cm)+(0.0,0)$);
+\draw[vek] (cm) -- ++(0,-1.5) node[below]{$m\mathrm{g}$};
+\draw (0,-0.9) arc (-90:-110:0.9); \node at (-100:1.25) {$\theta$};
+\end{tikzpicture}
