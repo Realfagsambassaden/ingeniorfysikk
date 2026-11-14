@@ -5,6 +5,10 @@ undertema: kontinuitet
 plassholder: true
 ---
 
+{{< video https://www.youtube.com/watch?v=tZ6qrCHnFaE >}}
+
+{{< video https://www.youtube.com/watch?v=iSPaBr34rtE >}}
+
 <!-- tillegg: Claude -->
 ::: {.callout-note title="Kommer snart"}
 Her kommer stoff om volumstrøm og kontinuitetslikningen. Siden fylles ut snart.
