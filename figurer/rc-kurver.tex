@@ -1,0 +1,16 @@
+\begin{tikzpicture}[xscale=1.0,yscale=2.2]
+\begin{scope}
+\draw[akse] (0,0) -- (5.4,0) node[right]{$t$}; \draw[akse] (0,0) -- (0,1.25) node[above]{$V_C$};
+\draw[bla,very thick,domain=0:5,samples=80] plot (\x,{1-exp(-\x)});
+\draw[dashed] (0,1) node[left]{$\mathcal{E}$} -- (5,1);
+\draw[dashed] (1,0) node[below]{$\tau$} -- (1,0.632) -- (0,0.632) node[left]{$0.63\mathcal{E}$};
+\node[above] at (2.7,1.03) {opplading};
+\end{scope}
+\begin{scope}[xshift=7.5cm]
+\draw[akse] (0,0) -- (5.4,0) node[right]{$t$}; \draw[akse] (0,0) -- (0,1.25) node[above]{$V_C$};
+\draw[rod,very thick,domain=0:5,samples=80] plot (\x,{exp(-\x)});
+\node[left] at (0,1) {$V_0$};
+\draw[dashed] (1,0) node[below]{$\tau$} -- (1,0.368) -- (0,0.368) node[left]{$0.37V_0$};
+\node[above] at (2.7,1.03) {utlading};
+\end{scope}
+\end{tikzpicture}

@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+\begin{scope}
+\draw (0,0) to[battery1,l=$\mathcal{E}$] (0,2.4) -- (0.4,2.4) to[R,l=$R_1$] (1.9,2.4) to[R,l=$R_2$] (3.4,2.4) -- (3.4,0) -- (0,0);
+\draw[->,very thick,rod] (3.75,1.7)--(3.75,0.9) node[midway,right]{$I$};
+\node[font=\small] at (1.7,-0.6) {serie: samme $I$};
+\end{scope}
+\begin{scope}[xshift=6.0cm]
+\draw (0,0) to[battery1,l=$\mathcal{E}$] (0,2.4) -- (3.4,2.4) to[R,l=$R_2$] (3.4,0) -- (0,0);
+\draw (1.7,2.4) to[R,l=$R_1$] (1.7,0);
+\fill (1.7,2.4) circle (1.5pt); \fill (1.7,0) circle (1.5pt);
+\node[font=\small] at (1.7,-0.6) {parallell: samme $V$};
+\end{scope}
+\end{tikzpicture}
