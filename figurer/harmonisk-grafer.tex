@@ -1,0 +1,11 @@
+\begin{tikzpicture}[xscale=0.9]
+\foreach \yy/\lab/\f/\c in {0/{x(t)}/cos/bla, -3/{v(t)}/-sin/gronn, -6/{a(t)}/-cos/rod} {
+  \begin{scope}[yshift=\yy cm]
+  \draw[akse] (0,0) -- (8.4,0) node[right]{$t$};
+  \draw[akse] (0,-1.2) -- (0,1.3) node[right]{$\lab$};
+  \draw[\c,very thick,domain=0:8,samples=100] plot (\x,{\f(\x*45)});
+  \draw[dashed,black!40] (4,-1) -- (4,1); \draw[dashed,black!40] (8,-1) -- (8,1);
+  \node[below right] at (4,0) {\scriptsize $T/2$}; \node[below right] at (8,0) {\scriptsize $T$};
+  \end{scope}}
+\node[left] at (0,1) {$A$}; \node[left] at (0,-4) {$-\omega A$}; \node[left] at (0,-7) {$-\omega^2A$};
+\end{tikzpicture}

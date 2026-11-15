@@ -2,17 +2,148 @@
 title: "Energi og intensitet"
 tema: bolger-og-lyd
 undertema: bolgeenergi
-plassholder: true
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/10-03-energi-og-intensitet) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om energi og intensitet. Siden fylles ut snart.
+En bølge frakter energi. Det er slik sollyset varmer jorda, og slik en høyttaler får trommehinna til å svinge. Men jo lenger unna kilden du er, jo svakere blir lyden. Her ser vi hvor mye energi en bølge frakter, og hvordan den fordeles når bølgen sprer seg.
+
+## Energi i en bølge på en streng
+
+<!-- tillegg: Claude -->
+Hver bit av strengen svinger harmonisk med amplituden $A$ og vinkelfrekvensen $\omega$. En svingning med masse $\Delta m$ har energien $\tfrac12\Delta m\,\omega^2A^2$ (største kinetiske energi). Per lengde er massen $\mu$, så energien per lengde er $\tfrac12\mu\omega^2A^2$. Denne energien flytter seg med bølgefarten $v$. Effekten, altså energien som passerer et punkt per tid, blir
+
+::: {.callout-important title="Effekt i en harmonisk bølge på en streng"}
+<!-- tillegg: Claude -->
+$$
+P = \tfrac12\mu\omega^2A^2v
+$$
 :::
 
-## Dette kommer på siden
+<!-- tillegg: Claude -->
+Det viktigste å merke seg er at effekten er proporsjonal med **kvadratet av amplituden** og **kvadratet av frekvensen**. Dobbel amplitude gir fire ganger så mye energi. Det gjelder alle slags bølger.
 
-- Energi og effekt i en bølge
-- Intensitet
-- Intensitet fra en punktkilde: $1/r^2$
-- Eksempler og oppgaver med løsning
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Effekt på strengen.** En streng med $\mu = 5.0\ \mathrm{g/m}$ og snorkraft $80\ \mathrm{N}$ ristes i den ene enden med frekvensen $50\ \mathrm{Hz}$ og amplituden $1.0\ \mathrm{cm}$. Hvor stor effekt må tilføres?
+
+::: {.losning}
+Bølgefarten er $v = \sqrt{S/\mu} = \sqrt{80/0.0050}\ \mathrm{m/s} = 126\ \mathrm{m/s}$, og $\omega = 2\pi\cdot50\ \mathrm{s^{-1}} = 314\ \mathrm{s^{-1}}$.
+$$
+P = \tfrac12\cdot5.0\cdot10^{-3}\cdot314^2\cdot0.010^2\cdot126\ \mathrm{W} = \underline{\underline{3.1\ \mathrm{W}}}
+$$
+:::
+:::
+
+## Intensitet
+
+::: {.callout-note title="Definisjon: Intensitet"}
+<!-- tillegg: Claude -->
+**Intensiteten** $I$ til en bølge er effekten per areal som bølgen frakter gjennom en flate vinkelrett på bølgeretningen:
+$$
+I = \frac{P}{A}
+$$
+SI-enheten er $\mathrm{W/m^2}$.
+:::
+
+<!-- tillegg: Claude -->
+Intensiteten er det vi oppfatter som styrken til lyd eller lys. Den er proporsjonal med kvadratet av amplituden, akkurat som effekten.
+
+## Punktkilde: $1/r^2$-loven
+
+![En punktkilde sender ut bølger likt i alle retninger. Ved dobbel avstand fordeles den samme effekten på et fire ganger så stort kuleskall.](../../bilder/punktkilde.svg){.tikz-fig style="width:480px"}
+
+<!-- tillegg: Claude -->
+En liten kilde som sender ut effekten $P$ likt i alle retninger, kalles en **punktkilde**. Uten energitap passerer hele effekten gjennom et kuleskall med radius $r$ rundt kilden. Arealet er $4\pi r^2$, så
+
+::: {.callout-important title="Intensitet fra en punktkilde"}
+<!-- tillegg: Claude -->
+$$
+I = \frac{P}{4\pi r^2}, \qquad \frac{I_2}{I_1} = \left(\frac{r_1}{r_2}\right)^2
+$$
+:::
+
+<!-- tillegg: Claude -->
+Dobbel avstand gir en fjerdedel av intensiteten. Amplituden avtar som $1/r$, fordi intensiteten er proporsjonal med kvadratet av amplituden. Den samme $1/r^2$-loven gjelder for gravitasjon og elektriske felt, og av samme grunn: noe som sprer seg jevnt utover et kuleskall.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Høyttaleren.** En liten høyttaler sender ut lyd med effekten $1.0\ \mathrm{W}$ likt i alle retninger.
+
+**a)** Hvor stor er intensiteten $10\ \mathrm{m}$ unna?\
+**b)** Hvor langt unna er intensiteten $1.0\cdot10^{-6}\ \mathrm{W/m^2}$?
+
+::: {.losning}
+**a)**
+$$
+I = \frac{P}{4\pi r^2} = \frac{1.0\ \mathrm{W}}{4\pi(10\ \mathrm{m})^2} = \underline{\underline{8.0\cdot10^{-4}\ \mathrm{W/m^2}}}
+$$
+**b)** Vi løser for $r$:
+$$
+r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{1.0}{4\pi\cdot1.0\cdot10^{-6}}}\ \mathrm{m} = \underline{\underline{2.8\cdot10^{2}\ \mathrm{m}}}
+$$
+:::
+:::
+
+::: {.callout-tip title="Til ettertanke"}
+<!-- tillegg: Claude -->
+Bølger på en streng sprer seg ikke, og intensiteten fra en laser avtar nesten ikke med avstanden. Hvorfor gjelder ikke $1/r^2$-loven der?
+:::
+
+<!-- tillegg: Claude -->
+$1/r^2$-loven forutsetter at bølgen sprer seg ut i alle retninger. Langs en streng går all energien samme vei, og en laserstråle holder seg nesten like smal. Da fordeles energien ikke på et større areal. For en bølge som sprer seg i et plan, som ringer i vann, avtar intensiteten som $1/r$, fordi omkretsen $2\pi r$ vokser lineært.
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Dobbel avstand"}
+<!-- tillegg: Claude -->
+Intensiteten fra en lydkilde er $1.0\cdot10^{-4}\ \mathrm{W/m^2}$ i avstanden $2.0\ \mathrm{m}$. Hva er den i avstanden $8.0\ \mathrm{m}$?
+
+::: {.losning}
+Avstanden blir fire ganger større, så intensiteten blir $4^2 = 16$ ganger mindre:
+$$
+I = \frac{1.0\cdot10^{-4}}{16}\ \mathrm{W/m^2} = \underline{\underline{6.3\cdot10^{-6}\ \mathrm{W/m^2}}}
+$$
+:::
+:::
+
+::: {.oppgave tittel="Sollyset"}
+<!-- tillegg: Claude -->
+Sola sender ut effekten $3.8\cdot10^{26}\ \mathrm{W}$. Hvor stor er intensiteten av sollyset ved jorda, $1.5\cdot10^{11}\ \mathrm{m}$ unna?
+
+::: {.losning}
+$$
+I = \frac{3.8\cdot10^{26}}{4\pi(1.5\cdot10^{11})^2}\ \mathrm{W/m^2} = \underline{\underline{1.3\cdot10^{3}\ \mathrm{W/m^2}}}
+$$
+Dette kalles solarkonstanten. En solcelle på én kvadratmeter får altså over en kilowatt på en klar dag i verdensrommet.
+:::
+:::
+
+::: {.oppgave tittel="Amplitude og effekt" niva="Middels"}
+<!-- tillegg: Claude -->
+På strengen i eksempelet over blir amplituden halvert og frekvensen doblet. Hva skjer med effekten?
+
+::: {.losning}
+$P \propto \omega^2A^2$. Med dobbel frekvens og halv amplitude:
+$$
+\frac{P_2}{P_1} = 2^2\cdot\left(\frac12\right)^2 = \underline{\underline{1}}
+$$
+Effekten er den samme.
+:::
+:::
+
+::: {.oppgave tittel="Amplitude med avstand" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+Amplituden til lydbølgen fra en punktkilde er $2.0\cdot10^{-8}\ \mathrm{m}$ i avstanden $5.0\ \mathrm{m}$. Hva er amplituden i $20\ \mathrm{m}$ avstand? Forklar hvorfor amplituden avtar som $1/r$.
+
+::: {.losning}
+$I \propto A^2$ og $I \propto 1/r^2$, så $A \propto 1/r$. Fire ganger så langt unna gir en fjerdedel av amplituden:
+$$
+A = \frac{2.0\cdot10^{-8}}{4}\ \mathrm{m} = \underline{\underline{5.0\cdot10^{-9}\ \mathrm{m}}}
+$$
+:::
+:::
+
+::::

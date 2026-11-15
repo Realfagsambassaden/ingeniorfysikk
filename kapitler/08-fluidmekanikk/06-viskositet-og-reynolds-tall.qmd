@@ -2,17 +2,200 @@
 title: "Viskositet og Reynolds' tall"
 tema: stromning
 undertema: viskositet
-plassholder: true
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/08-06-viskositet-og-reynolds-tall) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om viskositet og Reynolds' tall. Siden fylles ut snart.
+Honning og vann er begge væsker, men honning renner mye tregere. Honning har større **viskositet**: mer indre friksjon. Bernoullis likning ser bort fra friksjon, men i ekte rør er det nettopp friksjonen som gjør at vi trenger pumper. Her ser vi hva viskositet er, og hvordan ett enkelt tall, **Reynolds' tall**, forteller om strømningen blir rolig eller kaotisk.
+
+## Viskositet
+
+![Et tynt lag fluid mellom to plater. Den øverste plata dras med farten $v$, den nederste står i ro. Fluidet nærmest hver plate følger plata.](../../bilder/viskositet-plater.svg){.tikz-fig style="width:500px"}
+
+<!-- tillegg: Claude -->
+Legg et tynt lag væske mellom to plater med avstand $d$, og dra den øverste plata bortover med farten $v$. Væsken nærmest hver plate følger plata (dette kalles *heftbetingelsen*). Imellom glir væskelagene forbi hverandre, og farten øker jevnt fra $0$ nederst til $v$ øverst. Lagene bremser hverandre, så det trengs en kraft for å holde plata i gang.
+
+Eksperimenter viser at kraften er proporsjonal med arealet $A$ og farten $v$, og omvendt proporsjonal med avstanden $d$:
+
+::: {.callout-note title="Definisjon: Viskositet"}
+<!-- tillegg: Claude -->
+Den **dynamiske viskositeten** $\mu$ er definert ved
+$$
+F = \mu\frac{Av}{d}
+$$
+Mer generelt er skjærspenningen (kraft per areal langs flaten) $\tau = \mu\,\dfrac{\mathrm{d}v}{\mathrm{d}y}$. SI-enheten er $\mathrm{Pa\cdot s}$.
 :::
 
-## Dette kommer på siden
+<!-- tillegg: Claude -->
+| Fluid (20 °C) | $\mu$ ($\mathrm{Pa\cdot s}$) |
+|---|---|
+| Luft | $1.8\cdot10^{-5}$ |
+| Vann | $1.0\cdot10^{-3}$ |
+| Blod (37 °C) | ca. $3.5\cdot10^{-3}$ |
+| Motorolje | ca. $0.1$–$0.3$ |
+| Glyserol | $1.4$ |
+| Honning | ca. $10$ |
 
-- Viskositet
-- Laminær og turbulent strømning
-- Reynolds' tall
-- Eksempler og oppgaver med løsning
+Viskositeten til væsker avtar kraftig når temperaturen stiger. Det er derfor sirup renner lettere når den er varm, og derfor motorolje må velges etter klimaet.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Plate på oljefilm.** En plate med areal $0.50\ \mathrm{m^2}$ glir på en $1.0\ \mathrm{mm}$ tykk oljefilm ($\mu = 0.30\ \mathrm{Pa\cdot s}$) med farten $0.20\ \mathrm{m/s}$. Hvor stor kraft trengs for å holde farten konstant?
+
+::: {.losning}
+$$
+F = \mu\frac{Av}{d} = 0.30\ \mathrm{Pa\cdot s}\cdot\frac{0.50\ \mathrm{m^2}\cdot0.20\ \mathrm{m/s}}{1.0\cdot10^{-3}\ \mathrm{m}} = \underline{\underline{30\ \mathrm{N}}}
+$$
+:::
+:::
+
+## Laminær og turbulent strømning
+
+![Fartsprofilen i et rør. Laminær strømning (til venstre) gir en parabel. Turbulent strømning (til høyre) blander fluidet, så profilen blir flatere, med virvler som stadig skifter.](../../bilder/hastighetsprofil.svg){.tikz-fig style="width:520px"}
+
+<!-- tillegg: Claude -->
+Strømningen i et rør kan oppføre seg på to helt forskjellige måter:
+
+::: {.kort}
+- **Laminær strømning.** Fluidet glir i lag, uten å blande seg. Farten er størst midt i røret og null ved veggen, med en parabelformet profil. Strømningen er rolig og forutsigbar. Røyk som stiger rett opp fra et stearinlys, er laminær.
+- **Turbulent strømning.** Fluidet virvler og blander seg. Farten i hvert punkt endrer seg hele tiden. Profilen blir flatere, men nær veggen faller farten bratt. Røyken fra stearinlyset blir turbulent litt høyere opp.
+:::
+
+<!-- tillegg: Claude -->
+Turbulent strømning gir mye større friksjonstap, men blander også varme og stoffer mye bedre. Hvilken type strømning vi får, avgjøres av et forhold mellom to effekter: **tregheten** til fluidet, som vil holde virvlene i gang, og **viskositeten**, som demper dem.
+
+## Reynolds' tall
+
+::: {.callout-note title="Definisjon: Reynolds' tall"}
+<!-- tillegg: Claude -->
+For strømning i et rør med diameter $D$ og gjennomsnittsfart $v$ er **Reynolds' tall**
+$$
+Re = \frac{\rho vD}{\mu}
+$$
+Re er dimensjonsløst: enhetene forkorter seg bort.
+:::
+
+<!-- tillegg: Claude -->
+Re er forholdet mellom treghetskrefter og viskøse krefter. Er Re lite, vinner viskositeten, og strømningen blir laminær. Er Re stort, vinner tregheten, og strømningen blir turbulent. For rør gjelder omtrent:
+
+::: {.graa}
+| Reynolds' tall | Strømning |
+|---|---|
+| $Re < 2300$ | laminær |
+| $2300 < Re < 4000$ | overgang |
+| $Re > 4000$ | turbulent |
+:::
+
+<!-- tillegg: Claude -->
+Det smarte med et dimensjonsløst tall er at det gjelder uansett størrelse. To strømninger med samme Re oppfører seg likt, enten det er vann i et lite rør eller olje i en rørledning. Det er dette ingeniører bruker når de tester modeller av skip og fly i liten skala.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Vann og blod.** Er strømningen laminær eller turbulent?
+
+**a)** Vann ($\mu = 1.0\cdot10^{-3}\ \mathrm{Pa\cdot s}$) med farten $1.0\ \mathrm{m/s}$ i et rør med diameter $2.0\ \mathrm{cm}$.\
+**b)** Blod ($\rho = 1060\ \mathrm{kg/m^3}$, $\mu = 3.5\cdot10^{-3}\ \mathrm{Pa\cdot s}$) med farten $0.30\ \mathrm{m/s}$ i aorta med diameter $2.0\ \mathrm{cm}$.
+
+::: {.losning}
+**a)**
+$$
+Re = \frac{1000\cdot1.0\cdot0.020}{1.0\cdot10^{-3}} = \underline{\underline{2.0\cdot10^{4}}}
+$$
+Det er godt over 4000, så strømningen er **turbulent**. Vann i vanlige rør er nesten alltid turbulent.
+
+**b)**
+$$
+Re = \frac{1060\cdot0.30\cdot0.020}{3.5\cdot10^{-3}} = \underline{\underline{1.8\cdot10^{3}}}
+$$
+Det er under 2300, så strømningen er **laminær**. Når blodet pumpes hardt, for eksempel under trening, kan det bli turbulent rett etter hjerteklaffene. Det er en del av lyden legen hører med stetoskopet.
+:::
+:::
+
+## Poiseuilles lov
+
+<!-- tillegg: Claude -->
+For **laminær** strømning i et rett rør med radius $R$ og lengde $L$ kan volumstrømmen regnes ut eksakt. Trykkforskjellen $\Delta p$ mellom endene må drive fluidet mot friksjonen:
+
+::: {.callout-important title="Poiseuilles lov"}
+<!-- tillegg: Claude -->
+$$
+Q = \frac{\pi R^4\,\Delta p}{8\mu L}
+$$
+Gjelder for laminær strømning ($Re < 2300$).
+:::
+
+<!-- tillegg: Claude -->
+Legg merke til $R^4$. Halverer du radien, blir volumstrømmen $2^4 = 16$ ganger mindre med samme trykk. Derfor er det så alvorlig når blodårer blir trangere: Bare litt mindre radius krever mye høyere blodtrykk for å få nok blod gjennom.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Tynt rør.** Vann strømmer gjennom et rør med radius $1.0\ \mathrm{mm}$ og lengde $0.50\ \mathrm{m}$. Trykkforskjellen er $2.0\ \mathrm{kPa}$. Finn volumstrømmen og sjekk at strømningen er laminær.
+
+::: {.losning}
+$$
+Q = \frac{\pi(1.0\cdot10^{-3})^4\cdot2.0\cdot10^{3}}{8\cdot1.0\cdot10^{-3}\cdot0.50}\ \mathrm{m^3/s} = \underline{\underline{1.6\cdot10^{-6}\ \mathrm{m^3/s}}}
+$$
+Gjennomsnittsfarten er $v = Q/(\pi R^2) = 0.50\ \mathrm{m/s}$, så
+$$
+Re = \frac{1000\cdot0.50\cdot2.0\cdot10^{-3}}{1.0\cdot10^{-3}} = 1.0\cdot10^{3}
+$$
+Det er under 2300, så Poiseuilles lov gjelder.
+:::
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Olje i rørledning"}
+<!-- tillegg: Claude -->
+Olje med tetthet $900\ \mathrm{kg/m^3}$ og viskositet $0.10\ \mathrm{Pa\cdot s}$ strømmer med $0.50\ \mathrm{m/s}$ i et rør med diameter $5.0\ \mathrm{cm}$. Er strømningen laminær eller turbulent?
+
+::: {.losning}
+$$
+Re = \frac{900\cdot0.50\cdot0.050}{0.10} = \underline{\underline{225}}
+$$
+Strømningen er **laminær**. Oljen er så seig at virvlene dempes.
+:::
+:::
+
+::: {.oppgave tittel="Grensen for laminær strømning"}
+<!-- tillegg: Claude -->
+Hvor stor kan farten til vann være i et rør med diameter $2.0\ \mathrm{cm}$ før strømningen slutter å være laminær?
+
+::: {.losning}
+Vi setter $Re = 2300$ og løser for $v$:
+$$
+v = \frac{Re\,\mu}{\rho D} = \frac{2300\cdot1.0\cdot10^{-3}}{1000\cdot0.020}\ \mathrm{m/s} = \underline{\underline{0.12\ \mathrm{m/s}}}
+$$
+Det er svært sakte, så vann i rør er nesten alltid turbulent.
+:::
+:::
+
+::: {.oppgave tittel="Trang blodåre" niva="Middels"}
+<!-- tillegg: Claude -->
+En blodåre blir 20 % trangere (radien blir $0.80$ ganger den opprinnelige). Hvor mye må trykkforskjellen øke for at like mye blod skal komme gjennom? Anta laminær strømning.
+
+::: {.losning}
+Med samme $Q$ gir Poiseuille $\Delta p \propto 1/R^4$:
+$$
+\frac{\Delta p_2}{\Delta p_1} = \left(\frac{R_1}{R_2}\right)^4 = \left(\frac{1}{0.80}\right)^4 = \underline{\underline{2.4}}
+$$
+Trykkforskjellen må være mer enn dobbelt så stor. Det viser hvorfor små innsnevringer i blodårene belaster hjertet mye.
+:::
+:::
+
+::: {.oppgave tittel="Modellforsøk" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En ubåt med lengde $50\ \mathrm{m}$ skal gå i $5.0\ \mathrm{m/s}$ i sjøvann. En modell i skala $1:25$ testes i en vanntank med samme vann. Hvor fort må modellen gå for at strømningen skal være lik (samme Reynolds' tall, med lengden som karakteristisk mål)? Er det praktisk?
+
+::: {.losning}
+Samme fluid gir samme $\rho/\mu$, så $vL$ må være lik:
+$$
+v_\mathrm{m} = v\frac{L}{L_\mathrm{m}} = 5.0\ \mathrm{m/s}\cdot25 = \underline{\underline{1.3\cdot10^{2}\ \mathrm{m/s}}}
+$$
+Det er nesten $450\ \mathrm{km/h}$ under vann, som er helt upraktisk. I praksis bruker man en annen væske, større modeller, eller man nøyer seg med at begge strømningene er godt turbulente.
+:::
+:::
+
+::::
