@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\draw[thick] (0,0) ellipse (0.35 and 0.8); \draw[thick] (0,0.8) -- (7,0.8); \draw[thick] (0,-0.8) -- (7,-0.8);
+\draw[thick] (7,0.8) arc (90:-90:0.35 and 0.8);
+\draw[thick,dashed,bla] (2.5,0) ellipse (0.35 and 0.8); \draw[thick,dashed,bla] (4.3,0) ellipse (0.35 and 0.8);
+\fill[bla!12,opacity=0.6] (2.5,0.8) -- (4.3,0.8) -- (4.3,-0.8) -- (2.5,-0.8) -- cycle;
+\pgfmathsetseed{7}
+\foreach \i in {1,...,26} { \fill[rod] ({0.4+6.3*rnd},{-0.6+1.2*rnd}) circle (1.5pt); }
+\draw[<->] (2.5,-1.1) -- node[below]{$v_d\,\Delta t$} (4.3,-1.1);
+\node at (0,0) {$A$};
+\draw[vek] (7.7,0) -- node[above]{$I$} (8.9,0);
+\draw[vek,rod] (6.0,1.2) -- node[above]{elektronene} (4.6,1.2);
+\end{tikzpicture}

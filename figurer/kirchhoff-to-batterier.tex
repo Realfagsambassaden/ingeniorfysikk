@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+\draw (0,0) to[battery1,l={$\mathcal{E}_1 = 12\ \mathrm{V}$}] (0,3) to[R,l={$R_1 = 2.0\ \Omega$}] (3.5,3) to[R,l={$R_3 = 6.0\ \Omega$}] (3.5,0) -- (0,0);
+\draw (3.5,3) to[R,l={$R_2 = 4.0\ \Omega$}] (7,3) -- (7,3); \draw (7,0) to[battery1,l_={$\mathcal{E}_2 = 6.0\ \mathrm{V}$}] (7,3); \draw (7,0) -- (3.5,0);
+\fill (3.5,3) circle (1.6pt) node[above]{$a$}; \fill (3.5,0) circle (1.6pt) node[below]{$b$};
+\draw[->,very thick,rod] (1.2,2.65) -- (2.2,2.65) node[midway,below]{$I_1$};
+\draw[->,very thick,rod] (5.8,2.65) -- (4.8,2.65) node[midway,below]{$I_2$};
+\draw[->,very thick,rod] (3.1,2.1) -- (3.1,1.1) node[midway,left]{$I_3$};
+\end{tikzpicture}

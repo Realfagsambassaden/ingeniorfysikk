@@ -1,0 +1,6 @@
+\begin{tikzpicture}[xscale=0.9,yscale=0.9]
+\draw[akse] (0,0) -- (8.5,0) node[right]{$R/r$}; \draw[akse] (0,0) -- (0,3.6) node[above]{$P$};
+\draw[bla,very thick,domain=0:8,samples=100] plot (\x,{12*\x/((1+\x)^2)});
+\draw[dashed] (1,0) node[below]{$1$} -- (1,3) -- (0,3) node[left]{$\dfrac{\mathcal{E}^2}{4r}$};
+\foreach \x in {2,4,6,8} \node[below] at (\x,0) {\x};
+\end{tikzpicture}
