@@ -1,0 +1,13 @@
+\begin{tikzpicture}[xscale=1.0]
+\foreach \n/\y in {1/0, 2/-1.8, 3/-3.6} {
+ \begin{scope}[yshift=\y cm]
+ \draw[bla,very thick,domain=0:6,samples=80] plot (\x,{0.6*sin(\x*30*\n)});
+ \draw[bla,thick,dashed,domain=0:6,samples=80] plot (\x,{-0.6*sin(\x*30*\n)});
+ \fill (0,0) circle (2.5pt); \fill (6,0) circle (2.5pt);
+ \foreach \k in {1,...,\n} \fill ({6*\k/\n},0) circle (2pt);
+ \node[right] at (6.4,0) {$n = \n$:\ $L = \n\cdot\tfrac{\lambda}{2}$};
+ \end{scope}}
+\node[below] at (3,-4.3) {N = node (står stille), B = buk (størst utslag)};
+\node[above] at (3,0.6) {B}; \node[below] at (0,-0.1) {N}; \node[below] at (6,-0.1) {N};
+\draw[<->] (0,1.25) -- node[above]{$L$} (6,1.25);
+\end{tikzpicture}

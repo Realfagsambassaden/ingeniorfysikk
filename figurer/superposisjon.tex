@@ -1,0 +1,10 @@
+\begin{tikzpicture}[xscale=0.7,yscale=0.55]
+\foreach \dx/\tit/\ph in {0/{konstruktiv}/0, 10/{destruktiv}/180} {
+\begin{scope}[xshift=\dx cm]
+\draw[akse] (0,0) -- (8.4,0); 
+\draw[bla,thick,domain=0:8,samples=80] plot (\x,{sin(\x*90)});
+\draw[gronn,thick,dashed,domain=0:8,samples=80] plot (\x,{0.6*sin(\x*90+\ph)});
+\begin{scope}[yshift=-3.2cm] \draw[akse] (0,0) -- (8.4,0); \draw[rod,very thick,domain=0:8,samples=80] plot (\x,{sin(\x*90)+0.6*sin(\x*90+\ph)}); \node[left] at (0,0) {sum}; \end{scope}
+\node[above] at (4,1.6) {\tit};
+\end{scope}}
+\end{tikzpicture}

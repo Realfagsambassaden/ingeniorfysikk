@@ -2,17 +2,180 @@
 title: "Newtons gravitasjonslov"
 tema: gravitasjon
 undertema: gravitasjonsloven
-plassholder: true
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/07-01-gravitasjonsloven) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om Newtons gravitasjonslov. Siden fylles ut snart.
+Ifølge historien fikk Newton ideen da han så et eple falle. Han spurte: Hvis jorda trekker på eplet, trekker den også på månen? Svaret er ja. Den samme kraften som får ting til å falle, holder månen i bane rundt jorda og jorda i bane rundt sola. Det var første gang noen viste at de samme lovene gjelder på jorda og i verdensrommet.
+
+## Gravitasjonsloven
+
+![To masser trekker på hverandre med like store og motsatt rettede krefter.](../../bilder/gravitasjon-to-masser.svg){.tikz-fig style="width:420px"}
+
+::: {.callout-important title="Newtons gravitasjonslov"}
+<!-- tillegg: Claude -->
+To punktmasser $M$ og $m$ i avstanden $r$ trekker på hverandre med en kraft med størrelse
+$$
+F = \mathrm{G}\frac{Mm}{r^2}
+$$
+der $\mathrm{G} = 6.674\cdot10^{-11}\ \mathrm{N\,m^2/kg^2}$ er **gravitasjonskonstanten**. Kraften virker langs linja mellom massene og er alltid tiltrekkende.
 :::
 
-## Dette kommer på siden
+<!-- tillegg: Claude -->
+Tre ting å legge merke til:
 
-- Gravitasjonsloven og gravitasjonskonstanten
-- Tyngdeakselerasjonen ved overflaten og i høyden
-- Gravitasjonsfelt og potensiell energi i store avstander
-- Eksempler og oppgaver med løsning
+::: {.kort}
+- **Kraftpar.** Kraften fra $M$ på $m$ er like stor som kraften fra $m$ på $M$, med motsatt retning. Det følger Newtons tredje lov. Eplet trekker på jorda like hardt som jorda trekker på eplet, men jorda er så tung at den nesten ikke merker det.
+- **Omvendt kvadrat.** Dobler du avstanden, blir kraften fire ganger mindre. Samme $1/r^2$-avhengighet har Coulombs lov for elektriske ladninger.
+- **Kuler som punkter.** For en kule med symmetrisk massefordeling virker kraften utenfor som om all massen satt i sentrum. Derfor kan vi bruke loven for planeter, så lenge $r$ måles fra sentrum.
+:::
+
+<!-- tillegg: Claude -->
+$\mathrm{G}$ er svært liten. Gravitasjonskraften mellom to mennesker på $75\ \mathrm{kg}$ og $60\ \mathrm{kg}$ én meter fra hverandre er bare $3\cdot10^{-7}\ \mathrm{N}$. Vi merker gravitasjon bare når minst én av massene er enorm, som en planet.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Jorda og månen.** Hvor stor er gravitasjonskraften mellom jorda ($M = 5.97\cdot10^{24}\ \mathrm{kg}$) og månen ($m = 7.35\cdot10^{22}\ \mathrm{kg}$)? Avstanden mellom sentrene er $3.84\cdot10^{8}\ \mathrm{m}$.
+
+::: {.losning}
+$$
+F = \mathrm{G}\frac{Mm}{r^2} = 6.674\cdot10^{-11}\cdot\frac{5.97\cdot10^{24}\cdot7.35\cdot10^{22}}{(3.84\cdot10^{8})^2}\ \mathrm{N} = \underline{\underline{2.0\cdot10^{20}\ \mathrm{N}}}
+$$
+En enorm kraft, men den gir likevel bare månen akselerasjonen $F/m = 2.7\cdot10^{-3}\ \mathrm{m/s^2}$. Det er akkurat det som skal til for å holde månen i sin nesten sirkulære bane.
+:::
+:::
+
+## Tyngdeakselerasjonen
+
+<!-- tillegg: Claude -->
+Tyngdekraften på en gjenstand ved jordoverflaten er gravitasjonskraften fra jorda. Setter vi $m\mathrm{g} = \mathrm{G}Mm/R^2$, ser vi at massen $m$ forkorter seg bort:
+
+::: {.graa}
+$$
+\mathrm{g} = \frac{\mathrm{G}M}{R^2}, \qquad g(r) = \frac{\mathrm{G}M}{r^2}\quad (r \geq R)
+$$
+:::
+
+<!-- tillegg: Claude -->
+Det er derfor alle ting faller like fort når vi ser bort fra luftmotstand. Med $M = 5.97\cdot10^{24}\ \mathrm{kg}$ og $R = 6.37\cdot10^{6}\ \mathrm{m}$ gir formelen $\mathrm{g} = 9.82\ \mathrm{m/s^2}$. Den målte verdien er litt mindre og varierer med breddegraden, blant annet fordi jorda roterer og ikke er helt rund.
+
+![Tyngdeakselerasjonen som funksjon av avstanden fra jordas sentrum. Utenfor avtar den som $1/r^2$. Inni en kule med jevn tetthet vokser den lineært fra null i sentrum.](../../bilder/g-avstand.svg){.tikz-fig style="width:480px"}
+
+<!-- tillegg: Claude -->
+Høyt over bakken er $g$ mindre. Formelen gir oss også en måte å «veie» jorda på: Måler vi $\mathrm{g}$ og $R$, og kjenner $\mathrm{G}$, finner vi $M = \mathrm{g}R^2/\mathrm{G} = 5.97\cdot10^{24}\ \mathrm{kg}$. Det var Henry Cavendish som først målte $\mathrm{G}$ i laboratoriet i 1798. Derfor sier man at han «veide jorda».
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Vektløs på romstasjonen?** Den internasjonale romstasjonen (ISS) går i bane $400\ \mathrm{km}$ over bakken. Hvor stor er tyngdeakselerasjonen der?
+
+::: {.losning}
+Avstanden fra jordas sentrum er $r = R + h = 6.37\cdot10^{6} + 0.40\cdot10^{6}\ \mathrm{m} = 6.77\cdot10^{6}\ \mathrm{m}$.
+$$
+g = \frac{\mathrm{G}M}{r^2} = \frac{6.674\cdot10^{-11}\cdot5.97\cdot10^{24}}{(6.77\cdot10^{6})^2}\ \mathrm{m/s^2} = \underline{\underline{8.7\ \mathrm{m/s^2}}}
+$$
+Det er nesten 90 % av verdien ved bakken! Astronautene er altså ikke vektløse fordi tyngdekraften er borte. De føler seg vektløse fordi både de og romstasjonen faller fritt sammen, rundt jorda. Det ser vi på under *satellitter og baner*.
+:::
+:::
+
+## Gravitasjonsfeltet
+
+<!-- tillegg: Claude -->
+Vi kan tenke på massen $M$ som at den lager et **gravitasjonsfelt** rundt seg. Feltet er kraften per masse som en liten testmasse ville fått:
+$$
+\vec g = \frac{\vec F}{m}, \qquad g = \frac{\mathrm{G}M}{r^2}
+$$
+Feltet peker mot $M$. Ved jordoverflaten er feltet nettopp tyngdeakselerasjonen. Tankegangen er den samme som for det elektriske feltet, der kraft per ladning brukes i stedet for kraft per masse.
+
+## Potensiell energi i store avstander
+
+<!-- tillegg: Claude -->
+Formelen $U = m\mathrm{g}h$ forutsetter at $g$ er konstant. Det stemmer nær bakken, men ikke når vi flytter oss tusenvis av kilometer. Da må vi regne arbeidet med den riktige kraften. Gravitasjonskraften er konservativ, og vi velger $U = 0$ uendelig langt unna. Arbeidet tyngdekraften gjør når massen kommer inn fra uendelig til $r$, gir
+
+::: {.callout-important title="Potensiell energi i gravitasjonsfeltet"}
+<!-- tillegg: Claude -->
+$$
+U(r) = -\frac{\mathrm{G}Mm}{r}
+$$
+:::
+
+![Den potensielle energien er negativ og nærmer seg null langt unna. En gjenstand med negativ total energi er bundet, med positiv energi kan den unnslippe.](../../bilder/potensiell-energi-gravitasjon.svg){.tikz-fig style="width:500px"}
+
+<!-- tillegg: Claude -->
+Minustegnet betyr ikke noe rart. Det er bare en følge av valget $U(\infty) = 0$. Det viktige er at $U$ **øker** når $r$ øker, akkurat som $m\mathrm{g}h$ øker med høyden. Nær bakken gir de to formlene samme endring: Med $r = R + h$ og $h \ll R$ er $\Delta U \approx \mathrm{G}Mmh/R^2 = m\mathrm{g}h$.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Løfte en satellitt.** Hvor mye øker den potensielle energien til en satellitt på $1000\ \mathrm{kg}$ når den løftes fra bakken til $400\ \mathrm{km}$ høyde? Sammenlign med $m\mathrm{g}h$.
+
+::: {.losning}
+$$
+\Delta U = -\frac{\mathrm{G}Mm}{R+h} + \frac{\mathrm{G}Mm}{R} = \mathrm{G}Mm\left(\frac{1}{R} - \frac{1}{R+h}\right)
+$$
+$$
+\Delta U = 6.674\cdot10^{-11}\cdot5.97\cdot10^{24}\cdot1000\left(\frac{1}{6.371\cdot10^{6}} - \frac{1}{6.771\cdot10^{6}}\right)\ \mathrm{J} = \underline{\underline{3.7\cdot10^{9}\ \mathrm{J}}}
+$$
+Med $m\mathrm{g}h$ får vi $1000\cdot9.81\cdot4.0\cdot10^{5}\ \mathrm{J} = 3.9\cdot10^{9}\ \mathrm{J}$. Det er litt for mye, fordi $g$ er mindre høyt oppe. Avviket er ca. 6 %.
+:::
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="To mennesker"}
+<!-- tillegg: Claude -->
+Hvor stor er gravitasjonskraften mellom to personer på $75\ \mathrm{kg}$ og $60\ \mathrm{kg}$ som står $1.0\ \mathrm{m}$ fra hverandre?
+
+::: {.losning}
+$$
+F = 6.674\cdot10^{-11}\cdot\frac{75\cdot60}{1.0^2}\ \mathrm{N} = \underline{\underline{3.0\cdot10^{-7}\ \mathrm{N}}}
+$$
+Det er omtrent tyngden av et sandkorn.
+:::
+:::
+
+::: {.oppgave tittel="Tyngden på Mars"}
+<!-- tillegg: Claude -->
+Mars har masse $6.42\cdot10^{23}\ \mathrm{kg}$ og radius $3.39\cdot10^{6}\ \mathrm{m}$. Hvor stor er tyngdeakselerasjonen ved overflaten? Hvor mye ville en person på $70\ \mathrm{kg}$ veid (tyngden i newton)?
+
+::: {.losning}
+$$
+g_\mathrm{Mars} = \frac{6.674\cdot10^{-11}\cdot6.42\cdot10^{23}}{(3.39\cdot10^{6})^2}\ \mathrm{m/s^2} = \underline{\underline{3.73\ \mathrm{m/s^2}}}
+$$
+$$
+G = mg = 70\cdot3.73\ \mathrm{N} = \underline{\underline{2.6\cdot10^{2}\ \mathrm{N}}}
+$$
+Massen er fortsatt $70\ \mathrm{kg}$, men tyngden er bare 38 % av tyngden på jorda.
+:::
+:::
+
+::: {.oppgave tittel="Halv tyngde" niva="Middels"}
+<!-- tillegg: Claude -->
+Hvor høyt over jordoverflaten må du for at tyngdeakselerasjonen skal være halvparten av verdien ved bakken?
+
+::: {.losning}
+$g \propto 1/r^2$, så halv $g$ krever $r = \sqrt2\,R$:
+$$
+h = r - R = (\sqrt2 - 1)R = 0.414\cdot6.37\cdot10^{6}\ \mathrm{m} = \underline{\underline{2.6\cdot10^{6}\ \mathrm{m}}}
+$$
+Det er ca. $2600\ \mathrm{km}$, mye høyere enn romstasjonen.
+:::
+:::
+
+::: {.oppgave tittel="Hvor er kreftene like store?" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En romsonde reiser rett fra jorda mot månen. I hvilken avstand fra jordas sentrum er gravitasjonskraften fra jorda og månen like store? Bruk tallene fra eksempelet over.
+
+::: {.losning}
+Kall avstanden fra jorda $x$ og avstanden mellom jorda og månen $d$. Kreftene er like store når
+$$
+\frac{\mathrm{G}Mm_s}{x^2} = \frac{\mathrm{G}m_\mathrm{måne}m_s}{(d-x)^2} \quad\Rightarrow\quad \frac{d-x}{x} = \sqrt{\frac{m_\mathrm{måne}}{M}} = \sqrt{\frac{7.35\cdot10^{22}}{5.97\cdot10^{24}}} = 0.111
+$$
+$$
+x = \frac{d}{1 + 0.111} = \frac{3.84\cdot10^{8}}{1.111}\ \mathrm{m} = \underline{\underline{3.46\cdot10^{8}\ \mathrm{m}}}
+$$
+Punktet ligger 90 % av veien mot månen.
+:::
+:::
+
+::::

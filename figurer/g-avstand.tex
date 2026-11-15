@@ -1,0 +1,13 @@
+\begin{tikzpicture}[xscale=1.0,yscale=0.4]
+\fill[black!10,opacity=0.7] (0,0) rectangle (1,10.5);
+\draw[akse] (0,0) -- (8.6,0) node[right]{$r/R$};
+\draw[akse] (0,0) -- (0,11) node[above]{$g$ (m/s$^2$)};
+\draw[bla,very thick] (0,0) -- (1,9.81);
+\draw[bla,very thick,domain=1:8,samples=60] plot (\x,{9.81/(\x*\x)});
+\draw[dashed] (1,0) -- (1,9.81) -- (0,9.81);
+\node[left] at (0,9.81) {9.81};
+\foreach \x in {1,...,8} \node[below] at (\x,0) {\x};
+\node[right,align=left] at (1.6,7) {utenfor: $g = \mathrm{G}M/r^2$};
+\draw[->] (3.4,4.6) -- (0.55,4.6); \node[right] at (3.4,4.6) {inni (jevn tetthet): $g \propto r$};
+\node[rotate=90] at (0.5,7.5) {jorda};
+\end{tikzpicture}
