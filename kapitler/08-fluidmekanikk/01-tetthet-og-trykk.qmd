@@ -2,17 +2,190 @@
 title: "Tetthet og trykk"
 tema: hydrostatikk
 undertema: trykk
-plassholder: true
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/08-01-tetthet-og-trykk) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om tetthet og trykk. Siden fylles ut snart.
+Hvorfor synker du ned i snøen med vanlige støvler, men ikke med ski? Og hvorfor kan et lite hull i et fly være farlig? Svaret på begge spørsmålene er **trykk**. Før vi kan regne på væsker og gasser, trenger vi to størrelser: tettheten, som sier hvor tett stoffet er pakket, og trykket, som sier hvor hardt det presser.
+
+## Fluider
+
+<!-- tillegg: Claude -->
+Et **fluid** er et stoff som flyter: en væske eller en gass. Et fast stoff kan holde formen sin og tåle krefter som prøver å skyve lagene forbi hverandre (skjærkrefter). Et fluid i ro kan ikke det. Det tilpasser seg formen på beholderen, og kreftene det virker med, står derfor alltid **vinkelrett** på flatene det ligger inntil.
+
+Væsker er nesten ikke sammentrykkbare: tettheten er omtrent den samme uansett trykk. Gasser lar seg lett presse sammen. I fluidmekanikken på ingeniørnivå regner vi nesten alltid med **inkompressible** fluider, altså konstant tetthet. Det gjelder for væsker, og for gasser så lenge farten er godt under lydfarten.
+
+## Tetthet
+
+::: {.callout-note title="Definisjon: Tetthet"}
+<!-- tillegg: Claude -->
+**Tettheten** (massetettheten) $\rho$ til et stoff er massen per volum:
+$$
+\rho = \frac{m}{V}
+$$
+SI-enheten er $\mathrm{kg/m^3}$. Ofte brukes også $\mathrm{g/cm^3}$, og $1\ \mathrm{g/cm^3} = 1000\ \mathrm{kg/m^3}$.
 :::
 
-## Dette kommer på siden
+<!-- tillegg: Claude -->
+| Stoff | $\rho$ ($\mathrm{kg/m^3}$) |
+|---|---|
+| Luft (20 °C, 1 atm) | 1.20 |
+| Bensin | ca. 700 |
+| Is | 917 |
+| Vann (4 °C) | 1000 |
+| Sjøvann | 1025 |
+| Blod | ca. 1060 |
+| Aluminium | 2700 |
+| Stål | ca. 7800 |
+| Kvikksølv | $1.36\cdot10^{4}$ |
+| Gull | $1.93\cdot10^{4}$ |
 
-- Massetetthet
-- Trykk som kraft per areal, og enhetene Pa og bar
-- Absolutt trykk og overtrykk
-- Eksempler og oppgaver med løsning
+Vann er en nyttig referanse: én liter vann veier ett kilo. Et stoff med større tetthet enn vann synker i vann, et stoff med mindre tetthet flyter. Det kommer vi tilbake til under *oppdrift*.
+
+## Trykk
+
+::: {.callout-note title="Definisjon: Trykk"}
+<!-- tillegg: Claude -->
+**Trykket** $p$ er kraften per areal når kraften står vinkelrett på flaten:
+$$
+p = \frac{F_\perp}{A}
+$$
+SI-enheten er **pascal**: $1\ \mathrm{Pa} = 1\ \mathrm{N/m^2}$.
+:::
+
+![Til venstre: kraften $F$ fordeles på arealet $A$. Til høyre: i en gass kommer trykket av at molekylene støter mot veggen.](../../bilder/trykk-flate.svg){.tikz-fig style="width:560px"}
+
+<!-- tillegg: Claude -->
+Trykk er en **skalar**. Det har ingen retning i seg selv: I et punkt i et fluid i ro er trykket det samme i alle retninger. Det er kraften trykket gir på en flate, som har retning, og den står alltid vinkelrett på flaten.
+
+I en gass kommer trykket av at molekylene hele tiden kolliderer med veggene. Hvert støt gir et lite dytt, og summen av alle dyttene per areal er trykket. I en væske ligger molekylene tett, og trykket kommer i tillegg av vekten av væsken over (se *hydrostatisk trykk*).
+
+### Andre enheter for trykk
+
+<!-- tillegg: Claude -->
+En pascal er et lite trykk: omtrent det et ark papir gir når det ligger på et bord. Derfor brukes også andre enheter:
+
+| Enhet | I pascal | Brukes til |
+|---|---|---|
+| $1\ \mathrm{kPa}$ | $1000\ \mathrm{Pa}$ | det meste |
+| $1\ \mathrm{bar}$ | $1.00\cdot10^{5}\ \mathrm{Pa}$ | dekktrykk, vær |
+| $1\ \mathrm{atm}$ | $1.013\cdot10^{5}\ \mathrm{Pa}$ | lufttrykket ved havoverflaten |
+| $1\ \mathrm{mmHg}$ | $133.3\ \mathrm{Pa}$ | blodtrykk |
+
+Regn alltid om til pascal før du setter tall inn i formler.
+
+### Absolutt trykk og overtrykk
+
+<!-- tillegg: Claude -->
+Lufta rundt oss har trykket $p_\mathrm{atm} \approx 1.013\cdot10^{5}\ \mathrm{Pa}$. De fleste trykkmålere viser hvor mye trykket er *over* dette, og det kalles **overtrykk** (eller manometertrykk):
+
+::: {.graa}
+$$
+p_\mathrm{over} = p - p_\mathrm{atm}
+$$
+:::
+
+Når et dekk «har 2.2 bar», er det overtrykket. Det absolutte trykket inne i dekket er $2.2\ \mathrm{bar} + 1.013\ \mathrm{bar} \approx 3.2\ \mathrm{bar}$. Et flatt dekk har overtrykk null, men det absolutte trykket inne er fortsatt atmosfæretrykket.
+
+::: {.callout-tip title="Til ettertanke"}
+<!-- tillegg: Claude -->
+Lufttrykket virker på et vindu på $1.0\ \mathrm{m}\times1.5\ \mathrm{m}$ med en kraft på rundt $1.5\cdot10^{5}\ \mathrm{N}$, altså tyngden av 15 tonn. Hvorfor knuses ikke vinduet?
+:::
+
+<!-- tillegg: Claude -->
+Svaret er at lufta inne i rommet presser like hardt fra den andre siden. Det er bare **trykkforskjeller** som gir en netto kraft. Det er også grunnen til at et lite hull i et fly er farlig: Inne er trykket mye høyere enn ute i stor høyde, og trykkforskjellen gir store krefter.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Stiletthæl mot elefant.** En person på $60\ \mathrm{kg}$ står på én stiletthæl med areal $1.0\ \mathrm{cm^2}$. En elefant på $4.0$ tonn står på fire føtter med areal $0.10\ \mathrm{m^2}$ hver. Hvem gir størst trykk på gulvet?
+
+::: {.losning}
+Kraften er tyngden, $F = m\mathrm{g}$. Personen på hælen:
+$$
+p_1 = \frac{m_1\mathrm{g}}{A_1} = \frac{60\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}}{1.0\cdot10^{-4}\ \mathrm{m^2}} = \underline{\underline{5.9\cdot10^{6}\ \mathrm{Pa}}}
+$$
+Elefanten fordeler tyngden på fire føtter:
+$$
+p_2 = \frac{m_2\mathrm{g}}{4A_2} = \frac{4.0\cdot10^{3}\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}}{4\cdot0.10\ \mathrm{m^2}} = \underline{\underline{9.8\cdot10^{4}\ \mathrm{Pa}}}
+$$
+Stiletthælen gir omtrent 60 ganger så stort trykk som elefanten. Det er derfor stiletthæler kan lage merker i tregulv, mens elefanter ikke gjør det.
+:::
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Hvor mye veier lufta i et rom?** Et rom er $5.0\ \mathrm{m}\times4.0\ \mathrm{m}$ og $2.5\ \mathrm{m}$ høyt. Hvor stor er massen av lufta i rommet?
+
+::: {.losning}
+Volumet er $V = 5.0\cdot4.0\cdot2.5\ \mathrm{m^3} = 50\ \mathrm{m^3}$. Med $\rho = 1.20\ \mathrm{kg/m^3}$:
+$$
+m = \rho V = 1.20\ \mathrm{kg/m^3}\cdot50\ \mathrm{m^3} = \underline{\underline{60\ \mathrm{kg}}}
+$$
+Lufta i et vanlig rom veier omtrent like mye som et menneske. Vi merker det ikke, fordi vi er omgitt av den.
+:::
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Ski eller støvler"}
+<!-- tillegg: Claude -->
+En person på $75\ \mathrm{kg}$ står på to ski. Hver ski er $1.8\ \mathrm{m}$ lang og $7.0\ \mathrm{cm}$ bred. Hvor stort er trykket på snøen? Sammenlign med trykket når personen står på to støvler med sålearealet $0.030\ \mathrm{m^2}$ hver.
+
+::: {.losning}
+Med ski er arealet $A = 2\cdot1.8\ \mathrm{m}\cdot0.070\ \mathrm{m} = 0.252\ \mathrm{m^2}$:
+$$
+p_\mathrm{ski} = \frac{m\mathrm{g}}{A} = \frac{75\cdot9.81}{0.252}\ \mathrm{Pa} = \underline{\underline{2.9\ \mathrm{kPa}}}
+$$
+Med støvler er arealet $A = 2\cdot0.030\ \mathrm{m^2} = 0.060\ \mathrm{m^2}$:
+$$
+p_\mathrm{støvler} = \frac{75\cdot9.81}{0.060}\ \mathrm{Pa} = \underline{\underline{12\ \mathrm{kPa}}}
+$$
+Trykket er fire ganger større med støvler, og da synker man ned i løs snø.
+:::
+:::
+
+::: {.oppgave tittel="Dekktrykk"}
+<!-- tillegg: Claude -->
+En sykkelpumpe viser $4.5\ \mathrm{bar}$. Hva er det absolutte trykket i dekket i pascal?
+
+::: {.losning}
+Pumpa viser overtrykket. Det absolutte trykket er
+$$
+p = p_\mathrm{over} + p_\mathrm{atm} = 4.5\cdot10^{5}\ \mathrm{Pa} + 1.013\cdot10^{5}\ \mathrm{Pa} = \underline{\underline{5.5\cdot10^{5}\ \mathrm{Pa}}}
+$$
+:::
+:::
+
+::: {.oppgave tittel="Ekte gull?" niva="Middels"}
+<!-- tillegg: Claude -->
+En terning med sider $2.0\ \mathrm{cm}$ skal være av rent gull. Den veier $0.12\ \mathrm{kg}$. Kan den være av rent gull?
+
+::: {.losning}
+Volumet er $V = (0.020\ \mathrm{m})^3 = 8.0\cdot10^{-6}\ \mathrm{m^3}$. Tettheten blir
+$$
+\rho = \frac{m}{V} = \frac{0.12\ \mathrm{kg}}{8.0\cdot10^{-6}\ \mathrm{m^3}} = 1.5\cdot10^{4}\ \mathrm{kg/m^3}
+$$
+Gull har $\rho = 1.93\cdot10^{4}\ \mathrm{kg/m^3}$, og en gullterning ville veid $0.15\ \mathrm{kg}$. Terningen er altså **ikke av rent gull**. Den kan for eksempel ha en kjerne av et lettere metall.
+:::
+:::
+
+::: {.oppgave tittel="Lokket på hermetikkboksen" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En syltetøyglasskrukke er tappet varm, slik at trykket inne er $0.80\ \mathrm{bar}$ (absolutt) når den er kald. Lokket er sirkulært med diameter $7.0\ \mathrm{cm}$. Hvor stor netto kraft må du overvinne for å løfte lokket rett opp? Hvorfor hjelper det å stikke et lite hull i lokket?
+
+::: {.losning}
+Netto kraft kommer av trykkforskjellen:
+$$
+\Delta p = 1.013\cdot10^{5}\ \mathrm{Pa} - 0.80\cdot10^{5}\ \mathrm{Pa} = 2.1\cdot10^{4}\ \mathrm{Pa}
+$$
+Arealet er $A = \pi(0.035\ \mathrm{m})^2 = 3.85\cdot10^{-3}\ \mathrm{m^2}$, så
+$$
+F = \Delta p\,A = 2.13\cdot10^{4}\ \mathrm{Pa}\cdot3.85\cdot10^{-3}\ \mathrm{m^2} = \underline{\underline{82\ \mathrm{N}}}
+$$
+Det tilsvarer tyngden av over 8 kg. Et hull slipper luft inn, slik at trykket inne blir lik trykket ute. Da forsvinner trykkforskjellen, og lokket løsner lett.
+:::
+:::
+
+::::

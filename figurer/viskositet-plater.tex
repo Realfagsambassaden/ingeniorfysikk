@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\fill[pattern=north east lines] (0,-0.25) rectangle (6,0);
+\draw[thick] (0,0) -- (6,0);
+\draw[thick,fill=black!15] (1,2) rectangle (5,2.25);
+\draw[vek] (5.1,2.12) -- node[above]{$F$} (6.3,2.12);
+\node[right] at (6.4,1.6) {plate med fart $v$};
+\node[right] at (6.4,0) {plate i ro};
+\foreach \y in {0.4,0.8,1.2,1.6} \draw[->,bla,thick] (2,\y) -- (2+1.25*\y,\y);
+\draw[bla] (2,0) -- (4.5,2);
+\draw[<->] (0.6,0) -- node[left]{$d$} (0.6,2);
+\node[right] at (4.6,1.0) {fluid};
+\end{tikzpicture}

@@ -1,0 +1,18 @@
+\begin{tikzpicture}[scale=1]
+% venstre: kraft fordelt på flate
+\fill[pattern=north east lines] (-0.2,0) rectangle (4.2,-0.3);
+\draw[thick] (-0.2,0) -- (4.2,0);
+\draw[thick,fill=bla!15] (0.8,0) rectangle (3.2,0.5);
+\node at (2,0.25) {$A$};
+\draw[vek] (2,1.9) -- node[right]{$F$} (2,0.55);
+\foreach \x in {0.95,1.35,...,3.1} \draw[->,thin] (\x,0.0) -- (\x,-0.25);
+\node[below] at (2,-0.35) {$p = \dfrac{F}{A}$};
+% høyre: gass i boks
+\begin{scope}[xshift=6cm]
+\draw[thick] (0,-0.3) rectangle (3,2.2);
+\foreach \p/\v in {{(0.5,0.4)}/{(0.45,0.3)},{(1.4,1.6)}/{(0.5,-0.2)},{(2.3,0.9)}/{(0.45,0.15)},{(0.9,1.1)}/{(-0.35,0.35)},{(2.0,0.2)}/{(-0.3,-0.3)},{(1.7,1.0)}/{(0.2,0.45)}}
+  {\fill \p circle (2.2pt); \draw[->] \p -- ++\v;}
+\foreach \y in {0.1,0.6,...,2.0} \draw[->,rod,thick] (3,\y) -- (3.45,\y);
+\node[right,align=left] at (3.5,0.95) {støt mot\\veggen};
+\end{scope}
+\end{tikzpicture}

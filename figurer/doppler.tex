@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+\foreach \i in {0,...,4} { \pgfmathsetmacro{\r}{0.6*(5-\i)} \pgfmathsetmacro{\c}{-0.35*(5-\i)} \draw[thick] (\c,0) circle (\r); }
+\fill[rod] (0,0) circle (3pt); \draw[vek,rod] (0,0) -- (1,0) node[above]{$v_s$};
+\node at (3.6,-1.8) {\small observatør foran: høyere $f$};
+\node at (-4.2,-1.8) {\small bak: lavere $f$};
+\draw[->] (2.2,0.2) -- (2.9,0.2); \draw[->] (-4.6,0.2) -- (-5.3,0.2);
+\end{tikzpicture}

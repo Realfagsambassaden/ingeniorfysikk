@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+\draw[akse] (-3.4,0) -- (3.6,0) node[right]{$x$};
+\draw[akse] (0,0) -- (0,3.6);
+\draw[bla,very thick,domain=-3:3,samples=50] plot (\x,{\x*\x/3}); \node[left] at (-2.2,1.9) {$U = \tfrac12kx^2$};
+\draw[thick] (-3,3) -- (3,3) node[right]{$E = \tfrac12kA^2$};
+\draw[dashed] (-3,0) node[below]{$-A$} -- (-3,3); \draw[dashed] (3,0) node[below]{$A$} -- (3,3);
+\draw[<->,gronn,thick] (1.5,0.75) -- node[right]{$E_K$} (1.5,3);
+\draw[<->,bla,thick] (1.5,0) -- node[right]{$U$} (1.5,0.75);
+\end{tikzpicture}

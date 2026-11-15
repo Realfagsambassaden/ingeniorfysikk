@@ -2,17 +2,154 @@
 title: "Stående bølger"
 tema: bolger-og-lyd
 undertema: staende
-plassholder: true
 ---
 
+<!-- video: kommer (videoer/ingeniorfysikk/10-05-staende-bolger) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om stående bølger. Siden fylles ut snart.
+Når du knipser på en gitarstreng, går bølger fram og tilbake mellom festepunktene. Men det du ser, er ikke en bølge som går. Strengen svinger på stedet, med størst utslag på midten og ingen bevegelse i endene. Dette er en **stående bølge**. Alle musikkinstrumenter bygger på stående bølger, og de forklarer hvorfor hvert instrument har sine bestemte toner.
+
+## To bølger mot hverandre
+
+<!-- tillegg: Claude -->
+La to bølger med samme amplitude og frekvens gå i hver sin retning: $y_1 = A\sin(kx - \omega t)$ og $y_2 = A\sin(kx + \omega t)$. Med superposisjonsprinsippet og identiteten $\sin a + \sin b = 2\sin\tfrac{a+b}{2}\cos\tfrac{a-b}{2}$ blir summen
+
+::: {.callout-important title="Stående bølge"}
+<!-- tillegg: Claude -->
+$$
+y(x,t) = 2A\sin(kx)\cos(\omega t)
+$$
 :::
 
-## Dette kommer på siden
+<!-- tillegg: Claude -->
+Uttrykket er ikke lenger på formen $f(x - vt)$. Det er et produkt av en del som bare avhenger av $x$, og en del som bare avhenger av $t$. Hvert punkt svinger opp og ned med amplituden $2A|\sin(kx)|$, men bølgeformen flytter seg ikke.
 
-- Noder og bukter
-- Stående bølger på en streng: grunntone og overtoner
-- Resonans i rør
-- Eksempler og oppgaver med løsning
+::: {.kort}
+- **Noder** (N) er punkter som alltid står stille: $\sin(kx) = 0$, altså $x = 0, \tfrac{\lambda}{2}, \lambda, \dots$
+- **Bukene** (B) er punkter med størst utslag, $2A$, midt mellom nodene.
+- **Avstanden** mellom to nabonoder er $\lambda/2$.
+:::
+
+## Stående bølger på en streng
+
+![De tre første svingemodene på en streng som er festet i begge ender. Det må passe et helt antall halve bølgelengder på strengen.](../../bilder/staende-streng.svg){.tikz-fig style="width:480px"}
+
+<!-- tillegg: Claude -->
+En streng med lengde $L$ er festet i begge ender. Endene må være noder. Det går bare når det passer et helt antall halve bølgelengder på strengen:
+$$
+L = n\frac{\lambda_n}{2} \qquad\Rightarrow\qquad \lambda_n = \frac{2L}{n}, \quad n = 1, 2, 3, \dots
+$$
+Med $f = v/\lambda$ og $v = \sqrt{S/\mu}$ får vi frekvensene strengen kan svinge med:
+
+::: {.callout-important title="Egenfrekvenser for en streng festet i begge ender"}
+<!-- tillegg: Claude -->
+$$
+f_n = n\frac{v}{2L} = \frac{n}{2L}\sqrt{\frac{S}{\mu}}, \qquad n = 1, 2, 3, \dots
+$$
+:::
+
+<!-- tillegg: Claude -->
+Den laveste frekvensen, $f_1$, kalles **grunntonen**. De andre, $f_n = nf_1$, er **overtonene**. Når en streng knipses, svinger den med grunntonen og flere overtoner samtidig. Blandingen av overtoner gir instrumentet sin klang, og det er derfor en gitar og en fiolin høres forskjellige ut selv om de spiller samme tone.
+
+Formelen viser hvordan en musiker endrer tonen: kortere streng (trykke ned en finger på gripebrettet), strammere streng (stemme opp) eller lettere streng (de tynne strengene).
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Strengen.** En streng er $1.20\ \mathrm{m}$ lang, har $\mu = 5.0\ \mathrm{g/m}$ og er strammet med $80\ \mathrm{N}$. Finn de tre laveste egenfrekvensene.
+
+::: {.losning}
+$v = \sqrt{S/\mu} = \sqrt{80/0.0050}\ \mathrm{m/s} = 126.5\ \mathrm{m/s}$.
+$$
+f_1 = \frac{v}{2L} = \frac{126.5}{2\cdot1.20}\ \mathrm{Hz} = \underline{\underline{52.7\ \mathrm{Hz}}}, \qquad f_2 = 2f_1 = \underline{\underline{105\ \mathrm{Hz}}}, \qquad f_3 = 3f_1 = \underline{\underline{158\ \mathrm{Hz}}}
+$$
+:::
+:::
+
+## Stående lydbølger i rør
+
+![Utslaget til luftpartiklene i grunntonen for et rør som er åpent i begge ender (øverst) og et som er lukket i én ende (nederst). I en åpen ende er det buk, i en lukket ende node.](../../bilder/ror-moder.svg){.tikz-fig style="width:580px"}
+
+<!-- tillegg: Claude -->
+I fløyter, orgelpiper og flasker du blåser over, er det lufta som svinger. Lyd er en longitudinal bølge, og randbetingelsene er annerledes enn på en streng:
+
+::: {.kort}
+- **Lukket ende.** Lufta kan ikke bevege seg inn i veggen, så det er en **node** for utslaget.
+- **Åpen ende.** Lufta kan bevege seg fritt, så det er en **buk** for utslaget.
+:::
+
+<!-- tillegg: Claude -->
+Et rør som er **åpent i begge ender**, har buk i begge ender. Da passer det et helt antall halve bølgelengder, som for strengen: $f_n = nv/(2L)$ med $n = 1, 2, 3, \dots$
+
+Et rør som er **lukket i én ende**, har node i den lukkede og buk i den åpne enden. Da passer det et oddetall kvarte bølgelengder: $L = n\lambda/4$ med $n = 1, 3, 5, \dots$ Det gir $f_n = nv/(4L)$, og bare **odde** overtoner. Grunntonen er en oktav lavere enn for et åpent rør med samme lengde.
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Orgelpipen.** En orgelpipe er $0.50\ \mathrm{m}$ lang. Finn grunntonen når pipen er åpen i begge ender og når den er lukket i den ene enden. Lydfarten er $343\ \mathrm{m/s}$.
+
+::: {.losning}
+Åpen:
+$$
+f_1 = \frac{v}{2L} = \frac{343}{2\cdot0.50}\ \mathrm{Hz} = \underline{\underline{343\ \mathrm{Hz}}}
+$$
+Lukket i én ende:
+$$
+f_1 = \frac{v}{4L} = \frac{343}{4\cdot0.50}\ \mathrm{Hz} = \underline{\underline{172\ \mathrm{Hz}}}
+$$
+:::
+:::
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Noder på strengen"}
+<!-- tillegg: Claude -->
+En streng svinger i den tredje svingemoden ($n = 3$). Hvor mange noder og buker er det, endene medregnet?
+
+::: {.losning}
+Det er $n = 3$ buker og $n + 1 = 4$ noder (to i endene og to imellom).
+:::
+:::
+
+::: {.oppgave tittel="Stramme strengen"}
+<!-- tillegg: Claude -->
+En gitarstreng har grunntonen $196\ \mathrm{Hz}$. Hvor mange prosent må snorkraften økes for at grunntonen skal bli $220\ \mathrm{Hz}$?
+
+::: {.losning}
+$f \propto \sqrt S$, så
+$$
+\frac{S_2}{S_1} = \left(\frac{220}{196}\right)^2 = 1.26
+$$
+Snorkraften må økes med ca. $\underline{\underline{26\ \%}}$.
+:::
+:::
+
+::: {.oppgave tittel="Finne bølgefarten" niva="Middels"}
+<!-- tillegg: Claude -->
+En streng med lengde $2.0\ \mathrm{m}$ og massen $10\ \mathrm{g}$ er festet i begge ender. To nabofrekvenser der den svinger med stående bølger, er $150\ \mathrm{Hz}$ og $200\ \mathrm{Hz}$. Finn grunntonen, bølgefarten og snorkraften.
+
+::: {.losning}
+Nabofrekvenser skiller seg med $f_1$, så $f_1 = 200 - 150\ \mathrm{Hz} = \underline{\underline{50\ \mathrm{Hz}}}$. (De to frekvensene er $f_3$ og $f_4$.)
+$$
+v = 2Lf_1 = 2\cdot2.0\cdot50\ \mathrm{m/s} = \underline{\underline{2.0\cdot10^{2}\ \mathrm{m/s}}}
+$$
+Med $\mu = 0.010/2.0\ \mathrm{kg/m} = 5.0\cdot10^{-3}\ \mathrm{kg/m}$:
+$$
+S = \mu v^2 = 5.0\cdot10^{-3}\cdot200^2\ \mathrm{N} = \underline{\underline{2.0\cdot10^{2}\ \mathrm{N}}}
+$$
+:::
+:::
+
+::: {.oppgave tittel="Blåse i en flaske" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+Du blåser over åpningen på en flaske og hører en tone på $220\ \mathrm{Hz}$. Behandle flasken som et rør som er lukket i bunnen. Hvor høy er luftsøylen? Hva skjer med tonen når du heller i vann?
+
+::: {.losning}
+Grunntonen for et rør lukket i én ende er $f_1 = v/(4L)$:
+$$
+L = \frac{v}{4f_1} = \frac{343}{4\cdot220}\ \mathrm{m} = \underline{\underline{0.39\ \mathrm{m}}}
+$$
+Heller du i vann, blir luftsøylen kortere, og tonen blir **lysere**. (En ekte flaske med smal hals oppfører seg litt annerledes, men tendensen er den samme.)
+:::
+:::
+
+::::
