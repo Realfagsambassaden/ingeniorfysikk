@@ -1,0 +1,6 @@
+\begin{tikzpicture}[xscale=1.0,yscale=2.2]
+\draw[akse] (0,0) -- (5.4,0) node[right]{$t$}; \draw[akse] (0,0) -- (0,1.25) node[above]{$I$};
+\draw[bla,very thick,domain=0:5,samples=80] plot (\x,{1-exp(-\x)});
+\draw[dashed] (0,1) node[left]{$\mathcal{E}/R$} -- (5,1);
+\draw[dashed] (1,0) node[below]{$\tau = L/R$} -- (1,0.632) -- (0,0.632) node[left]{$0.63\,\mathcal{E}/R$};
+\end{tikzpicture}

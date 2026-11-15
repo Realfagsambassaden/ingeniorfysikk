@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+\fill[rod!70] (-3.6,-0.35) rectangle (-2.4,0.35); \fill[bla!60] (-2.4,-0.35) rectangle (-1.2,0.35);
+\node[white] at (-3.0,0) {S}; \node[white] at (-1.8,0) {N};
+\draw[vek] (-2.4,0.65) -- (-1.4,0.65) node[right]{$\vec v$};
+\draw[very thick] (0.6,0) ellipse (0.35 and 1.2);
+\foreach \y in {-0.45,-0.2,0.05} \draw[bla,->] (-1.1,\y) -- (0.3,\y);
+\node[bla,below,font=\small] at (-0.4,-0.5) {$\vec B$ øker};
+\draw[gronn,->,very thick] (1.4,0.6) -- (-0.4,0.6);
+\node[gronn,above,font=\small,align=center] at (0.5,1.35) {indusert strøm gir et felt\\ som peker mot magneten};
+\end{tikzpicture}

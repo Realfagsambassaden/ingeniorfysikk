@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+\fill[rod!70] (-3,-1.2) rectangle (-2.4,1.2); \node[white] at (-2.7,0) {N};
+\fill[bla!60] (2.4,-1.2) rectangle (3,1.2); \node[white] at (2.7,0) {S};
+\foreach \y in {-0.8,-0.3,0.3,0.8} \draw[->,bla] (-2.3,\y) -- (2.3,\y);
+\draw[very thick] (-0.45,-1.1) -- (-0.45,1.1) -- (0.45,1.35) -- (0.45,-0.85) -- cycle;
+\draw[thick,dashed] (0,-1.8) -- (0,1.9);
+\draw[->,thick] (0.35,1.65) arc (20:340:0.35 and 0.12); \node[right] at (0.4,1.75) {$\omega$};
+\begin{scope}[xshift=4.2cm,yscale=1.1]
+\draw[akse] (0,0) -- (4.2,0) node[right]{$t$}; \draw[akse] (0,-1.2) -- (0,1.35) node[above]{$\mathcal E$};
+\draw[gronn,very thick,domain=0:4,samples=100] plot (\x,{sin(\x*180)});
+\node[left] at (0,1) {$\mathcal E_0$}; \draw[dashed] (0,1) -- (0.5,1);
+\end{scope}
+\end{tikzpicture}
