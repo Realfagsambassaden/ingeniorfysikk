@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+\draw[bla,very thick,domain=0:8,samples=120] plot (\x,{0.6*sin(\x*90)});
+\foreach \x in {0.5,1.5,...,7.5} \draw[->,gronn] (\x,0) -- (\x,{0.6*sin(\x*90)});
+\draw[vek] (8.3,0) -- (9.3,0) node[right]{$v$};
+\draw[<->] (1,0.95) -- node[above]{$\lambda$} (5,0.95);
+\node[left] at (-0.2,0) {transversal};
+\begin{scope}[yshift=-2.2cm]
+\foreach \i in {0,...,80} { \pgfmathsetmacro{\xx}{\i*8/80 - 0.45*sin(\i*8/80*90)} \draw[thick] (\xx,-0.45) -- (\xx,0.45); }
+\draw[vek] (8.3,0) -- (9.3,0) node[right]{$v$};
+\draw[<->] (2,0.8) -- node[above]{$\lambda$} (6,0.8);
+\node[left] at (-0.2,0) {longitudinal};
+\node[below] at (2,-0.5) {\small fortynning}; \node[below] at (4,-0.5) {\small fortetning};
+\end{scope}
+\end{tikzpicture}
