@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\foreach \s in {0.5,1.0,1.6,2.3} {
+  \draw[bla,thick] (1.0,0.12) to[out={70-8*\s},in=0] (0,{0.3+0.9*\s}) to[out=180,in={110+8*\s}] (-1.0,0.12);
+  \draw[bla,thick] (1.0,-0.12) to[out={-70+8*\s},in=0] (0,{-0.3-0.9*\s}) to[out=180,in={-110-8*\s}] (-1.0,-0.12);
+  \draw[bla,->,thick] (0.02,{0.3+0.9*\s}) -- (-0.02,{0.3+0.9*\s});
+  \draw[bla,->,thick] (0.02,{-0.3-0.9*\s}) -- (-0.02,{-0.3-0.9*\s});
+}
+\draw[bla,thick,->] (1.0,0) -- (3.0,0); \draw[bla,thick,<-] (-1.0,0) -- (-3.0,0);
+\fill[rod!40] (0,-0.3) rectangle (1.0,0.3); \fill[bla!30] (-1.0,-0.3) rectangle (0,0.3);
+\draw[thick] (-1,-0.3) rectangle (1,0.3);
+\node at (0.5,0) {N}; \node at (-0.5,0) {S};
+\end{tikzpicture}

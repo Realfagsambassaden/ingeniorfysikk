@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\fill[black!6] (-0.3,0) rectangle (6.5,3.8);
+\foreach \x in {0.3,1.1,...,6.3} \foreach \y in {0.4,1.2,...,3.6} { \draw[black!35] (\x,\y) circle (0.1); \fill[black!35] (\x,\y) circle (0.03); }
+\draw[very thick] (-0.3,0) -- (6.5,0);
+\draw[thick] (0,-1.6) -- (0,-0.15); \draw[thick] (0.5,-1.6) -- (0.5,-0.15);
+\node[left,align=right] at (-0.1,-1.0) {ioner akselereres\\ gjennom spenningen $V$};
+\draw[vek,bla] (0.25,-1.2) -- (0.25,0);
+\draw[bla,very thick] (0.25,0) arc (180:0:2.4);
+\draw[rod,very thick] (0.25,0) arc (180:0:2.7);
+\node[bla] at (2.65,2.15) {lett}; \node[rod] at (2.95,3.0) {tung};
+\draw[<->] (0.25,-0.3) -- node[below]{$2r$} (5.05,-0.3);
+\node[right] at (6.6,1.9) {$\vec B$ ut av arket};
+\fill[bla] (5.05,0) circle (2pt); \fill[rod] (5.65,0) circle (2pt);
+\node[below] at (5.85,-0.05) {\small detektor};
+\end{tikzpicture}

@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+\foreach \x in {-2,-1.2,...,2} \foreach \y in {-1.2,-0.4,...,1.2} { \draw[black!40] (\x-0.08,\y-0.08) -- (\x+0.08,\y+0.08); \draw[black!40] (\x-0.08,\y+0.08) -- (\x+0.08,\y-0.08); }
+\draw[very thick] (-2.4,0) -- (2.4,0);
+\draw[->,very thick,bla] (-1.8,0.25) -- (-0.8,0.25) node[midway,above]{$I$};
+\draw[vek,rod] (0.6,0) -- (0.6,1.6) node[above]{$\vec F = I\vec L\times\vec B$};
+\draw[<->] (-2.4,-0.45) -- node[below]{$L$} (2.4,-0.45);
+\node[right] at (2.5,0.9) {$\vec B$ inn i arket};
+\end{tikzpicture}
