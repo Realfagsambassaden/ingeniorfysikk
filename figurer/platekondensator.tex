@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+\draw[very thick,fill=rod!20] (0,-0.15) rectangle (5,0.15); \draw[very thick,fill=bla!20] (0,2.35) rectangle (5,2.65);
+\foreach \x in {0.4,1.0,...,4.6} {\node[rod] at (\x,0.0) {\scriptsize $-$}; \node[bla] at (\x,2.5) {\scriptsize $+$};}
+\foreach \x in {0.6,1.4,...,4.6} \draw[->,thick] (\x,2.3) -- (\x,0.2);
+\node[right] at (5.2,2.5) {$+Q$}; \node[right] at (5.2,0) {$-Q$};
+\draw[<->] (-0.4,0.15) -- node[left]{$d$} (-0.4,2.35);
+\node at (2.5,1.25) [fill=none] {}; \node[right] at (5.2,1.25) {$\vec E$ (homogent)};
+\node[above] at (2.5,2.7) {areal $A$};
+\end{tikzpicture}

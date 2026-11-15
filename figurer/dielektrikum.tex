@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+\draw[very thick,fill=bla!20] (0,2.85) rectangle (5,3.15); \draw[very thick,fill=rod!20] (0,-0.15) rectangle (5,0.15);
+\node[right] at (5.2,3) {$+Q$}; \node[right] at (5.2,0) {$-Q$};
+\fill[black!8] (0,0.15) rectangle (5,2.85);
+\foreach \x in {0.5,1.5,...,4.5} \foreach \y in {0.75,1.5,2.25} {
+  \draw[thick] (\x-0.13,\y-0.28) rectangle (\x+0.13,\y+0.28);
+  \node[rod] at (\x,\y+0.14) {\tiny $-$}; \node[bla] at (\x,\y-0.14) {\tiny $+$}; }
+\foreach \x in {1.0,2.0,3.0,4.0} \draw[->,thick] (\x,2.8) -- (\x,0.2);
+\node[right,align=left] at (5.2,1.5) {$\vec E$ inni er\\ svakere: $E = E_0/\kappa$};
+\end{tikzpicture}

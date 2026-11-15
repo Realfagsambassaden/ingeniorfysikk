@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\begin{scope}
+\draw (0,0) to[battery1,l=$V$] (0,2.4) -- (0.6,2.4) to[C,l=$C_1$] (2.0,2.4) to[C,l=$C_2$] (3.4,2.4) -- (3.4,0) -- (0,0);
+\node[font=\small] at (1.7,-0.6) {seriekobling: samme $Q$};
+\end{scope}
+\begin{scope}[xshift=5.6cm]
+\draw (0,0) to[battery1,l=$V$] (0,2.4) -- (3.4,2.4) to[C,l=$C_2$] (3.4,0) -- (0,0);
+\draw (1.7,2.4) to[C,l=$C_1$] (1.7,0);
+\node[font=\small] at (1.7,-0.6) {parallellkobling: samme $V$};
+\end{scope}
+\end{tikzpicture}
