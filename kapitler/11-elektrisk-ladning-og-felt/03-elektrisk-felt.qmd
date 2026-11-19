@@ -142,15 +142,8 @@ Feltet peker mot høyre: $q_2$ er nærmest og dominerer.
 <!-- tillegg: Claude -->
 Hvor sterkt er det elektriske feltet $0.50\ \mathrm{m}$ fra en punktladning på $q = +3.0\ \mathrm{nC}$? Hvilken kraft får et elektron som plasseres der, og hvilken vei peker den?
 
-::: {.losning}
-$$
-E = \mathrm{k_e}\frac{q}{r^2} = 8.99\cdot10^{9}\cdot\frac{3.0\cdot10^{-9}}{(0.50)^2}\ \mathrm{N/C} \approx \underline{\underline{1.1\cdot10^{2}\ \mathrm{N/C}}}
-$$
-Kraften på elektronet:
-$$
-F = \mathrm{e}E = 1.60\cdot10^{-19}\cdot108\ \mathrm{N} \approx \underline{\underline{1.7\cdot10^{-17}\ \mathrm{N}}}
-$$
-Feltet peker bort fra den positive ladningen, men elektronet er negativt, så kraften peker **mot** ladningen (tiltrekning).
+::: {.fasit}
+$1.1\cdot10^{2}\ \mathrm{N/C}$ · $1.7\cdot10^{-17}\ \mathrm{N}$
 :::
 :::
 
@@ -158,12 +151,8 @@ Feltet peker bort fra den positive ladningen, men elektronet er negativt, så kr
 <!-- tillegg: Claude -->
 Ladningen $q_1 = +\mathrm{e}$ ligger i $x = 0$ og $q_2 = +4\mathrm{e}$ ligger i $x = d$. Hvor på $x$-aksen er det elektriske feltet null?
 
-::: {.losning}
-Feltet kan bare bli null mellom ladningene, der feltene peker motsatt vei. Med punktet i $x$:
-$$
-\mathrm{k_e}\frac{\mathrm{e}}{x^2} = \mathrm{k_e}\frac{4\mathrm{e}}{(d - x)^2} \quad\Rightarrow\quad d - x = 2x \quad\Rightarrow\quad x = \underline{\underline{\frac d3}}
-$$
-Punktet ligger nærmest den minste ladningen, slik vi skulle vente.
+::: {.fasit}
+$\frac d3$
 :::
 :::
 
@@ -171,17 +160,8 @@ Punktet ligger nærmest den minste ladningen, slik vi skulle vente.
 <!-- tillegg: Claude -->
 I et punkt $P$ er det elektriske feltet $\vec E = 2.0\cdot10^{4}\ \mathrm{N/C}$ rettet nedover. Hvilken kraft får **a)** et proton og **b)** et elektron i $P$? **c)** Hvilken av dem får størst akselerasjon, og hvor mye større?
 
-::: {.losning}
-**a)** $F = \mathrm{e}E = 1.60\cdot10^{-19}\cdot2.0\cdot10^{4}\ \mathrm{N} = \underline{\underline{3.2\cdot10^{-15}\ \mathrm{N}}}$, nedover (samme vei som feltet).
-
-**b)** Like stor kraft, men **oppover** fordi ladningen er negativ.
-
-**c)** $a = F/m$, og kreftene er like store. Elektronet er mye lettere:
-$$
-\frac{a_\mathrm{e}}{a_\mathrm{p}} = \frac{\mathrm{m_p}}{\mathrm{m_e}} = \frac{1.67\cdot10^{-27}}{9.11\cdot10^{-31}} \approx 1.83\cdot10^{3}
-$$
-<!-- tillegg: Claude: notasjon, tre gjeldende siffer (var 1800) -->
-Elektronet får omtrent 1800 ganger større akselerasjon.
+::: {.fasit}
+$3.2\cdot10^{-15}\ \mathrm{N}$
 :::
 :::
 

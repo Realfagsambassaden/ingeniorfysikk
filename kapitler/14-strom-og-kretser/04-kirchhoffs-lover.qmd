@@ -135,8 +135,8 @@ print("I1, I2, I3 =", np.round(I, 3), "A")
 <!-- tillegg: Claude -->
 En lysslynge har 20 like pærer i serie og kobles til $230\ \mathrm{V}$. Hver pære har resistansen $46\ \Omega$ når den lyser. Hva er strømmen og spenningen over hver pære?
 
-::: {.losning}
-$R = 20\cdot46\ \Omega = 920\ \Omega$, $I = 230/920\ \mathrm{A} = \underline{\underline{0.25\ \mathrm{A}}}$ og $V = 230/20\ \mathrm{V} = \underline{\underline{11.5\ \mathrm{V}}}$ over hver.
+::: {.fasit}
+$0.25\ \mathrm{A}$ · $11.5\ \mathrm{V}$
 :::
 :::
 
@@ -144,11 +144,8 @@ $R = 20\cdot46\ \Omega = 920\ \Omega$, $I = 230/920\ \mathrm{A} = \underline{\un
 <!-- tillegg: Claude -->
 En motstand på $4.0\ \Omega$ står i serie med en parallellkobling av $6.0\ \Omega$ og $3.0\ \Omega$. Hele kretsen er koblet til $12\ \mathrm{V}$. Finn strømmen gjennom hver motstand.
 
-::: {.losning}
-Parallellen: $6.0\cdot3.0/9.0\ \Omega = 2.0\ \Omega$. Totalt $R = 6.0\ \Omega$, så $I = \underline{\underline{2.0\ \mathrm{A}}}$ gjennom $4.0\ \Omega$. Spenningen over parallellen er $2.0\cdot2.0 = 4.0\ \mathrm{V}$:
-$$
-I_6 = \frac{4.0}{6.0}\ \mathrm{A} = \underline{\underline{0.67\ \mathrm{A}}}, \qquad I_3 = \frac{4.0}{3.0}\ \mathrm{A} = \underline{\underline{1.3\ \mathrm{A}}}
-$$
+::: {.fasit}
+$2.0\ \mathrm{A}$ · $0.67\ \mathrm{A}$ · $1.3\ \mathrm{A}$
 :::
 :::
 
@@ -156,23 +153,14 @@ $$
 <!-- tillegg: Claude -->
 To motstander $R_1$ og $R_2$ i serie er koblet til spenningen $V$. Vis at spenningen over $R_2$ er $V_2 = V\dfrac{R_2}{R_1 + R_2}$. Hvilke motstander trengs for å få $3.0\ \mathrm{V}$ ut av $12\ \mathrm{V}$?
 
-::: {.losning}
-Strømmen er $I = V/(R_1 + R_2)$, så $V_2 = IR_2 = VR_2/(R_1 + R_2)$. $\blacksquare$
-
-Vi vil ha $R_2/(R_1 + R_2) = 3.0/12 = 1/4$, altså $R_1 = 3R_2$. For eksempel $R_1 = 3.0\ \mathrm{k\Omega}$ og $R_2 = 1.0\ \mathrm{k\Omega}$.
-:::
 :::
 
 ::: {.oppgave tittel="Endre batteriet" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 I kretsen med to batterier: Hvor stor må $\mathcal{E}_2$ være for at det ikke skal gå strøm gjennom $R_2$?
 
-::: {.losning}
-Med $I_2 = 0$ er $I_1 = I_3$. Venstre sløyfe: $12 = (2.0 + 6.0)I_1$, så $I_1 = 1.5\ \mathrm{A}$. Spenningen over $R_3$ er da $6.0\cdot1.5 = 9.0\ \mathrm{V}$. Høyre sløyfe med $I_2 = 0$: $\mathcal{E}_2 - 6.0I_3 = 0$, så
-$$
-\mathcal{E}_2 = \underline{\underline{9.0\ \mathrm{V}}}
-$$
-Da er batteri 2 akkurat i balanse med spenningen i punktet $a$.
+::: {.fasit}
+$9.0\ \mathrm{V}$
 :::
 :::
 

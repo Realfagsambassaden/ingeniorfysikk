@@ -121,37 +121,22 @@ En bil med masse $m = 1500\ \mathrm{kg}$ og fart $v = 30\ \mathrm{km/h}$ kjører
 
 a) Hva er bilens bevegelsesmengde? b) Hva er dreieimpulsen om sentrum av rundkjøringen?
 
-::: {.losning}
-**a)** $p = mv = 1500\cdot\frac{30}{3.6}\ \mathrm{kg\,m/s} \approx \underline{\underline{1.3\cdot10^4\ \mathrm{kg\,m/s}}}$
-
-**b)** Farten står vinkelrett på $\vec R$, så $\sin = 1$ i kryssproduktet:
-$$
-L = Rmv = 15\cdot1500\cdot\tfrac{30}{3.6}\ \mathrm{kg\,m^2/s} \approx \underline{\underline{1.9\cdot10^5\ \mathrm{kg\,m^2/s}}}
-$$
+::: {.fasit}
+a) $1.3\cdot10^4\ \mathrm{kg\,m/s}$ · b) $1.9\cdot10^5\ \mathrm{kg\,m^2/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Treghetsmomentet til et sykkelhjul" niva="Middels"}
 Et sykkelhjul (uten dekk) består av et nav (massiv sylinder, masse $m_1$, radius $r$), 8 eiker (tynne stenger, masse $m_2$ og lengde $L$ hver, fra kanten av navet til felgen) og en felg (tynnvegget sylinder, masse $m_3$, radius $r + L$). Finn det totale treghetsmomentet om hjulets akse.
 
-::: {.losning}
-- Nav: $I_1 = \frac12 m_1r^2$
-- Hver eike har massesenteret i avstand $d = r + L/2$ fra aksen. Steiners sats: $I_2 = \frac1{12}m_2L^2 + m_2\left(r + \frac L2\right)^2$
-- Felg: $I_3 = m_3(r + L)^2$
-$$
-I = \tfrac12 m_1r^2 + 8m_2\left[\tfrac1{12}L^2 + \left(r + \tfrac L2\right)^2\right] + m_3(r + L)^2
-$$
-:::
 :::
 
 ::: {.oppgave tittel="Skøyteløperen i tall"}
 <!-- tillegg: Claude -->
 En skøyteløper snurrer med $1.0$ omdreining per sekund med armene ute ($I = 4.0\ \mathrm{kg\,m^2}$). Hun trekker armene inn til $I = 1.6\ \mathrm{kg\,m^2}$. Hvor fort snurrer hun nå, og hva skjer med rotasjonsenergien?
 
-::: {.losning}
-$L$ er bevart: $\omega_\text{etter} = \frac{4.0}{1.6}\cdot1.0\ \mathrm{omdr/s} = \underline{\underline{2.5\ \mathrm{omdr/s}}}$.
-
-Rotasjonsenergien er $\frac12 I\omega^2 = \frac{L^2}{2I}$. Med samme $L$ og $I$ redusert til $0.4$ av den opprinnelige, blir energien $2.5$ ganger så stor. Den ekstra energien kommer fra arbeidet musklene gjør når hun drar armene inn mot «sentrifugalkraften».
+::: {.fasit}
+$2.5\ \mathrm{omdr/s}$
 :::
 :::
 

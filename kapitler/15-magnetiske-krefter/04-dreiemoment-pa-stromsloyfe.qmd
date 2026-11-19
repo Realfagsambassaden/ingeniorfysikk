@@ -81,10 +81,8 @@ Når motoren går, induseres det også en spenning i spolen som virker mot strø
 <!-- tillegg: Claude -->
 En sirkulær sløyfe med radius $3.0\ \mathrm{cm}$ fører $2.0\ \mathrm{A}$. Hva er dipolmomentet?
 
-::: {.losning}
-$$
-\mu = IA = 2.0\cdot\pi(0.030)^2\ \mathrm{A\,m^2} = \underline{\underline{5.7\cdot10^{-3}\ \mathrm{A\,m^2}}}
-$$
+::: {.fasit}
+$5.7\cdot10^{-3}\ \mathrm{A\,m^2}$
 :::
 :::
 
@@ -92,19 +90,14 @@ $$
 <!-- tillegg: Claude -->
 For hvilke vinkler er dreiemomentet på en strømsløyfe null? Hvilken av dem er stabil?
 
-::: {.losning}
-$\tau = \mu B\sin\theta = 0$ for $\theta = 0$ og $\theta = 180^\circ$. Ved $\theta = 0$ er energien lavest, og en liten utvridning gir et dreiemoment tilbake: **stabil**. Ved $180^\circ$ er energien høyest, og en liten utvridning gir et dreiemoment som vrir den videre bort: ustabil.
-:::
 :::
 
 ::: {.oppgave tittel="Måle magnetfeltet" niva="Middels"}
 <!-- tillegg: Claude -->
 En spole med 50 vindinger og areal $4.0\ \mathrm{cm^2}$ fører $0.20\ \mathrm{A}$. Det største dreiemomentet måles til $2.4\cdot10^{-4}\ \mathrm{N\,m}$. Hvor sterkt er magnetfeltet?
 
-::: {.losning}
-$$
-B = \frac{\tau_\mathrm{maks}}{NIA} = \frac{2.4\cdot10^{-4}}{50\cdot0.20\cdot4.0\cdot10^{-4}}\ \mathrm{T} = \underline{\underline{0.060\ \mathrm{T}}}
-$$
+::: {.fasit}
+$0.060\ \mathrm{T}$
 :::
 :::
 
@@ -112,15 +105,8 @@ $$
 <!-- tillegg: Claude -->
 I Bohrs atommodell går elektronet i hydrogen i en sirkel med radius $5.3\cdot10^{-11}\ \mathrm{m}$ og farten $2.2\cdot10^{6}\ \mathrm{m/s}$. Regn ut strømmen dette svarer til, og dipolmomentet.
 
-::: {.losning}
-Omløpstiden er $T = 2\pi r/v = 1.51\cdot10^{-16}\ \mathrm{s}$. Strømmen er ladning per tid:
-$$
-I = \frac{\mathrm{e}}{T} = \frac{1.602\cdot10^{-19}}{1.51\cdot10^{-16}}\ \mathrm{A} = \underline{\underline{1.1\cdot10^{-3}\ \mathrm{A}}}
-$$
-$$
-\mu = I\pi r^2 = 1.06\cdot10^{-3}\cdot\pi(5.3\cdot10^{-11})^2\ \mathrm{A\,m^2} = \underline{\underline{9.3\cdot10^{-24}\ \mathrm{A\,m^2}}}
-$$
-Dette er Bohr-magnetonen. Alle atomer er altså små magneter, og det er grunnlaget for magnetisme i stoffer.
+::: {.fasit}
+$1.1\cdot10^{-3}\ \mathrm{A}$ · $9.3\cdot10^{-24}\ \mathrm{A\,m^2}$
 :::
 :::
 

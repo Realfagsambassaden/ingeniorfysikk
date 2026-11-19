@@ -88,26 +88,13 @@ Det er nesten **500 ganger** tyngdeakselerasjonen! Derfor blir vannet slynget ut
 ::: {.oppgave tittel="Akselerasjon når farten er konstant?"}
 I sirkelbevegelse med konstant fart er sentripetalakselerasjonen $a = v^2/r$. Men akselerasjon handler om endring i hastighet. Burde ikke akselerasjonen være null når $v$ er konstant? Forklar.
 
-::: {.losning}
-Fart og hastighet er ikke det samme. *Fart* er hvor fort legemet går, et tall. *Hastighet* er fart med retning, en vektor, og farten er lengden av hastighetsvektoren.
-
-I en sving er farten konstant, men retningen endres hele tiden. Da endres hastigheten, og
-$$
-\vec a = \frac{\Delta\vec v}{\Delta t} \neq \vec 0
-$$
-Ved konstant banefart peker denne akselerasjonen inn mot sentrum, og den er $a_\perp = v^2/r$.
-:::
 :::
 
 ::: {.oppgave tittel="Satellitt"}
 En satellitt går i sirkelbane $500\ \mathrm{km}$ over jordoverflaten. Jordas radius er $6370\ \mathrm{km}$. Satellitten bruker $95$ minutter på én runde. Finn banefarten.
 
-::: {.losning}
-<!-- fra notatene -->
-Radien i banen måles fra jordas sentrum: $R = 6370\ \mathrm{km} + 500\ \mathrm{km} = 6870\ \mathrm{km}$. På én periode $T$ går satellitten én omkrets:
-$$
-v = \frac{s}{T} = \frac{2\pi R}{T} = \frac{2\pi\cdot6.87\cdot10^6\ \mathrm{m}}{95\cdot60\ \mathrm{s}} \approx 7.6\cdot10^3\ \mathrm{m/s} = \underline{\underline{7.6\ \mathrm{km/s}}}
-$$
+::: {.fasit}
+$7.6\ \mathrm{km/s}$
 :::
 :::
 
@@ -118,29 +105,8 @@ a) Skisser $a_\parallel(t)$ og $a_\perp(t)$. Hva skjer hvis bilen slutter å øk
 
 b) Radien er $60\ \mathrm{m}$, og farten øker jevnt fra 0 til $60\ \mathrm{km/h}$ på $6.0\ \mathrm{s}$. Finn $a_\parallel$, $a_\perp$ og den totale akselerasjonen idet farten er $60\ \mathrm{km/h}$.
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** Farten øker jevnt, så $a_\parallel = \Delta v/\Delta t$ er **konstant**. Med $v = a_\parallel t$ blir
-$$
-a_\perp = \frac{v^2}{R} = \frac{(a_\parallel t)^2}{R} = \frac{a_\parallel^2}{R}\,t^2
-$$
-som vokser som en **parabel**. Når $v_{\max}$ er nådd, faller $a_\parallel$ til null, mens $a_\perp$ blir liggende konstant på $v_{\max}^2/R$:
-
-![](../../bilder/rundkjoring-grafer.svg){.tikz-fig style="width:600px"}
-
-**b)** Baneakselerasjonen:
-$$
-a_\parallel = \frac{\Delta v}{\Delta t} = \frac{60/3.6\ \mathrm{m/s}}{6.0\ \mathrm{s}} \approx \underline{\underline{2.8\ \mathrm{m/s^2}}}
-$$
-Sentripetalakselerasjonen ved $60\ \mathrm{km/h}$:
-$$
-a_\perp = \frac{v^2}{R} = \frac{(60/3.6\ \mathrm{m/s})^2}{60\ \mathrm{m}} \approx \underline{\underline{4.6\ \mathrm{m/s^2}}}
-$$
-De står vinkelrett på hverandre, så
-$$
-a = \sqrt{a_\parallel^2 + a_\perp^2} = \sqrt{2.78^2 + 4.63^2}\ \mathrm{m/s^2} \approx \underline{\underline{5.4\ \mathrm{m/s^2}}}
-$$
-Her antar vi at bilen fortsatt akselererer akkurat idet den når $60\ \mathrm{km/h}$.
+::: {.fasit}
+$2.8\ \mathrm{m/s^2}$ · $4.6\ \mathrm{m/s^2}$ · $5.4\ \mathrm{m/s^2}$
 :::
 :::
 

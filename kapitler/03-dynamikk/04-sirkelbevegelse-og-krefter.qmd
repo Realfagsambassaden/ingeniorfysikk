@@ -115,15 +115,8 @@ a) Hvilke påstander er riktige?
 
 b) Et akselerometer i vogna måler $a_\perp = 3\mathrm{g}$ på toppen C. Hva er normalkraften der, uttrykt ved tyngden $G$?
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** I A er $N = G + mv_A^2/r > G$: **A er feil, B er riktig.**
-I B er $a_\perp = N/m \neq 0$ (vogna går jo i sirkel): **C er feil.** Langs banen virker bare tyngden, så $a_\text{tang} = -\mathrm{g}$: **D er riktig.**
-I C er $a_\perp = (N + G)/m$. Den er bare lik $\mathrm{g}$ hvis $N = 0$, altså helt på grensen til å miste kontakten: **E er feil** (generelt).
-
-Riktige påstander: **B og D**.
-
-**b)** På toppen: $N + G = m a_\perp = m\cdot3\mathrm{g} = 3G$, så $\underline{\underline{N = 2G}}$.
+::: {.fasit}
+$N = 2G$
 :::
 :::
 
@@ -131,13 +124,6 @@ Riktige påstander: **B og D**.
 <!-- fra notatene -->
 Skriv Newtons 2. lov for en bil i bunnen (A) og på toppen (B) av en vertikal loop med radius $r$, og forklar hvorfor $N_B < N_A$ hvis farten var lik.
 
-::: {.losning}
-I bunnen: $N_A - G = m\dfrac{v_A^2}{r}$, så $N_A = m\dfrac{v_A^2}{r} + G$.
-
-På toppen: $N_B + G = m\dfrac{v_B^2}{r}$, så $N_B = m\dfrac{v_B^2}{r} - G$.
-
-Med samme fart er forskjellen $N_A - N_B = 2G$. I bunnen må normalkraften både bære tyngden og gi sentripetalkraften; på toppen hjelper tyngden til. (I virkeligheten er farten også lavere på toppen, så forskjellen blir enda større.)
-:::
 :::
 
 ::: {.oppgave tittel="Kjeglependel" niva="Middels"}
@@ -148,20 +134,8 @@ a) Tegn kreftene og finn snordraget.
 
 b) Vis at omløpstiden er $T = 2\pi\sqrt{L\cos\theta/\mathrm{g}}$.
 
-::: {.losning}
-**a)** Bare tyngden $\vec G$ og snordraget $\vec S$ virker. Sirkelen har radius $r = L\sin\theta$, og sentrum ligger rett under opphengspunktet. Loddrett er det ingen akselerasjon:
-$$
-S\cos\theta = m\mathrm{g} \quad\Rightarrow\quad \underline{\underline{S = \frac{m\mathrm{g}}{\cos\theta}}}
-$$
-
-**b)** Den vannrette delen av snordraget peker inn mot sentrum:
-$$
-S\sin\theta = m\frac{v^2}{r} \quad\Rightarrow\quad m\mathrm{g}\tan\theta = m\frac{v^2}{L\sin\theta} \quad\Rightarrow\quad v^2 = \mathrm{g}L\sin\theta\tan\theta
-$$
-Omløpstiden er $T = 2\pi r/v$:
-$$
-T = \frac{2\pi L\sin\theta}{\sqrt{\mathrm{g}L\sin\theta\tan\theta}} = 2\pi\sqrt{\frac{L\sin\theta\cos\theta}{\mathrm{g}\sin\theta}} = 2\pi\sqrt{\frac{L\cos\theta}{\mathrm{g}}}
-$$
+::: {.fasit}
+$S = \frac{m\mathrm{g}}{\cos\theta}$
 :::
 :::
 

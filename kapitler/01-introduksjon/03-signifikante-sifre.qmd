@@ -130,14 +130,8 @@ b) $0.00301\ \mathrm{Hz}$
 c) $500.1\ \mathrm{N}$
 d) $10000000000$
 
-::: {.losning}
-**a)** $0.03$ har ett gjeldende siffer. Vi flytter desimaltegnet to plasser mot høyre: $\underline{\underline{3\cdot10^{-2}\ \mathrm{s}}}$
-
-**b)** Vi flytter desimaltegnet tre plasser mot høyre for å få et tall mellom 1 og 10: $\underline{\underline{3.01\cdot10^{-3}\ \mathrm{Hz}}}$
-
-**c)** Vi flytter desimaltegnet to plasser mot venstre: $\underline{\underline{5.001\cdot10^{2}\ \mathrm{N}}}$
-
-**d)** Følger vi reglene bokstavelig, har tallet 11 gjeldende siffer: $1.0000000000\cdot10^{10}$. Er det ment som «omtrent ti milliarder», skriver vi heller $1.0\cdot10^{10}$.
+::: {.fasit}
+a) $3\cdot10^{-2}\ \mathrm{s}$ · b) $3.01\cdot10^{-3}\ \mathrm{Hz}$ · c) $5.001\cdot10^{2}\ \mathrm{N}$
 :::
 :::
 
@@ -151,12 +145,8 @@ b) Den totale lengden av to staver på $1.27\ \mathrm{m}$ og $0.4\ \mathrm{m}$.
 
 c) Omkretsen av en sirkel med radius $r = 2.50\ \mathrm{cm}$.
 
-::: {.losning}
-**a)** Deling: $v = 125/4.2\ \mathrm{m/s} = 29.76\ldots\ \mathrm{m/s}$. Tiden har to siffer, så $\underline{\underline{v = 30\ \mathrm{m/s}}}$, eller tydeligere $3.0\cdot10^1\ \mathrm{m/s}$.
-
-**b)** Addisjon: $1.27 + 0.4 = 1.67$. Færrest desimaler er én, så $\underline{\underline{1.7\ \mathrm{m}}}$.
-
-**c)** $2\pi$ er eksakt og begrenser ikke: $O = 2\pi\cdot2.50\ \mathrm{cm} = 15.707\ldots\ \mathrm{cm}$, altså $\underline{\underline{15.7\ \mathrm{cm}}}$.
+::: {.fasit}
+a) $v = 30\ \mathrm{m/s}$ · b) $1.7\ \mathrm{m}$ · c) $15.7\ \mathrm{cm}$
 :::
 :::
 

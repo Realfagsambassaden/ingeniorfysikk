@@ -64,19 +64,14 @@ Lite i vanlig drift. Ved en kortslutning kan strømmen bli flere tusen ampere, o
 <!-- tillegg: Claude -->
 Hva skjer med kraften mellom to ledere hvis strømmen i begge dobles? Hva om avstanden i tillegg dobles?
 
-::: {.losning}
-$F/L \propto I_1I_2/d$. Dobbel strøm i begge gir **4 ganger** så stor kraft. Dobler vi også avstanden, blir kraften **2 ganger** den opprinnelige.
-:::
 :::
 
 ::: {.oppgave tittel="Finn strømmen"}
 <!-- tillegg: Claude -->
 To parallelle ledere $5.0\ \mathrm{cm}$ fra hverandre fører like store strømmer. Kraften mellom dem er $4.0\cdot10^{-4}\ \mathrm{N}$ per meter. Hvor stor er strømmen?
 
-::: {.losning}
-$$
-I^2 = \frac{2\pi d\,(F/L)}{\mu_0} = \frac{2\pi\cdot0.050\cdot4.0\cdot10^{-4}}{4\pi\cdot10^{-7}}\ \mathrm{A^2} = 100\ \mathrm{A^2}, \qquad I = \underline{\underline{10\ \mathrm{A}}}
-$$
+::: {.fasit}
+$10\ \mathrm{A}$
 :::
 :::
 
@@ -84,12 +79,8 @@ $$
 <!-- tillegg: Claude -->
 En lang, vannrett leder ligger fast og fører $80\ \mathrm{A}$. Rett over den, parallelt, henger en tynn leder med masse $1.0\ \mathrm{g}$ per meter og strømmen $20\ \mathrm{A}$. Hvor høyt over den faste lederen kan den tynne sveve? Hvilken vei må strømmen i den gå?
 
-::: {.losning}
-Den magnetiske kraften må peke opp, altså frastøtning: strømmene må gå **motsatt vei**. Kraften må bære tyngden:
-$$
-\frac{\mu_0 I_1I_2}{2\pi d} = \frac mL\,\mathrm{g} \quad\Rightarrow\quad d = \frac{\mu_0 I_1I_2}{2\pi(m/L)\mathrm{g}} = \frac{4\pi\cdot10^{-7}\cdot80\cdot20}{2\pi\cdot1.0\cdot10^{-3}\cdot9.81}\ \mathrm{m} = \underline{\underline{3.3\ \mathrm{cm}}}
-$$
-(Likevekten er stabil loddrett: Kommer lederen nærmere, blir frastøtningen større og skyver den opp igjen.)
+::: {.fasit}
+$3.3\ \mathrm{cm}$
 :::
 :::
 
@@ -97,14 +88,8 @@ $$
 <!-- tillegg: Claude -->
 Tre lange, parallelle ledere ligger i samme plan med $10\ \mathrm{cm}$ mellom naboene. Alle fører $20\ \mathrm{A}$ i samme retning. Finn kraften per meter på den midterste og på en av de ytterste.
 
-::: {.losning}
-Den midterste trekkes like mye mot hver side: **kraften er null**.
-
-Den ytterste trekkes mot de to andre, som ligger $0.10\ \mathrm{m}$ og $0.20\ \mathrm{m}$ unna:
-$$
-\frac FL = \frac{\mu_0 I^2}{2\pi}\left(\frac{1}{0.10}+\frac{1}{0.20}\right) = 2\cdot10^{-7}\cdot400\cdot15\ \mathrm{N/m} = \underline{\underline{1.2\cdot10^{-3}\ \mathrm{N/m}}}
-$$
-rettet innover, mot de andre lederne.
+::: {.fasit}
+$1.2\cdot10^{-3}\ \mathrm{N/m}$
 :::
 :::
 

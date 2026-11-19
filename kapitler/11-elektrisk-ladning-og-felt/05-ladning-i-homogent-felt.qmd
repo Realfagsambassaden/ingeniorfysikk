@@ -72,22 +72,8 @@ Et elektron kommer vannrett inn mellom to vannrette plater med farten $v_0 = 2.0
 **a)** Hvor langt er elektronet avbøyd loddrett når det forlater platene?\
 **b)** Med hvilken vinkel kommer det ut?
 
-::: {.losning}
-Elektronet er negativt, så kraften peker **oppover**, mot feltet. Tyngdekraften kan vi se bort fra.
-$$
-a_y = \frac{\mathrm{e}E}{\mathrm{m_e}} = \frac{1.60\cdot10^{-19}\cdot1.0\cdot10^{4}}{9.11\cdot10^{-31}}\ \mathrm{m/s^2} \approx 1.76\cdot10^{15}\ \mathrm{m/s^2}
-$$
-I $x$-retning er farten konstant, så tida mellom platene er
-$$
-t = \frac{L}{v_0} = \frac{0.050}{2.0\cdot10^{7}}\ \mathrm{s} = 2.5\cdot10^{-9}\ \mathrm{s}
-$$
-**a)** $y = \tfrac12 a_y t^2 = \tfrac12\cdot1.76\cdot10^{15}\cdot(2.5\cdot10^{-9})^2\ \mathrm{m} \approx \underline{\underline{5.5\ \mathrm{mm}}}$ oppover.
-
-**b)** $v_y = a_y t \approx 4.4\cdot10^{6}\ \mathrm{m/s}$, så
-$$
-\tan\theta = \frac{v_y}{v_0} = \frac{4.4\cdot10^{6}}{2.0\cdot10^{7}} \quad\Rightarrow\quad \theta \approx \underline{\underline{12^\circ}}
-$$
-over vannrett. Slik ble elektronstrålen styrt i gamle TV-skjermer og oscilloskop.
+::: {.fasit}
+a) $5.5\ \mathrm{mm}$ · b) $12^\circ$
 :::
 :::
 
@@ -95,12 +81,8 @@ over vannrett. Slik ble elektronstrålen styrt i gamle TV-skjermer og oscillosko
 <!-- tillegg: Claude -->
 En oljedråpe med masse $m = 3.3\cdot10^{-15}\ \mathrm{kg}$ svever i ro mellom to vannrette plater der feltet er $E = 1.0\cdot10^{5}\ \mathrm{N/C}$ og peker nedover. Hvor stor er ladningen på dråpen, og hvor mange elementærladninger tilsvarer det?
 
-::: {.losning}
-Dråpen svever, så den elektriske kraften balanserer tyngden: $|q|E = m\mathrm{g}$.
-$$
-|q| = \frac{m\mathrm{g}}{E} = \frac{3.3\cdot10^{-15}\cdot9.81}{1.0\cdot10^{5}}\ \mathrm{C} \approx 3.2\cdot10^{-19}\ \mathrm{C}
-$$
-Kraften må peke oppover mens feltet peker nedover, så ladningen er **negativ**: $q \approx \underline{\underline{-3.2\cdot10^{-19}\ \mathrm{C}}}$. Det er $n = 3.2/1.6 = \underline{\underline{2}}$ elementærladninger, altså to ekstra elektroner.
+::: {.fasit}
+$-3.2\cdot10^{-19}\ \mathrm{C}$ · $2$
 :::
 :::
 

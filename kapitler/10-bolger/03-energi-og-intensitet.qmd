@@ -101,11 +101,8 @@ $1/r^2$-loven forutsetter at bølgen sprer seg ut i alle retninger. Langs en str
 <!-- tillegg: Claude -->
 Intensiteten fra en lydkilde er $1.0\cdot10^{-4}\ \mathrm{W/m^2}$ i avstanden $2.0\ \mathrm{m}$. Hva er den i avstanden $8.0\ \mathrm{m}$?
 
-::: {.losning}
-Avstanden blir fire ganger større, så intensiteten blir $4^2 = 16$ ganger mindre:
-$$
-I = \frac{1.0\cdot10^{-4}}{16}\ \mathrm{W/m^2} = \underline{\underline{6.3\cdot10^{-6}\ \mathrm{W/m^2}}}
-$$
+::: {.fasit}
+$6.3\cdot10^{-6}\ \mathrm{W/m^2}$
 :::
 :::
 
@@ -113,11 +110,8 @@ $$
 <!-- tillegg: Claude -->
 Sola sender ut effekten $3.8\cdot10^{26}\ \mathrm{W}$. Hvor stor er intensiteten av sollyset ved jorda, $1.5\cdot10^{11}\ \mathrm{m}$ unna?
 
-::: {.losning}
-$$
-I = \frac{3.8\cdot10^{26}}{4\pi(1.5\cdot10^{11})^2}\ \mathrm{W/m^2} = \underline{\underline{1.3\cdot10^{3}\ \mathrm{W/m^2}}}
-$$
-Dette kalles solarkonstanten. En solcelle på én kvadratmeter får altså over en kilowatt på en klar dag i verdensrommet.
+::: {.fasit}
+$1.3\cdot10^{3}\ \mathrm{W/m^2}$
 :::
 :::
 
@@ -125,12 +119,8 @@ Dette kalles solarkonstanten. En solcelle på én kvadratmeter får altså over 
 <!-- tillegg: Claude -->
 På strengen i eksempelet over blir amplituden halvert og frekvensen doblet. Hva skjer med effekten?
 
-::: {.losning}
-$P \propto \omega^2A^2$. Med dobbel frekvens og halv amplitude:
-$$
-\frac{P_2}{P_1} = 2^2\cdot\left(\frac12\right)^2 = \underline{\underline{1}}
-$$
-Effekten er den samme.
+::: {.fasit}
+$1$
 :::
 :::
 
@@ -138,11 +128,8 @@ Effekten er den samme.
 <!-- tillegg: Claude -->
 Amplituden til lydbølgen fra en punktkilde er $2.0\cdot10^{-8}\ \mathrm{m}$ i avstanden $5.0\ \mathrm{m}$. Hva er amplituden i $20\ \mathrm{m}$ avstand? Forklar hvorfor amplituden avtar som $1/r$.
 
-::: {.losning}
-$I \propto A^2$ og $I \propto 1/r^2$, så $A \propto 1/r$. Fire ganger så langt unna gir en fjerdedel av amplituden:
-$$
-A = \frac{2.0\cdot10^{-8}}{4}\ \mathrm{m} = \underline{\underline{5.0\cdot10^{-9}\ \mathrm{m}}}
-$$
+::: {.fasit}
+$5.0\cdot10^{-9}\ \mathrm{m}$
 :::
 :::
 

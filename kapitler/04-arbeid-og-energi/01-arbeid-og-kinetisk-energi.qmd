@@ -100,42 +100,24 @@ a) En bil med masse $M = 1.5$ tonn kjører i $30\ \mathrm{km/h}$. Hva er den kin
 
 b) En kule på $m = 8.0\ \mathrm{g}$ går med $v = 350\ \mathrm{m/s}$. Hva er dens kinetiske energi, og hvor fort måtte bilen kjørt for å ha like mye?
 
-::: {.losning}
-**a)** $E_K = \frac12\cdot1500\ \mathrm{kg}\cdot\left(\frac{30}{3.6}\ \mathrm{m/s}\right)^2 \approx \underline{\underline{52\ \mathrm{kJ}}}$
-
-**b)** $E_K = \frac12\cdot0.0080\ \mathrm{kg}\cdot(350\ \mathrm{m/s})^2 = \underline{\underline{490\ \mathrm{J}}}$. Samme energi for bilen:
-$$
-\tfrac12 Mv_B^2 = \tfrac12 mv_K^2 \quad\Rightarrow\quad v_B = \sqrt{\frac{m}{M}}\,v_K = \sqrt{\frac{0.0080}{1500}}\cdot350\ \mathrm{m/s} \approx \underline{\underline{0.81\ \mathrm{m/s}}}
-$$
-Det er bare ca. $2.9\ \mathrm{km/h}$, gangfart. En liten, rask kule har lite energi sammenlignet med en tung bil.
+::: {.fasit}
+a) $52\ \mathrm{kJ}$ · b) $490\ \mathrm{J}$ · b) $0.81\ \mathrm{m/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Fjærkonstant fra arbeid"}
 Det kreves et arbeid $W = 500\ \mathrm{J}$ for å strekke en fjær $x = 5.0\ \mathrm{cm}$. Fjæra følger Hookes lov. Finn fjærkonstanten $k$.
 
-::: {.losning}
-Arbeidet er $W = \frac12 kx^2$, så
-$$
-k = \frac{2W}{x^2} = \frac{2\cdot500\ \mathrm{J}}{(0.050\ \mathrm{m})^2} = \underline{\underline{0.40\ \mathrm{MN/m}}}
-$$
-Enheten: $\mathrm{J/m^2} = \mathrm{N\,m/m^2} = \mathrm{N/m}$. ✓
+::: {.fasit}
+$0.40\ \mathrm{MN/m}$
 :::
 :::
 
 ::: {.oppgave tittel="Løv i vind" niva="Middels"}
 I tidsrommet $0 \le t \le 0.9\ \mathrm{s}$ påvirkes et løv av kraften $\vec F(t) = [0.5\ \mathrm{N/s^2}\cdot t^2,\ 3\ \mathrm{N}]$, og får hastigheten $\vec v(t) = [3\ \mathrm{m/s^3}\cdot t^2,\ \mathrm{e}^{t/(2.1\,\mathrm{s})}\ \mathrm{m/s}]$. Hvor stort arbeid gjør vinden på løvet i $x$-retning?
 
-::: {.losning}
-<!-- fra notatene -->
-Vi skriver om arbeidet til et integral over tid, med $\mathrm{d}\vec s = \vec v\,\mathrm{d}t$:
-$$
-W = \int\vec F\cdot\mathrm{d}\vec s = \int\vec F\cdot\frac{\mathrm{d}\vec s}{\mathrm{d}t}\,\mathrm{d}t = \int\vec F\cdot\vec v\,\mathrm{d}t
-$$
-I $x$-retning:
-$$
-W_x = \int_0^{0.9} 0.5t^2\cdot3t^2\,\mathrm{d}t = 1.5\left[\frac{t^5}{5}\right]_0^{0.9} \approx 0.177\ \mathrm{J} \approx \underline{\underline{0.2\ \mathrm{J}}}
-$$
+::: {.fasit}
+$0.2\ \mathrm{J}$
 :::
 :::
 

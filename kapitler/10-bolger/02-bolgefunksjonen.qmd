@@ -105,14 +105,8 @@ $$
 <!-- tillegg: Claude -->
 En bølge med amplitude $3.0\ \mathrm{cm}$, bølgelengde $0.50\ \mathrm{m}$ og frekvens $8.0\ \mathrm{Hz}$ går i negativ $x$-retning. Skriv opp bølgefunksjonen (med $\varphi = 0$) og finn bølgefarten.
 
-::: {.losning}
-$k = 2\pi/0.50\ \mathrm{m^{-1}} = 12.6\ \mathrm{m^{-1}}$ og $\omega = 2\pi\cdot8.0\ \mathrm{s^{-1}} = 50.3\ \mathrm{s^{-1}}$. Negativ retning gir like fortegn:
-$$
-y(x,t) = 0.030\ \mathrm{m}\cdot\sin\left(12.6\ \mathrm{m^{-1}}\,x + 50.3\ \mathrm{s^{-1}}\,t\right)
-$$
-$$
-v = f\lambda = 8.0\cdot0.50\ \mathrm{m/s} = \underline{\underline{4.0\ \mathrm{m/s}}}
-$$
+::: {.fasit}
+$4.0\ \mathrm{m/s}$
 :::
 :::
 
@@ -120,21 +114,14 @@ $$
 <!-- tillegg: Claude -->
 Hvor mye må snorkraften økes for at bølgefarten på en streng skal dobles?
 
-::: {.losning}
-$v \propto \sqrt S$, så dobbel fart krever **fire ganger** så stor snorkraft.
-:::
 :::
 
 ::: {.oppgave tittel="Snorkraften i gitarstrengen" niva="Middels"}
 <!-- tillegg: Claude -->
 En gitarstreng er $65\ \mathrm{cm}$ lang mellom festepunktene og har $\mu = 7.0\ \mathrm{g/m}$. Den grunnleggende bølgelengden er to ganger strenglengden (se *stående bølger*). Hvor stor snorkraft trengs for at frekvensen skal bli $110\ \mathrm{Hz}$ (tonen A)?
 
-::: {.losning}
-$\lambda = 2\cdot0.65\ \mathrm{m} = 1.30\ \mathrm{m}$, så $v = f\lambda = 110\cdot1.30\ \mathrm{m/s} = 143\ \mathrm{m/s}$.
-$$
-S = \mu v^2 = 7.0\cdot10^{-3}\cdot143^2\ \mathrm{N} = \underline{\underline{1.4\cdot10^{2}\ \mathrm{N}}}
-$$
-Det tilsvarer tyngden av ca. 15 kg.
+::: {.fasit}
+$1.4\cdot10^{2}\ \mathrm{N}$
 :::
 :::
 
@@ -142,15 +129,8 @@ Det tilsvarer tyngden av ca. 15 kg.
 <!-- tillegg: Claude -->
 For bølgen i eksempelet, $y = 0.020\sin(15x - 60t)$ (SI-enheter): Hvor stort er utslaget og farten til punktet $x = 0.10\ \mathrm{m}$ ved $t = 0.050\ \mathrm{s}$?
 
-::: {.losning}
-Fasen er $15\cdot0.10 - 60\cdot0.050 = 1.5 - 3.0 = -1.5\ \mathrm{rad}$.
-$$
-y = 0.020\sin(-1.5)\ \mathrm{m} = \underline{\underline{-2.0\ \mathrm{cm}}}
-$$
-$$
-v_y = -A\omega\cos(-1.5) = -0.020\cdot60\cdot\cos(1.5)\ \mathrm{m/s} = \underline{\underline{-0.085\ \mathrm{m/s}}}
-$$
-Punktet er nesten i bunnen og beveger seg sakte nedover.
+::: {.fasit}
+$-2.0\ \mathrm{cm}$ · $-0.085\ \mathrm{m/s}$
 :::
 :::
 

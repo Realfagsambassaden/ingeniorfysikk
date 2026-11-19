@@ -154,8 +154,8 @@ $$
 ::: {.oppgave tittel="Kraftmoment"}
 En kraft $F = 400\ \mathrm{N}$ virker i avstanden $r = 0.50\ \mathrm{m}$ fra aksen, med vinkelen $\theta = 30^\circ$ mellom arm og kraft. Hvor stort er kraftmomentet om punktet?
 
-::: {.losning}
-$\tau = rF\sin\theta = 0.50\cdot400\cdot\sin30^\circ\ \mathrm{N\,m} = \underline{\underline{0.10\ \mathrm{kN\,m}}}$
+::: {.fasit}
+$0.10\ \mathrm{kN\,m}$
 :::
 :::
 
@@ -164,14 +164,8 @@ En vinsj med radius $R = 50\ \mathrm{cm}$ trekker en buss opp fra grøfta med ko
 
 a) Hvor stort arbeid gjør vinsjen? b) Hva er effekten?
 
-::: {.losning}
-**a)** $\tau = FR$ er konstant, og $\Delta\theta = 5\cdot2\pi = 10\pi$:
-$$
-W = \tau\,\Delta\theta = FR\cdot10\pi = 30\cdot10^3\cdot0.50\cdot10\pi\ \mathrm{J} \approx \underline{\underline{0.47\ \mathrm{MJ}}}
-$$
-Det er det samme som kraft ganger strekning, $F\cdot2\pi R\cdot5$.
-
-**b)** $P = \tau\omega = FR\omega = 30\cdot10^3\cdot0.50\cdot1.1\ \mathrm{W} \approx \underline{\underline{16\ \mathrm{kW}}}$
+::: {.fasit}
+a) $0.47\ \mathrm{MJ}$ · b) $16\ \mathrm{kW}$
 :::
 :::
 
@@ -180,15 +174,8 @@ En jo-jo er en massiv sylinder (masse $M$, radius $R$) med en tråd tvunnet rund
 
 a) Tegn kreftene. b) Finn akselerasjonen. c) Finn snordraget.
 
-::: {.losning}
-**a)** Tyngden $\vec G$ i massesenteret, og snordraget $\vec S$ opp, i avstand $R$ fra sentrum.
-
-**b)** Massesenteret (positiv nedover): $M\mathrm{g} - S = Ma$. Rotasjon: $SR = I\alpha = \frac12 MR^2\cdot\frac aR$, så $S = \frac12 Ma$. Innsatt:
-$$
-M\mathrm{g} - \tfrac12 Ma = Ma \quad\Rightarrow\quad \underline{\underline{a = \tfrac23\mathrm{g}}}
-$$
-
-**c)** $S = \frac12 Ma = \underline{\underline{\tfrac13 M\mathrm{g}}}$
+::: {.fasit}
+b) $a = \tfrac23\mathrm{g}$ · c) $\tfrac13 M\mathrm{g}$
 :::
 :::
 
@@ -197,14 +184,6 @@ En snøball ruller uten å gli ned en bakke med konstant helning og blir større
 
 A. Den avtar. B. Den øker. C. Den er konstant. D. Det avhenger av $R(t)$. E. Den øker lineært.
 
-::: {.losning}
-<!-- fra notatene -->
-For en homogen kule er $c = I/(MR^2) = \frac25$ uansett størrelse, så
-$$
-a = \frac{\mathrm{g}\sin\theta}{1 + 2/5} = \tfrac57\mathrm{g}\sin\theta
-$$
-som ikke avhenger av $R$ eller $M$. Akselerasjonen er **konstant (C)**. (Vi ser bort fra at snøballen må «plukke opp» snø i ro, som i virkeligheten bremser den litt.)
-:::
 :::
 
 ::: {.oppgave tittel="Kule i loop" niva="Utfordrende"}
@@ -216,23 +195,8 @@ b) Hva er normalkraften i bunnen, uttrykt ved tyngden $G$?
 
 c) Hva er den minste starthøyden for at kula skal komme rundt?
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** Energibevaring med både translasjon og rotasjon, og $v = r\omega$:
-$$
-m\mathrm{g}h = \tfrac12 mv^2 + \tfrac12 I\left(\frac vr\right)^2 = \tfrac12 mv^2\left(1 + \frac{I}{mr^2}\right) = \tfrac12 mv^2\cdot\tfrac75
-$$
-$$
-v^2 = \frac{10\mathrm{g}h}{7} = \frac{30}{7}\mathrm{g}R \quad\Rightarrow\quad \underline{\underline{v = \sqrt{\tfrac{30}{7}\mathrm{g}R}}}
-$$
-
-**b)** I bunnen: $N - G = mv^2/R = \frac{30}{7}m\mathrm{g}$, så $\underline{\underline{N = \tfrac{37}{7}G}} \approx 5.3G$.
-
-**c)** På toppen må $N \ge 0$. På grensen er $m\mathrm{g} = mv_3^2/R$, så $v_3^2 = \mathrm{g}R$. Energien fra start til toppen (høyden $\Delta h$ over toppen):
-$$
-m\mathrm{g}\Delta h = \tfrac12 mv_3^2\cdot\tfrac75 = \tfrac{7}{10}m\mathrm{g}R \quad\Rightarrow\quad \Delta h = \tfrac{7}{10}R
-$$
-Toppen er $2R$ over bunnen, så $\underline{\underline{h_\text{min} = 2.7R}}$. (For en gli-vogn uten rotasjon var svaret $2.5R$: rotasjonen krever litt ekstra energi.)
+::: {.fasit}
+a) $v = \sqrt{\tfrac{30}{7}\mathrm{g}R}$ · b) $N = \tfrac{37}{7}G$ · c) $h_\text{min} = 2.7R$
 :::
 :::
 
@@ -245,23 +209,8 @@ b) Trekanten slippes fra ro (massesenteret har null fart), men samtidig settes d
 
 c) Hvor stor er farten til massesenteret etter at det har falt $2.0\ \mathrm{m}$? Endrer rotasjonen seg underveis? Se bort fra luftmotstand.
 
-::: {.losning}
-**a)** Arealet er $A = \frac12\cdot20\cdot30\ \mathrm{cm^2} = 300\ \mathrm{cm^2}$, så $m = \sigma A = 300\ \mathrm{g} = 0.30\ \mathrm{kg}$.
-$$
-E_p = m\mathrm{g}h_\text{cm} = 0.30\cdot9.81\cdot4.0\ \mathrm{J} \approx \underline{\underline{12\ \mathrm{J}}}
-$$
-
-<!-- fra notatene; rettet av Claude: tyngden gir ikke kraftmoment om massesenteret, så rotasjonsenergien kan ikke komme fra høydeenergien -->
-**b)** $L^2 + 4H^2 = 0.09 + 0.04\ \mathrm{m^2} = 0.13\ \mathrm{m^2}$, så $I = \frac{0.30}{36}\cdot0.13\ \mathrm{kg\,m^2} \approx 1.08\cdot10^{-3}\ \mathrm{kg\,m^2}$ og
-$$
-E_\text{rot} = \tfrac12I\omega^2 = \tfrac12\cdot1.08\cdot10^{-3}\cdot2.0^2\ \mathrm{J} \approx \underline{\underline{2.2\ \mathrm{mJ}}}
-$$
-
-**c)** Tyngden virker i massesenteret, så den gir **ikke** noe kraftmoment om massesenteret. Rotasjonen er derfor uendret, $\omega = 2.0\ \mathrm{rad/s}$ hele veien, og rotasjonsenergien får ikke noe av høydeenergien. Massesenteret faller som en punktmasse (se *massesenter*):
-$$
-m\mathrm{g}\Delta h = \tfrac12mv_\text{cm}^2 \quad\Rightarrow\quad v_\text{cm} = \sqrt{2\mathrm{g}\Delta h} = \sqrt{2\cdot9.81\cdot2.0}\ \mathrm{m/s} \approx \underline{\underline{6.3\ \mathrm{m/s}}}
-$$
-Translasjon og rotasjon om massesenteret er uavhengige når tyngden er den eneste kraften.
+::: {.fasit}
+a) $12\ \mathrm{J}$ · b) $2.2\ \mathrm{mJ}$ · c) $6.3\ \mathrm{m/s}$
 :::
 :::
 

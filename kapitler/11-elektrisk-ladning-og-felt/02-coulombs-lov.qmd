@@ -89,17 +89,8 @@ i positiv $x$-retning.
 <!-- tillegg: Claude -->
 I et hydrogenatom er avstanden mellom elektronet og protonet omtrent $r = 5.3\cdot10^{-11}\ \mathrm{m}$. Finn den elektriske kraften mellom dem, og sammenlign med gravitasjonskraften. ($\mathrm{m_e} = 9.11\cdot10^{-31}\ \mathrm{kg}$, $\mathrm{m_p} = 1.67\cdot10^{-27}\ \mathrm{kg}$, $\mathrm{G} = 6.67\cdot10^{-11}\ \mathrm{N\,m^2/kg^2}$.)
 
-::: {.losning}
-Elektrisk kraft:
-$$
-F_\mathrm{e} = \mathrm{k_e}\frac{\mathrm{e}^2}{r^2} = 8.99\cdot10^{9}\cdot\frac{(1.60\cdot10^{-19})^2}{(5.3\cdot10^{-11})^2}\ \mathrm{N} \approx \underline{\underline{8.2\cdot10^{-8}\ \mathrm{N}}}
-$$
-Gravitasjonskraft:
-$$
-F_\mathrm{g} = \mathrm{G}\frac{\mathrm{m_e}\mathrm{m_p}}{r^2} = 6.67\cdot10^{-11}\cdot\frac{9.11\cdot10^{-31}\cdot1.67\cdot10^{-27}}{(5.3\cdot10^{-11})^2}\ \mathrm{N} \approx 3.6\cdot10^{-47}\ \mathrm{N}
-$$
-Forholdet er $F_\mathrm{e}/F_\mathrm{g} \approx 2.3\cdot10^{39}$. I atomer kan vi trygt se bort fra gravitasjonen.
-<!-- tillegg: Claude: notasjon, forholdet med to gjeldende siffer (var 2·10^39) -->
+::: {.fasit}
+$8.2\cdot10^{-8}\ \mathrm{N}$
 :::
 :::
 
@@ -107,27 +98,14 @@ Forholdet er $F_\mathrm{e}/F_\mathrm{g} \approx 2.3\cdot10^{39}$. I atomer kan v
 <!-- tillegg: Claude -->
 To punktladninger frastøter hverandre med kraften $F$. Hva blir kraften hvis avstanden mellom dem dobles, og den ene ladningen samtidig tredobles?
 
-::: {.losning}
-$F \propto \dfrac{qQ}{r^2}$. Tredobling av den ene ladningen gir faktor 3, dobling av avstanden gir faktor $1/2^2 = 1/4$:
-$$
-F' = \frac{3}{4}F
-$$
-:::
 :::
 
 ::: {.oppgave tittel="Ladning i likevekt" niva="Middels"}
 <!-- tillegg: Claude -->
 Ladningen $q_1 = +4.0\ \mathrm{nC}$ ligger i $x = 0$, og $q_2 = +1.0\ \mathrm{nC}$ ligger i $x = 0.30\ \mathrm{m}$. Hvor på $x$-aksen kan en tredje ladning $Q$ plasseres slik at den totale kraften på den er null? Spiller fortegnet til $Q$ noen rolle?
 
-::: {.losning}
-Mellom ladningene peker kreftene fra $q_1$ og $q_2$ i motsatt retning, så der kan de oppheve hverandre. Med $Q$ i $x$ ($0 < x < 0.30\ \mathrm{m}$):
-$$
-\mathrm{k_e}\frac{q_1 Q}{x^2} = \mathrm{k_e}\frac{q_2 Q}{(0.30 - x)^2} \quad\Rightarrow\quad \frac{0.30 - x}{x} = \sqrt{\frac{q_2}{q_1}} = \frac12
-$$
-$$
-\Rightarrow\quad x = \underline{\underline{0.20\ \mathrm{m}}}
-$$
-$Q$ forkortes bort, så verken størrelsen eller fortegnet til $Q$ spiller noen rolle. (Utenfor ladningene peker begge kreftene samme vei, så der finnes ingen likevekt.)
+::: {.fasit}
+$0.20\ \mathrm{m}$
 :::
 :::
 

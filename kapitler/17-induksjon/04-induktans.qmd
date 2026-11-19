@@ -136,11 +136,8 @@ Bryter du strømmen gjennom en spole brått, blir $\mathrm{d}I/\mathrm{d}t$ enor
 <!-- tillegg: Claude -->
 Strømmen gjennom en spole på $0.50\ \mathrm{H}$ brytes fra $1.2\ \mathrm{A}$ til null på $1.0\ \mathrm{ms}$. Hvor stor spenning induseres?
 
-::: {.losning}
-$$
-|\mathcal E| = L\frac{\Delta I}{\Delta t} = 0.50\cdot\frac{1.2}{1.0\cdot10^{-3}}\ \mathrm{V} = \underline{\underline{600\ \mathrm{V}}}
-$$
-Femti ganger batterispenningen – nok til en gnist.
+::: {.fasit}
+$600\ \mathrm{V}$
 :::
 :::
 
@@ -148,19 +145,14 @@ Femti ganger batterispenningen – nok til en gnist.
 <!-- tillegg: Claude -->
 Hva skjer med induktansen til en solenoide hvis du dobler antall vindinger på samme lengde? Hva skjer med den lagrede energien ved samme strøm?
 
-::: {.losning}
-$L \propto N^2$: Induktansen blir **4 ganger** så stor, og med $U = \tfrac12LI^2$ blir også energien **4 ganger** så stor (feltet er dobbelt, og $u_B \propto B^2$).
-:::
 :::
 
 ::: {.oppgave tittel="Halveringstid" niva="Middels"}
 <!-- tillegg: Claude -->
 I RL-kretsen fra eksempelet kobles kilden ut, og strømmen avtar gjennom motstanden. Hvor lang tid tar det før strømmen er halvert? Hvor lang tid før energien i spolen er halvert?
 
-::: {.losning}
-Strømmen: $\mathrm{e}^{-t/\tau} = \tfrac12$ gir $t = \tau\ln2 = 0.050\cdot0.693\ \mathrm{s} = \underline{\underline{35\ \mathrm{ms}}}$.
-
-Energien går som $I^2 \propto \mathrm{e}^{-2t/\tau}$, så den halveres dobbelt så fort: $t = \tfrac12\tau\ln2 = \underline{\underline{17\ \mathrm{ms}}}$.
+::: {.fasit}
+$35\ \mathrm{ms}$ · $17\ \mathrm{ms}$
 :::
 :::
 
@@ -168,12 +160,8 @@ Energien går som $I^2 \propto \mathrm{e}^{-2t/\tau}$, så den halveres dobbelt 
 <!-- tillegg: Claude -->
 Vis at $U = \tfrac12LI^2$ for en lang solenoide er det samme som $u_B$ ganget med volumet inni solenoiden. Sjekk med tallene fra solenoide-eksempelet ved strømmen $2.0\ \mathrm{A}$.
 
-::: {.losning}
-Med $L = \mu_0N^2A/\ell$ og $B = \mu_0NI/\ell$:
-$$
-\tfrac12LI^2 = \frac{\mu_0N^2AI^2}{2\ell} = \frac{1}{2\mu_0}\left(\frac{\mu_0NI}{\ell}\right)^2 A\ell = \frac{B^2}{2\mu_0}\cdot A\ell \quad ✓
-$$
-Tall: $U = \tfrac12\cdot1.26\cdot10^{-3}\cdot2.0^2\ \mathrm{J} = \underline{\underline{2.5\ \mathrm{mJ}}}$. Og $B = 5.0\ \mathrm{mT}$ gir $u_B = 10\ \mathrm{J/m^3}$, ganget med volumet $2.5\cdot10^{-4}\ \mathrm{m^3}$: $2.5\ \mathrm{mJ}$. ✓
+::: {.fasit}
+$2.5\ \mathrm{mJ}$
 :::
 :::
 

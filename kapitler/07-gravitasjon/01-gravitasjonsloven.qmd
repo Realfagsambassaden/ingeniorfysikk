@@ -128,11 +128,8 @@ Med $m\mathrm{g}h$ får vi $1000\cdot9.81\cdot4.0\cdot10^{5}\ \mathrm{J} = 3.9\c
 <!-- tillegg: Claude -->
 Hvor stor er gravitasjonskraften mellom to personer på $75\ \mathrm{kg}$ og $60\ \mathrm{kg}$ som står $1.0\ \mathrm{m}$ fra hverandre?
 
-::: {.losning}
-$$
-F = 6.674\cdot10^{-11}\cdot\frac{75\cdot60}{1.0^2}\ \mathrm{N} = \underline{\underline{3.0\cdot10^{-7}\ \mathrm{N}}}
-$$
-Det er omtrent tyngden av et sandkorn.
+::: {.fasit}
+$3.0\cdot10^{-7}\ \mathrm{N}$
 :::
 :::
 
@@ -140,14 +137,8 @@ Det er omtrent tyngden av et sandkorn.
 <!-- tillegg: Claude -->
 Mars har masse $6.42\cdot10^{23}\ \mathrm{kg}$ og radius $3.39\cdot10^{6}\ \mathrm{m}$. Hvor stor er tyngdeakselerasjonen ved overflaten? Hvor mye ville en person på $70\ \mathrm{kg}$ veid (tyngden i newton)?
 
-::: {.losning}
-$$
-g_\mathrm{Mars} = \frac{6.674\cdot10^{-11}\cdot6.42\cdot10^{23}}{(3.39\cdot10^{6})^2}\ \mathrm{m/s^2} = \underline{\underline{3.73\ \mathrm{m/s^2}}}
-$$
-$$
-G = mg_\mathrm{Mars} = 70\cdot3.73\ \mathrm{N} = \underline{\underline{2.6\cdot10^{2}\ \mathrm{N}}}
-$$
-Massen er fortsatt $70\ \mathrm{kg}$, men tyngden er bare 38 % av tyngden på jorda.
+::: {.fasit}
+$3.73\ \mathrm{m/s^2}$ · $2.6\cdot10^{2}\ \mathrm{N}$
 :::
 :::
 
@@ -155,13 +146,8 @@ Massen er fortsatt $70\ \mathrm{kg}$, men tyngden er bare 38 % av tyngden på jo
 <!-- tillegg: Claude -->
 Hvor høyt over jordoverflaten må du for at tyngdeakselerasjonen skal være halvparten av verdien ved bakken?
 
-::: {.losning}
-$g \propto 1/r^2$, så halv $g$ krever $r = \sqrt2\,R$:
-$$
-h = r - R = (\sqrt2 - 1)R = 0.414\cdot6.37\cdot10^{6}\ \mathrm{m} = \underline{\underline{2.64\cdot10^{6}\ \mathrm{m}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3) -->
-Det er ca. $2.64\cdot10^{3}\ \mathrm{km}$, mye høyere enn romstasjonen.
+::: {.fasit}
+$2.64\cdot10^{6}\ \mathrm{m}$
 :::
 :::
 
@@ -169,15 +155,8 @@ Det er ca. $2.64\cdot10^{3}\ \mathrm{km}$, mye høyere enn romstasjonen.
 <!-- tillegg: Claude -->
 En romsonde reiser rett fra jorda mot månen. I hvilken avstand fra jordas sentrum er gravitasjonskraften fra jorda og månen like store? Bruk tallene fra eksempelet over.
 
-::: {.losning}
-Kall avstanden fra jorda $x$ og avstanden mellom jorda og månen $d$. Kreftene er like store når
-$$
-\frac{\mathrm{G}Mm_s}{x^2} = \frac{\mathrm{G}m_\mathrm{måne}m_s}{(d-x)^2} \quad\Rightarrow\quad \frac{d-x}{x} = \sqrt{\frac{m_\mathrm{måne}}{M}} = \sqrt{\frac{7.35\cdot10^{22}}{5.97\cdot10^{24}}} = 0.111
-$$
-$$
-x = \frac{d}{1 + 0.111} = \frac{3.84\cdot10^{8}}{1.111}\ \mathrm{m} = \underline{\underline{3.46\cdot10^{8}\ \mathrm{m}}}
-$$
-Punktet ligger 90 % av veien mot månen.
+::: {.fasit}
+$3.46\cdot10^{8}\ \mathrm{m}$
 :::
 :::
 

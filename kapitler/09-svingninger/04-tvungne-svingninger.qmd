@@ -123,11 +123,8 @@ Legg merke til at det tar litt tid før svingningen når den stasjonære amplitu
 <!-- tillegg: Claude -->
 En vaskemaskin står på gummiføtter og har egenfrekvensen $8.0\ \mathrm{Hz}$. Ved hvilket turtall (omdreininger per minutt) rister den mest?
 
-::: {.losning}
-Den rister mest når trommelen går rundt med egenfrekvensen:
-$$
-8.0\ \mathrm{Hz}\cdot60\ \mathrm{s/min} = \underline{\underline{480\ \text{omdreininger per minutt}}}
-$$
+::: {.fasit}
+$480\ \text{omdreininger per minutt}$
 :::
 :::
 
@@ -135,11 +132,8 @@ $$
 <!-- tillegg: Claude -->
 Bruk klossen fra eksempelet. Hvor stor er amplituden når den drives med $\omega = 40\ \mathrm{s^{-1}}$, dobbelt så fort som egenfrekvensen?
 
-::: {.losning}
-$$
-A = \frac{2.0}{\sqrt{(400 - 1600)^2 + (2\cdot0.80\cdot40)^2}}\ \mathrm{m} = \frac{2.0}{1201.7}\ \mathrm{m} = \underline{\underline{1.7\ \mathrm{mm}}}
-$$
-Det er mindre enn med konstant kraft. Klossen rekker ikke å følge med.
+::: {.fasit}
+$1.7\ \mathrm{mm}$
 :::
 :::
 
@@ -147,28 +141,12 @@ Det er mindre enn med konstant kraft. Klossen rekker ikke å følge med.
 <!-- tillegg: Claude -->
 Hva skjer med amplituden ved resonans hvis dempingskonstanten halveres? Hva skjer med amplituden langt fra resonans?
 
-::: {.losning}
-Ved resonans er $A = F_0/(2m\gamma\omega_0)$, så halv demping gir **dobbelt så stor** amplitude. Langt fra resonans er leddet $(\omega_0^2 - \omega^2)^2$ mye større enn $(2\gamma\omega)^2$, så dempingen betyr nesten ingenting der. Dempingen påvirker altså nesten bare toppen.
-:::
 :::
 
 ::: {.oppgave tittel="Energien ved resonans" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 Ved resonans er farten i fase med kraften. Vis at den gjennomsnittlige effekten kraften tilfører, er lik den gjennomsnittlige effekten dempingen tar, når $A = F_0/(b\omega_0)$. Bruk at gjennomsnittet av $\sin^2$ over en periode er $\tfrac12$.
 
-::: {.losning}
-Ved resonans er $\delta = \pi/2$, så $x = A\sin(\omega_0t)$ og $v = A\omega_0\cos(\omega_0t)$. Kraften er $F_0\cos(\omega_0t)$.
-
-Tilført effekt: $P_\mathrm{inn} = Fv = F_0A\omega_0\cos^2(\omega_0t)$, med gjennomsnitt $\tfrac12F_0A\omega_0$.
-
-Effekt tatt av dempingen: $P_\mathrm{ut} = bv^2 = bA^2\omega_0^2\cos^2(\omega_0t)$, med gjennomsnitt $\tfrac12bA^2\omega_0^2$.
-
-Setter vi dem like:
-$$
-\tfrac12F_0A\omega_0 = \tfrac12bA^2\omega_0^2 \quad\Rightarrow\quad A = \frac{F_0}{b\omega_0}
-$$
-Med $b = 2m\gamma$ er dette nettopp $A = F_0/(2m\gamma\omega_0)$, som vi fant over. $\blacksquare$
-:::
 :::
 
 ::::

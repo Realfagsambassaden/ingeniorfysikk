@@ -66,24 +66,12 @@ c) et romskip som går med 90 % av lysfarten,
 
 d) en satellitt i bane rundt jorda?
 
-::: {.losning}
-**a)** Klassisk mekanikk: vanlig størrelse og vanlig fart.
-
-**b)** Kvantemekanikk: elektronet er svært lite.
-
-**c)** Relativitetsteori: farten er nær lysfarten.
-
-**d)** Klassisk mekanikk. Satellitten går fort i dagligdags forstand (omtrent $8\ \mathrm{km/s}$), men det er bare $3\cdot10^{-5}$ av lysfarten. (GPS-satellittene er et unntak når vi trenger svært høy nøyaktighet: Da må klokkene korrigeres med relativitetsteori.)
-:::
 :::
 
 ::: {.oppgave tittel="Hva ser modellen bort fra?"}
 <!-- tillegg: Claude -->
 Vi regner ut hvor langt en fotball går når den sparkes, og bruker modellen «konstant akselerasjon $\mathrm{g}$ rett ned». Nevn to ting modellen ser bort fra, og si om svaret blir for langt eller for kort.
 
-::: {.losning}
-Modellen ser bort fra **luftmotstand**, som bremser ballen, og fra at ballen **spinner**, som kan gi løft eller skru den til siden. Luftmotstanden gjør at det virkelige sparket blir *kortere* enn modellen sier. Spinnet kan gå begge veier.
-:::
 :::
 
 ::::

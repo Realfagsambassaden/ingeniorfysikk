@@ -99,15 +99,8 @@ b) Hva skjer med snordraget når $\theta \to 0$?
 
 c) Finn draget når $m = 50\ \mathrm{kg}$ og $\theta = 30^\circ$.
 
-::: {.losning}
-**a)** De vannrette komponentene opphever hverandre. Loddrett gir Newtons 1. lov
-$$
-2S\sin\theta = m\mathrm{g} \quad\Rightarrow\quad S(\theta) = \frac{m\mathrm{g}}{2\sin\theta}
-$$
-
-**b)** Når $\theta \to 0$ går $\sin\theta \to 0$ og $S \to \infty$. Et tau kan aldri strammes helt vannrett med en vekt i: det krever uendelig stort drag.
-
-**c)** $S = \dfrac{50\cdot9.81}{2\cdot0.5}\ \mathrm{N} \approx \underline{\underline{0.49\ \mathrm{kN}}}$
+::: {.fasit}
+$0.49\ \mathrm{kN}$
 :::
 :::
 
@@ -118,18 +111,8 @@ a) Finn hvilefriksjonskoeffisienten $\mu_s$ uttrykt ved $\theta_0$.
 
 b) Vinkelen økes til $\theta > \theta_0$. Klossen starter fra ro og glir en strekning $s$ på tiden $t$. Finn glidefriksjonskoeffisienten $\mu_k$ uttrykt ved $s$, $t$, $\mathrm{g}$ og $\theta$.
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** Rett før klossen sklir er $a = 0$, og friksjonen er så stor den kan bli: $f_s = \mu_s N$. Fra formelen over med $a = 0$:
-$$
-0 = \mathrm{g}(\mu_s\cos\theta_0 - \sin\theta_0) \quad\Rightarrow\quad \underline{\underline{\mu_s = \tan\theta_0}}
-$$
-(Alternativt: $\sum F_x = 0$ gir $m\mathrm{g}\sin\theta_0 = \mu_s N$ og $\sum F_y = 0$ gir $N = m\mathrm{g}\cos\theta_0$. Del den ene på den andre.)
-
-**b)** Nedover planet er akselerasjonen konstant: $a = \mathrm{g}(\sin\theta - \mu_k\cos\theta)$. Klossen starter fra ro, så $s = \frac12 a t^2$:
-$$
-s = \tfrac12\mathrm{g}(\sin\theta - \mu_k\cos\theta)\,t^2 \quad\Rightarrow\quad \underline{\underline{\mu_k = \tan\theta - \frac{2s}{\mathrm{g}t^2\cos\theta}}}
-$$
+::: {.fasit}
+a) $\mu_s = \tan\theta_0$ · b) $\mu_k = \tan\theta - \frac{2s}{\mathrm{g}t^2\cos\theta}$
 :::
 :::
 
@@ -142,23 +125,8 @@ b) Hvor stor fart ville bilen hatt etter samme strekning hvis den startet i $90\
 
 c) Hvor lang bremsestrekning trenger bilen fra $80\ \mathrm{km/h}$ nedover en bakke med 15 % stigning?
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** Loddrett: $N = m\mathrm{g}$. Vannrett: $-f_s = ma$, så $-\mu_s m\mathrm{g} = ma$ og $a = -\mu_s\mathrm{g}$, som er konstant. Da bruker vi $2as = v^2 - v_0^2$ med $v = 0$:
-$$
-s = \frac{v_0^2}{2\mu_s\mathrm{g}} = \frac{(80/3.6\ \mathrm{m/s})^2}{2\cdot0.80\cdot9.81\ \mathrm{m/s^2}} \approx \underline{\underline{31\ \mathrm{m}}}
-$$
-
-**b)** Med $v_0 = 90/3.6\ \mathrm{m/s} = 25\ \mathrm{m/s}$ og samme $s$:
-$$
-v = \sqrt{v_0^2 - 2\mu_s\mathrm{g}s} \approx 11.4\ \mathrm{m/s} \approx \underline{\underline{41\ \mathrm{km/h}}}
-$$
-Litt høyere startfart gir altså stor fart i hindringen.
-
-**c)** 15 % stigning betyr $0.15\ \mathrm{m}$ opp per meter vannrett: $\alpha = \arctan0.15 \approx 8.5^\circ$. Nedover bakken blir oppbremsingen $a = -\mathrm{g}(\mu_s\cos\alpha - \sin\alpha)$, så
-$$
-s = \frac{v_0^2}{2\mathrm{g}(\mu_s\cos\alpha - \sin\alpha)} = \frac{(80/3.6)^2}{2\cdot9.81\,(0.80\cos8.5^\circ - \sin8.5^\circ)}\ \mathrm{m} \approx \underline{\underline{39\ \mathrm{m}}}
-$$
+::: {.fasit}
+a) $31\ \mathrm{m}$ · b) $41\ \mathrm{km/h}$ · c) $39\ \mathrm{m}$
 :::
 :::
 

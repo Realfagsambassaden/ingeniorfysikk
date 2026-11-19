@@ -171,14 +171,8 @@ Arbeidet er positivt: Alle ladningene er positive og frastøter hverandre, så v
 <!-- tillegg: Claude -->
 Hvor stor er den elektriske potensielle energien til to protoner i avstanden $r = 2.0\cdot10^{-15}\ \mathrm{m}$ (omtrent avstanden i en atomkjerne)? Oppgi svaret i joule og i elektronvolt ($1\ \mathrm{eV} = 1.60\cdot10^{-19}\ \mathrm{J}$).
 
-::: {.losning}
-$$
-U = \mathrm{k_e}\frac{\mathrm{e}^2}{r} = 8.99\cdot10^{9}\cdot\frac{(1.60\cdot10^{-19})^2}{2.0\cdot10^{-15}}\ \mathrm{J} \approx \underline{\underline{1.2\cdot10^{-13}\ \mathrm{J}}}
-$$
-$$
-U = \frac{1.15\cdot10^{-13}}{1.60\cdot10^{-19}}\ \mathrm{eV} \approx \underline{\underline{0.72\ \mathrm{MeV}}}
-$$
-Så mye energi må til for å presse to protoner så nær hverandre. Den sterke kjernekraften holder dem likevel sammen i kjernen.
+::: {.fasit}
+$1.2\cdot10^{-13}\ \mathrm{J}$ · $0.72\ \mathrm{MeV}$
 :::
 :::
 
@@ -186,11 +180,8 @@ Så mye energi må til for å presse to protoner så nær hverandre. Den sterke 
 <!-- tillegg: Claude -->
 Tre ladninger $q = +1.0\ \mathrm{\mu C}$ skal plasseres i hjørnene av en likesidet trekant med sider $a = 5.0\ \mathrm{cm}$. Hvor stort arbeid må gjøres utenfra?
 
-::: {.losning}
-Det er tre par, hvert med avstand $a$:
-$$
-W = 3\cdot \mathrm{k_e}\frac{q^2}{a} = 3\cdot8.99\cdot10^{9}\cdot\frac{(1.0\cdot10^{-6})^2}{0.050}\ \mathrm{J} \approx \underline{\underline{0.54\ \mathrm{J}}}
-$$
+::: {.fasit}
+$0.54\ \mathrm{J}$
 :::
 :::
 
@@ -198,16 +189,8 @@ $$
 <!-- tillegg: Claude -->
 Et proton skytes rett mot en fast gullkjerne (ladning $79\mathrm{e}$) med kinetisk energi $E_K = 5.0\ \mathrm{MeV}$. Hvor nær kjernen kommer protonet før det snur?
 
-::: {.losning}
-Energien er bevart. Langt unna er $U = 0$, og der protonet snur er $E_K = 0$:
-$$
-E_K = \mathrm{k_e}\frac{79\mathrm{e}\cdot\mathrm{e}}{r_\mathrm{min}} \quad\Rightarrow\quad r_\mathrm{min} = \frac{79\mathrm{k_e}\mathrm{e}^2}{E_K}
-$$
-Med $E_K = 5.0\cdot10^{6}\cdot1.60\cdot10^{-19}\ \mathrm{J} = 8.0\cdot10^{-13}\ \mathrm{J}$:
-$$
-r_\mathrm{min} = \frac{79\cdot8.99\cdot10^{9}\cdot(1.60\cdot10^{-19})^2}{8.0\cdot10^{-13}}\ \mathrm{m} \approx \underline{\underline{2.3\cdot10^{-14}\ \mathrm{m}}}
-$$
-Dette er omtrent tre ganger radien til gullkjernen. Slike spredningsforsøk (Rutherford) viste at atomet har en liten, tung kjerne.
+::: {.fasit}
+$2.3\cdot10^{-14}\ \mathrm{m}$
 :::
 :::
 

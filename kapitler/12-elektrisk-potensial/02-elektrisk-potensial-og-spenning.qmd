@@ -153,13 +153,8 @@ Det er omtrent $2\ \%$ av lysfarten, etter bare $100\ \mathrm{V}$. Energien $\ma
 <!-- fra notatene -->
 *(Eksempel 7.7 i OpenStax* University Physics*, bind 2, CC BY 4.0. «Gjør selv!»)* Tørr luft tåler et elektrisk felt på omtrent $3.0\cdot10^{6}\ \mathrm{V/m}$. Over det blir lufta ionisert og leder strøm, og det slår gnister. Hva er den høyeste spenningen vi kan ha mellom to parallelle plater med $2.5\ \mathrm{cm}$ avstand i tørr luft?
 
-::: {.losning}
-<!-- tillegg: Claude -->
-Feltet mellom platene er homogent, så $\Delta V = Ed$:
-$$
-\Delta V_\mathrm{maks} = 3.0\cdot10^{6}\ \mathrm{V/m}\cdot0.025\ \mathrm{m} = 7.5\cdot10^{4}\ \mathrm{V} = \underline{\underline{75\ \mathrm{kV}}}
-$$
-$75\ \mathrm{kV}$ høres mye ut, men en gnist på et par centimeter etter at du har gått på et teppe, betyr nettopp at du har vært ladet opp til titusener av volt.
+::: {.fasit}
+$75\ \mathrm{kV}$
 :::
 :::
 
@@ -170,16 +165,8 @@ Ladningen $q_1 = +4.0\ \mathrm{nC}$ ligger i $x = 0$ og $q_2 = -2.0\ \mathrm{nC}
 **a)** Finn potensialet i $x = 0.20\ \mathrm{m}$.\
 **b)** Hvor stort arbeid gjør det elektriske feltet når en ladning $Q = +1.0\ \mathrm{nC}$ flyttes fra uendelig langt unna til dette punktet?
 
-::: {.losning}
-**a)** Potensialene legges sammen som tall:
-$$
-V = \mathrm{k_e}\left(\frac{q_1}{r_1} + \frac{q_2}{r_2}\right) = 8.99\cdot10^{9}\left(\frac{4.0\cdot10^{-9}}{0.20} + \frac{-2.0\cdot10^{-9}}{0.20}\right)\mathrm{V} \approx \underline{\underline{90\ \mathrm{V}}}
-$$
-**b)** $\Delta U = Q\,\Delta V = 1.0\cdot10^{-9}\cdot(90 - 0)\ \mathrm{J} = 9.0\cdot10^{-8}\ \mathrm{J}$, og feltet gjør arbeidet
-$$
-W = -\Delta U = \underline{\underline{-9.0\cdot10^{-8}\ \mathrm{J}}}
-$$
-Arbeidet er negativt: Vi må dytte den positive ladningen inn mot et område med høyere potensial.
+::: {.fasit}
+a) $90\ \mathrm{V}$ · b) $-9.0\cdot10^{-8}\ \mathrm{J}$
 :::
 :::
 
@@ -190,14 +177,8 @@ I en elektronkanon akselereres elektroner fra ro mellom to plater med $\Delta V 
 **a)** Hvor sterkt er feltet mellom platene?\
 **b)** Hvor stor kinetisk energi (i eV og J) og fart har elektronene når de kommer ut?
 
-::: {.losning}
-**a)** $E = \dfrac{\Delta V}{d} = \dfrac{2.0\cdot10^{3}\ \mathrm{V}}{0.010\ \mathrm{m}} = \underline{\underline{2.0\cdot10^{5}\ \mathrm{V/m}}}$
-
-**b)** $E_K = \mathrm{e}\,\Delta V = \underline{\underline{2.0\ \mathrm{keV}}} = 2.0\cdot10^{3}\cdot1.60\cdot10^{-19}\ \mathrm{J} = \underline{\underline{3.2\cdot10^{-16}\ \mathrm{J}}}$
-$$
-v = \sqrt{\frac{2E_K}{\mathrm{m_e}}} = \sqrt{\frac{2\cdot3.2\cdot10^{-16}}{9.11\cdot10^{-31}}}\ \mathrm{m/s} \approx \underline{\underline{2.7\cdot10^{7}\ \mathrm{m/s}}}
-$$
-Legg merke til at farten ikke avhenger av avstanden $d$, bare av spenningen.
+::: {.fasit}
+a) $2.0\cdot10^{5}\ \mathrm{V/m}$ · b) $2.0\ \mathrm{keV}$ · b) $3.2\cdot10^{-16}\ \mathrm{J}$ · b) $2.7\cdot10^{7}\ \mathrm{m/s}$
 :::
 :::
 

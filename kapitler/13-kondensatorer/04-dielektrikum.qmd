@@ -81,10 +81,8 @@ Alle formlene for platekondensatoren gjelder fortsatt med et dielektrikum, hvis 
 <!-- tillegg: Claude -->
 En kondensator har $C_0 = 50\ \mathrm{pF}$ med luft. Hva blir kapasitansen når rommet fylles med glass med $\kappa = 6.0$?
 
-::: {.losning}
-$$
-C = \kappa C_0 = 6.0\cdot50\ \mathrm{pF} = \underline{\underline{3.0\cdot10^{2}\ \mathrm{pF}}}
-$$
+::: {.fasit}
+$3.0\cdot10^{2}\ \mathrm{pF}$
 :::
 :::
 
@@ -92,8 +90,8 @@ $$
 <!-- tillegg: Claude -->
 En isolert kondensator er ladet til $100\ \mathrm{V}$. Et dielektrikum med $\kappa = 4.0$ skyves inn. Hva blir spenningen?
 
-::: {.losning}
-Ladningen er konstant, så $V = V_0/\kappa = 100/4.0\ \mathrm{V} = \underline{\underline{25\ \mathrm{V}}}$.
+::: {.fasit}
+$25\ \mathrm{V}$
 :::
 :::
 
@@ -101,14 +99,8 @@ Ladningen er konstant, så $V = V_0/\kappa = 100/4.0\ \mathrm{V} = \underline{\u
 <!-- tillegg: Claude -->
 En kondensator på $20\ \mathrm{nF}$ er koblet til $50\ \mathrm{V}$. Et dielektrikum med $\kappa = 3.0$ skyves inn mens batteriet er tilkoblet. Hvor mye ladning leverer batteriet, og hvor mye øker energien i kondensatoren?
 
-::: {.losning}
-Ladningen går fra $Q_0 = 20\ \mathrm{nF}\cdot50\ \mathrm{V} = 1.0\ \mathrm{\mu C}$ til $Q = 3.0\ \mathrm{\mu C}$. Batteriet leverer
-$$
-\Delta Q = \underline{\underline{2.0\ \mathrm{\mu C}}}
-$$
-Energien går fra $\tfrac12\cdot20\cdot10^{-9}\cdot50^2\ \mathrm{J} = 25\ \mathrm{\mu J}$ til $75\ \mathrm{\mu J}$, en økning på $\underline{\underline{50\ \mathrm{\mu J}}}$.
-
-(Batteriet gjør arbeidet $\Delta Q\cdot V = 100\ \mathrm{\mu J}$. Halvparten går til kondensatoren, resten til å dra dielektrikumet inn.)
+::: {.fasit}
+$2.0\ \mathrm{\mu C}$ · $50\ \mathrm{\mu J}$
 :::
 :::
 
@@ -116,12 +108,6 @@ Energien går fra $\tfrac12\cdot20\cdot10^{-9}\cdot50^2\ \mathrm{J} = 25\ \mathr
 <!-- tillegg: Claude -->
 Venstre halvdel av en platekondensator (halve arealet) fylles med et dielektrikum med $\kappa$, høyre halvdel har luft. Vis at kapasitansen blir $C = \tfrac12(1 + \kappa)C_0$.
 
-::: {.losning}
-De to halvdelene har samme spenning, fordi platene er de samme ledere. De står altså i **parallell**:
-$$
-C = \kappa\varepsilon_0\frac{A/2}{d} + \varepsilon_0\frac{A/2}{d} = \tfrac12(\kappa + 1)\varepsilon_0\frac Ad = \tfrac12(1 + \kappa)C_0 \qquad\blacksquare
-$$
-:::
 :::
 
 ::::

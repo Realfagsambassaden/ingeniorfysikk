@@ -60,19 +60,14 @@ Jordas magnetfelt beskytter oss mot ladde partikler fra sola. Partiklene ledes l
 <!-- tillegg: Claude -->
 Du deler en stavmagnet på midten. Hva får du? Hva skjer hvis du holder de to bitene inntil hverandre slik de satt?
 
-::: {.losning}
-Du får to mindre magneter, hver med en nordpol og en sørpol. Der du delte, får den ene biten en sørpol og den andre en nordpol. Holder du dem sammen slik de satt, tiltrekker de hverandre (nord mot sør).
-:::
 :::
 
 ::: {.oppgave tittel="Hvor sterkt?"}
 <!-- tillegg: Claude -->
 Hvor mange ganger sterkere er feltet i en MR-maskin på $3.0\ \mathrm{T}$ enn jordas magnetfelt?
 
-::: {.losning}
-$$
-\frac{3.0\ \mathrm{T}}{5\cdot10^{-5}\ \mathrm{T}} = \underline{\underline{6\cdot10^{4}}}
-$$
+::: {.fasit}
+$6\cdot10^{4}$
 :::
 :::
 
@@ -80,9 +75,6 @@ $$
 <!-- tillegg: Claude -->
 Forklar hvorfor to magnetiske feltlinjer aldri kan krysse hverandre.
 
-::: {.losning}
-Feltet har én bestemt retning i hvert punkt. Krysset to feltlinjer, ville feltet hatt to retninger i krysningspunktet. Det går ikke. (Det samme gjelder elektriske feltlinjer.)
-:::
 :::
 
 ::::

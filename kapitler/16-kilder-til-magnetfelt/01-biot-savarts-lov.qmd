@@ -113,11 +113,8 @@ print(f"uendelig lang:     B = {mu0*I/(2*np.pi*r):.3e} T")
 <!-- tillegg: Claude -->
 En kraftlinje fører $500\ \mathrm{A}$. Hvor sterkt er magnetfeltet på bakken $20\ \mathrm{m}$ under linja? Sammenlign med jordas felt.
 
-::: {.losning}
-$$
-B = \frac{\mu_0 I}{2\pi r} = \frac{4\pi\cdot10^{-7}\cdot500}{2\pi\cdot20}\ \mathrm{T} = \underline{\underline{5.0\cdot10^{-6}\ \mathrm{T}}}
-$$
-Omtrent en tidel av jordas felt.
+::: {.fasit}
+$5.0\cdot10^{-6}\ \mathrm{T}$
 :::
 :::
 
@@ -125,10 +122,8 @@ Omtrent en tidel av jordas felt.
 <!-- tillegg: Claude -->
 Hvor langt fra en ledning med $10\ \mathrm{A}$ har feltet sunket til $1.0\ \mathrm{\mu T}$?
 
-::: {.losning}
-$$
-r = \frac{\mu_0 I}{2\pi B} = \frac{4\pi\cdot10^{-7}\cdot10}{2\pi\cdot1.0\cdot10^{-6}}\ \mathrm{m} = \underline{\underline{2.0\ \mathrm{m}}}
-$$
+::: {.fasit}
+$2.0\ \mathrm{m}$
 :::
 :::
 
@@ -136,12 +131,8 @@ $$
 <!-- tillegg: Claude -->
 To lange, parallelle ledere står $20\ \mathrm{cm}$ fra hverandre og fører $10\ \mathrm{A}$ hver, i motsatt retning. Finn feltet midt mellom dem.
 
-::: {.losning}
-Hver leder gir $B_1 = \dfrac{\mu_0 I}{2\pi\cdot0.10} = 2.0\cdot10^{-5}\ \mathrm{T}$. Med høyrehåndsregelen ser vi at feltene fra to motsatte strømmer peker **samme vei** midt mellom lederne. De legges sammen:
-$$
-B = 2B_1 = \underline{\underline{4.0\cdot10^{-5}\ \mathrm{T}}}
-$$
-(Med strøm i samme retning ville feltene oppheve hverandre, og $B = 0$ midt mellom.)
+::: {.fasit}
+$4.0\cdot10^{-5}\ \mathrm{T}$
 :::
 :::
 
@@ -149,11 +140,8 @@ $$
 <!-- tillegg: Claude -->
 Legg lederen langs $y$-aksen og punktet $P$ i avstanden $r$ på $x$-aksen. Vis med Biot–Savarts lov at en uendelig lang leder gir $B = \mu_0I/(2\pi r)$. Tips: $\int_{-\infty}^{\infty}\dfrac{\mathrm{d}y}{(r^2+y^2)^{3/2}} = \dfrac{2}{r^2}$.
 
-::: {.losning}
-For biten ved $y$ er avstanden $\sqrt{r^2+y^2}$ og $\sin\phi = r/\sqrt{r^2+y^2}$. Alle bidragene peker samme vei, så
-$$
-B = \frac{\mu_0 I}{4\pi}\int_{-\infty}^{\infty}\frac{\sin\phi\,\mathrm{d}y}{r^2+y^2} = \frac{\mu_0 I}{4\pi}\int_{-\infty}^{\infty}\frac{r\,\mathrm{d}y}{(r^2+y^2)^{3/2}} = \frac{\mu_0 I}{4\pi}\cdot r\cdot\frac{2}{r^2} = \underline{\underline{\frac{\mu_0 I}{2\pi r}}}
-$$
+::: {.fasit}
+$\frac{\mu_0 I}{2\pi r}$
 :::
 :::
 

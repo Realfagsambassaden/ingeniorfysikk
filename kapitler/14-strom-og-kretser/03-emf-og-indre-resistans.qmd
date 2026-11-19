@@ -88,11 +88,8 @@ $$
 <!-- tillegg: Claude -->
 Et bilbatteri har $\mathcal{E} = 12.6\ \mathrm{V}$ og $r = 0.020\ \Omega$. Startmotoren trekker $100\ \mathrm{A}$. Hva er polspenningen mens bilen startes?
 
-::: {.losning}
-$$
-V_\mathrm{pol} = \mathcal{E} - Ir = 12.6 - 100\cdot0.020\ \mathrm{V} = \underline{\underline{10.6\ \mathrm{V}}}
-$$
-Det er derfor lysene blir litt svakere når du starter.
+::: {.fasit}
+$10.6\ \mathrm{V}$
 :::
 :::
 
@@ -100,10 +97,8 @@ Det er derfor lysene blir litt svakere når du starter.
 <!-- tillegg: Claude -->
 Hvor stor blir strømmen hvis AA-batteriet i eksempelet ($\mathcal{E} = 1.50\ \mathrm{V}$, $r = 0.50\ \Omega$) kortsluttes?
 
-::: {.losning}
-$$
-I = \frac{\mathcal{E}}{r} = \frac{1.50}{0.50}\ \mathrm{A} = \underline{\underline{3.0\ \mathrm{A}}}
-$$
+::: {.fasit}
+$3.0\ \mathrm{A}$
 :::
 :::
 
@@ -111,14 +106,8 @@ $$
 <!-- tillegg: Claude -->
 Med en motstand på $2.0\ \Omega$ går det $1.5\ \mathrm{A}$ fra et batteri. Med $5.0\ \Omega$ går det $0.70\ \mathrm{A}$. Finn $\mathcal{E}$ og $r$.
 
-::: {.losning}
-To likninger: $\mathcal{E} = 1.5(2.0 + r)$ og $\mathcal{E} = 0.70(5.0 + r)$. Vi setter dem like:
-$$
-3.0 + 1.5r = 3.5 + 0.70r \quad\Rightarrow\quad r = \frac{0.50}{0.80}\ \Omega = \underline{\underline{0.63\ \Omega}}
-$$
-$$
-\mathcal{E} = 1.5\cdot(2.0 + 0.625)\ \mathrm{V} = \underline{\underline{3.9\ \mathrm{V}}}
-$$
+::: {.fasit}
+$0.63\ \Omega$ · $3.9\ \mathrm{V}$
 :::
 :::
 
@@ -126,12 +115,8 @@ $$
 <!-- tillegg: Claude -->
 Fire AA-batterier ($\mathcal{E} = 1.50\ \mathrm{V}$, $r = 0.50\ \Omega$ hver) kobles i serie til en lampe med $R = 10\ \Omega$. Hva blir strømmen? Hva ville den blitt med ideelle batterier?
 
-::: {.losning}
-I serie legges både emf-ene og de indre resistansene sammen: $\mathcal{E} = 6.0\ \mathrm{V}$ og $r = 2.0\ \Omega$.
-$$
-I = \frac{6.0}{10 + 2.0}\ \mathrm{A} = \underline{\underline{0.50\ \mathrm{A}}}
-$$
-Med ideelle batterier: $I = 6.0/10\ \mathrm{A} = 0.60\ \mathrm{A}$. Den indre resistansen gir 17 % mindre strøm.
+::: {.fasit}
+$0.50\ \mathrm{A}$
 :::
 :::
 

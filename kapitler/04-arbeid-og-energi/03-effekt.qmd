@@ -79,19 +79,8 @@ a) Finn et uttrykk for effekten bremsene genererer.
 
 b) Hvor mye energi genererer en buss på $4.0$ tonn på én time i en bakke med $\theta = 5^\circ$, hvis farten er $36\ \mathrm{km/h}$?
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** Effekten er $P = \vec F\cdot\vec v$. Bremsekraften $\vec F_B$ peker mot fartsretningen, så $P = -F_Bv$. Farten er konstant, så $\sum F_x = 0$ langs bakken: $-F_B + G_x = 0$, altså $F_B = m\mathrm{g}\sin\theta$. Størrelsen på effekten er
-$$
-|P| = m\mathrm{g}\sin\theta\cdot v
-$$
-
-**b)** Med $v = 10\ \mathrm{m/s}$ og $t = 1\ \mathrm{h} = 3600\ \mathrm{s}$:
-$$
-E = Pt = 4.0\cdot10^3\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}\cdot\sin5^\circ\cdot10\ \mathrm{m/s}\cdot3600\ \mathrm{s} \approx \underline{\underline{1.2\cdot10^2\ \mathrm{MJ} \approx 34\ \mathrm{kWh}}}
-$$
-<!-- tillegg: Claude: notatene glemte g her og fikk 3.5 kWh -->
-Effekten er $P \approx 34\ \mathrm{kW}$. (Forutsatt at all energien kan tas vare på.)
+::: {.fasit}
+$1.2\cdot10^2\ \mathrm{MJ} \approx 34\ \mathrm{kWh}$
 :::
 :::
 
@@ -103,13 +92,8 @@ a) Hvor stor nyttig effekt gir motoren?
 
 b) Hvor stor elektrisk effekt bruker den?
 
-::: {.losning}
-**a)** Konstant fart betyr at motorkraften er lik tyngden, $F = m\mathrm{g}$, og $v = 30/20\ \mathrm{m/s} = 1.5\ \mathrm{m/s}$:
-$$
-P_\text{nyttig} = Fv = 800\cdot9.81\cdot1.5\ \mathrm{W} \approx \underline{\underline{12\ \mathrm{kW}}}
-$$
-
-**b)** $P_\text{tilført} = P_\text{nyttig}/\eta = 11.8/0.75\ \mathrm{kW} \approx \underline{\underline{16\ \mathrm{kW}}}$
+::: {.fasit}
+a) $12\ \mathrm{kW}$ · b) $16\ \mathrm{kW}$
 :::
 :::
 

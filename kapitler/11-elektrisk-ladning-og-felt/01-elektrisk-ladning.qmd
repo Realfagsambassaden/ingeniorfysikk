@@ -80,10 +80,8 @@ Det høres ut som svært mange elektroner, men $32\ \mathrm{mC}$ er likevel en g
 <!-- tillegg: Claude -->
 En liten metallkule har ladningen $Q = -4.8\ \mathrm{nC}$. Hvor mange elektroner for mye har kula?
 
-::: {.losning}
-$$
-n = \frac{Q}{-\mathrm{e}} = \frac{-4.8\cdot10^{-9}\ \mathrm{C}}{-1.60\cdot10^{-19}\ \mathrm{C}} = \underline{\underline{3.0\cdot10^{10}}}
-$$
+::: {.fasit}
+$3.0\cdot10^{10}$
 :::
 :::
 
@@ -91,24 +89,14 @@ $$
 <!-- tillegg: Claude -->
 En elev påstår at en oljedråpe har ladningen $q = 2.4\cdot10^{-19}\ \mathrm{C}$. Hvorfor kan det ikke stemme?
 
-::: {.losning}
-All ladning er et heltallsmultiplum av $\mathrm{e}$. Men
-$$
-\frac{q}{\mathrm{e}} = \frac{2.4\cdot10^{-19}}{1.60\cdot10^{-19}} = 1.5
-$$
-er ikke et heltall. Ladningen må være $1.6\cdot10^{-19}\ \mathrm{C}$, $3.2\cdot10^{-19}\ \mathrm{C}$ eller et annet multiplum, så målingen eller utregningen må være feil. (Det var nettopp slike målinger på oljedråper Millikan brukte for å vise at ladning er kvantisert.)
-:::
 :::
 
 ::: {.oppgave tittel="Bevaring av ladning"}
 <!-- tillegg: Claude -->
 To like metallkuler har ladningene $q_1 = +6.0\ \mathrm{nC}$ og $q_2 = -2.0\ \mathrm{nC}$. De berører hverandre og trekkes fra hverandre igjen. Hvilken ladning har hver kule etterpå?
 
-::: {.losning}
-Total ladning er bevart: $Q = 6.0\ \mathrm{nC} + (-2.0\ \mathrm{nC}) = 4.0\ \mathrm{nC}$. Kulene er like, så ladningen fordeler seg likt:
-$$
-q_1' = q_2' = \frac{4.0\ \mathrm{nC}}{2} = \underline{\underline{2.0\ \mathrm{nC}}}
-$$
+::: {.fasit}
+$2.0\ \mathrm{nC}$
 :::
 :::
 

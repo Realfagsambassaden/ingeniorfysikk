@@ -115,12 +115,8 @@ Det samme gjelder tyngden: Den virker som om den angriper i massesenteret. Derfo
 <!-- tillegg: Claude -->
 Tre punktmasser ligger i $xy$-planet: $2.0\ \mathrm{kg}$ i $[0,\ 0]$, $1.0\ \mathrm{kg}$ i $[3.0,\ 0]\ \mathrm{m}$ og $3.0\ \mathrm{kg}$ i $[1.0,\ 2.0]\ \mathrm{m}$. Finn massesenteret.
 
-::: {.losning}
-$M = 6.0\ \mathrm{kg}$.
-$$
-x_\text{cm} = \frac{2.0\cdot0 + 1.0\cdot3.0 + 3.0\cdot1.0}{6.0}\ \mathrm{m} = 1.0\ \mathrm{m}, \qquad y_\text{cm} = \frac{0 + 0 + 3.0\cdot2.0}{6.0}\ \mathrm{m} = 1.0\ \mathrm{m}
-$$
-$\vec r_\text{cm} = \underline{\underline{[1.0,\ 1.0]\ \mathrm{m}}}$
+::: {.fasit}
+$[1.0,\ 1.0]\ \mathrm{m}$
 :::
 :::
 
@@ -128,16 +124,8 @@ $\vec r_\text{cm} = \underline{\underline{[1.0,\ 1.0]\ \mathrm{m}}}$
 <!-- tillegg: Claude -->
 En tynn, homogen plate har form som en L: et rektangel $0 \le x \le 4$, $0 \le y \le 1$ (i dm) og et rektangel $0 \le x \le 1$, $1 \le y \le 3$. Finn massesenteret.
 
-::: {.losning}
-Del platen i to rektangler. Massen er proporsjonal med arealet, så vi kan bruke arealene som «masser»:
-
-- Rektangel 1: areal $4$, massesenter $[2,\ 0.5]$.
-- Rektangel 2: areal $2$, massesenter $[0.5,\ 2]$.
-
-$$
-x_\text{cm} = \frac{4\cdot2 + 2\cdot0.5}{6}\ \mathrm{dm} = 1.5\ \mathrm{dm}, \qquad y_\text{cm} = \frac{4\cdot0.5 + 2\cdot2}{6}\ \mathrm{dm} = 1.0\ \mathrm{dm}
-$$
-$\vec r_\text{cm} = \underline{\underline{[1.5,\ 1.0]\ \mathrm{dm}}}$. Legg merke til at punktet ligger *utenfor* platen, i hjørnet av L-en. Massesenteret trenger ikke ligge i selve legemet.
+::: {.fasit}
+$[1.5,\ 1.0]\ \mathrm{dm}$
 :::
 :::
 
@@ -145,15 +133,8 @@ $\vec r_\text{cm} = \underline{\underline{[1.5,\ 1.0]\ \mathrm{dm}}}$. Legg merk
 <!-- tillegg: Claude -->
 En stav med lengde $L$ ligger langs $x$-aksen fra $0$ til $L$. Massen per lengde øker lineært: $\lambda(x) = \lambda_0\,x/L$. Finn massen og massesenteret.
 
-::: {.losning}
-Med $\mathrm{d}m = \lambda\,\mathrm{d}x$:
-$$
-M = \int_0^L\frac{\lambda_0x}{L}\,\mathrm{d}x = \frac{\lambda_0L}{2}, \qquad \int_0^Lx\,\mathrm{d}m = \int_0^L\frac{\lambda_0x^2}{L}\,\mathrm{d}x = \frac{\lambda_0L^2}{3}
-$$
-$$
-x_\text{cm} = \frac{\lambda_0L^2/3}{\lambda_0L/2} = \underline{\underline{\tfrac23L}}
-$$
-Massesenteret ligger nærmere den tunge enden, som ventet.
+::: {.fasit}
+$\tfrac23L$
 :::
 :::
 
@@ -161,15 +142,8 @@ Massesenteret ligger nærmere den tunge enden, som ventet.
 <!-- tillegg: Claude -->
 En granat skytes ut med $v_0 = 40\ \mathrm{m/s}$ i $60^\circ$ vinkel. På toppen av banen sprenges den i to like store deler. Den ene delen faller rett ned (farten er null rett etter eksplosjonen). Hvor langt fra utskytingsstedet lander den andre delen? Se bort fra luftmotstand.
 
-::: {.losning}
-Massesenteret følger banen granaten ville hatt uten eksplosjon, og lander i
-$$
-x_\text{cm} = \frac{v_0^2}{\mathrm{g}}\sin120^\circ = \frac{1600}{9.81}\cdot0.866\ \mathrm{m} \approx 141\ \mathrm{m}
-$$
-Toppen ligger midt på banen, i $x = 70.6\ \mathrm{m}$, og der lander del 1. Begge delene faller fra samme høyde og lander samtidig. Da er massesenteret midt mellom dem:
-$$
-x_\text{cm} = \frac{x_1 + x_2}{2} \quad\Rightarrow\quad x_2 = 2x_\text{cm} - x_1 = 2\cdot141 - 70.6\ \mathrm{m} \approx \underline{\underline{212\ \mathrm{m}}}
-$$
+::: {.fasit}
+$212\ \mathrm{m}$
 :::
 :::
 

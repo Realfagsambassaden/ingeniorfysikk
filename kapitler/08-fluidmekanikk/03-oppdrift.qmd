@@ -129,11 +129,8 @@ $$
 <!-- tillegg: Claude -->
 En tømmerstokk av tre med tetthet $600\ \mathrm{kg/m^3}$ flyter i vann. Hvor stor andel av volumet er over vann?
 
-::: {.losning}
-Andelen under er $\rho_\mathrm{tre}/\rho_\mathrm{v} = 600/1000 = 0.60$. Andelen over er da
-$$
-1 - 0.60 = \underline{\underline{0.40}}
-$$
+::: {.fasit}
+$0.40$
 :::
 :::
 
@@ -141,11 +138,8 @@ $$
 <!-- tillegg: Claude -->
 En lekter er formet som en boks, $10\ \mathrm{m}$ lang og $4.0\ \mathrm{m}$ bred. Hvor stor last er lagt om bord når lekteren synker $15\ \mathrm{cm}$ dypere i vannet?
 
-::: {.losning}
-Ekstra oppdrift er lik tyngden av lasten. Ekstra fortrengt volum er $\Delta V = 10\cdot4.0\cdot0.15\ \mathrm{m^3} = 6.0\ \mathrm{m^3}$:
-$$
-m = \rho_\mathrm{v}\Delta V = 1000\ \mathrm{kg/m^3}\cdot6.0\ \mathrm{m^3} = \underline{\underline{6.0\cdot10^{3}\ \mathrm{kg}}}
-$$
+::: {.fasit}
+$6.0\cdot10^{3}\ \mathrm{kg}$
 :::
 :::
 
@@ -153,16 +147,8 @@ $$
 <!-- tillegg: Claude -->
 En krone veier $0.85\ \mathrm{kg}$ i lufta. Hengt i en kraftmåler under vann viser den massen $0.80\ \mathrm{kg}$ (altså en kraft på $0.80\ \mathrm{kg}\cdot\mathrm{g}$). Hva er tettheten til kronen? Er den av rent gull ($1.93\cdot10^{4}\ \mathrm{kg/m^3}$)?
 
-::: {.losning}
-Oppdriften er forskjellen: $B = (0.85 - 0.80)\ \mathrm{kg}\cdot\mathrm{g} = 0.050\ \mathrm{kg}\cdot\mathrm{g}$. Det betyr at kronen fortrenger $0.050\ \mathrm{kg}$ vann, altså
-$$
-V = \frac{0.050\ \mathrm{kg}}{1000\ \mathrm{kg/m^3}} = 5.0\cdot10^{-5}\ \mathrm{m^3}
-$$
-Tettheten blir
-$$
-\rho = \frac{0.85\ \mathrm{kg}}{5.0\cdot10^{-5}\ \mathrm{m^3}} = \underline{\underline{1.7\cdot10^{4}\ \mathrm{kg/m^3}}}
-$$
-Det er mindre enn tettheten til gull. Kronen er **ikke** av rent gull, den er trolig blandet med sølv.
+::: {.fasit}
+$1.7\cdot10^{4}\ \mathrm{kg/m^3}$
 :::
 :::
 
@@ -170,12 +156,8 @@ Det er mindre enn tettheten til gull. Kronen er **ikke** av rent gull, den er tr
 <!-- tillegg: Claude -->
 En kuleformet heliumballong har radius $15\ \mathrm{cm}$. Helium har tetthet $0.18\ \mathrm{kg/m^3}$, lufta $1.20\ \mathrm{kg/m^3}$. Hvor stor masse kan ballongen maksimalt løfte (ballonggummi og snor medregnet)?
 
-::: {.losning}
-Volumet er $V = \tfrac43\pi r^3 = \tfrac43\pi(0.15\ \mathrm{m})^3 = 1.41\cdot10^{-2}\ \mathrm{m^3}$. Som for varmluftsballongen er
-$$
-m = (\rho_\mathrm{luft} - \rho_\mathrm{He})V = (1.20 - 0.18)\cdot1.41\cdot10^{-2}\ \mathrm{kg} = 1.4\cdot10^{-2}\ \mathrm{kg} = \underline{\underline{14\ \mathrm{g}}}
-$$
-Ballonggummien veier ofte noen gram, så det er ikke mye igjen til lasten.
+::: {.fasit}
+$14\ \mathrm{g}$
 :::
 :::
 

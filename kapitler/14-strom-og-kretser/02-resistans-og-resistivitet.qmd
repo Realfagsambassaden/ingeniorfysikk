@@ -102,10 +102,8 @@ Resistansen er over ti ganger så stor når lampa lyser. Derfor går det en stor
 <!-- tillegg: Claude -->
 Det går $0.25\ \mathrm{A}$ gjennom en motstand når spenningen over den er $12\ \mathrm{V}$. Hva er resistansen?
 
-::: {.losning}
-$$
-R = \frac VI = \frac{12}{0.25}\ \Omega = \underline{\underline{48\ \Omega}}
-$$
+::: {.fasit}
+$48\ \Omega$
 :::
 :::
 
@@ -113,8 +111,8 @@ $$
 <!-- tillegg: Claude -->
 En ledning strekkes slik at den blir dobbelt så lang og halvparten så tykk (halv diameter). Hva skjer med resistansen?
 
-::: {.losning}
-$R = \rho L/A$. Dobbel lengde gir faktor 2. Halv diameter gir en fjerdedel av arealet, altså faktor 4. Resistansen blir $2\cdot4 = \underline{\underline{8}}$ ganger så stor.
+::: {.fasit}
+$8$
 :::
 :::
 
@@ -122,12 +120,8 @@ $R = \rho L/A$. Dobbel lengde gir faktor 2. Halv diameter gir en fjerdedel av ar
 <!-- tillegg: Claude -->
 En tråd er $2.0\ \mathrm{m}$ lang og har diameter $0.40\ \mathrm{mm}$. Med $6.0\ \mathrm{V}$ over tråden går det $0.76\ \mathrm{A}$. Hva er resistiviteten? Hvilket stoff kan det være?
 
-::: {.losning}
-$R = 6.0/0.76\ \Omega = 7.9\ \Omega$ og $A = \pi(0.20\cdot10^{-3})^2\ \mathrm{m^2} = 1.26\cdot10^{-7}\ \mathrm{m^2}$.
-$$
-\rho = \frac{RA}{L} = \frac{7.9\cdot1.26\cdot10^{-7}}{2.0}\ \Omega\,\mathrm{m} = \underline{\underline{5.0\cdot10^{-7}\ \Omega\,\mathrm{m}}}
-$$
-Det passer med konstantan.
+::: {.fasit}
+$5.0\cdot10^{-7}\ \Omega\,\mathrm{m}$
 :::
 :::
 
@@ -135,13 +129,8 @@ Det passer med konstantan.
 <!-- tillegg: Claude -->
 En kobbertråd har resistansen $12.0\ \Omega$ ved $20\ \mathrm{^\circ C}$. Når den legges i en ovn, måles resistansen til $15.6\ \Omega$. Hva er temperaturen i ovnen?
 
-::: {.losning}
-$$
-\frac{R}{R_0} = 1 + \alpha\Delta T \quad\Rightarrow\quad \Delta T = \frac{R/R_0 - 1}{\alpha} = \frac{15.6/12.0 - 1}{3.9\cdot10^{-3}}\ \mathrm{K} = 77\ \mathrm{K}
-$$
-$$
-T = 20\ \mathrm{^\circ C} + 77\ \mathrm{^\circ C} = \underline{\underline{97\ \mathrm{^\circ C}}}
-$$
+::: {.fasit}
+$97\ \mathrm{^\circ C}$
 :::
 :::
 

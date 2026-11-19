@@ -87,11 +87,8 @@ Slipper du en sterk magnet ned i et kobberrør, faller den påfallende sakte. Ko
 <!-- tillegg: Claude -->
 En kvadratisk sløyfe med sider $10\ \mathrm{cm}$ står vinkelrett på et felt på $0.30\ \mathrm{T}$. Den dreies $90^\circ$ på $0.050\ \mathrm{s}$, så den til slutt ligger langs feltet. Finn gjennomsnittlig indusert spenning.
 
-::: {.losning}
-Fluksen går fra $BA = 0.30\cdot0.010\ \mathrm{Wb} = 3.0\cdot10^{-3}\ \mathrm{Wb}$ til $0$:
-$$
-|\mathcal E| = \frac{\Delta\Phi_B}{\Delta t} = \frac{3.0\cdot10^{-3}}{0.050}\ \mathrm{V} = \underline{\underline{0.060\ \mathrm{V}}}
-$$
+::: {.fasit}
+$0.060\ \mathrm{V}$
 :::
 :::
 
@@ -99,21 +96,14 @@ $$
 <!-- tillegg: Claude -->
 En sløyfe ligger i arkets plan i et felt som peker ut av arket. Feltet **avtar**. Går den induserte strømmen med eller mot klokka?
 
-::: {.losning}
-Fluksen ut av arket minker. Det induserte feltet må derfor peke **ut av arket** for å holde den oppe. Tommelen ut av arket gir strøm **mot klokka**.
-:::
 :::
 
 ::: {.oppgave tittel="Ladning gjennom kretsen" niva="Middels"}
 <!-- tillegg: Claude -->
 En spole med $50$ vindinger og areal $0.010\ \mathrm{m^2}$ står vinkelrett på et felt på $0.40\ \mathrm{T}$. Spolen er koblet til en krets med samlet resistans $2.0\ \Omega$. Spolen trekkes raskt ut av feltet. Vis at ladningen som går gjennom kretsen er $Q = N\Delta\Phi_B/R$, uavhengig av hvor fort det skjer, og regn den ut.
 
-::: {.losning}
-$I = \mathcal E/R = -\dfrac NR\dfrac{\mathrm{d}\Phi_B}{\mathrm{d}t}$. Ladningen er $Q = \int I\,\mathrm{d}t = \dfrac NR\int\mathrm{d}\Phi_B = \dfrac{N\Delta\Phi_B}{R}$. Tiden faller bort.
-$$
-Q = \frac{50\cdot0.40\cdot0.010}{2.0}\ \mathrm{C} = \underline{\underline{0.10\ \mathrm{C}}}
-$$
-Slik måler en *fluksmeter* magnetfelt: Den teller ladningen når en spole trekkes ut av feltet.
+::: {.fasit}
+$0.10\ \mathrm{C}$
 :::
 :::
 
@@ -121,14 +111,8 @@ Slik måler en *fluksmeter* magnetfelt: Den teller ladningen når en spole trekk
 <!-- tillegg: Claude -->
 Feltet gjennom en spole med $N$ vindinger og areal $A$ varierer som $B(t) = B_0\sin(\omega t)$. Finn $\mathcal E(t)$. Når er spenningen størst, og når er den null? Regn ut amplituden for $N = 100$, $A = 4.0\ \mathrm{cm^2}$, $B_0 = 10\ \mathrm{mT}$ og frekvensen $50\ \mathrm{Hz}$.
 
-::: {.losning}
-$$
-\mathcal E = -NA\frac{\mathrm{d}B}{\mathrm{d}t} = -NAB_0\omega\cos(\omega t)
-$$
-Spenningen er størst når feltet **passerer null** (der det endrer seg raskest), og null når feltet er størst. Amplituden:
-$$
-\mathcal E_0 = NAB_0\omega = 100\cdot4.0\cdot10^{-4}\cdot0.010\cdot2\pi\cdot50\ \mathrm{V} = \underline{\underline{0.13\ \mathrm{V}}}
-$$
+::: {.fasit}
+$0.13\ \mathrm{V}$
 :::
 :::
 

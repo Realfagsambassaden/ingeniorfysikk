@@ -121,11 +121,8 @@ Feltet er størst på overflaten og avtar både innover og utover.
 <!-- tillegg: Claude -->
 En ladning på $1.0\ \mathrm{\mu C}$ ligger inni en lukket boks. Hva er den samlede elektriske fluksen ut av boksen? Endres svaret hvis ladningen flyttes til et hjørne inni boksen?
 
-::: {.losning}
-$$
-\Phi_E = \frac{Q}{\varepsilon_0} = \frac{1.0\cdot10^{-6}}{8.85\cdot10^{-12}}\ \mathrm{N\,m^2/C} = \underline{\underline{1.1\cdot10^{5}\ \mathrm{N\,m^2/C}}}
-$$
-Svaret er det samme så lenge ladningen er inni boksen. Fluksen fordeler seg bare annerledes på sideflatene.
+::: {.fasit}
+$1.1\cdot10^{5}\ \mathrm{N\,m^2/C}$
 :::
 :::
 
@@ -133,12 +130,8 @@ Svaret er det samme så lenge ladningen er inni boksen. Fluksen fordeler seg bar
 <!-- tillegg: Claude -->
 Et stort plant ark har ladningen $2.0\ \mathrm{\mu C/m^2}$. Hvor sterkt er feltet $1.0\ \mathrm{cm}$ og $10\ \mathrm{cm}$ fra arket?
 
-::: {.losning}
-Feltet er uavhengig av avstanden (så lenge arket er stort i forhold til avstanden):
-$$
-E = \frac{\sigma}{2\varepsilon_0} = \frac{2.0\cdot10^{-6}}{2\cdot8.85\cdot10^{-12}}\ \mathrm{N/C} = \underline{\underline{1.1\cdot10^{5}\ \mathrm{N/C}}}
-$$
-i begge avstandene.
+::: {.fasit}
+$1.1\cdot10^{5}\ \mathrm{N/C}$
 :::
 :::
 
@@ -146,11 +139,8 @@ i begge avstandene.
 <!-- tillegg: Claude -->
 En lang, rett ledning har ladningen $3.0\ \mathrm{nC/m}$. Hvor sterkt er feltet $5.0\ \mathrm{cm}$ fra ledningen? Hvor mye svakere er det i dobbel avstand?
 
-::: {.losning}
-$$
-E = \frac{\lambda}{2\pi\varepsilon_0r} = \frac{3.0\cdot10^{-9}}{2\pi\cdot8.85\cdot10^{-12}\cdot0.050}\ \mathrm{N/C} = \underline{\underline{1.1\cdot10^{3}\ \mathrm{N/C}}}
-$$
-Feltet avtar som $1/r$, så i dobbel avstand er det **halvparten** så sterkt.
+::: {.fasit}
+$1.1\cdot10^{3}\ \mathrm{N/C}$
 :::
 :::
 
@@ -158,17 +148,6 @@ Feltet avtar som $1/r$, så i dobbel avstand er det **halvparten** så sterkt.
 <!-- tillegg: Claude -->
 Et tynt, ledende kuleskall med radius $R$ har ladningen $Q$. En punktladning $q$ sitter i sentrum. Finn feltet inni skallet og utenfor skallet.
 
-::: {.losning}
-Inni ($r < R$): Gaussflaten omslutter bare $q$:
-$$
-E = \frac{q}{4\pi\varepsilon_0r^2}
-$$
-Utenfor ($r > R$): Gaussflaten omslutter både $q$ og $Q$:
-$$
-E = \frac{q + Q}{4\pi\varepsilon_0r^2}
-$$
-Skallet påvirker ikke feltet inni. (Ladningen på skallet fordeler seg slik at $-q$ sitter på innsiden og $Q + q$ på utsiden, men det endrer ikke svaret.)
-:::
 :::
 
 ::::
