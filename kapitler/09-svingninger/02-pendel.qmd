@@ -155,12 +155,12 @@ $$
 
 ::: {.oppgave tittel="Måle g" niva="Middels"}
 <!-- tillegg: Claude -->
-I en laboratorieøvelse måler en student tiden for 20 svingninger med en pendel på $0.800\ \mathrm{m}$ til $35.9\ \mathrm{s}$. Hvilken verdi for $g$ gir det? Hvorfor er det lurt å måle mange svingninger i stedet for én?
+I en laboratorieøvelse måler en student tiden for 20 svingninger med en pendel på $0.800\ \mathrm{m}$ til $35.9\ \mathrm{s}$. Hvilken verdi for $\mathrm{g}$ gir det? Hvorfor er det lurt å måle mange svingninger i stedet for én?
 
 ::: {.losning}
-$T = 35.9/20\ \mathrm{s} = 1.795\ \mathrm{s}$. Fra $T = 2\pi\sqrt{L/g}$:
+$T = 35.9/20\ \mathrm{s} = 1.795\ \mathrm{s}$. Fra $T = 2\pi\sqrt{L/\mathrm{g}}$:
 $$
-g = \frac{4\pi^2L}{T^2} = \frac{4\pi^2\cdot0.800}{1.795^2}\ \mathrm{m/s^2} = \underline{\underline{9.80\ \mathrm{m/s^2}}}
+\mathrm{g} = \frac{4\pi^2L}{T^2} = \frac{4\pi^2\cdot0.800}{1.795^2}\ \mathrm{m/s^2} = \underline{\underline{9.80\ \mathrm{m/s^2}}}
 $$
 Reaksjonstiden ved start og stopp gir den samme feilen enten man måler én eller 20 svingninger. Med 20 svingninger fordeles feilen på 20 perioder, så usikkerheten i $T$ blir 20 ganger mindre.
 :::

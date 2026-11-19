@@ -50,12 +50,13 @@ En god sjekk: Bevegelse mot hverandre skal alltid gi **høyere** frekvens, beveg
 ::: {.losning}
 Mot deg (kilden nærmer seg, $v_o = 0$):
 $$
-f' = 700\ \mathrm{Hz}\cdot\frac{343}{343 - 25} = \underline{\underline{755\ \mathrm{Hz}}}
+f' = 700\ \mathrm{Hz}\cdot\frac{343}{343 - 25} = \underline{\underline{7.6\cdot10^{2}\ \mathrm{Hz}}}
 $$
 Etter passering (kilden fjerner seg):
 $$
-f' = 700\ \mathrm{Hz}\cdot\frac{343}{343 + 25} = \underline{\underline{652\ \mathrm{Hz}}}
+f' = 700\ \mathrm{Hz}\cdot\frac{343}{343 + 25} = \underline{\underline{6.5\cdot10^{2}\ \mathrm{Hz}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
 Tonen faller med ca. $100\ \mathrm{Hz}$ når ambulansen passerer. Det tilsvarer omtrent to halvtoner.
 :::
 :::
@@ -79,8 +80,9 @@ Du sykler med $8.0\ \mathrm{m/s}$ mot en høyttaler som står i ro og spiller $5
 ::: {.losning}
 Observatøren beveger seg mot kilden:
 $$
-f' = 500\ \mathrm{Hz}\cdot\frac{343 + 8.0}{343} = \underline{\underline{512\ \mathrm{Hz}}}
+f' = 500\ \mathrm{Hz}\cdot\frac{343 + 8.0}{343} = \underline{\underline{5.1\cdot10^{2}\ \mathrm{Hz}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
 :::
 :::
 
@@ -103,8 +105,9 @@ To biler kjører mot hverandre, begge med $20\ \mathrm{m/s}$. Den ene tuter med 
 ::: {.losning}
 Begge beveger seg mot hverandre, så vi bruker de øverste fortegnene:
 $$
-f' = 500\ \mathrm{Hz}\cdot\frac{343 + 20}{343 - 20} = \underline{\underline{562\ \mathrm{Hz}}}
+f' = 500\ \mathrm{Hz}\cdot\frac{343 + 20}{343 - 20} = \underline{\underline{5.6\cdot10^{2}\ \mathrm{Hz}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
 :::
 :::
 
@@ -123,8 +126,9 @@ f' = f_\mathrm{vegg}\,\frac{v + v_o}{v} = f\,\frac{v + u}{v - u}
 $$
 med $u = 5.0\ \mathrm{m/s}$:
 $$
-f' = 40.0\ \mathrm{kHz}\cdot\frac{343 + 5.0}{343 - 5.0} = \underline{\underline{41.2\ \mathrm{kHz}}}
+f' = 40.0\ \mathrm{kHz}\cdot\frac{343 + 5.0}{343 - 5.0} = \underline{\underline{41\ \mathrm{kHz}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
 Flaggermusen kan bruke frekvensforskjellen til å vite hvor fort den nærmer seg veggen.
 :::
 :::

@@ -36,22 +36,22 @@ Med svak demping svinger systemet fortsatt, men amplituden avtar eksponentielt. 
 ::: {.callout-important title="Underkritisk dempet svingning"}
 <!-- tillegg: Claude -->
 $$
-x(t) = Ae^{-\gamma t}\cos(\omega_dt + \varphi), \qquad \omega_d = \sqrt{\omega_0^2 - \gamma^2}
+x(t) = A\mathrm{e}^{-\gamma t}\cos(\omega_dt + \varphi), \qquad \omega_d = \sqrt{\omega_0^2 - \gamma^2}
 $$
 :::
 
-![En underkritisk dempet svingning. Utslaget holder seg innenfor den stiplede kurven $Ae^{-\gamma t}$, som avtar eksponentielt.](../../bilder/dempet-svingning.svg){.tikz-fig style="width:500px"}
+![En underkritisk dempet svingning. Utslaget holder seg innenfor den stiplede kurven $A\mathrm{e}^{-\gamma t}$, som avtar eksponentielt.](../../bilder/dempet-svingning.svg){.tikz-fig style="width:500px"}
 
 <!-- tillegg: Claude -->
 Du kan sjekke løsningen ved å sette den inn i likningen. To ting å merke seg:
 
 ::: {.kort}
-- **Amplituden avtar eksponentielt.** For hver tid $1/\gamma$ blir amplituden en faktor $e \approx 2.7$ mindre. Halveringstiden er $t_{1/2} = \ln2/\gamma$.
+- **Amplituden avtar eksponentielt.** For hver tid $1/\gamma$ blir amplituden en faktor $\mathrm{e} \approx 2.7$ mindre. Halveringstiden er $t_{1/2} = \ln2/\gamma$.
 - **Litt langsommere svingning.** Vinkelfrekvensen $\omega_d$ er litt mindre enn $\omega_0$. Med svak demping er forskjellen så liten at den nesten ikke merkes.
 :::
 
 <!-- tillegg: Claude -->
-Energien er proporsjonal med kvadratet av amplituden, $E \propto A^2e^{-2\gamma t}$, så den avtar dobbelt så fort som amplituden.
+Energien er proporsjonal med kvadratet av amplituden, $E \propto A^2\mathrm{e}^{-2\gamma t}$, så den avtar dobbelt så fort som amplituden.
 
 ::: {.eksempel}
 <!-- tillegg: Claude -->
@@ -80,7 +80,7 @@ $$
 Øker vi dempingen, blir $\omega_d$ mindre, og ved $\gamma = \omega_0$ forsvinner svingningen helt:
 
 ::: {.kort}
-- **Kritisk demping** ($\gamma = \omega_0$): Systemet går tilbake til likevekt så fort som mulig uten å svinge forbi. Løsningen er $x = (C_1 + C_2t)e^{-\omega_0t}$. Støtdempere på biler og dørpumper er laget for å være nær kritisk dempet.
+- **Kritisk demping** ($\gamma = \omega_0$): Systemet går tilbake til likevekt så fort som mulig uten å svinge forbi. Løsningen er $x = (C_1 + C_2t)\mathrm{e}^{-\omega_0t}$. Støtdempere på biler og dørpumper er laget for å være nær kritisk dempet.
 - **Overkritisk demping** ($\gamma > \omega_0$): Dempingen er så sterk at systemet kryper sakte tilbake til likevekt. Tenk på en fjær i sirup.
 :::
 
@@ -96,7 +96,7 @@ $$
 
 ::: {.losning}
 $$
-b = 2\sqrt{km} = 2\sqrt{9.81\cdot10^{4}\cdot1500}\ \mathrm{kg/s} = \underline{\underline{2.4\cdot10^{4}\ \mathrm{kg/s}}}
+b = 2\sqrt{km} = 2\sqrt{9.8\cdot10^{4}\cdot1500}\ \mathrm{kg/s} = \underline{\underline{2.4\cdot10^{4}\ \mathrm{kg/s}}}
 $$
 Med slitte støtdempere blir $b$ mindre. Da blir dempingen underkritisk, og bilen fortsetter å gynge etter en humpe.
 :::
@@ -159,8 +159,9 @@ En pendel med lengde $1.00\ \mathrm{m}$ og masse $0.20\ \mathrm{kg}$ svinger sli
 ::: {.losning}
 Perioden er $T = 2\pi\sqrt{1.00/9.81}\ \mathrm{s} = 2.01\ \mathrm{s}$, så 10 svingninger tar $20.1\ \mathrm{s}$.
 $$
-e^{-\gamma\cdot20.1\ \mathrm{s}} = \frac12 \quad\Rightarrow\quad \gamma = \frac{\ln2}{20.1\ \mathrm{s}} = \underline{\underline{0.035\ \mathrm{s^{-1}}}}
+\mathrm{e}^{-\gamma\cdot20.1\ \mathrm{s}} = \frac12 \quad\Rightarrow\quad \gamma = \frac{\ln2}{20.1\ \mathrm{s}} = \underline{\underline{0.0346\ \mathrm{s^{-1}}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3, fra lengden) -->
 $$
 b = 2m\gamma = 2\cdot0.20\cdot0.0346\ \mathrm{kg/s} = \underline{\underline{0.014\ \mathrm{kg/s}}}
 $$
@@ -170,10 +171,10 @@ $\omega_0 = 3.13\ \mathrm{s^{-1}}$ er nesten hundre ganger større enn $\gamma$,
 
 ::: {.oppgave tittel="Sjekk løsningen" niva="Utfordrende"}
 <!-- tillegg: Claude -->
-Vis at $x(t) = Ae^{-\gamma t}\cos(\omega_dt)$ er en løsning av $\ddot x + 2\gamma\dot x + \omega_0^2x = 0$ når $\omega_d^2 = \omega_0^2 - \gamma^2$.
+Vis at $x(t) = A\mathrm{e}^{-\gamma t}\cos(\omega_dt)$ er en løsning av $\ddot x + 2\gamma\dot x + \omega_0^2x = 0$ når $\omega_d^2 = \omega_0^2 - \gamma^2$.
 
 ::: {.losning}
-Skriv $c = \cos(\omega_dt)$ og $s = \sin(\omega_dt)$, og la $E = Ae^{-\gamma t}$. Derivasjon med produktregelen:
+Skriv $c = \cos(\omega_dt)$ og $s = \sin(\omega_dt)$, og la $E = A\mathrm{e}^{-\gamma t}$. Derivasjon med produktregelen:
 $$
 \dot x = E(-\gamma c - \omega_ds)
 $$

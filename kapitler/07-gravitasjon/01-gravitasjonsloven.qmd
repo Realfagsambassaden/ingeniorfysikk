@@ -41,9 +41,10 @@ $\mathrm{G}$ er svært liten. Gravitasjonskraften mellom to mennesker på $75\ \
 
 ::: {.losning}
 $$
-F = \mathrm{G}\frac{Mm}{r^2} = 6.674\cdot10^{-11}\cdot\frac{5.97\cdot10^{24}\cdot7.35\cdot10^{22}}{(3.84\cdot10^{8})^2}\ \mathrm{N} = \underline{\underline{2.0\cdot10^{20}\ \mathrm{N}}}
+F = \mathrm{G}\frac{Mm}{r^2} = 6.674\cdot10^{-11}\cdot\frac{5.97\cdot10^{24}\cdot7.35\cdot10^{22}}{(3.84\cdot10^{8})^2}\ \mathrm{N} = \underline{\underline{1.99\cdot10^{20}\ \mathrm{N}}}
 $$
-En enorm kraft, men den gir likevel bare månen akselerasjonen $F/m = 2.7\cdot10^{-3}\ \mathrm{m/s^2}$. Det er akkurat det som skal til for å holde månen i sin nesten sirkulære bane.
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3) -->
+En enorm kraft, men den gir likevel bare månen akselerasjonen $F/m = 2.70\cdot10^{-3}\ \mathrm{m/s^2}$. Det er akkurat det som skal til for å holde månen i sin nesten sirkulære bane.
 :::
 :::
 
@@ -64,7 +65,7 @@ Det er derfor alle ting faller like fort når vi ser bort fra luftmotstand. Med 
 ![Tyngdeakselerasjonen som funksjon av avstanden fra jordas sentrum. Utenfor avtar den som $1/r^2$. Inni en kule med jevn tetthet vokser den lineært fra null i sentrum.](../../bilder/g-avstand.svg){.tikz-fig style="width:480px"}
 
 <!-- tillegg: Claude -->
-Høyt over bakken er $g$ mindre. Formelen gir oss også en måte å «veie» jorda på: Måler vi $\mathrm{g}$ og $R$, og kjenner $\mathrm{G}$, finner vi $M = \mathrm{g}R^2/\mathrm{G} = 5.97\cdot10^{24}\ \mathrm{kg}$. Det var Henry Cavendish som først målte $\mathrm{G}$ i laboratoriet i 1798. Derfor sier man at han «veide jorda».
+Høyt over bakken er $g$ mindre. Formelen gir oss også en måte å «veie» jorda på: Måler vi $\mathrm{g}$ og $R$, og kjenner $\mathrm{G}$, finner vi $M = \mathrm{g}R^2/\mathrm{G} = 5.96\cdot10^{24}\ \mathrm{kg}$ <!-- tillegg: Claude: notasjon v3, regnet med g = 9.81 -->. Det var Henry Cavendish som først målte $\mathrm{G}$ i laboratoriet i 1798. Derfor sier man at han «veide jorda».
 
 ::: {.eksempel}
 <!-- tillegg: Claude -->
@@ -73,8 +74,9 @@ Høyt over bakken er $g$ mindre. Formelen gir oss også en måte å «veie» jor
 ::: {.losning}
 Avstanden fra jordas sentrum er $r = R + h = 6.37\cdot10^{6} + 0.40\cdot10^{6}\ \mathrm{m} = 6.77\cdot10^{6}\ \mathrm{m}$.
 $$
-g = \frac{\mathrm{G}M}{r^2} = \frac{6.674\cdot10^{-11}\cdot5.97\cdot10^{24}}{(6.77\cdot10^{6})^2}\ \mathrm{m/s^2} = \underline{\underline{8.7\ \mathrm{m/s^2}}}
+g = \frac{\mathrm{G}M}{r^2} = \frac{6.674\cdot10^{-11}\cdot5.97\cdot10^{24}}{(6.77\cdot10^{6})^2}\ \mathrm{m/s^2} = \underline{\underline{8.69\ \mathrm{m/s^2}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3) -->
 Det er nesten 90 % av verdien ved bakken! Astronautene er altså ikke vektløse fordi tyngdekraften er borte. De føler seg vektløse fordi både de og romstasjonen faller fritt sammen, rundt jorda. Det ser vi på under *satellitter og baner*.
 :::
 :::
@@ -143,7 +145,7 @@ $$
 g_\mathrm{Mars} = \frac{6.674\cdot10^{-11}\cdot6.42\cdot10^{23}}{(3.39\cdot10^{6})^2}\ \mathrm{m/s^2} = \underline{\underline{3.73\ \mathrm{m/s^2}}}
 $$
 $$
-G = mg = 70\cdot3.73\ \mathrm{N} = \underline{\underline{2.6\cdot10^{2}\ \mathrm{N}}}
+G = mg_\mathrm{Mars} = 70\cdot3.73\ \mathrm{N} = \underline{\underline{2.6\cdot10^{2}\ \mathrm{N}}}
 $$
 Massen er fortsatt $70\ \mathrm{kg}$, men tyngden er bare 38 % av tyngden på jorda.
 :::
@@ -156,9 +158,10 @@ Hvor høyt over jordoverflaten må du for at tyngdeakselerasjonen skal være hal
 ::: {.losning}
 $g \propto 1/r^2$, så halv $g$ krever $r = \sqrt2\,R$:
 $$
-h = r - R = (\sqrt2 - 1)R = 0.414\cdot6.37\cdot10^{6}\ \mathrm{m} = \underline{\underline{2.6\cdot10^{6}\ \mathrm{m}}}
+h = r - R = (\sqrt2 - 1)R = 0.414\cdot6.37\cdot10^{6}\ \mathrm{m} = \underline{\underline{2.64\cdot10^{6}\ \mathrm{m}}}
 $$
-Det er ca. $2600\ \mathrm{km}$, mye høyere enn romstasjonen.
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3) -->
+Det er ca. $2.64\cdot10^{3}\ \mathrm{km}$, mye høyere enn romstasjonen.
 :::
 :::
 

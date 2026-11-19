@@ -153,8 +153,9 @@ Olje med tetthet $900\ \mathrm{kg/m^3}$ og viskositet $0.10\ \mathrm{Pa\cdot s}$
 
 ::: {.losning}
 $$
-Re = \frac{900\cdot0.50\cdot0.050}{0.10} = \underline{\underline{225}}
+Re = \frac{900\cdot0.50\cdot0.050}{0.10} = \underline{\underline{2.3\cdot10^{2}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
 Strømningen er **laminær**. Oljen er så seig at virvlene dempes.
 :::
 :::

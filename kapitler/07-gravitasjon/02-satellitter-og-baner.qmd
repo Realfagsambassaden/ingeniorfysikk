@@ -49,8 +49,9 @@ $$
 v = \sqrt{\frac{\mathrm{G}M}{r}} = \sqrt{\frac{6.674\cdot10^{-11}\cdot5.97\cdot10^{24}}{6.77\cdot10^{6}}}\ \mathrm{m/s} = \underline{\underline{7.67\cdot10^{3}\ \mathrm{m/s}}}
 $$
 $$
-T = \frac{2\pi r}{v} = \frac{2\pi\cdot6.77\cdot10^{6}}{7.67\cdot10^{3}}\ \mathrm{s} = 5.54\cdot10^{3}\ \mathrm{s} = \underline{\underline{92\ \mathrm{min}}}
+T = \frac{2\pi r}{v} = \frac{2\pi\cdot6.77\cdot10^{6}}{7.67\cdot10^{3}}\ \mathrm{s} = 5.54\cdot10^{3}\ \mathrm{s} = \underline{\underline{92.4\ \mathrm{min}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3) -->
 Romstasjonen går rundt jorda nesten 16 ganger i døgnet, med en fart på over $2.7\cdot10^{4}\ \mathrm{km/h}$. Astronautene ser altså en soloppgang omtrent hver halvannen time.
 :::
 :::
@@ -164,12 +165,13 @@ Mars har masse $6.42\cdot10^{23}\ \mathrm{kg}$ og radius $3.39\cdot10^{6}\ \math
 
 ::: {.losning}
 $$
-v_\mathrm{Mars} = \sqrt{\frac{2\mathrm{G}M}{R}} = \sqrt{\frac{2\cdot6.674\cdot10^{-11}\cdot6.42\cdot10^{23}}{3.39\cdot10^{6}}}\ \mathrm{m/s} = \underline{\underline{5.0\ \mathrm{km/s}}}
+v_\mathrm{Mars} = \sqrt{\frac{2\mathrm{G}M}{R}} = \sqrt{\frac{2\cdot6.674\cdot10^{-11}\cdot6.42\cdot10^{23}}{3.39\cdot10^{6}}}\ \mathrm{m/s} = \underline{\underline{5.03\ \mathrm{km/s}}}
 $$
 Energien per kilogram er $\tfrac12v^2$. Forholdet er
 $$
-\frac{E_\mathrm{Mars}}{E_\mathrm{jorda}} = \left(\frac{5.03}{11.2}\right)^2 = \underline{\underline{0.20}}
+\frac{E_\mathrm{Mars}}{E_\mathrm{jorda}} = \left(\frac{5.03}{11.2}\right)^2 = \underline{\underline{0.202}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3) -->
 Det trengs bare en femtedel så mye energi. Derfor er det mye lettere å skyte opp raketter fra Mars enn fra jorda.
 :::
 :::

@@ -128,8 +128,9 @@ På midten er avstanden til begge høyttalerne den samme. Veiforskjellen er null
 
 Flytter du deg $d = 0.25\ \mathrm{m}$ mot den ene, kommer du $d$ nærmere den ene og $d$ lenger fra den andre. Veiforskjellen blir $2d = 0.50\ \mathrm{m}$. Første utslukking er ved veiforskjellen $\lambda/2$:
 $$
-\frac{\lambda}{2} = 0.50\ \mathrm{m} \quad\Rightarrow\quad \lambda = 1.0\ \mathrm{m}, \qquad f = \frac{v}{\lambda} = \frac{343}{1.0}\ \mathrm{Hz} = \underline{\underline{343\ \mathrm{Hz}}}
+\frac{\lambda}{2} = 0.50\ \mathrm{m} \quad\Rightarrow\quad \lambda = 1.0\ \mathrm{m}, \qquad f = \frac{v}{\lambda} = \frac{343}{1.0}\ \mathrm{Hz} = \underline{\underline{3.4\cdot10^{2}\ \mathrm{Hz}}}
 $$
+<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2, fra 25 cm) -->
 :::
 :::
 

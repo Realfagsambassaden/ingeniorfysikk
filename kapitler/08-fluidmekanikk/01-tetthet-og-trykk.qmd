@@ -91,7 +91,7 @@ Når et dekk «har 2.2 bar», er det overtrykket. Det absolutte trykket inne i d
 
 ::: {.callout-tip title="Til ettertanke"}
 <!-- tillegg: Claude -->
-Lufttrykket virker på et vindu på $1.0\ \mathrm{m}\times1.5\ \mathrm{m}$ med en kraft på rundt $1.5\cdot10^{5}\ \mathrm{N}$, altså tyngden av 15 tonn. Hvorfor knuses ikke vinduet?
+Lufttrykket virker på et vindu på $1.0\ \mathrm{m}\cdot1.5\ \mathrm{m}$ med en kraft på rundt $1.5\cdot10^{5}\ \mathrm{N}$, altså tyngden av 15 tonn. Hvorfor knuses ikke vinduet?
 :::
 
 <!-- tillegg: Claude -->
@@ -116,7 +116,7 @@ Stiletthælen gir omtrent 60 ganger så stort trykk som elefanten. Det er derfor
 
 ::: {.eksempel}
 <!-- tillegg: Claude -->
-**Eksempel: Hvor mye veier lufta i et rom?** Et rom er $5.0\ \mathrm{m}\times4.0\ \mathrm{m}$ og $2.5\ \mathrm{m}$ høyt. Hvor stor er massen av lufta i rommet?
+**Eksempel: Hvor mye veier lufta i et rom?** Et rom er $5.0\ \mathrm{m}\cdot4.0\ \mathrm{m}$ og $2.5\ \mathrm{m}$ høyt. Hvor stor er massen av lufta i rommet?
 
 ::: {.losning}
 Volumet er $V = 5.0\cdot4.0\cdot2.5\ \mathrm{m^3} = 50\ \mathrm{m^3}$. Med $\rho = 1.20\ \mathrm{kg/m^3}$:
