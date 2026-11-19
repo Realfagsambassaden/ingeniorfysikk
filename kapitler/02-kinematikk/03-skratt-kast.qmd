@@ -116,38 +116,16 @@ Den siste finner du også fra $2a_ys = v_y^2 - v_{0y}^2$ med $v_y = 0$.
 ::: {.oppgave tittel="Finn startfarten"}
 En ball ruller utfor en bordkant $0.80\ \mathrm{m}$ over gulvet og treffer gulvet $0.85\ \mathrm{m}$ fra bordkanten (målt vannrett). Hvor stor fart hadde ballen da den forlot bordet?
 
-::: {.losning}
-<!-- fra notatene -->
-**1.** Ved $t = 0$ er $v_{0y} = 0$ og $\vec v_0 = v_{0x}\,\hat x$. Akselerasjonen er $a_y = -\mathrm{g}$ og $a_x = 0$. Origo legger vi på gulvet rett under bordkanten, så $y_0 = 0.80\ \mathrm{m}$.
-
-**2.** Vi finner tiden $t^*$ til ballen treffer gulvet ($y = 0$) fra $y = y_0 + v_{0y}t + \frac12 a_y t^2$ med $v_{0y} = 0$:
-$$
-t^* = \sqrt{\frac{2(y - y_0)}{a_y}} = \sqrt{\frac{2(0 - 0.80\ \mathrm{m})}{-9.81\ \mathrm{m/s^2}}} \approx 0.404\ \mathrm{s}
-$$
-
-**3.** I $x$-retning er farten konstant, så $v_{0x} = x^*/t^*$:
-$$
-v_{0x} = \frac{0.85\ \mathrm{m}}{0.404\ \mathrm{s}} \approx 2.1\ \mathrm{m/s}
-$$
-
-**4.** Startfarten er $v_0 = v_{0x} \approx \underline{\underline{2.1\ \mathrm{m/s}}}$.
+::: {.fasit}
+$2.1\ \mathrm{m/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Hvor fort treffer stuperen vannet?"}
 Hvor stor er den totale farten til stuperen i eksempelet over idet hun treffer vannet ved foten av utspringet, $9.00\ \mathrm{m}$ under toppen?
 
-::: {.losning}
-<!-- tillegg: Claude -->
-Vannrett er farten fortsatt $v_x = v_0 \approx 1.29\ \mathrm{m/s}$. Loddrett har stuperen falt i tiden $T = \sqrt{2h/\mathrm{g}} \approx 1.35\ \mathrm{s}$, så
-$$
-v_y = -\mathrm{g}T \approx -13.3\ \mathrm{m/s}
-$$
-Den totale farten er lengden av hastighetsvektoren:
-$$
-v = \sqrt{v_x^2 + v_y^2} = \sqrt{1.29^2 + 13.3^2}\ \mathrm{m/s} \approx \underline{\underline{13.4\ \mathrm{m/s}}}
-$$
-Nesten all farten er loddrett.
+::: {.fasit}
+$13.4\ \mathrm{m/s}$
 :::
 :::
 
@@ -159,16 +137,8 @@ a) Hvor høyt går ballen?
 
 b) Hvor lang tid er den i lufta, og hvor langt går den?
 
-::: {.losning}
-Startfarten dekomponeres: $v_{0x} = 20\cos35^\circ\ \mathrm{m/s} = 16.4\ \mathrm{m/s}$ og $v_{0y} = 20\sin35^\circ\ \mathrm{m/s} = 11.5\ \mathrm{m/s}$.
-
-**a)** $h_\text{maks} = \dfrac{v_{0y}^2}{2\mathrm{g}} = \dfrac{11.5^2}{2\cdot9.81}\ \mathrm{m} \approx \underline{\underline{6.7\ \mathrm{m}}}$
-
-**b)** Ballen lander når $y = 0$: $t = 2v_{0y}/\mathrm{g} = 2\cdot11.5/9.81\ \mathrm{s} \approx \underline{\underline{2.3\ \mathrm{s}}}$. Lengden er
-$$
-x = v_{0x}t = 16.4\ \mathrm{m/s}\cdot2.34\ \mathrm{s} \approx \underline{\underline{38\ \mathrm{m}}}
-$$
-Sjekk med formelen: $\frac{v_0^2}{\mathrm{g}}\sin70^\circ = \frac{400}{9.81}\cdot0.940\ \mathrm{m} \approx 38\ \mathrm{m}$. ✓
+::: {.fasit}
+a) $6.7\ \mathrm{m}$ · b) $2.3\ \mathrm{s}$ · b) $38\ \mathrm{m}$
 :::
 :::
 
@@ -181,17 +151,6 @@ To kanoner med munning i samme punkt på bakken avfyres samtidig. De skyter kule
 - **D.** Den blå kula treffer med større fart enn den grønne.
 - **E.** Kulene treffer blinkene med samme fart.
 
-::: {.losning}
-<!-- fra notatene -->
-**Tiden:** Begge har samme loddrette akselerasjon $\mathrm{g}$. Fra $y(t) = v_{0y}t - \frac12\mathrm{g}t^2 = 0$ får vi $t = 2v_{0y}/\mathrm{g}$. Den grønne har størst $v_{0y}$, går høyest og er lengst i lufta. Den blå treffer først: **B** er riktig.
-
-<!-- tillegg: Claude -->
-**Farten:** Når en kule lander, er $t = 2v_{0y}/\mathrm{g}$, så $v_y = v_{0y} - \mathrm{g}t = -v_{0y}$. Den loddrette farten har samme størrelse som ved start, bare motsatt retning. Den vannrette er uendret. Da er
-$$
-v_\text{slutt} = \sqrt{v_{0x}^2 + v_{0y}^2} = v_0
-$$
-for begge kulene. **E** er riktig. Riktige påstander: **B og E**. (Under *arbeid og energi* ser vi en raskere grunn: Uten luftmotstand er energien bevart.)
-:::
 :::
 
 ::: {.oppgave tittel="Fjærkanon: finn vinkelen med Python" niva="Utfordrende"}
@@ -201,33 +160,8 @@ a) Skriv kravet om at kula treffer blinken som en likning $f(\alpha) = 0$ for ut
 
 b) Finn vinkelen(e) numerisk med `fsolve`.
 
-::: {.losning}
-**a)** Banelikningen fra teorien over gir
-$$
-y = x\tan\alpha - \frac{\mathrm{g}x^2}{2v_0^2\cos^2\alpha}
-$$
-Vi flytter alt over på én side:
-$$
-f(\alpha) = y + \frac{\mathrm{g}x^2}{2v_0^2\cos^2\alpha} - x\tan\alpha = 0
-$$
-
-**b)** Likningen har to løsninger: en flat og en bratt bane. `fsolve` finner den som ligger nærmest startgjetningen, så vi prøver to gjetninger:
-
-```{.python .kjor}
-import numpy as np
-from scipy.optimize import fsolve
-
-g, v0, x, y = 9.81, 4.0, 1.5, -0.40
-
-def f(alfa):
-    return y + g*x**2 / (2*v0**2*np.cos(alfa)**2) - x*np.tan(alfa)
-
-for gjett in [0.1, 1.2]:          # radianer: en flat og en bratt gjetning
-    alfa = fsolve(f, gjett)[0]
-    print(f"alfa = {np.degrees(alfa):.1f} grader")
-```
-
-Svar: $\alpha \approx \underline{\underline{12^\circ}}$ eller $\alpha \approx \underline{\underline{63^\circ}}$.
+::: {.fasit}
+$12^\circ$ · $63^\circ$
 :::
 :::
 

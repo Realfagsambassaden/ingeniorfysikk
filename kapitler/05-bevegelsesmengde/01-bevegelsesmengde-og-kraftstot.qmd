@@ -113,12 +113,8 @@ Antakelsen om energibevaring (som ga faktoren 2) er altså ganske god, selv når
 ::: {.oppgave tittel="Kraftstøt fra en fjær"}
 En fjærkraft $F = kx(t)$ med $k = 200\ \mathrm{N/m}$ virker på et legeme med posisjon $x(t) = \cos(\omega t)$ (i meter), der $\omega = 2\pi\ \mathrm{rad/s}$. Hvor stort er kraftstøtet fra $t_1 = 0$ til $t_2 = 0.25\ \mathrm{s}$?
 
-::: {.losning}
-$$
-I = \int_{t_1}^{t_2}k\cos(\omega t)\,\mathrm{d}t = \frac{k}{\omega}\Big[\sin\omega t\Big]_0^{0.25} = \frac{200}{2\pi}\left(\sin\tfrac{\pi}{2} - 0\right)\mathrm{N\,s} = \frac{100}{\pi}\ \mathrm{N\,s} \approx \underline{\underline{32\ \mathrm{N\,s}}}
-$$
-<!-- tillegg: Claude -->
-(Med fortegnet til en ekte fjærkraft, $F = -kx$, peker kraftstøtet i negativ retning, men størrelsen er den samme.)
+::: {.fasit}
+$32\ \mathrm{N\,s}$
 :::
 :::
 
@@ -131,22 +127,8 @@ b) Kula treffer en betongvegg og spretter rett tilbake med samme fart. Hva er kr
 
 c) En mer realistisk modell er $F(t) = F_\text{maks}\,\mathrm{e}^{-(t/\tau)^2}$. Finn $F_\text{maks}$ med $\tau = 10\ \mathrm{ms}$. Hint: $\int_{-\infty}^{\infty}\mathrm{e}^{-ax^2}\,\mathrm{d}x = \sqrt{\pi/a}$.
 
-::: {.losning}
-**a)** Før skuddet er alt i ro, så $0 = mv_0 + Mu$:
-$$
-u = -\frac{m}{M}v_0 = -\frac{0.010}{2.0}\cdot700\ \mathrm{m/s} = \underline{\underline{-3.5\ \mathrm{m/s}}}
-$$
-
-**b)** Med positiv retning langs farten etter støtet er $\Delta p = mv - m(-v) = 2mv$, så
-$$
-F = \frac{2mv}{\tau} = \frac{2\cdot0.010\cdot700}{0.010}\ \mathrm{N} = \underline{\underline{1.4\ \mathrm{kN}}}
-$$
-
-**c)** Med $a = 1/\tau^2$ er $\int_{-\infty}^{\infty}\mathrm{e}^{-t^2/\tau^2}\,\mathrm{d}t = \tau\sqrt{\pi}$. Kraftstøtet skal være $2mv$:
-$$
-F_\text{maks}\,\tau\sqrt\pi = 2mv \quad\Rightarrow\quad F_\text{maks} = \frac{2mv}{\tau\sqrt\pi} \approx \underline{\underline{0.79\ \mathrm{kN}}}
-$$
-Maksimalverdien er mindre enn den konstante kraften, fordi den varierende kraften i praksis virker over lengre tid enn $\tau$. Det er dette boksere utnytter når de beveger seg bakover med slaget: lengre kontakttid gir mindre kraft.
+::: {.fasit}
+a) $-3.5\ \mathrm{m/s}$ · b) $1.4\ \mathrm{kN}$ · c) $0.79\ \mathrm{kN}$
 :::
 :::
 

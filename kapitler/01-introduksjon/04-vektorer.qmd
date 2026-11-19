@@ -158,31 +158,16 @@ b) Tegn vektorene $\vec s_1$ og $\vec s_2$.
 
 c) Tegn summen $\vec s = \vec s_1 + \vec s_2$. Hvor langt er Anne fra startpunktet i luftlinje, og i hvilken retning?
 
-::: {.losning}
-**a)** Vi velger positiv $x$-akse mot øst og positiv $y$-akse mot nord, med origo der Anne starter.
-
-**b)** $\vec s_1$ går fra origo $400\ \mathrm{m}$ langs $x$-aksen. $\vec s_2$ starter der $\vec s_1$ slutter og går $500\ \mathrm{m}$ i $y$-retning.
-
-**c)** Summen går fra origo til sluttpunktet:
-$$
-\vec s = [400,\ 0]\ \mathrm{m} + [0,\ 500]\ \mathrm{m} = [400,\ 500]\ \mathrm{m}
-$$
-Lengden finner vi med Pytagoras, og retningen med tangens:
-$$
-|\vec s| = \sqrt{400^2 + 500^2}\ \mathrm{m} \approx \underline{\underline{640\ \mathrm{m}}}, \qquad \theta = \arctan\frac{500}{400} \approx \underline{\underline{51^\circ}}\ \text{nord for øst}
-$$
+::: {.fasit}
+$640\ \mathrm{m}$ · $51^\circ$
 :::
 :::
 
 ::: {.oppgave tittel="Arne drar en slede"}
 Arne drar en slede med en kraft $F = 600\ \mathrm{N}$ som danner vinkelen $\theta = 30^\circ$ med bakken. Finn komponentene av kraften horisontalt og vertikalt.
 
-::: {.losning}
-Vi dekomponerer med cosinus og sinus:
-$$
-F_x = F\cos\theta = 600\ \mathrm{N}\cdot\cos30^\circ \approx \underline{\underline{520\ \mathrm{N}}}, \qquad F_y = F\sin\theta = 600\ \mathrm{N}\cdot\sin30^\circ = \underline{\underline{300\ \mathrm{N}}}
-$$
-Bare $F_x$ drar sleden framover. $F_y$ løfter litt på den.
+::: {.fasit}
+$520\ \mathrm{N}$ · $300\ \mathrm{N}$
 :::
 :::
 
@@ -190,14 +175,8 @@ Bare $F_x$ drar sleden framover. $F_y$ løfter litt på den.
 <!-- tillegg: Claude -->
 Finn vinkelen mellom $\vec a = [3,\ 4]$ og $\vec b = [4,\ -2]$.
 
-::: {.losning}
-Skalarproduktet på to måter:
-$$
-\vec a\cdot\vec b = 3\cdot4 + 4\cdot(-2) = 4, \qquad a = \sqrt{3^2+4^2} = 5, \qquad b = \sqrt{4^2+2^2} = \sqrt{20}
-$$
-$$
-\cos\theta = \frac{\vec a\cdot\vec b}{ab} = \frac{4}{5\sqrt{20}} \approx 0.179 \quad\Rightarrow\quad \underline{\underline{\theta \approx 80^\circ}}
-$$
+::: {.fasit}
+$\theta \approx 80^\circ$
 :::
 :::
 
@@ -207,11 +186,6 @@ a) Regn ut $\hat x\times\hat x$ og $\hat y\times\hat x$.
 
 b) Finn $\vec r\times\vec F$ for $\vec r = [2,\ 0,\ 0]\ \mathrm{m}$ og $\vec F = [0,\ 10,\ 0]\ \mathrm{N}$. Hvilken vei peker resultatet?
 
-::: {.losning}
-**a)** $\hat x\times\hat x = \vec 0$, fordi vektorene er parallelle ($\sin0^\circ = 0$). $\hat y\times\hat x = -\hat x\times\hat y = -\hat z$.
-
-**b)** $\vec r\times\vec F = [0,\ 0,\ 2\cdot10 - 0\cdot0]\ \mathrm{N\,m} = [0,\ 0,\ 20]\ \mathrm{N\,m}$. Det peker langs positiv $z$-akse, altså ut av $xy$-planet mot deg hvis $x$ peker mot høyre og $y$ oppover. (Dette er kraftmomentet, som vi møter under *rotasjon*.)
-:::
 :::
 
 ::: {.oppgave tittel="Vektor eller ikke?"}
@@ -220,15 +194,6 @@ b) Er fart en vektor?
 c) Er akselerasjon en vektor?
 d) Er kraft en vektor?
 
-::: {.losning}
-**a)** *Forflytning* (endring i posisjon) har både størrelse og retning, og er en vektor. Tilbakelagt *strekning* langs en bane er derimot bare en lengde.
-
-**b)** *Hastighet* er en vektor: hvor fort og i hvilken retning. *Fart* er bare størrelsen av hastigheten, altså en skalar. I dagligtale blandes ordene, men i fysikk skiller vi dem.
-
-**c)** Ja. Akselerasjon er endring i hastighet per tid, og har retning.
-
-**d)** Ja. En kraft har både størrelse (målt i newton) og retning.
-:::
 :::
 
 ::::

@@ -124,13 +124,8 @@ Den totale energien $-\mathrm{G}Mm/(2r)$ **øker** når $r$ øker, selv om den k
 <!-- tillegg: Claude -->
 En satellitt går i sirkelbane rundt jorda med omløpstid $100\ \mathrm{min}$. Hvor høyt over bakken går den, og hvor stor er banefarten?
 
-::: {.losning}
-$$
-r = \left(\frac{\mathrm{G}MT^2}{4\pi^2}\right)^{1/3} = \left(\frac{6.674\cdot10^{-11}\cdot5.97\cdot10^{24}\cdot6000^2}{4\pi^2}\right)^{1/3}\ \mathrm{m} = 7.14\cdot10^{6}\ \mathrm{m}
-$$
-$$
-h = r - R = \underline{\underline{7.7\cdot10^{2}\ \mathrm{km}}}, \qquad v = \frac{2\pi r}{T} = \frac{2\pi\cdot7.14\cdot10^{6}}{6000}\ \mathrm{m/s} = \underline{\underline{7.5\ \mathrm{km/s}}}
-$$
+::: {.fasit}
+$7.7\cdot10^{2}\ \mathrm{km}$ · $7.5\ \mathrm{km/s}$
 :::
 :::
 
@@ -138,11 +133,8 @@ $$
 <!-- tillegg: Claude -->
 Bruk at månen går i en tilnærmet sirkelbane med radius $3.84\cdot10^{8}\ \mathrm{m}$ til å regne ut omløpstiden til månen i døgn.
 
-::: {.losning}
-$$
-T = 2\pi\sqrt{\frac{r^3}{\mathrm{G}M}} = 2\pi\sqrt{\frac{(3.84\cdot10^{8})^3}{6.674\cdot10^{-11}\cdot5.97\cdot10^{24}}}\ \mathrm{s} = 2.37\cdot10^{6}\ \mathrm{s} = \underline{\underline{27.4\ \mathrm{døgn}}}
-$$
-Det stemmer godt med de målte $27.3$ døgnene.
+::: {.fasit}
+$27.4\ \mathrm{døgn}$
 :::
 :::
 
@@ -150,12 +142,8 @@ Det stemmer godt med de målte $27.3$ døgnene.
 <!-- tillegg: Claude -->
 Jorda går rundt sola på $365.25$ døgn i en tilnærmet sirkelbane med radius $1.496\cdot10^{11}\ \mathrm{m}$. Hva er massen til sola?
 
-::: {.losning}
-Keplers tredje lov løst for $M$:
-$$
-M = \frac{4\pi^2r^3}{\mathrm{G}T^2} = \frac{4\pi^2(1.496\cdot10^{11})^3}{6.674\cdot10^{-11}\cdot(365.25\cdot8.64\cdot10^{4})^2}\ \mathrm{kg} = \underline{\underline{1.99\cdot10^{30}\ \mathrm{kg}}}
-$$
-Sola er altså over $3\cdot10^{5}$ ganger så tung som jorda.
+::: {.fasit}
+$1.99\cdot10^{30}\ \mathrm{kg}$
 :::
 :::
 
@@ -163,16 +151,8 @@ Sola er altså over $3\cdot10^{5}$ ganger så tung som jorda.
 <!-- tillegg: Claude -->
 Mars har masse $6.42\cdot10^{23}\ \mathrm{kg}$ og radius $3.39\cdot10^{6}\ \mathrm{m}$. Hvor stor er unnslippingsfarten? Hvor mye mindre energi per kilogram trengs for å unnslippe Mars enn for å unnslippe jorda?
 
-::: {.losning}
-$$
-v_\mathrm{Mars} = \sqrt{\frac{2\mathrm{G}M}{R}} = \sqrt{\frac{2\cdot6.674\cdot10^{-11}\cdot6.42\cdot10^{23}}{3.39\cdot10^{6}}}\ \mathrm{m/s} = \underline{\underline{5.03\ \mathrm{km/s}}}
-$$
-Energien per kilogram er $\tfrac12v^2$. Forholdet er
-$$
-\frac{E_\mathrm{Mars}}{E_\mathrm{jorda}} = \left(\frac{5.03}{11.2}\right)^2 = \underline{\underline{0.202}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3) -->
-Det trengs bare en femtedel så mye energi. Derfor er det mye lettere å skyte opp raketter fra Mars enn fra jorda.
+::: {.fasit}
+$5.03\ \mathrm{km/s}$ · $0.202$
 :::
 :::
 

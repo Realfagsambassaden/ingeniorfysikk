@@ -125,29 +125,14 @@ Sjekk: Med $\mu_k = 0$ får vi resultatet over igjen. Og er $\mu_k M_1 > M_2$, b
 <!-- tillegg: Claude -->
 Finn snordraget $S$ i eksempelet med lodd på trinse uten friksjon.
 
-::: {.losning}
-Se på $M_1$ alene. Den eneste vannrette kraften på den er snordraget, så $S = M_1 a$:
-$$
-S = M_1\cdot\frac{M_2}{M_1 + M_2}\,\mathrm{g} = \frac{M_1M_2}{M_1 + M_2}\,\mathrm{g}
-$$
-Snordraget er mindre enn tyngden $M_2\mathrm{g}$ av det hengende loddet. Det må det være, ellers ville ikke $M_2$ akselerert nedover.
-:::
 :::
 
 ::: {.oppgave tittel="Atwoods maskin"}
 <!-- tillegg: Claude -->
 To lodd, $m_1 = 2.0\ \mathrm{kg}$ og $m_2 = 3.0\ \mathrm{kg}$, henger i hver sin ende av en snor over en friksjonsfri trinse. Finn akselerasjonen og snordraget.
 
-::: {.losning}
-Systemet beveger seg slik at $m_2$ går ned. Langs snora (positiv retning: $m_2$ ned, $m_1$ opp) er de ytre kreftene $m_2\mathrm{g}$ med og $m_1\mathrm{g}$ mot:
-$$
-a = \frac{m_2 - m_1}{m_1 + m_2}\,\mathrm{g} = \frac{1.0}{5.0}\cdot9.81\ \mathrm{m/s^2} \approx \underline{\underline{2.0\ \mathrm{m/s^2}}}
-$$
-For $m_1$ alene (positiv opp): $S - m_1\mathrm{g} = m_1a$, så
-$$
-S = m_1(\mathrm{g} + a) = 2.0\cdot(9.81 + 1.96)\ \mathrm{N} \approx \underline{\underline{24\ \mathrm{N}}}
-$$
-Snordraget ligger mellom tyngden av det lette ($19.6\ \mathrm{N}$) og det tunge loddet ($29.4\ \mathrm{N}$).
+::: {.fasit}
+$2.0\ \mathrm{m/s^2}$ · $24\ \mathrm{N}$
 :::
 :::
 
@@ -161,15 +146,8 @@ b) Hvor lang er bremsestrekningen?
 
 c) Hva blir bremsestrekningen med ABS, der hjulene ruller og $\mu_s = 0.60$ virker?
 
-::: {.losning}
-**a)** Loddrett: $N = m\mathrm{g}$. Vannrett: $-\mu_kN = ma$, så $a = -\mu_k\mathrm{g} = -0.40\cdot9.81\ \mathrm{m/s^2} \approx \underline{\underline{-3.9\ \mathrm{m/s^2}}}$. Massen forsvinner.
-
-**b)** $v_0 = 72/3.6\ \mathrm{m/s} = 20\ \mathrm{m/s}$. Fra $2as = v^2 - v_0^2$ med $v = 0$:
-$$
-s = \frac{v_0^2}{2\mu_k\mathrm{g}} = \frac{(20\ \mathrm{m/s})^2}{2\cdot0.40\cdot9.81\ \mathrm{m/s^2}} \approx \underline{\underline{51\ \mathrm{m}}}
-$$
-
-**c)** Med $\mu_s = 0.60$: $s = \dfrac{400}{2\cdot0.60\cdot9.81}\ \mathrm{m} \approx \underline{\underline{34\ \mathrm{m}}}$. ABS sparer altså rundt $17\ \mathrm{m}$, og bilen kan styres underveis.
+::: {.fasit}
+a) $-3.9\ \mathrm{m/s^2}$ · b) $51\ \mathrm{m}$ · c) $34\ \mathrm{m}$
 :::
 :::
 
@@ -180,13 +158,6 @@ $$
 \frac{1}{k} = \frac{1}{k_1} + \frac{1}{k_2}
 $$
 
-::: {.losning}
-Begge fjærene bærer hele tyngden, så kraften i hver er $G$. Da strekkes de $x_1 = G/k_1$ og $x_2 = G/k_2$. Total strekk er
-$$
-x = x_1 + x_2 = G\left(\frac{1}{k_1} + \frac{1}{k_2}\right)
-$$
-En enkelt fjær med konstant $k$ ville strekkes $x = G/k$. Sammenligner vi, får vi $\frac1k = \frac1{k_1} + \frac1{k_2}$. Seriekoblingen er *mykere* enn hver av fjærene alene.
-:::
 :::
 
 ::::

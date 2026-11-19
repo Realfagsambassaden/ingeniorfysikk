@@ -93,19 +93,14 @@ Induksjon skjer ikke bare i ledninger. I en metallplate i et endrende magnetfelt
 <!-- tillegg: Claude -->
 Hva skjer med toppspenningen og frekvensen fra en generator hvis den dreier dobbelt så fort?
 
-::: {.losning}
-$\mathcal E_0 = NBA\omega$: Toppspenningen **dobles**, og frekvensen **dobles**.
-:::
 :::
 
 ::: {.oppgave tittel="Antall vindinger"}
 <!-- tillegg: Claude -->
 En generator skal gi toppspenningen $325\ \mathrm{V}$ ved $50\ \mathrm{Hz}$. Feltet er $0.40\ \mathrm{T}$ og spolearealet $0.030\ \mathrm{m^2}$. Hvor mange vindinger trengs?
 
-::: {.losning}
-$$
-N = \frac{\mathcal E_0}{BA\omega} = \frac{325}{0.40\cdot0.030\cdot2\pi\cdot50} = 86.2 \quad\Rightarrow\quad \underline{\underline{N = 87}}
-$$
+::: {.fasit}
+$N = 87$
 :::
 :::
 
@@ -113,11 +108,8 @@ $$
 <!-- tillegg: Claude -->
 En motor på $230\ \mathrm{V}$ har viklingsresistans $5.0\ \Omega$ og trekker $4.0\ \mathrm{A}$ ved normal drift. Finn mot-emf og mekanisk effekt. Hva blir strømmen hvis motoren kjører seg fast?
 
-::: {.losning}
-$$
-\mathcal E_\text{mot} = V - IR = 230 - 4.0\cdot5.0 = \underline{\underline{210\ \mathrm{V}}}, \qquad P_\text{mek} = \mathcal E_\text{mot}I = \underline{\underline{840\ \mathrm{W}}}
-$$
-Fastkjørt: $I = 230/5.0\ \mathrm{A} = \underline{\underline{46\ \mathrm{A}}}$, og hele $10.6\ \mathrm{kW}$ blir varme i viklingene.
+::: {.fasit}
+$210\ \mathrm{V}$ · $840\ \mathrm{W}$ · $46\ \mathrm{A}$
 :::
 :::
 
@@ -125,11 +117,8 @@ Fastkjørt: $I = 230/5.0\ \mathrm{A} = \underline{\underline{46\ \mathrm{A}}}$, 
 <!-- tillegg: Claude -->
 Generatoren fra eksempelet ($\mathcal E_0 = 157\ \mathrm{V}$, $f = 50\ \mathrm{Hz}$) er koblet til en motstand på $50\ \Omega$. Finn gjennomsnittlig elektrisk effekt og det gjennomsnittlige dreiemomentet som må til for å holde den i gang. Se bort fra resistansen i spolen.
 
-::: {.losning}
-Effekten er $P = \mathcal E^2/R = \dfrac{\mathcal E_0^2}{R}\sin^2(\omega t)$, og gjennomsnittet av $\sin^2$ er $\tfrac12$:
-$$
-\bar P = \frac{\mathcal E_0^2}{2R} = \frac{157^2}{2\cdot50}\ \mathrm{W} = \underline{\underline{246\ \mathrm{W}}}, \qquad \bar\tau = \frac{\bar P}{\omega} = \frac{246}{314}\ \mathrm{N\,m} = \underline{\underline{0.78\ \mathrm{N\,m}}}
-$$
+::: {.fasit}
+$246\ \mathrm{W}$ · $0.78\ \mathrm{N\,m}$
 :::
 :::
 

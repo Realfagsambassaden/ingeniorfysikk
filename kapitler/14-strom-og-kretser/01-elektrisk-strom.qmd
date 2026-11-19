@@ -67,10 +67,8 @@ Det trengs et elektrisk felt i lederen for å holde strømmen i gang. Feltet kom
 <!-- tillegg: Claude -->
 En lampe har strømmen $0.50\ \mathrm{A}$ i $2.0$ timer. Hvor mye ladning har gått gjennom den? Hvor mange elektroner er det?
 
-::: {.losning}
-$$
-Q = It = 0.50\cdot2.0\cdot3600\ \mathrm{C} = \underline{\underline{3.6\cdot10^{3}\ \mathrm{C}}}, \qquad N = \frac{Q}{\mathrm{e}} = \frac{3600}{1.602\cdot10^{-19}} = \underline{\underline{2.2\cdot10^{22}}}
-$$
+::: {.fasit}
+$3.6\cdot10^{3}\ \mathrm{C}$ · $2.2\cdot10^{22}$
 :::
 :::
 
@@ -78,10 +76,8 @@ $$
 <!-- tillegg: Claude -->
 Et mobilbatteri har kapasiteten $2000\ \mathrm{mAh}$. Hvor mye ladning er det i coulomb? Hvor lenge varer det med strømmen $250\ \mathrm{mA}$?
 
-::: {.losning}
-$$
-Q = 2.0\ \mathrm{A}\cdot3600\ \mathrm{s} = \underline{\underline{7.2\cdot10^{3}\ \mathrm{C}}}, \qquad t = \frac{2000\ \mathrm{mAh}}{250\ \mathrm{mA}} = \underline{\underline{8.0\ \mathrm{h}}}
-$$
+::: {.fasit}
+$7.2\cdot10^{3}\ \mathrm{C}$ · $8.0\ \mathrm{h}$
 :::
 :::
 
@@ -89,20 +85,14 @@ $$
 <!-- tillegg: Claude -->
 Den samme strømmen går gjennom en kobberledning som er halvparten så tykk (halv diameter). Hva skjer med driftsfarten?
 
-::: {.losning}
-$v_d = I/(n\mathrm{e}A)$ og $A \propto d^2$. Halv diameter gir en fjerdedel av arealet, så driftsfarten blir **fire ganger** så stor.
-:::
 :::
 
 ::: {.oppgave tittel="Strøm som varierer" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 Ladningen som har passert et punkt, er gitt ved $Q(t) = (4.0\ \mathrm{C/s})\,t - (0.50\ \mathrm{C/s^2})\,t^2$. Finn strømmen ved $t = 2.0\ \mathrm{s}$. Når er strømmen null?
 
-::: {.losning}
-$$
-I = \frac{\mathrm{d}Q}{\mathrm{d}t} = 4.0 - 1.0\,t \ \mathrm{A}, \qquad I(2.0\ \mathrm{s}) = \underline{\underline{2.0\ \mathrm{A}}}
-$$
-Strømmen er null når $4.0 - 1.0\,t = 0$, altså ved $t = \underline{\underline{4.0\ \mathrm{s}}}$. Etterpå er den negativ: Ladningen går motsatt vei.
+::: {.fasit}
+$2.0\ \mathrm{A}$ · $4.0\ \mathrm{s}$
 :::
 :::
 

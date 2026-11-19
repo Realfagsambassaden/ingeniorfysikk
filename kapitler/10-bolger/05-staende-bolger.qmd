@@ -107,21 +107,14 @@ $$
 <!-- tillegg: Claude -->
 En streng svinger i den tredje svingemoden ($n = 3$). Hvor mange noder og buker er det, endene medregnet?
 
-::: {.losning}
-Det er $n = 3$ buker og $n + 1 = 4$ noder (to i endene og to imellom).
-:::
 :::
 
 ::: {.oppgave tittel="Stramme strengen"}
 <!-- tillegg: Claude -->
 En gitarstreng har grunntonen $196\ \mathrm{Hz}$. Hvor mange prosent må snorkraften økes for at grunntonen skal bli $220\ \mathrm{Hz}$?
 
-::: {.losning}
-$f \propto \sqrt S$, så
-$$
-\frac{S_2}{S_1} = \left(\frac{220}{196}\right)^2 = 1.26
-$$
-Snorkraften må økes med ca. $\underline{\underline{26\ \%}}$.
+::: {.fasit}
+$26\ \%$
 :::
 :::
 
@@ -129,15 +122,8 @@ Snorkraften må økes med ca. $\underline{\underline{26\ \%}}$.
 <!-- tillegg: Claude -->
 En streng med lengde $2.0\ \mathrm{m}$ og massen $10\ \mathrm{g}$ er festet i begge ender. To nabofrekvenser der den svinger med stående bølger, er $150\ \mathrm{Hz}$ og $200\ \mathrm{Hz}$. Finn grunntonen, bølgefarten og snorkraften.
 
-::: {.losning}
-Nabofrekvenser skiller seg med $f_1$, så $f_1 = 200 - 150\ \mathrm{Hz} = \underline{\underline{50\ \mathrm{Hz}}}$. (De to frekvensene er $f_3$ og $f_4$.)
-$$
-v = 2Lf_1 = 2\cdot2.0\cdot50\ \mathrm{m/s} = \underline{\underline{2.0\cdot10^{2}\ \mathrm{m/s}}}
-$$
-Med $\mu = 0.010/2.0\ \mathrm{kg/m} = 5.0\cdot10^{-3}\ \mathrm{kg/m}$:
-$$
-S = \mu v^2 = 5.0\cdot10^{-3}\cdot200^2\ \mathrm{N} = \underline{\underline{2.0\cdot10^{2}\ \mathrm{N}}}
-$$
+::: {.fasit}
+$50\ \mathrm{Hz}$ · $2.0\cdot10^{2}\ \mathrm{m/s}$ · $2.0\cdot10^{2}\ \mathrm{N}$
 :::
 :::
 
@@ -145,12 +131,8 @@ $$
 <!-- tillegg: Claude -->
 Du blåser over åpningen på en flaske og hører en tone på $220\ \mathrm{Hz}$. Behandle flasken som et rør som er lukket i bunnen. Hvor høy er luftsøylen? Hva skjer med tonen når du heller i vann?
 
-::: {.losning}
-Grunntonen for et rør lukket i én ende er $f_1 = v/(4L)$:
-$$
-L = \frac{v}{4f_1} = \frac{343}{4\cdot220}\ \mathrm{m} = \underline{\underline{0.39\ \mathrm{m}}}
-$$
-Heller du i vann, blir luftsøylen kortere, og tonen blir **lysere**. (En ekte flaske med smal hals oppfører seg litt annerledes, men tendensen er den samme.)
+::: {.fasit}
+$0.39\ \mathrm{m}$
 :::
 :::
 

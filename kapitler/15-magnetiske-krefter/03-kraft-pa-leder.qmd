@@ -72,11 +72,8 @@ Kraften må peke opp. Med feltet inn i arket gir $\vec L\times\vec B$ oppover n�
 <!-- tillegg: Claude -->
 En kraftlinje fører $500\ \mathrm{A}$ vinkelrett på jordas magnetfelt ($5.0\cdot10^{-5}\ \mathrm{T}$). Hvor stor er kraften per meter?
 
-::: {.losning}
-$$
-\frac FL = IB = 500\cdot5.0\cdot10^{-5}\ \mathrm{N/m} = \underline{\underline{2.5\cdot10^{-2}\ \mathrm{N/m}}}
-$$
-Svært liten sammenlignet med tyngden av ledningen.
+::: {.fasit}
+$2.5\cdot10^{-2}\ \mathrm{N/m}$
 :::
 :::
 
@@ -84,19 +81,14 @@ Svært liten sammenlignet med tyngden av ledningen.
 <!-- tillegg: Claude -->
 En loddrett ledning har strøm oppover. Magnetfeltet peker mot øst. Hvilken vei virker kraften?
 
-::: {.losning}
-$\vec L$ opp, $\vec B$ mot øst. Med høyrehåndsregelen: fingrene opp, bøy mot øst, tommelen peker mot **nord**. (Sjekk med koordinater: opp $= \hat z$, øst $= \hat x$, $\hat z\times\hat x = \hat y$ = nord.)
-:::
 :::
 
 ::: {.oppgave tittel="Skinnekanon" niva="Middels"}
 <!-- tillegg: Claude -->
 En metallstang på $50\ \mathrm{g}$ ligger tvers over to vannrette skinner som er $20\ \mathrm{cm}$ fra hverandre, i et loddrett magnetfelt på $0.80\ \mathrm{T}$. Det går $25\ \mathrm{A}$ gjennom stanga. Hvor stor akselerasjon får den? Se bort fra friksjon.
 
-::: {.losning}
-$$
-F = ILB = 25\cdot0.20\cdot0.80\ \mathrm{N} = 4.0\ \mathrm{N}, \qquad a = \frac Fm = \frac{4.0}{0.050}\ \mathrm{m/s^2} = \underline{\underline{80\ \mathrm{m/s^2}}}
-$$
+::: {.fasit}
+$80\ \mathrm{m/s^2}$
 :::
 :::
 
@@ -104,12 +96,8 @@ $$
 <!-- tillegg: Claude -->
 En leder er bøyd til en halvsirkel med radius $R$ og fører strømmen $I$. Den ligger i et homogent felt $B$ som står vinkelrett på planet til halvsirkelen. Hva er den samlede kraften?
 
-::: {.losning}
-Kraften er den samme som på en rett leder mellom endepunktene. Avstanden mellom endepunktene er diameteren $2R$, og den står vinkelrett på feltet:
-$$
-F = I\cdot2R\cdot B = \underline{\underline{2IRB}}
-$$
-(Det kan også vises med integralet: Komponentene langs diameteren opphever hverandre, og komponentene vinkelrett summeres til $\int_0^\pi IBR\sin\phi\,\mathrm{d}\phi = 2IRB$.)
+::: {.fasit}
+$2IRB$
 :::
 :::
 

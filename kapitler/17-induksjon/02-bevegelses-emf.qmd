@@ -93,11 +93,8 @@ print(f"tau = {tau:.2f} s, stanga stopper etter {x[-1]:.2f} m  (teori: v0*tau = 
 <!-- tillegg: Claude -->
 Et fly med vingespenn $60\ \mathrm{m}$ flyr vannrett med $250\ \mathrm{m/s}$. Den loddrette komponenten av jordas felt er $4.0\cdot10^{-5}\ \mathrm{T}$. Hvor stor spenning induseres mellom vingespissene? Kan den drive en lampe?
 
-::: {.losning}
-$$
-\mathcal E = BLv = 4.0\cdot10^{-5}\cdot60\cdot250\ \mathrm{V} = \underline{\underline{0.60\ \mathrm{V}}}
-$$
-Nei: En ledning fra spiss til spiss beveger seg sammen med flyet og får den samme spenningen. Den lukkede kretsen får ingen fluksendring, og det går ingen strøm.
+::: {.fasit}
+$0.60\ \mathrm{V}$
 :::
 :::
 
@@ -105,21 +102,14 @@ Nei: En ledning fra spiss til spiss beveger seg sammen med flyet og får den sam
 <!-- tillegg: Claude -->
 I figuren øverst dras stanga mot **venstre** i stedet. Hvilken vei går strømmen i stanga, og hvilken vei peker magnetkraften?
 
-::: {.losning}
-Fluksen minker nå, så strømmen snur: Den går **ned** gjennom stanga. Kraften $I\vec L\times\vec B$ = ned × inn = **mot høyre** – fortsatt mot bevegelsen, slik Lenz' lov krever.
-:::
 :::
 
 ::: {.oppgave tittel="Fallende stang" niva="Middels"}
 <!-- tillegg: Claude -->
 Skinnene står nå **loddrett**, og stanga ($m = 20\ \mathrm{g}$, $L = 0.50\ \mathrm{m}$) faller langs dem uten friksjon. Feltet er $0.80\ \mathrm{T}$ og står vinkelrett på planet til skinnene. Resistansen er $2.0\ \Omega$. Finn terminalfarten.
 
-::: {.losning}
-Ved terminalfarten bærer magnetkraften tyngden:
-$$
-\frac{B^2L^2v_t}{R} = m\mathrm{g} \quad\Rightarrow\quad v_t = \frac{m\mathrm{g}R}{B^2L^2} = \frac{0.020\cdot9.81\cdot2.0}{0.80^2\cdot0.50^2}\ \mathrm{m/s} = \underline{\underline{2.5\ \mathrm{m/s}}}
-$$
-Da blir all potensiell energi som tapes, til varme i motstanden: $m\mathrm{g}v_t = I^2R$.
+::: {.fasit}
+$2.5\ \mathrm{m/s}$
 :::
 :::
 
@@ -127,12 +117,6 @@ Da blir all potensiell energi som tapes, til varme i motstanden: $m\mathrm{g}v_t
 <!-- tillegg: Claude -->
 Stanga fra avsnittet om oppbremsing får startfarten $v_0$ og slippes. Vis at den glir strekningen $s = v_0\tau$ før den stopper. Hvor stor andel av startenergien er blitt varme i motstanden?
 
-::: {.losning}
-$$
-s = \int_0^\infty v_0\mathrm{e}^{-t/\tau}\,\mathrm{d}t = v_0\tau
-$$
-Med tallene i koden: $\tau = 0.25\ \mathrm{s}$ og $s = 1.0\ \mathrm{m}$. Uten friksjon blir **hele** den kinetiske energien $\tfrac12mv_0^2$ til varme i motstanden.
-:::
 :::
 
 ::::

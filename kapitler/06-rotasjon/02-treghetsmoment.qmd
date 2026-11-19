@@ -107,9 +107,6 @@ $$
 ::: {.oppgave tittel="Lineært og roterende"}
 Hva tilsvarer disse størrelsene ved ren rotasjon? a) masse, b) fart, c) akselerasjon, d) bevegelsesmengde, e) kraft, f) kinetisk energi.
 
-::: {.losning}
-a) treghetsmoment $I = \int r^2\,\mathrm{d}m$; b) vinkelfart $\omega = \mathrm{d}\theta/\mathrm{d}t$; c) vinkelakselerasjon $\alpha = \mathrm{d}\omega/\mathrm{d}t$; d) dreieimpuls $\vec L = \vec r\times\vec p = I\vec\omega$; e) kraftmoment $\vec\tau = \vec r\times\vec F$, med $\sum\vec\tau = I\vec\alpha$; f) rotasjonsenergi $\frac12 I\omega^2$.
-:::
 :::
 
 ::: {.oppgave tittel="Sykkelhjul i 40 km/h"}
@@ -117,12 +114,8 @@ All massen i et sykkelhjul ($700\ \mathrm{g}$) ligger jevnt mellom $R_I = 33\ \m
 
 a) Finn treghetsmomentet. b) Finn rotasjonsenergien. c) Finn translasjonsenergien.
 
-::: {.losning}
-**a)** $I = \frac12 m(R_I^2 + R_Y^2) = \frac12\cdot0.7\,(0.33^2 + 0.37^2)\ \mathrm{kg\,m^2} \approx \underline{\underline{0.086\ \mathrm{kg\,m^2}}}$
-
-**b)** $\omega = v/R_Y = (40/3.6)/0.37\ \mathrm{rad/s} \approx 30\ \mathrm{rad/s}$, så $E_\text{rot} = \frac12 I\omega^2 \approx \underline{\underline{39\ \mathrm{J}}}$.
-
-**c)** $E_\text{trans} = \frac12 mv^2 = \frac12\cdot0.7\cdot(40/3.6)^2\ \mathrm{J} \approx \underline{\underline{43\ \mathrm{J}}}$. For et hjul med nesten all massen ytterst er rotasjonsenergien nesten like stor som translasjonsenergien.
+::: {.fasit}
+a) $0.086\ \mathrm{kg\,m^2}$ · b) $39\ \mathrm{J}$ · c) $43\ \mathrm{J}$
 :::
 :::
 
@@ -140,24 +133,8 @@ b) Finn treghetsmomentet uttrykt ved $m$ og $r$.
 
 c) Hva blir det for en person på $70\ \mathrm{kg}$ med hodeomkrets $60\ \mathrm{cm}$?
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** Aksen går *langs* armene og beina. Treghetsmomentet avhenger bare av avstanden fra aksen, ikke av hvor langt massen strekker seg langs den.
-
-**b)** Vi summerer delene (Steiners sats for beina):
-$$
-\begin{aligned}
-I_1 &= \tfrac25(0.05m)r^2 = 0.02\,mr^2 \\
-I_2 &= \tfrac12(0.55m)(2r)^2 = 1.10\,mr^2 \\
-I_3 &= (2\cdot0.05m)(2r)^2 = 0.40\,mr^2 \\
-I_4 &= 2\cdot0.15m\left[\tfrac12\left(\tfrac{2r}{3}\right)^2 + r^2\right] = 0.37\,mr^2
-\end{aligned}
-$$
-$$
-I = I_1 + I_2 + I_3 + I_4 \approx \underline{\underline{1.9\,mr^2}}
-$$
-
-**c)** $r = 0.60\ \mathrm{m}/(2\pi) \approx 0.095\ \mathrm{m}$, så $I \approx 1.9\cdot70\cdot0.095^2\ \mathrm{kg\,m^2} \approx \underline{\underline{1.2\ \mathrm{kg\,m^2}}}$.
+::: {.fasit}
+b) $1.9\,mr^2$ · c) $1.2\ \mathrm{kg\,m^2}$
 :::
 :::
 

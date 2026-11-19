@@ -151,12 +151,8 @@ Det er under 2300, så Poiseuilles lov gjelder.
 <!-- tillegg: Claude -->
 Olje med tetthet $900\ \mathrm{kg/m^3}$ og viskositet $0.10\ \mathrm{Pa\cdot s}$ strømmer med $0.50\ \mathrm{m/s}$ i et rør med diameter $5.0\ \mathrm{cm}$. Er strømningen laminær eller turbulent?
 
-::: {.losning}
-$$
-Re = \frac{900\cdot0.50\cdot0.050}{0.10} = \underline{\underline{2.3\cdot10^{2}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
-Strømningen er **laminær**. Oljen er så seig at virvlene dempes.
+::: {.fasit}
+$2.3\cdot10^{2}$
 :::
 :::
 
@@ -164,12 +160,8 @@ Strømningen er **laminær**. Oljen er så seig at virvlene dempes.
 <!-- tillegg: Claude -->
 Hvor stor kan farten til vann være i et rør med diameter $2.0\ \mathrm{cm}$ før strømningen slutter å være laminær?
 
-::: {.losning}
-Vi setter $Re = 2300$ og løser for $v$:
-$$
-v = \frac{Re\,\mu}{\rho D} = \frac{2300\cdot1.0\cdot10^{-3}}{1000\cdot0.020}\ \mathrm{m/s} = \underline{\underline{0.12\ \mathrm{m/s}}}
-$$
-Det er svært sakte, så vann i rør er nesten alltid turbulent.
+::: {.fasit}
+$0.12\ \mathrm{m/s}$
 :::
 :::
 
@@ -177,12 +169,8 @@ Det er svært sakte, så vann i rør er nesten alltid turbulent.
 <!-- tillegg: Claude -->
 En blodåre blir 20 % trangere (radien blir $0.80$ ganger den opprinnelige). Hvor mye må trykkforskjellen øke for at like mye blod skal komme gjennom? Anta laminær strømning.
 
-::: {.losning}
-Med samme $Q$ gir Poiseuille $\Delta p \propto 1/R^4$:
-$$
-\frac{\Delta p_2}{\Delta p_1} = \left(\frac{R_1}{R_2}\right)^4 = \left(\frac{1}{0.80}\right)^4 = \underline{\underline{2.4}}
-$$
-Trykkforskjellen må være mer enn dobbelt så stor. Det viser hvorfor små innsnevringer i blodårene belaster hjertet mye.
+::: {.fasit}
+$2.4$
 :::
 :::
 
@@ -190,12 +178,8 @@ Trykkforskjellen må være mer enn dobbelt så stor. Det viser hvorfor små inns
 <!-- tillegg: Claude -->
 En ubåt med lengde $50\ \mathrm{m}$ skal gå i $5.0\ \mathrm{m/s}$ i sjøvann. En modell i skala $1:25$ testes i en vanntank med samme vann. Hvor fort må modellen gå for at strømningen skal være lik (samme Reynolds' tall, med lengden som karakteristisk mål)? Er det praktisk?
 
-::: {.losning}
-Samme fluid gir samme $\rho/\mu$, så $vL$ må være lik:
-$$
-v_\mathrm{m} = v\frac{L}{L_\mathrm{m}} = 5.0\ \mathrm{m/s}\cdot25 = \underline{\underline{1.3\cdot10^{2}\ \mathrm{m/s}}}
-$$
-Det er nesten $450\ \mathrm{km/h}$ under vann, som er helt upraktisk. I praksis bruker man en annen væske, større modeller, eller man nøyer seg med at begge strømningene er godt turbulente.
+::: {.fasit}
+$1.3\cdot10^{2}\ \mathrm{m/s}$
 :::
 :::
 

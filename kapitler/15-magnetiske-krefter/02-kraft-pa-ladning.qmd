@@ -116,19 +116,14 @@ Bare partikler med denne farten går rett gjennom. De andre bøyes av. Dette kal
 <!-- tillegg: Claude -->
 Et elektron går mot høyre i et magnetfelt som peker inn i arket. Hvilken vei virker kraften?
 
-::: {.losning}
-For en positiv ladning gir $\vec v\times\vec B$ med $\vec v$ mot høyre og $\vec B$ inn i arket en kraft **oppover**. Elektronet er negativt, så kraften virker **nedover**.
-:::
 :::
 
 ::: {.oppgave tittel="Hastighetsvelger"}
 <!-- tillegg: Claude -->
 En hastighetsvelger har $E = 2.0\cdot10^{4}\ \mathrm{V/m}$ og $B = 0.10\ \mathrm{T}$. Hvilken fart slipper gjennom?
 
-::: {.losning}
-$$
-v = \frac EB = \frac{2.0\cdot10^{4}}{0.10}\ \mathrm{m/s} = \underline{\underline{2.0\cdot10^{5}\ \mathrm{m/s}}}
-$$
+::: {.fasit}
+$2.0\cdot10^{5}\ \mathrm{m/s}$
 :::
 :::
 
@@ -136,11 +131,8 @@ $$
 <!-- tillegg: Claude -->
 Et elektron med farten $1.0\cdot10^{6}\ \mathrm{m/s}$ går vinkelrett på jordas magnetfelt ($5.0\cdot10^{-5}\ \mathrm{T}$). Hva er radien i banen?
 
-::: {.losning}
-$$
-r = \frac{\mathrm{m_e}v}{\mathrm{e}B} = \frac{9.11\cdot10^{-31}\cdot1.0\cdot10^{6}}{1.602\cdot10^{-19}\cdot5.0\cdot10^{-5}}\ \mathrm{m} = \underline{\underline{0.11\ \mathrm{m}}}
-$$
-Selv det svake jordfeltet bøyer elektronbaner merkbart. Gamle TV-skjermer måtte derfor justeres etter hvordan de sto.
+::: {.fasit}
+$0.11\ \mathrm{m}$
 :::
 :::
 
@@ -148,9 +140,6 @@ Selv det svake jordfeltet bøyer elektronbaner merkbart. Gamle TV-skjermer mått
 <!-- tillegg: Claude -->
 I et massespektrometer dobles akselerasjonsspenningen. Hva skjer med radien? Og hvis i stedet magnetfeltet dobles?
 
-::: {.losning}
-$r = \dfrac1B\sqrt{2mV/q}$. Dobbel spenning gir $\sqrt2 \approx 1.41$ ganger så stor radius. Dobbelt magnetfelt gir **halv** radius.
-:::
 :::
 
 ::::

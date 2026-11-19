@@ -90,10 +90,8 @@ Derfor er FM-antenner omtrent en meter lange: De fungerer best når lengden er e
 <!-- tillegg: Claude -->
 En båt ligger for anker. Bølgetoppene er $12\ \mathrm{m}$ fra hverandre, og båten vipper opp og ned én gang hvert fjerde sekund. Hvor fort går bølgene?
 
-::: {.losning}
-$$
-v = \frac{\lambda}{T} = \frac{12\ \mathrm{m}}{4.0\ \mathrm{s}} = \underline{\underline{3.0\ \mathrm{m/s}}}
-$$
+::: {.fasit}
+$3.0\ \mathrm{m/s}$
 :::
 :::
 
@@ -101,21 +99,14 @@ $$
 <!-- tillegg: Claude -->
 Avgjør om bølgen er transversal eller longitudinal: **a)** en «bølge» på fotballstadion, **b)** et dytt i enden av en lang slinky-fjær langs fjæra, **c)** lyd i vann.
 
-::: {.losning}
-**a)** Transversal: folk reiser seg (opp og ned), mens bølgen går bortover. **b)** Longitudinal: fjærringene beveger seg fram og tilbake langs fjæra. **c)** Longitudinal: Lyd er trykkbølger både i luft og i vann.
-:::
 :::
 
 ::: {.oppgave tittel="Fra luft til vann" niva="Middels"}
 <!-- tillegg: Claude -->
 En lydbølge med frekvens $1.0\ \mathrm{kHz}$ går fra luft ($343\ \mathrm{m/s}$) ned i vann ($1480\ \mathrm{m/s}$). Hva er bølgelengden i lufta og i vannet?
 
-::: {.losning}
-Frekvensen er den samme i begge medier:
-$$
-\lambda_\mathrm{luft} = \frac{343}{1000}\ \mathrm{m} = \underline{\underline{0.34\ \mathrm{m}}}, \qquad \lambda_\mathrm{vann} = \frac{1480}{1000}\ \mathrm{m} = \underline{\underline{1.5\ \mathrm{m}}}
-$$
-Bølgelengden blir over fire ganger så lang i vann.
+::: {.fasit}
+$0.34\ \mathrm{m}$ · $1.5\ \mathrm{m}$
 :::
 :::
 
@@ -123,12 +114,8 @@ Bølgelengden blir over fire ganger så lang i vann.
 <!-- tillegg: Claude -->
 Et jordskjelv sender ut P-bølger med farten $8.0\ \mathrm{km/s}$ og S-bølger med $4.5\ \mathrm{km/s}$. En målestasjon registrerer S-bølgen $60\ \mathrm{s}$ etter P-bølgen. Hvor langt unna var jordskjelvet?
 
-::: {.losning}
-Med avstanden $d$ er tidsforskjellen
-$$
-\Delta t = \frac{d}{v_S} - \frac{d}{v_P} \quad\Rightarrow\quad d = \frac{\Delta t}{1/v_S - 1/v_P} = \frac{60\ \mathrm{s}}{1/4.5 - 1/8.0}\ \mathrm{km/s} = \underline{\underline{6.2\cdot10^{2}\ \mathrm{km}}}
-$$
-Med tre målestasjoner kan man finne nøyaktig hvor jordskjelvet var.
+::: {.fasit}
+$6.2\cdot10^{2}\ \mathrm{km}$
 :::
 :::
 

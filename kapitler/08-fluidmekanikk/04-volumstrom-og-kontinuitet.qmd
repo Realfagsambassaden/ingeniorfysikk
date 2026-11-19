@@ -134,14 +134,8 @@ Endre `v0` og se hvordan formen endres. Jo saktere vannet kommer ut, jo raskere 
 <!-- tillegg: Claude -->
 Et vannrør har indre diameter $10\ \mathrm{cm}$, og vannet strømmer med farten $1.5\ \mathrm{m/s}$. Hvor stor er volumstrømmen i $\mathrm{m^3/s}$ og i $\mathrm{L/min}$? Hvor stor er massestrømmen?
 
-::: {.losning}
-$$
-Q = Av = \pi(0.050\ \mathrm{m})^2\cdot1.5\ \mathrm{m/s} = \underline{\underline{1.2\cdot10^{-2}\ \mathrm{m^3/s}}}
-$$
-Det er $1.18\cdot10^{-2}\cdot1000\cdot60\ \mathrm{L/min} = \underline{\underline{7.1\cdot10^{2}\ \mathrm{L/min}}}$. Massestrømmen er
-$$
-\dot m = \rho Q = 1000\cdot1.18\cdot10^{-2}\ \mathrm{kg/s} = \underline{\underline{12\ \mathrm{kg/s}}}
-$$
+::: {.fasit}
+$1.2\cdot10^{-2}\ \mathrm{m^3/s}$ · $7.1\cdot10^{2}\ \mathrm{L/min}$ · $12\ \mathrm{kg/s}$
 :::
 :::
 
@@ -149,10 +143,8 @@ $$
 <!-- tillegg: Claude -->
 En elv er $20\ \mathrm{m}$ bred og i gjennomsnitt $2.0\ \mathrm{m}$ dyp, og vannet renner med $0.50\ \mathrm{m/s}$. Lenger ned går elva gjennom et trangt parti som er $8.0\ \mathrm{m}$ bredt og $1.5\ \mathrm{m}$ dypt. Hvor fort renner vannet der?
 
-::: {.losning}
-$$
-Q = 20\cdot2.0\cdot0.50\ \mathrm{m^3/s} = 20\ \mathrm{m^3/s}, \qquad v_2 = \frac{Q}{A_2} = \frac{20}{8.0\cdot1.5}\ \mathrm{m/s} = \underline{\underline{1.7\ \mathrm{m/s}}}
-$$
+::: {.fasit}
+$1.7\ \mathrm{m/s}$
 :::
 :::
 
@@ -160,12 +152,8 @@ $$
 <!-- tillegg: Claude -->
 Hovedpulsåren (aorta) har radius ca. $1.0\ \mathrm{cm}$, og blodet strømmer der med ca. $30\ \mathrm{cm/s}$. I de minste blodårene, kapillærene, går blodet med bare ca. $0.050\ \mathrm{cm/s}$. Hvor stort er det samlede tverrsnittet av alle kapillærene? Hvorfor er det lurt at blodet går sakte der?
 
-::: {.losning}
-Alt blodet fra aorta passerer til slutt kapillærene, så $A_\mathrm{a}v_\mathrm{a} = A_\mathrm{k}v_\mathrm{k}$:
-$$
-A_\mathrm{k} = \frac{A_\mathrm{a}v_\mathrm{a}}{v_\mathrm{k}} = \frac{\pi(1.0\ \mathrm{cm})^2\cdot30\ \mathrm{cm/s}}{0.050\ \mathrm{cm/s}} = \underline{\underline{1.9\cdot10^{3}\ \mathrm{cm^2}}}
-$$
-Hver kapillær er svært tynn, men det er milliarder av dem, så det samlede tverrsnittet er stort. Den lave farten gir tid til at oksygen og næring kan gå fra blodet til cellene.
+::: {.fasit}
+$1.9\cdot10^{3}\ \mathrm{cm^2}$
 :::
 :::
 
@@ -173,15 +161,8 @@ Hver kapillær er svært tynn, men det er milliarder av dem, så det samlede tve
 <!-- tillegg: Claude -->
 Vann kommer ut av en kran med farten $0.50\ \mathrm{m/s}$ gjennom en åpning med diameter $1.2\ \mathrm{cm}$. Hvor tykk er strålen $10\ \mathrm{cm}$ under kranen?
 
-::: {.losning}
-Farten etter $h = 0.10\ \mathrm{m}$ fritt fall:
-$$
-v = \sqrt{v_0^2 + 2\mathrm{g}h} = \sqrt{0.50^2 + 2\cdot9.81\cdot0.10}\ \mathrm{m/s} = 1.49\ \mathrm{m/s}
-$$
-Kontinuitetslikningen med sirkulære tverrsnitt:
-$$
-d = d_0\sqrt{\frac{v_0}{v}} = 1.2\ \mathrm{cm}\cdot\sqrt{\frac{0.50}{1.49}} = \underline{\underline{0.70\ \mathrm{cm}}}
-$$
+::: {.fasit}
+$0.70\ \mathrm{cm}$
 :::
 :::
 

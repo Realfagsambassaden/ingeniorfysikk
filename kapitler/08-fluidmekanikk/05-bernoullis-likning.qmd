@@ -166,15 +166,8 @@ $$
 <!-- tillegg: Claude -->
 I kjelleren har vannrøret indre diameter $2.0\ \mathrm{cm}$, overtrykket er $3.0\ \mathrm{bar}$ og farten $1.0\ \mathrm{m/s}$. I andre etasje, $5.0\ \mathrm{m}$ høyere, har røret diameter $1.0\ \mathrm{cm}$. Hva er overtrykket der? Se bort fra friksjon.
 
-::: {.losning}
-Kontinuitet: halv diameter gir fire ganger så stor fart, $v_2 = 4.0\ \mathrm{m/s}$. Bernoulli løst for $p_2$:
-$$
-p_2 = p_1 + \tfrac12\rho(v_1^2 - v_2^2) - \rho\mathrm{g}(y_2 - y_1)
-$$
-$$
-p_2 = 3.0\cdot10^{5} + \tfrac12\cdot1000\cdot(1.0^2 - 4.0^2) - 1000\cdot9.81\cdot5.0\ \mathrm{Pa} = \underline{\underline{2.4\cdot10^{5}\ \mathrm{Pa}}}
-$$
-Det meste av trykkfallet kommer av høyden. Farten bidrar bare med $7.5\ \mathrm{kPa}$.
+::: {.fasit}
+$2.4\cdot10^{5}\ \mathrm{Pa}$
 :::
 :::
 
@@ -182,11 +175,8 @@ Det meste av trykkfallet kommer av høyden. Farten bidrar bare med $7.5\ \mathrm
 <!-- tillegg: Claude -->
 Et fly måler farten med et pitotrør: det måler forskjellen mellom trykket der lufta stoppes helt opp foran røret, og trykket i lufta som strømmer forbi. Forskjellen er $\tfrac12\rho v^2$. Hvor fort flyr flyet når trykkforskjellen er $600\ \mathrm{Pa}$ og lufta har tetthet $1.20\ \mathrm{kg/m^3}$?
 
-::: {.losning}
-$$
-v = \sqrt{\frac{2\Delta p}{\rho}} = \sqrt{\frac{2\cdot600}{1.20}}\ \mathrm{m/s} = \underline{\underline{32\ \mathrm{m/s}}}
-$$
-Det er omtrent $110\ \mathrm{km/h}$, som er typisk farten et lite fly tar av med.
+::: {.fasit}
+$32\ \mathrm{m/s}$
 :::
 :::
 
@@ -197,16 +187,8 @@ Med en slange kan du tømme et akvarium uten pumpe (en sifong). Slangen går ove
 **a)** Hvor fort strømmer vannet ut av slangen?\
 **b)** Hva er det absolutte trykket i det høyeste punktet av slangen?
 
-::: {.losning}
-**a)** Bernoulli fra vannflaten (i ro, $p_\mathrm{atm}$) til utløpet ($p_\mathrm{atm}$, $0.40\ \mathrm{m}$ lavere) gir Torricelli:
-$$
-v = \sqrt{2\mathrm{g}h} = \sqrt{2\cdot9.81\cdot0.40}\ \mathrm{m/s} = \underline{\underline{2.8\ \mathrm{m/s}}}
-$$
-**b)** Slangen har samme tverrsnitt overalt, så farten er $2.80\ \mathrm{m/s}$ også i toppen. Bernoulli fra vannflaten til toppen, $0.30\ \mathrm{m}$ høyere:
-$$
-p = p_\mathrm{atm} - \rho\mathrm{g}\cdot0.30 - \tfrac12\rho v^2 = 1.013\cdot10^{5} - 2943 - 3924\ \mathrm{Pa} = \underline{\underline{9.4\cdot10^{4}\ \mathrm{Pa}}}
-$$
-Trykket i toppen er lavere enn lufttrykket. Er toppen høyere enn ca. $10\ \mathrm{m}$, blir trykket null, og sifongen slutter å virke.
+::: {.fasit}
+a) $2.8\ \mathrm{m/s}$ · b) $9.4\cdot10^{4}\ \mathrm{Pa}$
 :::
 :::
 
@@ -214,12 +196,8 @@ Trykket i toppen er lavere enn lufttrykket. Er toppen høyere enn ca. $10\ \math
 <!-- tillegg: Claude -->
 En pumpe skal løfte $20\ \mathrm{L/s}$ vann $15\ \mathrm{m}$ opp fra et vann og sprute det ut med farten $3.0\ \mathrm{m/s}$. Hvor stor effekt må pumpa minst ha? Se bort fra friksjon.
 
-::: {.losning}
-Pumpa må gi vannet både potensiell og kinetisk energi. Effekten er energi per volum ganger volumstrøm:
-$$
-P = Q\left(\rho\mathrm{g}h + \tfrac12\rho v^2\right) = 0.020\cdot\left(1000\cdot9.81\cdot15 + \tfrac12\cdot1000\cdot3.0^2\right)\ \mathrm{W} = \underline{\underline{3.0\ \mathrm{kW}}}
-$$
-Med friksjon i rørene og en virkningsgrad under 1 må pumpa i praksis være kraftigere.
+::: {.fasit}
+$3.0\ \mathrm{kW}$
 :::
 :::
 

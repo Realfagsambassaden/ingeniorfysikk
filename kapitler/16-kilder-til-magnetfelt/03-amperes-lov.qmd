@@ -95,11 +95,8 @@ En koaksialkabel har en leder i midten og en sylinderformet skjerm rundt. Strøm
 <!-- tillegg: Claude -->
 Tre ledere går gjennom en lukket kurve: $5\ \mathrm{A}$ og $3\ \mathrm{A}$ i positiv retning og $2\ \mathrm{A}$ i negativ retning. En fjerde leder med $10\ \mathrm{A}$ går utenfor kurven. Hva er $\oint\vec B\cdot\mathrm{d}\vec l$?
 
-::: {.losning}
-Bare strømmen gjennom kurven teller: $I_\text{inn} = 5+3-2 = 6\ \mathrm{A}$.
-$$
-\oint\vec B\cdot\mathrm{d}\vec l = \mu_0\cdot6\ \mathrm{A} = \underline{\underline{7.5\cdot10^{-6}\ \mathrm{T\,m}}}
-$$
+::: {.fasit}
+$7.5\cdot10^{-6}\ \mathrm{T\,m}$
 :::
 :::
 
@@ -107,9 +104,6 @@ $$
 <!-- tillegg: Claude -->
 En tykk leder med radius $R$ fører strømmen $I$ jevnt fordelt. Hvor er feltet sterkest? Ved hvilke to avstander er feltet halvparten av det største?
 
-::: {.losning}
-Størst på **overflaten**, $B_\text{maks} = \mu_0I/(2\pi R)$. Inni vokser $B$ lineært, så halvparten er ved $r = R/2$. Utenfor avtar $B$ som $1/r$, så halvparten er ved $r = 2R$.
-:::
 :::
 
 ::: {.oppgave tittel="Toroide" niva="Middels"}
@@ -118,12 +112,8 @@ Størst på **overflaten**, $B_\text{maks} = \mu_0I/(2\pi R)$. Inni vokser $B$ l
 
 En toroide er en spole viklet rundt en ring. Den har $N = 1000$ vindinger og strømmen $1.0\ \mathrm{A}$. Bruk Ampères lov med en sirkel med radius $r$ inni ringen og vis at $B = \mu_0NI/(2\pi r)$. Finn feltet ved $r = 10\ \mathrm{cm}$. Hva er feltet utenfor ringen og i hullet?
 
-::: {.losning}
-En sirkel inni ringen omslutter $N$ ledere med strømmen $I$, alle samme vei. Av symmetri er $B$ konstant langs sirkelen:
-$$
-B\cdot2\pi r = \mu_0 NI \quad\Rightarrow\quad B = \frac{\mu_0NI}{2\pi r} = \frac{4\pi\cdot10^{-7}\cdot1000\cdot1.0}{2\pi\cdot0.10}\ \mathrm{T} = \underline{\underline{2.0\cdot10^{-3}\ \mathrm{T}}}
-$$
-En sirkel i hullet omslutter ingen strøm: $B = 0$. En sirkel utenfor omslutter $N$ strømmer opp og $N$ strømmer ned: $I_\text{inn} = 0$ og $B = 0$. Hele feltet er stengt inne i ringen.
+::: {.fasit}
+$2.0\cdot10^{-3}\ \mathrm{T}$
 :::
 :::
 
@@ -131,15 +121,8 @@ En sirkel i hullet omslutter ingen strøm: $B = 0$. En sirkel utenfor omslutter 
 <!-- tillegg: Claude -->
 Et tykt rør har indre radius $a$ og ytre radius $b$, og fører strømmen $I$ jevnt fordelt i veggen. Finn $B(r)$ i de tre områdene $r<a$, $a<r<b$ og $r>b$.
 
-::: {.losning}
-- $r < a$: Ingen strøm gjennom sirkelen, $\underline{\underline{B = 0}}$.
-- $a < r < b$: Andelen av veggarealet innenfor $r$ er $\dfrac{r^2-a^2}{b^2-a^2}$, så
-$$
-\underline{\underline{B = \frac{\mu_0 I}{2\pi r}\cdot\frac{r^2-a^2}{b^2-a^2}}}
-$$
-- $r > b$: Hele strømmen, $\underline{\underline{B = \dfrac{\mu_0I}{2\pi r}}}$.
-
-Sjekk: Uttrykkene henger sammen ved $r = a$ (begge null) og $r = b$.
+::: {.fasit}
+$B = 0$ · $B = \frac{\mu_0 I}{2\pi r}\cdot\frac{r^2-a^2}{b^2-a^2}$ · $B = \dfrac{\mu_0I}{2\pi r}$
 :::
 :::
 

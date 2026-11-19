@@ -87,10 +87,8 @@ Til sammenligning har bensin ca. $3\cdot10^{10}\ \mathrm{J/m^3}$. Derfor kan ikk
 <!-- tillegg: Claude -->
 En hjertestarter har en kondensator på $32\ \mathrm{\mu F}$ som lades til $5.0\ \mathrm{kV}$. Hvor mye energi lagres?
 
-::: {.losning}
-$$
-U = \tfrac12CV^2 = \tfrac12\cdot32\cdot10^{-6}\cdot(5.0\cdot10^{3})^2\ \mathrm{J} = \underline{\underline{4.0\cdot10^{2}\ \mathrm{J}}}
-$$
+::: {.fasit}
+$4.0\cdot10^{2}\ \mathrm{J}$
 :::
 :::
 
@@ -98,31 +96,18 @@ $$
 <!-- tillegg: Claude -->
 Hva skjer med energien i en kondensator når spenningen dobles?
 
-::: {.losning}
-$U = \tfrac12CV^2$, så energien blir **fire ganger** så stor.
-:::
 :::
 
 ::: {.oppgave tittel="Trekke platene fra hverandre" niva="Middels"}
 <!-- tillegg: Claude -->
 En platekondensator er ladet og koblet fra batteriet. Så trekkes platene fra hverandre til dobbel avstand. Hva skjer med ladningen, spenningen og energien? Hvor kommer energien fra?
 
-::: {.losning}
-Kondensatoren er isolert, så **ladningen er uendret**. Kapasitansen halveres, så spenningen $V = Q/C$ **dobles**. Energien $U = Q^2/(2C)$ **dobles** også. Den ekstra energien kommer fra arbeidet du gjør: Platene tiltrekker hverandre, så du må dra dem fra hverandre.
-:::
 :::
 
 ::: {.oppgave tittel="Kraften mellom platene" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 Bruk resultatet i forrige oppgave til å finne kraften mellom platene i en isolert platekondensator. Hint: Arbeidet med å øke avstanden med $\mathrm{d}x$ er $F\,\mathrm{d}x = \mathrm{d}U$.
 
-::: {.losning}
-Med $C = \varepsilon_0A/x$ er $U = Q^2x/(2\varepsilon_0A)$. Da er
-$$
-F = \frac{\mathrm{d}U}{\mathrm{d}x} = \frac{Q^2}{2\varepsilon_0A}
-$$
-Det kan også skrives $F = \tfrac12QE$. Faktoren $\tfrac12$ kommer av at hver plate bare føler feltet fra den **andre** platen, som er $E/2$.
-:::
 :::
 
 ::::

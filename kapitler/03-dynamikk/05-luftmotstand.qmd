@@ -113,38 +113,8 @@ def drag(A, C, v):
 
 c) Bruk Eulers metode med $\Delta t = 0.10\ \mathrm{s}$ til å finne tiden det tar før hopperne har nådd 98 % av terminalfarten, og hvor langt de har falt da.
 
-::: {.losning}
-**a)** Fra $v_t = \sqrt{2m\mathrm{g}/(C\rho A)}$:
-$$
-v_{t,A} = \sqrt{\frac{2\cdot70\cdot9.81}{0.70\cdot1.29\cdot0.17}}\ \mathrm{m/s} \approx \underline{\underline{95\ \mathrm{m/s}}}, \qquad
-v_{t,B} = \sqrt{\frac{2\cdot70\cdot9.81}{1.0\cdot1.29\cdot1.0}}\ \mathrm{m/s} \approx \underline{\underline{33\ \mathrm{m/s}}}
-$$
-
-**b)** `return k*v**2`, som er $\frac12\rho A C v^2$.
-
-**c)** <!-- tillegg: Claude -->
-
-```{.python .kjor}
-import numpy as np
-
-def drag(A, C, v):
-    rho = 1.29
-    k = 0.5*rho*A*C
-    return k*v**2
-
-g, m, dt = 9.81, 70, 0.10
-for navn, A, C in [("A", 0.17, 0.70), ("B", 1.0, 1.0)]:
-    v_t = np.sqrt(2*m*g/(C*1.29*A))
-    t, v, y = 0.0, 0.0, 0.0
-    while v < 0.98*v_t:
-        a = g - drag(A, C, v)/m
-        y += v*dt
-        v += a*dt
-        t += dt
-    print(f"{navn}: 98 % av {v_t:.0f} m/s etter {t:.1f} s, falt {y:.0f} m")
-```
-
-A bruker ca. $22\ \mathrm{s}$ og faller ca. $1.5\ \mathrm{km}$; B bruker ca. $7.5\ \mathrm{s}$ og faller ca. $170\ \mathrm{m}$. (Svarene avhenger litt av hvordan du oppdaterer $y$ og $v$ i løkka.)
+::: {.fasit}
+$95\ \mathrm{m/s}$ · $33\ \mathrm{m/s}$
 :::
 :::
 

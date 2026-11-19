@@ -111,8 +111,8 @@ Sjekk: $16 + 8.0 = 24\ \mathrm{\mu C}$. ✓
 <!-- tillegg: Claude -->
 To like kondensatorer på $10\ \mathrm{\mu F}$ kobles i serie til $9.0\ \mathrm{V}$. Hva er den samlede kapasitansen og spenningen over hver?
 
-::: {.losning}
-$C = 10\cdot10/(10 + 10)\ \mathrm{\mu F} = \underline{\underline{5.0\ \mathrm{\mu F}}}$. De er like, så spenningen deles likt: $\underline{\underline{4.5\ \mathrm{V}}}$ over hver.
+::: {.fasit}
+$5.0\ \mathrm{\mu F}$ · $4.5\ \mathrm{V}$
 :::
 :::
 
@@ -120,8 +120,8 @@ $C = 10\cdot10/(10 + 10)\ \mathrm{\mu F} = \underline{\underline{5.0\ \mathrm{\m
 <!-- tillegg: Claude -->
 Du har tre kondensatorer på $4.0\ \mathrm{\mu F}$. Hvordan kan du koble dem for å få $6.0\ \mathrm{\mu F}$?
 
-::: {.losning}
-To i serie gir $2.0\ \mathrm{\mu F}$. Kobler du den tredje i parallell med dem, får du $2.0 + 4.0 = \underline{\underline{6.0\ \mathrm{\mu F}}}$.
+::: {.fasit}
+$6.0\ \mathrm{\mu F}$
 :::
 :::
 
@@ -129,12 +129,8 @@ To i serie gir $2.0\ \mathrm{\mu F}$. Kobler du den tredje i parallell med dem, 
 <!-- tillegg: Claude -->
 En kondensator på $2.0\ \mathrm{\mu F}$ og en på $6.0\ \mathrm{\mu F}$ kobles i serie til $16\ \mathrm{V}$. Finn ladningen og spenningen over hver. Hvilken får størst spenning?
 
-::: {.losning}
-$C = 2.0\cdot6.0/8.0\ \mathrm{\mu F} = 1.5\ \mathrm{\mu F}$, så $Q = 1.5\cdot16\ \mathrm{\mu C} = \underline{\underline{24\ \mathrm{\mu C}}}$ på begge.
-$$
-V_{2} = \frac{24}{2.0}\ \mathrm{V} = \underline{\underline{12\ \mathrm{V}}}, \qquad V_{6} = \frac{24}{6.0}\ \mathrm{V} = \underline{\underline{4.0\ \mathrm{V}}}
-$$
-Den **minste** kondensatoren får størst spenning, fordi $V = Q/C$ og ladningen er den samme.
+::: {.fasit}
+$24\ \mathrm{\mu C}$ · $12\ \mathrm{V}$ · $4.0\ \mathrm{V}$
 :::
 :::
 
@@ -142,12 +138,8 @@ Den **minste** kondensatoren får størst spenning, fordi $V = Q/C$ og ladningen
 <!-- tillegg: Claude -->
 En kondensator på $3.0\ \mathrm{\mu F}$ er ladet til $12\ \mathrm{V}$. Den kobles fra batteriet og kobles i parallell med en uladet kondensator på $6.0\ \mathrm{\mu F}$. Hva blir spenningen til slutt?
 
-::: {.losning}
-Ladningen er bevart: $Q = 3.0\cdot12\ \mathrm{\mu C} = 36\ \mathrm{\mu C}$. Den fordeler seg på parallellkoblingen med $C = 9.0\ \mathrm{\mu F}$:
-$$
-V = \frac{Q}{C} = \frac{36}{9.0}\ \mathrm{V} = \underline{\underline{4.0\ \mathrm{V}}}
-$$
-(Energien er ikke bevart: Den går fra $216\ \mathrm{\mu J}$ til $72\ \mathrm{\mu J}$. Resten blir varme og stråling i ledningene når strømmen går.)
+::: {.fasit}
+$4.0\ \mathrm{V}$
 :::
 :::
 

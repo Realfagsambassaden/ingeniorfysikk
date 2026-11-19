@@ -105,10 +105,8 @@ plt.show()
 <!-- tillegg: Claude -->
 Hva er tidskonstanten til en krets med $R = 2.2\ \mathrm{k\Omega}$ og $C = 470\ \mathrm{\mu F}$?
 
-::: {.losning}
-$$
-\tau = RC = 2.2\cdot10^{3}\cdot470\cdot10^{-6}\ \mathrm{s} = \underline{\underline{1.0\ \mathrm{s}}}
-$$
+::: {.fasit}
+$1.0\ \mathrm{s}$
 :::
 :::
 
@@ -116,11 +114,8 @@ $$
 <!-- tillegg: Claude -->
 En kondensator på $50\ \mathrm{\mu F}$ er ladet til $9.0\ \mathrm{V}$ og lades ut gjennom $2.0\ \mathrm{k\Omega}$. Hvor lang tid tar det før spenningen er $1.0\ \mathrm{V}$?
 
-::: {.losning}
-$\tau = 2.0\cdot10^{3}\cdot50\cdot10^{-6}\ \mathrm{s} = 0.10\ \mathrm{s}$. Fra $V = V_0e^{-t/\tau}$:
-$$
-t = \tau\ln\frac{V_0}{V} = 0.10\ \mathrm{s}\cdot\ln\frac{9.0}{1.0} = \underline{\underline{0.22\ \mathrm{s}}}
-$$
+::: {.fasit}
+$0.22\ \mathrm{s}$
 :::
 :::
 
@@ -128,10 +123,8 @@ $$
 <!-- tillegg: Claude -->
 En kondensator lades ut gjennom en motstand på $47\ \mathrm{k\Omega}$. Spenningen faller fra $10\ \mathrm{V}$ til $4.0\ \mathrm{V}$ på $3.0\ \mathrm{s}$. Hva er kapasitansen?
 
-::: {.losning}
-$$
-\tau = \frac{t}{\ln(V_0/V)} = \frac{3.0}{\ln(10/4.0)}\ \mathrm{s} = 3.27\ \mathrm{s}, \qquad C = \frac{\tau}{R} = \frac{3.27}{47\cdot10^{3}}\ \mathrm{F} = \underline{\underline{70\ \mathrm{\mu F}}}
-$$
+::: {.fasit}
+$70\ \mathrm{\mu F}$
 :::
 :::
 
@@ -139,13 +132,6 @@ $$
 <!-- tillegg: Claude -->
 Vis at under en fullstendig opplading gjennom en motstand går like mye energi tapt som varme i motstanden som det lagres i kondensatoren.
 
-::: {.losning}
-Varmen i motstanden er
-$$
-W_R = \int_0^\infty I^2R\,\mathrm{d}t = \int_0^\infty\frac{\mathcal{E}^2}{R}e^{-2t/\tau}\,\mathrm{d}t = \frac{\mathcal{E}^2}{R}\cdot\frac{\tau}{2} = \frac{\mathcal{E}^2}{R}\cdot\frac{RC}{2} = \tfrac12C\mathcal{E}^2
-$$
-Kondensatoren ender med $U = \tfrac12C\mathcal{E}^2$. Kilden har levert $Q\mathcal{E} = C\mathcal{E}^2$, og halvparten går til hver. Overraskende nok er det uavhengig av $R$. $\blacksquare$
-:::
 :::
 
 ::::

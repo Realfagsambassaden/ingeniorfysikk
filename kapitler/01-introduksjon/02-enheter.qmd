@@ -105,29 +105,14 @@ b) En elbil bruker $1\ \mathrm{kWh}$ per mil ved blandet kjøring. Hva er dette 
 
 *Oppgitt:* $1\ \mathrm{kWh} = 3.6\ \mathrm{MJ}$ og $1\ \mathrm{mil} = 10\ \mathrm{km}$.
 
-::: {.losning}
-**a)** Vi skriver om enhetene: $1\ \mathrm{km} = 1000\ \mathrm{m}$ og $1\ \mathrm{h} = 3600\ \mathrm{s}$. Legg merke til at timen er *kvadrert*:
-$$
-1\ \frac{\mathrm{km}}{\mathrm{h^2}} = \frac{1000\ \mathrm{m}}{(3600\ \mathrm{s})^2} = \frac{1000}{1.296\cdot10^{7}}\ \mathrm{m/s^2} \approx \underline{\underline{7.7\cdot10^{-5}\ \mathrm{m/s^2}}}
-$$
-
-**b)** Vi gjør om energien til joule og strekningen til meter: $1\ \mathrm{mil} = 1.0\cdot10^4\ \mathrm{m}$.
-$$
-\frac{3.6\cdot10^6\ \mathrm{J}}{1.0\cdot10^4\ \mathrm{m}} = \underline{\underline{360\ \mathrm{J/m}}}
-$$
+::: {.fasit}
+a) $7.7\cdot10^{-5}\ \mathrm{m/s^2}$ · b) $360\ \mathrm{J/m}$
 :::
 :::
 
 ::: {.oppgave tittel="Fart, strekning og tid"}
 Et nytt lyntog mellom Oslo og Trondheim kan holde en gjennomsnittsfart på $320\ \mathrm{km/h}$. Strekningen er $500\ \mathrm{km}$. Hvor lang tid bruker toget?
 
-::: {.losning}
-Fra definisjonen av fart, $v = s/t$, får vi $t = s/v$:
-$$
-t = \frac{500\ \mathrm{km}}{320\ \mathrm{km/h}} = 1.5625\ \mathrm{h}
-$$
-$0.5625\ \mathrm{h} \cdot 60\ \mathrm{min/h} \approx 34\ \mathrm{min}$, så toget bruker **1 time og 34 minutter**.
-:::
 :::
 
 ::: {.oppgave tittel="Finn enhetene"}
@@ -138,13 +123,8 @@ E = \frac{A + B}{C} + D
 $$
 er $[A] = \mathrm{K}$, $[C] = \mathrm{m/s}$ og $[D] = \mathrm{K\,s/m}$. Finn enhetene $[B]$ og $[E]$.
 
-::: {.losning}
-<!-- tillegg: Claude -->
-Vi bruker den første regelen: Alle ledd som legges sammen, må ha samme enhet.
-
-- $B$ legges sammen med $A$, så $[B] = [A] = \underline{\underline{\mathrm{K}}}$.
-- $\frac{A+B}{C}$ har enheten $\frac{\mathrm{K}}{\mathrm{m/s}} = \mathrm{K\,s/m}$. Det stemmer med $[D]$, så formelen henger sammen.
-- $E$ er summen av to ledd med enheten $\mathrm{K\,s/m}$: $[E] = \underline{\underline{\mathrm{K\,s/m}}}$.
+::: {.fasit}
+$\mathrm{K}$ · $\mathrm{K\,s/m}$
 :::
 :::
 
@@ -157,35 +137,14 @@ c) $\mathrm{J}$
 d) $\mathrm{W}$
 e) $\mathrm{Hz}$
 
-::: {.losning}
-Vi tar utgangspunkt i formelen som definerer hver størrelse.
-
-**a)** Newton er enheten for **kraft**. Fra Newtons 2. lov, $\sum F = ma$: $\ \mathrm{N} = \mathrm{kg\,m/s^2}$.
-
-**b)** Pascal er enheten for **trykk**, som er kraft per areal: $\ \mathrm{Pa} = \mathrm{N/m^2} = \mathrm{kg/(m\,s^2)}$.
-
-**c)** Joule er enheten for **arbeid og energi**. Arbeid er kraft ganger strekning: $\ \mathrm{J} = \mathrm{N\,m} = \mathrm{kg\,m^2/s^2}$.
-
-**d)** Watt er enheten for **effekt**, som er energi per tid: $\ \mathrm{W} = \mathrm{J/s} = \mathrm{kg\,m^2/s^3}$.
-
-**e)** Hertz er enheten for **frekvens**, antall svingninger per sekund: $\ \mathrm{Hz} = \mathrm{s^{-1}}$.
-:::
 :::
 
 ::: {.oppgave tittel="Svingetiden til en pendel" niva="Middels"}
 <!-- tillegg: Claude -->
 Svingetiden $T$ til en pendel kan bare avhenge av snorlengden $L$, massen $m$ og tyngdeakselerasjonen $\mathrm{g}$. Anta at $T = C\,L^a m^b \mathrm{g}^c$, der $C$ er et rent tall. Bruk enhetene til å finne $a$, $b$ og $c$.
 
-::: {.losning}
-Enhetene må være like på begge sider:
-$$
-\mathrm{s} = \mathrm{m}^a\,\mathrm{kg}^b\,(\mathrm{m\,s^{-2}})^c = \mathrm{m}^{a+c}\,\mathrm{kg}^b\,\mathrm{s}^{-2c}
-$$
-Vi sammenligner eksponentene: kilogram gir $b = 0$, sekund gir $-2c = 1$, så $c = -\tfrac12$, og meter gir $a + c = 0$, så $a = \tfrac12$. Dermed
-$$
-\underline{\underline{T = C\sqrt{\frac{L}{\mathrm{g}}}}}
-$$
-Svingetiden avhenger ikke av massen. (En full utledning gir $C = 2\pi$.)
+::: {.fasit}
+$T = C\sqrt{\frac{L}{\mathrm{g}}}$
 :::
 :::
 

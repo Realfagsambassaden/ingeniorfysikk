@@ -132,10 +132,8 @@ plt.show()
 <!-- tillegg: Claude -->
 En masse på $2.0\ \mathrm{kg}$ henger i en fjær med $k = 50\ \mathrm{N/m}$. Hvor stor dempingskonstant gir kritisk demping?
 
-::: {.losning}
-$$
-b = 2\sqrt{km} = 2\sqrt{50\cdot2.0}\ \mathrm{kg/s} = \underline{\underline{20\ \mathrm{kg/s}}}
-$$
+::: {.fasit}
+$20\ \mathrm{kg/s}$
 :::
 :::
 
@@ -143,12 +141,8 @@ $$
 <!-- tillegg: Claude -->
 Amplituden til en dempet svingning er halvert etter $10$ svingninger. Hvor stor andel av den opprinnelige energien er igjen?
 
-::: {.losning}
-Energien er proporsjonal med kvadratet av amplituden:
-$$
-\frac{E}{E_0} = \left(\frac12\right)^2 = \underline{\underline{0.25}}
-$$
-Tre fjerdedeler av energien har gått til varme.
+::: {.fasit}
+$0.25$
 :::
 :::
 
@@ -156,16 +150,8 @@ Tre fjerdedeler av energien har gått til varme.
 <!-- tillegg: Claude -->
 En pendel med lengde $1.00\ \mathrm{m}$ og masse $0.20\ \mathrm{kg}$ svinger slik at amplituden halveres i løpet av 10 svingninger. Finn $\gamma$ og dempingskonstanten $b$. Er det rimelig å bruke den udempede perioden?
 
-::: {.losning}
-Perioden er $T = 2\pi\sqrt{1.00/9.81}\ \mathrm{s} = 2.01\ \mathrm{s}$, så 10 svingninger tar $20.1\ \mathrm{s}$.
-$$
-\mathrm{e}^{-\gamma\cdot20.1\ \mathrm{s}} = \frac12 \quad\Rightarrow\quad \gamma = \frac{\ln2}{20.1\ \mathrm{s}} = \underline{\underline{0.0346\ \mathrm{s^{-1}}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (3, fra lengden) -->
-$$
-b = 2m\gamma = 2\cdot0.20\cdot0.0346\ \mathrm{kg/s} = \underline{\underline{0.014\ \mathrm{kg/s}}}
-$$
-$\omega_0 = 3.13\ \mathrm{s^{-1}}$ er nesten hundre ganger større enn $\gamma$, så $\omega_d \approx \omega_0$. Det er rimelig å bruke den udempede perioden.
+::: {.fasit}
+$0.0346\ \mathrm{s^{-1}}$ · $0.014\ \mathrm{kg/s}$
 :::
 :::
 
@@ -173,20 +159,6 @@ $\omega_0 = 3.13\ \mathrm{s^{-1}}$ er nesten hundre ganger større enn $\gamma$,
 <!-- tillegg: Claude -->
 Vis at $x(t) = A\mathrm{e}^{-\gamma t}\cos(\omega_dt)$ er en løsning av $\ddot x + 2\gamma\dot x + \omega_0^2x = 0$ når $\omega_d^2 = \omega_0^2 - \gamma^2$.
 
-::: {.losning}
-Skriv $c = \cos(\omega_dt)$ og $s = \sin(\omega_dt)$, og la $E = A\mathrm{e}^{-\gamma t}$. Derivasjon med produktregelen:
-$$
-\dot x = E(-\gamma c - \omega_ds)
-$$
-$$
-\ddot x = E\left[\gamma^2c + \gamma\omega_ds + \gamma\omega_ds - \omega_d^2c\right] = E\left[(\gamma^2 - \omega_d^2)c + 2\gamma\omega_ds\right]
-$$
-Vi setter inn i venstresiden:
-$$
-E\left[(\gamma^2 - \omega_d^2)c + 2\gamma\omega_ds - 2\gamma^2c - 2\gamma\omega_ds + \omega_0^2c\right] = E\,c\left[\omega_0^2 - \gamma^2 - \omega_d^2\right]
-$$
-Dette er null for alle $t$ når $\omega_d^2 = \omega_0^2 - \gamma^2$. $\blacksquare$
-:::
 :::
 
 ::::

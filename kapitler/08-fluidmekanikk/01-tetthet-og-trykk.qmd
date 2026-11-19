@@ -133,16 +133,8 @@ Lufta i et vanlig rom veier omtrent like mye som et menneske. Vi merker det ikke
 <!-- tillegg: Claude -->
 En person på $75\ \mathrm{kg}$ står på to ski. Hver ski er $1.8\ \mathrm{m}$ lang og $7.0\ \mathrm{cm}$ bred. Hvor stort er trykket på snøen? Sammenlign med trykket når personen står på to støvler med sålearealet $0.030\ \mathrm{m^2}$ hver.
 
-::: {.losning}
-Med ski er arealet $A = 2\cdot1.8\ \mathrm{m}\cdot0.070\ \mathrm{m} = 0.252\ \mathrm{m^2}$:
-$$
-p_\mathrm{ski} = \frac{m\mathrm{g}}{A} = \frac{75\cdot9.81}{0.252}\ \mathrm{Pa} = \underline{\underline{2.9\ \mathrm{kPa}}}
-$$
-Med støvler er arealet $A = 2\cdot0.030\ \mathrm{m^2} = 0.060\ \mathrm{m^2}$:
-$$
-p_\mathrm{støvler} = \frac{75\cdot9.81}{0.060}\ \mathrm{Pa} = \underline{\underline{12\ \mathrm{kPa}}}
-$$
-Trykket er fire ganger større med støvler, og da synker man ned i løs snø.
+::: {.fasit}
+$2.9\ \mathrm{kPa}$ · $12\ \mathrm{kPa}$
 :::
 :::
 
@@ -150,11 +142,8 @@ Trykket er fire ganger større med støvler, og da synker man ned i løs snø.
 <!-- tillegg: Claude -->
 En sykkelpumpe viser $4.5\ \mathrm{bar}$. Hva er det absolutte trykket i dekket i pascal?
 
-::: {.losning}
-Pumpa viser overtrykket. Det absolutte trykket er
-$$
-p = p_\mathrm{over} + p_\mathrm{atm} = 4.5\cdot10^{5}\ \mathrm{Pa} + 1.013\cdot10^{5}\ \mathrm{Pa} = \underline{\underline{5.5\cdot10^{5}\ \mathrm{Pa}}}
-$$
+::: {.fasit}
+$5.5\cdot10^{5}\ \mathrm{Pa}$
 :::
 :::
 
@@ -162,29 +151,14 @@ $$
 <!-- tillegg: Claude -->
 En terning med sider $2.0\ \mathrm{cm}$ skal være av rent gull. Den veier $0.12\ \mathrm{kg}$. Kan den være av rent gull?
 
-::: {.losning}
-Volumet er $V = (0.020\ \mathrm{m})^3 = 8.0\cdot10^{-6}\ \mathrm{m^3}$. Tettheten blir
-$$
-\rho = \frac{m}{V} = \frac{0.12\ \mathrm{kg}}{8.0\cdot10^{-6}\ \mathrm{m^3}} = 1.5\cdot10^{4}\ \mathrm{kg/m^3}
-$$
-Gull har $\rho = 1.93\cdot10^{4}\ \mathrm{kg/m^3}$, og en gullterning ville veid $0.15\ \mathrm{kg}$. Terningen er altså **ikke av rent gull**. Den kan for eksempel ha en kjerne av et lettere metall.
-:::
 :::
 
 ::: {.oppgave tittel="Lokket på hermetikkboksen" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 En syltetøyglasskrukke er tappet varm, slik at trykket inne er $0.80\ \mathrm{bar}$ (absolutt) når den er kald. Lokket er sirkulært med diameter $7.0\ \mathrm{cm}$. Hvor stor netto kraft må du overvinne for å løfte lokket rett opp? Hvorfor hjelper det å stikke et lite hull i lokket?
 
-::: {.losning}
-Netto kraft kommer av trykkforskjellen:
-$$
-\Delta p = 1.013\cdot10^{5}\ \mathrm{Pa} - 0.80\cdot10^{5}\ \mathrm{Pa} = 2.1\cdot10^{4}\ \mathrm{Pa}
-$$
-Arealet er $A = \pi(0.035\ \mathrm{m})^2 = 3.85\cdot10^{-3}\ \mathrm{m^2}$, så
-$$
-F = \Delta p\,A = 2.13\cdot10^{4}\ \mathrm{Pa}\cdot3.85\cdot10^{-3}\ \mathrm{m^2} = \underline{\underline{82\ \mathrm{N}}}
-$$
-Det tilsvarer tyngden av over 8 kg. Et hull slipper luft inn, slik at trykket inne blir lik trykket ute. Da forsvinner trykkforskjellen, og lokket løsner lett.
+::: {.fasit}
+$82\ \mathrm{N}$
 :::
 :::
 

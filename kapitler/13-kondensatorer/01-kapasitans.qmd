@@ -87,10 +87,8 @@ I kretsskjemaer tegnes en kondensator som to korte, parallelle streker. Når den
 <!-- tillegg: Claude -->
 En kondensator på $470\ \mathrm{\mu F}$ lades opp til $9.0\ \mathrm{V}$. Hvor stor ladning har den?
 
-::: {.losning}
-$$
-Q = CV = 470\cdot10^{-6}\cdot9.0\ \mathrm{C} = \underline{\underline{4.2\ \mathrm{mC}}}
-$$
+::: {.fasit}
+$4.2\ \mathrm{mC}$
 :::
 :::
 
@@ -98,22 +96,14 @@ $$
 <!-- tillegg: Claude -->
 Avstanden mellom platene i en platekondensator halveres, mens den er koblet til et batteri. Hva skjer med kapasitansen, spenningen og ladningen?
 
-::: {.losning}
-$C = \varepsilon_0A/d$, så kapasitansen **dobles**. Batteriet holder spenningen fast, så $V$ er **uendret**. Ladningen $Q = CV$ blir **dobbelt så stor**: Batteriet fyller på med mer ladning.
-:::
 :::
 
 ::: {.oppgave tittel="Gjennomslag" niva="Middels"}
 <!-- tillegg: Claude -->
 Luft leder strøm (det blir gnister) når feltet er over ca. $3.0\cdot10^{6}\ \mathrm{V/m}$. Hvor stor spenning tåler platekondensatoren i eksempelet ($d = 1.0\ \mathrm{mm}$)? Hvor stor ladning har den da?
 
-::: {.losning}
-$$
-V_\mathrm{maks} = E_\mathrm{maks}d = 3.0\cdot10^{6}\cdot1.0\cdot10^{-3}\ \mathrm{V} = \underline{\underline{3.0\ \mathrm{kV}}}
-$$
-$$
-Q = CV = 8.85\cdot10^{-11}\cdot3.0\cdot10^{3}\ \mathrm{C} = \underline{\underline{0.27\ \mathrm{\mu C}}}
-$$
+::: {.fasit}
+$3.0\ \mathrm{kV}$ · $0.27\ \mathrm{\mu C}$
 :::
 :::
 
@@ -125,16 +115,6 @@ C = 4\pi\varepsilon_0\frac{ab}{b - a}
 $$
 Hint: Feltet mellom kulene er som fra en punktladning $Q$ i sentrum.
 
-::: {.losning}
-Mellom kulene er $E = Q/(4\pi\varepsilon_0r^2)$. Spenningen er integralet av feltet fra $a$ til $b$:
-$$
-V = \int_a^b\frac{Q}{4\pi\varepsilon_0r^2}\,\mathrm{d}r = \frac{Q}{4\pi\varepsilon_0}\left[\frac1a - \frac1b\right] = \frac{Q}{4\pi\varepsilon_0}\cdot\frac{b - a}{ab}
-$$
-$$
-C = \frac QV = 4\pi\varepsilon_0\frac{ab}{b - a} \qquad\blacksquare
-$$
-Når avstanden $d = b - a$ er liten i forhold til radien, er $ab \approx a^2$ og $C \approx \varepsilon_0\cdot4\pi a^2/d = \varepsilon_0A/d$, som for en platekondensator.
-:::
 :::
 
 ::::

@@ -138,10 +138,8 @@ Kraften er altså lik **middeltrykket** $\tfrac12\rho\mathrm{g}H$ ganger arealet
 <!-- tillegg: Claude -->
 Hvor stort er overtrykket på bunnen av et basseng som er $3.5\ \mathrm{m}$ dypt?
 
-::: {.losning}
-$$
-p_\mathrm{over} = \rho\mathrm{g}h = 1000\cdot9.81\cdot3.5\ \mathrm{Pa} = \underline{\underline{34\ \mathrm{kPa}}}
-$$
+::: {.fasit}
+$34\ \mathrm{kPa}$
 :::
 :::
 
@@ -149,14 +147,8 @@ $$
 <!-- tillegg: Claude -->
 Et kvikksølvmanometer ($\rho = 1.36\cdot10^{4}\ \mathrm{kg/m^3}$) er koblet til en gasstank. Kvikksølvet står $25\ \mathrm{cm}$ høyere i den åpne armen enn i armen mot tanken. Hva er overtrykket og det absolutte trykket i tanken?
 
-::: {.losning}
-$$
-p_\mathrm{over} = \rho\mathrm{g}h = 1.36\cdot10^{4}\cdot9.81\cdot0.25\ \mathrm{Pa} = \underline{\underline{33\ \mathrm{kPa}}}
-$$
-$$
-p = p_\mathrm{atm} + p_\mathrm{over} = 101.3\ \mathrm{kPa} + 33.4\ \mathrm{kPa} = \underline{\underline{1.3\cdot10^{2}\ \mathrm{kPa}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2, fra 25 cm) -->
+::: {.fasit}
+$33\ \mathrm{kPa}$ · $1.3\cdot10^{2}\ \mathrm{kPa}$
 :::
 :::
 
@@ -164,11 +156,8 @@ $$
 <!-- tillegg: Claude -->
 En demning er $20\ \mathrm{m}$ bred, og vannet står $8.0\ \mathrm{m}$ dypt bak den. Hvor stor er den totale kraften vannet gir på demningen?
 
-::: {.losning}
-$$
-F = \tfrac12\rho\mathrm{g}bH^2 = \tfrac12\cdot1000\cdot9.81\cdot20\cdot8.0^2\ \mathrm{N} = \underline{\underline{6.3\cdot10^{6}\ \mathrm{N}}}
-$$
-Det tilsvarer tyngden av over 600 tonn.
+::: {.fasit}
+$6.3\cdot10^{6}\ \mathrm{N}$
 :::
 :::
 
@@ -176,16 +165,8 @@ Det tilsvarer tyngden av over 600 tonn.
 <!-- tillegg: Claude -->
 Et U-rør inneholder vann. Så helles olje ($\rho_o = 850\ \mathrm{kg/m^3}$) i den ene armen, til oljesøylen er $12\ \mathrm{cm}$ høy. Oljen blander seg ikke med vannet. Hvor mye høyere står oljeoverflaten enn vannoverflaten i den andre armen?
 
-::: {.losning}
-Velg en vannrett linje gjennom skillet mellom olje og vann. Under linja er det vann på begge sider, så trykket på linja er det samme i begge armer. Begge armene er åpne mot lufta:
-$$
-p_\mathrm{atm} + \rho_o\mathrm{g}h_o = p_\mathrm{atm} + \rho_v\mathrm{g}h_v \quad\Rightarrow\quad h_v = \frac{\rho_o}{\rho_v}h_o = \frac{850}{1000}\cdot12\ \mathrm{cm} = 10.2\ \mathrm{cm}
-$$
-Vannet i den andre armen står $10.2\ \mathrm{cm}$ over skillet, oljen $12\ \mathrm{cm}$. Oljeoverflaten står altså
-$$
-12\ \mathrm{cm} - 10.2\ \mathrm{cm} = \underline{\underline{1.8\ \mathrm{cm}}}
-$$
-høyere enn vannoverflaten. Oljen er lettere, så det trengs en høyere søyle for å gi samme trykk.
+::: {.fasit}
+$1.8\ \mathrm{cm}$
 :::
 :::
 

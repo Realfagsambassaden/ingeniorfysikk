@@ -102,12 +102,8 @@ Et legeme som står på et underlag, tipper når tyngdepunktet kommer utenfor st
 <!-- tillegg: Claude -->
 En bjelke på $6.0\ \mathrm{m}$ og $200\ \mathrm{kg}$ ligger på to støtter, én i hver ende. En person på $80\ \mathrm{kg}$ står $1.5\ \mathrm{m}$ fra venstre ende. Hvor stor kraft tar hver støtte?
 
-::: {.losning}
-Akse i venstre støtte. Bjelken har tyngdepunkt i $3.0\ \mathrm{m}$, personen i $1.5\ \mathrm{m}$, og høyre støtte $F_H$ i $6.0\ \mathrm{m}$:
-$$
-F_H\cdot6.0 - 200\mathrm{g}\cdot3.0 - 80\mathrm{g}\cdot1.5 = 0 \quad\Rightarrow\quad F_H = \frac{(600 + 120)\cdot9.81}{6.0}\ \mathrm{N} \approx \underline{\underline{1.2\ \mathrm{kN}}}
-$$
-Loddrett: $F_V = (200 + 80)\mathrm{g} - F_H = 2747 - 1177\ \mathrm{N} \approx \underline{\underline{1.6\ \mathrm{kN}}}$. Den nærmeste støtten tar mest, som ventet.
+::: {.fasit}
+$1.2\ \mathrm{kN}$ · $1.6\ \mathrm{kN}$
 :::
 :::
 
@@ -115,12 +111,8 @@ Loddrett: $F_V = (200 + 80)\mathrm{g} - F_H = 2747 - 1177\ \mathrm{N} \approx \u
 <!-- tillegg: Claude -->
 Du holder et lodd på $5.0\ \mathrm{kg}$ i hånda med underarmen vannrett. Albuen er aksen. Bicepsmuskelen fester seg $4.0\ \mathrm{cm}$ fra albuen og drar rett opp. Loddet er $35\ \mathrm{cm}$ fra albuen, og underarmen ($1.5\ \mathrm{kg}$) har tyngdepunkt $15\ \mathrm{cm}$ fra albuen. Hvor stor kraft må bicepsen gi?
 
-::: {.losning}
-Kraftmoment om albuen:
-$$
-F_B\cdot0.040 - 1.5\mathrm{g}\cdot0.15 - 5.0\mathrm{g}\cdot0.35 = 0 \quad\Rightarrow\quad F_B = \frac{(0.225 + 1.75)\cdot9.81}{0.040}\ \mathrm{N} \approx \underline{\underline{0.48\ \mathrm{kN}}}
-$$
-Det er nesten ti ganger tyngden av loddet. Muskelen har kort arm, så den må dra hardt, men til gjengjeld beveger hånda seg mye når muskelen trekker seg litt sammen.
+::: {.fasit}
+$0.48\ \mathrm{kN}$
 :::
 :::
 
@@ -128,12 +120,8 @@ Det er nesten ti ganger tyngden av loddet. Muskelen har kort arm, så den må dr
 <!-- tillegg: Claude -->
 En kasse med bredde $b$ og høyde $h$ står på et skråplan, og friksjonen er stor nok til at den ikke glir. Planet vippes gradvis brattere. Ved hvilken vinkel tipper kassen?
 
-::: {.losning}
-Kassen tipper når loddlinja gjennom tyngdepunktet går gjennom det nederste hjørnet. Tyngdepunktet ligger $h/2$ over bunnen og $b/2$ fra hjørnet, målt langs planet. Loddlinja treffer hjørnet når
-$$
-\tan\theta = \frac{b/2}{h/2} = \frac{b}{h} \quad\Rightarrow\quad \underline{\underline{\theta = \arctan\frac bh}}
-$$
-En høy, smal kasse ($b \ll h$) tipper ved liten vinkel.
+::: {.fasit}
+$\theta = \arctan\frac bh$
 :::
 :::
 

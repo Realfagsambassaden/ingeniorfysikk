@@ -85,10 +85,8 @@ Ti ganger høyere spenning gir hundre ganger mindre tap. Derfor transformeres sp
 <!-- tillegg: Claude -->
 Vannkokeren på $2.0\ \mathrm{kW}$ står på i $3.0$ minutter. Hvor mange kilowattimer bruker den, og hva koster det med en strømpris på $1.50\ \mathrm{kr/kWh}$?
 
-::: {.losning}
-$$
-E = 2.0\ \mathrm{kW}\cdot\frac{3.0}{60}\ \mathrm{h} = \underline{\underline{0.10\ \mathrm{kWh}}}, \qquad \text{pris} = 0.10\cdot1.50\ \mathrm{kr} = \underline{\underline{0.15\ \mathrm{kr}}}
-$$
+::: {.fasit}
+$0.10\ \mathrm{kWh}$ · $0.15\ \mathrm{kr}$
 :::
 :::
 
@@ -96,11 +94,8 @@ $$
 <!-- tillegg: Claude -->
 En skjøteledning har resistansen $0.20\ \Omega$ og fører $10\ \mathrm{A}$. Hvor stor effekt går tapt som varme i ledningen?
 
-::: {.losning}
-$$
-P = I^2R = 10^2\cdot0.20\ \mathrm{W} = \underline{\underline{20\ \mathrm{W}}}
-$$
-Det er derfor man ikke skal bruke skjøteledninger som er kveilet sammen med store strømmer: Varmen slipper ikke ut.
+::: {.fasit}
+$20\ \mathrm{W}$
 :::
 :::
 
@@ -108,25 +103,12 @@ Det er derfor man ikke skal bruke skjøteledninger som er kveilet sammen med sto
 <!-- tillegg: Claude -->
 En lampe på $60\ \mathrm{W}$ og en på $100\ \mathrm{W}$ (begge beregnet for $230\ \mathrm{V}$) kobles i **serie** til $230\ \mathrm{V}$. Hvilken lyser sterkest? Anta at resistansene er konstante.
 
-::: {.losning}
-$R = V^2/P$ gir $R_{60} = 230^2/60\ \Omega = 882\ \Omega$ og $R_{100} = 529\ \Omega$. I serie er strømmen den samme, så $P = I^2R$ er størst for den største resistansen. **Lampa på 60 W lyser sterkest!** Strømmen er $230/1411\ \mathrm{A} = 0.163\ \mathrm{A}$, som gir $P_{60} = 23\ \mathrm{W}$ og $P_{100} = 14\ \mathrm{W}$.
-:::
 :::
 
 ::: {.oppgave tittel="Effekttilpasning" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 Vis at $P = \mathcal{E}^2R/(R + r)^2$ har maksimum ved $R = r$.
 
-::: {.losning}
-Med kvotientregelen:
-$$
-\frac{\mathrm{d}P}{\mathrm{d}R} = \mathcal{E}^2\frac{(R + r)^2 - R\cdot2(R + r)}{(R + r)^4} = \mathcal{E}^2\frac{r - R}{(R + r)^3}
-$$
-Den er null for $R = r$, positiv for $R < r$ og negativ for $R > r$. Altså maksimum ved $R = r$, med
-$$
-P_\mathrm{maks} = \frac{\mathcal{E}^2r}{(2r)^2} = \frac{\mathcal{E}^2}{4r} \qquad\blacksquare
-$$
-:::
 :::
 
 ::::

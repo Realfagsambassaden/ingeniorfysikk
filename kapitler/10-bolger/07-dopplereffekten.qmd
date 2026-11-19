@@ -77,12 +77,8 @@ Lys viser også dopplereffekt, men formelen er litt annerledes, fordi lys ikke t
 <!-- tillegg: Claude -->
 Du sykler med $8.0\ \mathrm{m/s}$ mot en høyttaler som står i ro og spiller $500\ \mathrm{Hz}$. Hvilken frekvens hører du?
 
-::: {.losning}
-Observatøren beveger seg mot kilden:
-$$
-f' = 500\ \mathrm{Hz}\cdot\frac{343 + 8.0}{343} = \underline{\underline{5.1\cdot10^{2}\ \mathrm{Hz}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
+::: {.fasit}
+$5.1\cdot10^{2}\ \mathrm{Hz}$
 :::
 :::
 
@@ -90,11 +86,8 @@ $$
 <!-- tillegg: Claude -->
 Et tog tuter med $400\ \mathrm{Hz}$. Du står ved sporet og hører $430\ \mathrm{Hz}$ mens toget nærmer seg. Hvor fort kjører toget?
 
-::: {.losning}
-$$
-f' = f\frac{v}{v - v_s} \quad\Rightarrow\quad v_s = v\left(1 - \frac{f}{f'}\right) = 343\cdot\left(1 - \frac{400}{430}\right)\ \mathrm{m/s} = \underline{\underline{24\ \mathrm{m/s}}}
-$$
-Det er ca. $86\ \mathrm{km/h}$.
+::: {.fasit}
+$24\ \mathrm{m/s}$
 :::
 :::
 
@@ -102,12 +95,8 @@ Det er ca. $86\ \mathrm{km/h}$.
 <!-- tillegg: Claude -->
 To biler kjører mot hverandre, begge med $20\ \mathrm{m/s}$. Den ene tuter med $500\ \mathrm{Hz}$. Hvilken frekvens hører sjåføren i den andre bilen?
 
-::: {.losning}
-Begge beveger seg mot hverandre, så vi bruker de øverste fortegnene:
-$$
-f' = 500\ \mathrm{Hz}\cdot\frac{343 + 20}{343 - 20} = \underline{\underline{5.6\cdot10^{2}\ \mathrm{Hz}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
+::: {.fasit}
+$5.6\cdot10^{2}\ \mathrm{Hz}$
 :::
 :::
 
@@ -115,21 +104,8 @@ $$
 <!-- tillegg: Claude -->
 En flaggermus flyr med $5.0\ \mathrm{m/s}$ mot en vegg og sender ut ultralyd med frekvensen $40.0\ \mathrm{kHz}$. Hvilken frekvens har ekkoet som flaggermusen hører?
 
-::: {.losning}
-Dette skjer i to trinn. **1.** Veggen står i ro og mottar lyd fra en kilde som nærmer seg:
-$$
-f_\mathrm{vegg} = f\,\frac{v}{v - v_s}
-$$
-**2.** Veggen sender lyden tilbake med denne frekvensen, og flaggermusen er en observatør som beveger seg mot veggen:
-$$
-f' = f_\mathrm{vegg}\,\frac{v + v_o}{v} = f\,\frac{v + u}{v - u}
-$$
-med $u = 5.0\ \mathrm{m/s}$:
-$$
-f' = 40.0\ \mathrm{kHz}\cdot\frac{343 + 5.0}{343 - 5.0} = \underline{\underline{41\ \mathrm{kHz}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2) -->
-Flaggermusen kan bruke frekvensforskjellen til å vite hvor fort den nærmer seg veggen.
+::: {.fasit}
+$41\ \mathrm{kHz}$
 :::
 :::
 

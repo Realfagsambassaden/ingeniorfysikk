@@ -152,50 +152,32 @@ Et **energidiagram** viser $U(x)$ som en bakke. Den totale energien $E$ er en va
 ::: {.oppgave tittel="To bøker på en hylle"}
 To bøker med samme masse står på samme hylle. Bok A står over en fryser (høyde $h$ over fryseren), bok B rett over gulvet (høyde $H > h$ over gulvet). Hvilken bok har størst potensiell energi? Bok B faller ($m = 0.80\ \mathrm{kg}$). Hvor stort arbeid har tyngdekraften gjort når farten er $1.0\ \mathrm{m/s}$?
 
-::: {.losning}
-<!-- fra notatene -->
-For å snakke om potensiell energi må vi velge *ett* nullnivå. Uansett hvilket vi velger, står bøkene like høyt over det, så de har **like stor** potensiell energi. At bok A bare kan falle ned til fryseren, endrer ikke det.
-
-Arbeidet fra tyngden er lik endringen i kinetisk energi (arbeid-energi-setningen):
-$$
-W_G = \tfrac12 mv^2 - 0 = \tfrac12\cdot0.80\cdot1.0^2\ \mathrm{J} = \underline{\underline{0.40\ \mathrm{J}}}
-$$
+::: {.fasit}
+$0.40\ \mathrm{J}$
 :::
 :::
 
 ::: {.oppgave tittel="Akebakken"}
 En person på $60\ \mathrm{kg}$ starter fra ro på toppen av en bakke uten friksjon, med høydeforskjell $20\ \mathrm{m}$. Hvor stor fart har personen i bunnen?
 
-::: {.losning}
-$m\mathrm{g}h = \frac12 mv^2$, så $v = \sqrt{2\mathrm{g}h} = \sqrt{2\cdot9.81\cdot20}\ \mathrm{m/s} \approx \underline{\underline{20\ \mathrm{m/s}}}$. Massen spiller ingen rolle.
+::: {.fasit}
+$20\ \mathrm{m/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Hoppkanten"}
 En person letter fra en hoppkant med vannrett fart $22.1\ \mathrm{m/s}$ og faller $1.5\ \mathrm{m}$. Hvor stor er den totale farten i det hun treffer bakken?
 
-::: {.losning}
-<!-- fra notatene; omskrevet av Claude: bruker hele energien i stedet for å dele den i retninger -->
-Bare tyngden gjør arbeid, så den mekaniske energien er bevart. Med nullnivå der hun lander:
-$$
-\tfrac12mv^2 = \tfrac12mv_0^2 + m\mathrm{g}h \quad\Rightarrow\quad v = \sqrt{v_0^2 + 2\mathrm{g}h} = \sqrt{22.1^2 + 2\cdot9.81\cdot1.5}\ \mathrm{m/s} \approx \underline{\underline{23\ \mathrm{m/s}}}
-$$
-Retningen på startfarten spiller ingen rolle for farten ved landing, bare høydeforskjellen.
+::: {.fasit}
+$23\ \mathrm{m/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Hvor høyt går ballen?"}
 En ball kastes med $v_0 = 5.0\ \mathrm{m/s}$ i $30^\circ$ vinkel med bakken. Bruk energibevaring til å finne hvor høyt den går.
 
-::: {.losning}
-På toppen er farten bare vannrett, og den vannrette farten $v_0\cos30^\circ$ endres aldri. Energibevaring fra start til topp:
-$$
-\tfrac12mv_0^2 = \tfrac12m(v_0\cos30^\circ)^2 + m\mathrm{g}h \quad\Rightarrow\quad h = \frac{v_0^2(1 - \cos^2 30^\circ)}{2\mathrm{g}} = \frac{(v_0\sin30^\circ)^2}{2\mathrm{g}}
-$$
-$$
-h = \frac{2.5^2}{2\cdot9.81}\ \mathrm{m} \approx \underline{\underline{0.32\ \mathrm{m}}}
-$$
-Samme svar som med bevegelseslikningene under *skrått kast*.
+::: {.fasit}
+$0.32\ \mathrm{m}$
 :::
 :::
 
@@ -208,46 +190,24 @@ b) Vogna slippes fra $h = 3r$. Finn normalkraften på toppen C, uttrykt ved tyng
 
 c) Finn normalkraften midtveis opp, i B.
 
-::: {.losning}
-<!-- fra notatene -->
-**a)** På grensen er normalkraften på toppen null: $N_C + G = mv_C^2/r$ med $N_C = 0$ gir $v_C^2 = \mathrm{g}r$. Energibevaring fra start til toppen (høyde $2r$):
-$$
-m\mathrm{g}h = \tfrac12 mv_C^2 + m\mathrm{g}\cdot2r = \tfrac12 m\mathrm{g}r + 2m\mathrm{g}r \quad\Rightarrow\quad \underline{\underline{h = \tfrac52 r}}
-$$
-
-**b)** På toppen: $N_C = mv_C^2/r - m\mathrm{g}$, så $N_C/G = v_C^2/(\mathrm{g}r) - 1$. Energi fra $h = 3r$ ned til $2r$: $\frac12 mv_C^2 = m\mathrm{g}r$, så $v_C^2 = 2\mathrm{g}r$. Dermed $N_C/G = 2 - 1$: $\underline{\underline{N_C = G}}$.
-
-**c)** I B peker bare normalkraften inn mot sentrum: $N_B = mv_B^2/r$. B ligger i høyden $r$, så vogna har falt $2r$: $v_B^2 = 4\mathrm{g}r$. Dermed $\underline{\underline{N_B = 4G}}$.
+::: {.fasit}
+a) $h = \tfrac52 r$ · b) $N_C = G$ · c) $N_B = 4G$
 :::
 :::
 
 ::: {.oppgave tittel="Strikkhopp" niva="Utfordrende"}
 En person med masse $m$ faller fra en bro. Strikken er en ideell fjær med fjærstivhet $k$ og lengde $L$ når den ikke er strukket. Når er farten størst, og hvor stor er den?
 
-::: {.losning}
-<!-- fra notatene -->
-Farten øker så lenge tyngden er større enn fjærkraften. Den er størst der kreftene balanserer: $kx = m\mathrm{g}$, altså $x = m\mathrm{g}/k$ forbi strikkens lengde.
-
-Energibevaring fra broa til dette punktet (falt $L + x$):
-$$
-m\mathrm{g}(L + x) = \tfrac12 mv_\text{maks}^2 + \tfrac12 kx^2
-$$
-Setter inn $x = m\mathrm{g}/k$:
-$$
-v_\text{maks}^2 = 2\mathrm{g}L + \frac{2m\mathrm{g}^2}{k} - \frac{m\mathrm{g}^2}{k} \quad\Rightarrow\quad \underline{\underline{v_\text{maks} = \sqrt{\frac{m\mathrm{g}^2}{k} + 2\mathrm{g}L}}}
-$$
+::: {.fasit}
+$v_\text{maks} = \sqrt{\frac{m\mathrm{g}^2}{k} + 2\mathrm{g}L}$
 :::
 :::
 
 ::: {.oppgave tittel="Flipperspill" niva="Middels"}
 En kule på $80\ \mathrm{g}$ skytes ut av en fjær som er presset sammen $x = 7.0\ \mathrm{cm}$. Flipperspillet heller $\theta = 15^\circ$, og kula sklir uten friksjon. Hvor stor må fjærkonstanten være for at kula akkurat skal nå toppen, $s = 78\ \mathrm{cm}$ fra der den forlater fjæra?
 
-::: {.losning}
-<!-- fra notatene -->
-Kula løftes langs planet strekningen $s + x$, altså høyden $h = (s + x)\sin\theta$. Energibevaring:
-$$
-\tfrac12 kx^2 = m\mathrm{g}(s + x)\sin\theta \quad\Rightarrow\quad k = \frac{2m\mathrm{g}(s + x)\sin\theta}{x^2} = \frac{2\cdot0.080\cdot9.81\cdot0.85\cdot\sin15^\circ}{0.070^2}\ \mathrm{N/m} \approx \underline{\underline{70\ \mathrm{N/m}}}
-$$
+::: {.fasit}
+$70\ \mathrm{N/m}$
 :::
 :::
 

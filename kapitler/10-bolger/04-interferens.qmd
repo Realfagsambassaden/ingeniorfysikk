@@ -94,8 +94,8 @@ Den innkommende og den reflekterte bølgen overlapper. Med riktig frekvens gir d
 <!-- tillegg: Claude -->
 To bølger med amplitudene $3.0\ \mathrm{mm}$ og $5.0\ \mathrm{mm}$ og samme frekvens overlapper. Hva er den største og den minste mulige samlede amplituden?
 
-::: {.losning}
-Størst ved konstruktiv interferens: $3.0 + 5.0 = \underline{\underline{8.0\ \mathrm{mm}}}$. Minst ved destruktiv: $5.0 - 3.0 = \underline{\underline{2.0\ \mathrm{mm}}}$.
+::: {.fasit}
+$8.0\ \mathrm{mm}$ · $2.0\ \mathrm{mm}$
 :::
 :::
 
@@ -103,19 +103,14 @@ Størst ved konstruktiv interferens: $3.0 + 5.0 = \underline{\underline{8.0\ \ma
 <!-- tillegg: Claude -->
 Støydempende hodetelefoner måler støyen utenfra og spiller en lyd som skal slukke den. Hvilken faseforskjell skal motlyden ha? Hvorfor fungerer det best for jevn, lavfrekvent støy som motordur?
 
-::: {.losning}
-Motlyden må ha lik amplitude og faseforskjell $\pi$ (motfase). For lavfrekvent lyd er bølgelengden lang, så en liten feil i tid eller avstand gir en liten feil i fase. Jevn støy er lett å forutsi. For høye frekvenser blir bølgelengden så kort at små avvik ødelegger utslukkingen.
-:::
 :::
 
 ::: {.oppgave tittel="Faseforskjell" niva="Middels"}
 <!-- tillegg: Claude -->
 To bølger med lik amplitude $A$ har faseforskjellen $\Delta\varphi = \pi/3$. Hva er den samlede amplituden?
 
-::: {.losning}
-$$
-A_\mathrm{sum} = 2A\cos\left(\frac{\pi}{6}\right) = 2A\cdot\frac{\sqrt3}{2} = \underline{\underline{\sqrt3\,A \approx 1.73A}}
-$$
+::: {.fasit}
+$\sqrt3\,A \approx 1.73A$
 :::
 :::
 
@@ -123,14 +118,8 @@ $$
 <!-- tillegg: Claude -->
 To høyttalere står $3.0\ \mathrm{m}$ fra hverandre og spiller samme tone i fase. Midt mellom dem er lyden sterk. Du går langs linja mot den ene høyttaleren, og lyden er svakest første gang når du har gått $25\ \mathrm{cm}$ fra midten. Hvorfor er lyden alltid sterk på midten? Hvilken frekvens spiller høyttalerne? Lydfarten er $343\ \mathrm{m/s}$.
 
-::: {.losning}
-På midten er avstanden til begge høyttalerne den samme. Veiforskjellen er null, så interferensen er konstruktiv uansett frekvens.
-
-Flytter du deg $d = 0.25\ \mathrm{m}$ mot den ene, kommer du $d$ nærmere den ene og $d$ lenger fra den andre. Veiforskjellen blir $2d = 0.50\ \mathrm{m}$. Første utslukking er ved veiforskjellen $\lambda/2$:
-$$
-\frac{\lambda}{2} = 0.50\ \mathrm{m} \quad\Rightarrow\quad \lambda = 1.0\ \mathrm{m}, \qquad f = \frac{v}{\lambda} = \frac{343}{1.0}\ \mathrm{Hz} = \underline{\underline{3.4\cdot10^{2}\ \mathrm{Hz}}}
-$$
-<!-- tillegg: Claude: notasjon v3, gjeldende siffer (2, fra 25 cm) -->
+::: {.fasit}
+$3.4\cdot10^{2}\ \mathrm{Hz}$
 :::
 :::
 

@@ -139,13 +139,8 @@ Kvadrerer vi den første (skalarprodukt med seg selv), får vi $v_1^2 = v_1'^2 +
 ::: {.oppgave tittel="Hvor mye energi forsvinner?"}
 En bil med masse $m$ og fart $v$ kolliderer med en bil med masse $2m$ som står i ro. Bilene henger sammen etterpå. Hvor stor andel av den kinetiske energien går tapt?
 
-::: {.losning}
-<!-- fra notatene -->
-Bevegelsesmengden er bevart: $mv = (m + 2m)U$, så $U = v/3$.
-$$
-\frac{E_\text{etter}}{E_\text{før}} = \frac{\frac12\cdot3m\cdot(v/3)^2}{\frac12 mv^2} = \frac13
-$$
-Altså går $\underline{\underline{2/3 \approx 67\ \%}}$ av den kinetiske energien tapt.
+::: {.fasit}
+$2/3 \approx 67\ \%$
 :::
 :::
 
@@ -156,14 +151,8 @@ a) Finn farten til B etter støtet.
 
 b) Var støtet elastisk?
 
-::: {.losning}
-**a)** Positiv retning mot høyre. Massene er like og forkortes bort:
-$$
-v_A + v_B = u_A + u_B \quad\Rightarrow\quad u_B = 3.0 + (-5.0) - (-4.5)\ \mathrm{m/s} = \underline{\underline{2.5\ \mathrm{m/s}}}
-$$
-mot høyre.
-
-**b)** $E_\text{før} = \frac12\cdot19\,(3.0^2 + 5.0^2)\ \mathrm{J} = 323\ \mathrm{J}$ og $E_\text{etter} = \frac12\cdot19\,(4.5^2 + 2.5^2)\ \mathrm{J} \approx 252\ \mathrm{J}$. Energi har gått tapt, så støtet var **ikke elastisk**.
+::: {.fasit}
+$2.5\ \mathrm{m/s}$
 :::
 :::
 
@@ -174,25 +163,13 @@ a) Hva blir farten $u_1$ til A?
 
 b) Hva blir farten $u_2$ til B med kassen?
 
-::: {.losning}
-**a)** $0 = Mu_1 + mv_0$, så $u_1 = -\dfrac{m}{M}v_0$. A glir motsatt vei.
-
-**b)** Fullstendig uelastisk støt: $mv_0 = (M + m)u_2$, så $u_2 = \dfrac{m}{M + m}v_0$.
-:::
 :::
 
 ::: {.oppgave tittel="Proton og positron" niva="Utfordrende"}
 Et proton med fart $v = 1.0\cdot10^6\ \mathrm{m/s}$ treffer et positron i ro i et rett, elastisk støt. Positronet har masse $m = M/2000$, der $M$ er protonmassen. Hva blir farten til hver partikkel?
 
-::: {.losning}
-Fra formlene for elastisk støt med $m_1 = M$ og $m_2 = m$:
-$$
-u_\text{positron} = \frac{2M}{M + m}v = \frac{2}{1 + 1/2000}v \approx \underline{\underline{2.0\cdot10^6\ \mathrm{m/s}}}
-$$
-$$
-u_\text{proton} = \frac{M - m}{M + m}v = \frac{1999}{2001}v \approx \underline{\underline{1.0\cdot10^6\ \mathrm{m/s}}}
-$$
-Det tunge protonet merker nesten ikke støtet, mens det lette positronet får dobbelt så stor fart. (Tung mot lett.)
+::: {.fasit}
+$2.0\cdot10^6\ \mathrm{m/s}$ · $1.0\cdot10^6\ \mathrm{m/s}$
 :::
 :::
 

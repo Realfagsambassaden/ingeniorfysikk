@@ -109,10 +109,8 @@ Konserten har over 300 ganger høyere intensitet enn grensen.
 <!-- tillegg: Claude -->
 Hva er lydnivået til en samtale med intensitet $1.0\cdot10^{-6}\ \mathrm{W/m^2}$?
 
-::: {.losning}
-$$
-\beta = 10\log_{10}\left(\frac{1.0\cdot10^{-6}}{1.0\cdot10^{-12}}\right)\ \mathrm{dB} = \underline{\underline{60\ \mathrm{dB}}}
-$$
+::: {.fasit}
+$60\ \mathrm{dB}$
 :::
 :::
 
@@ -120,8 +118,8 @@ $$
 <!-- tillegg: Claude -->
 Én høyttaler gir $70\ \mathrm{dB}$ der du står. Hva blir lydnivået med ti like høyttalere som spiller samtidig (uten interferens)?
 
-::: {.losning}
-Intensiteten blir ti ganger så stor, så lydnivået øker med $10\ \mathrm{dB}$: $\underline{\underline{80\ \mathrm{dB}}}$.
+::: {.fasit}
+$80\ \mathrm{dB}$
 :::
 :::
 
@@ -129,11 +127,8 @@ Intensiteten blir ti ganger så stor, så lydnivået øker med $10\ \mathrm{dB}$
 <!-- tillegg: Claude -->
 Lydnivået er $80\ \mathrm{dB}$ i avstanden $2.0\ \mathrm{m}$ fra en punktkilde. Hva er lydnivået $20\ \mathrm{m}$ unna?
 
-::: {.losning}
-Ti ganger så langt unna gir $10^2 = 100$ ganger mindre intensitet. Det er $10\log_{10}100 = 20\ \mathrm{dB}$ mindre:
-$$
-\beta = 80\ \mathrm{dB} - 20\ \mathrm{dB} = \underline{\underline{60\ \mathrm{dB}}}
-$$
+::: {.fasit}
+$60\ \mathrm{dB}$
 :::
 :::
 
@@ -141,14 +136,8 @@ $$
 <!-- tillegg: Claude -->
 Vann har kompresjonsmodul $2.2\cdot10^{9}\ \mathrm{Pa}$. Stål har $2.0\cdot10^{11}\ \mathrm{Pa}$ og tetthet $7800\ \mathrm{kg/m^3}$. Regn ut lydfarten i begge. Du legger øret mot en lang jernbaneskinne. Noen slår på skinna $1.0\ \mathrm{km}$ unna. Hvor lang tid går det mellom lyden gjennom skinna og lyden gjennom lufta?
 
-::: {.losning}
-$$
-v_\mathrm{vann} = \sqrt{\frac{2.2\cdot10^{9}}{1000}}\ \mathrm{m/s} = \underline{\underline{1.5\cdot10^{3}\ \mathrm{m/s}}}, \qquad v_\mathrm{stål} = \sqrt{\frac{2.0\cdot10^{11}}{7800}}\ \mathrm{m/s} = \underline{\underline{5.1\cdot10^{3}\ \mathrm{m/s}}}
-$$
-(I en tynn stang er lydfarten litt lavere, men tallet er godt nok her.)
-$$
-\Delta t = \frac{1000}{343}\ \mathrm{s} - \frac{1000}{5064}\ \mathrm{s} = 2.92\ \mathrm{s} - 0.20\ \mathrm{s} = \underline{\underline{2.7\ \mathrm{s}}}
-$$
+::: {.fasit}
+$1.5\cdot10^{3}\ \mathrm{m/s}$ · $5.1\cdot10^{3}\ \mathrm{m/s}$ · $2.7\ \mathrm{s}$
 :::
 :::
 
