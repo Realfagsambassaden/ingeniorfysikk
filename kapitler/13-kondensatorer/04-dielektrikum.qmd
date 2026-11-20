@@ -48,11 +48,12 @@ Med svakere felt blir spenningen $V = Ed$ lavere for samme ladning. Da er $C = Q
 
 ::: {.eksempel}
 <!-- tillegg: Claude -->
+<!-- tillegg: Claude: notasjon v3 (svaret med prefiks, var 3.3·10^-10 F) -->
 **Eksempel: Papir mellom platene.** Platekondensatoren med $A = 100\ \mathrm{cm^2}$ og $d = 1.0\ \mathrm{mm}$ fylles med papir ($\kappa = 3.7$). Hva blir kapasitansen? Hvor stor spenning tåler den nå, sammenlignet med luft?
 
 ::: {.losning}
 $$
-C = \kappa C_0 = 3.7\cdot8.85\cdot10^{-11}\ \mathrm{F} = \underline{\underline{3.3\cdot10^{-10}\ \mathrm{F}}} = 0.33\ \mathrm{nF}
+C = \kappa C_0 = 3.7\cdot8.85\cdot10^{-11}\ \mathrm{F} = 3.3\cdot10^{-10}\ \mathrm{F} = \underline{\underline{0.33\ \mathrm{nF}}}
 $$
 Med luft tåler den $3\ \mathrm{MV/m}\cdot1.0\ \mathrm{mm} = 3\ \mathrm{kV}$. Med papir tåler den
 $$

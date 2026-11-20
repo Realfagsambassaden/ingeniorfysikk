@@ -64,7 +64,7 @@ $$
 ::: {.losning}
 Parallell:
 $$
-C = 2.0 + 3.0 + 6.0\ \mathrm{\mu F} = \underline{\underline{11\ \mathrm{\mu F}}}
+C = (2.0 + 3.0 + 6.0)\ \mathrm{\mu F} = \underline{\underline{11\ \mathrm{\mu F}}}
 $$
 Serie:
 $$
