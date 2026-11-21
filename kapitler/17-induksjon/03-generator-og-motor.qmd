@@ -118,7 +118,8 @@ $210\ \mathrm{V}$ · $840\ \mathrm{W}$ · $46\ \mathrm{A}$
 Generatoren fra eksempelet ($\mathcal E_0 = 157\ \mathrm{V}$, $f = 50\ \mathrm{Hz}$) er koblet til en motstand på $50\ \Omega$. Finn gjennomsnittlig elektrisk effekt og det gjennomsnittlige dreiemomentet som må til for å holde den i gang. Se bort fra resistansen i spolen.
 
 ::: {.fasit}
-$246\ \mathrm{W}$ · $0.78\ \mathrm{N\,m}$
+<!-- tillegg: Claude: notasjon, gjeldende siffer (50 Ω har 2) -->
+$2.5\cdot10^{2}\ \mathrm{W}$ · $0.78\ \mathrm{N\,m}$
 :::
 :::
 
