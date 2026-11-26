@@ -92,7 +92,7 @@ $$
 mv + M\cdot0 = (m + M)V_E \quad\Rightarrow\quad V_E = \frac{m}{m + M}v = \frac{1}{11}\cdot20\ \mathrm{m/s} \approx 1.8\ \mathrm{m/s}
 $$
 
-**2.** Er energien bevart? $E_\text{før} = \frac12\cdot1\cdot20^2\ \mathrm{J} = 200\ \mathrm{J}$, men $E_\text{etter} = \frac12\cdot11\cdot1.8^2\ \mathrm{J} \approx 18\ \mathrm{J}$. Hele $182\ \mathrm{J}$ har gått til varme og støy i puta.
+**2.** Er energien bevart? $E_\text{før} = \frac12\cdot1\cdot20^2\ \mathrm{J} = 200\ \mathrm{J}$, men $E_\text{etter} = \frac12\cdot11\cdot1.8^2\ \mathrm{J} \approx 18\ \mathrm{J}$. Hele $1.8\cdot10^2\ \mathrm{J}$ har gått til varme og støy i puta.
 :::
 :::
 

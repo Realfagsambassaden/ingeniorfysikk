@@ -75,7 +75,7 @@ $$
 
 **Hvor langt går kula skutt på skrå?** Samme kanon skytes med $60^\circ$ fra en kant, og kula lander $0.27\ \mathrm{m}$ lavere. Med $v_{0y} = v_0\sin60^\circ = 4.23\ \mathrm{m/s}$ gir $\tilde y = v_{0y}t - \frac12\mathrm{g}t^2 = -0.27\ \mathrm{m}$ en andregradslikning med positiv løsning $t \approx 0.92\ \mathrm{s}$. Da blir
 $$
-\tilde x = v_0\cos60^\circ\cdot t \approx 2.26\ \mathrm{m}
+\tilde x = v_0\cos60^\circ\cdot t \approx 2.3\ \mathrm{m}
 $$
 Målt i et forsøk: $2.38\ \mathrm{m}$. **Hvorfor?** <!-- tillegg: Claude --> Diskuter: er startpunktet målt riktig, er fjæra helt lik hver gang, og gir høydemålingen av $h$ (og dermed $v_0$) et for lavt tall? Små feil i $v_0$ gir store utslag, fordi kastlengden går som $v_0^2$.
 :::

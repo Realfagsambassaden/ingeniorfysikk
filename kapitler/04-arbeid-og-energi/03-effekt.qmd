@@ -34,7 +34,7 @@ Strømregningen måles i kilowattimer: $1\ \mathrm{kWh} = 1000\ \mathrm{W}\cdot3
 **a)** Uten friksjon er utgangsfarten $2.1\ \mathrm{m/s}$. Finn fjærkonstanten.\
 **b)** Med friksjon blir utgangsfarten $1.9\ \mathrm{m/s}$. Hvor stort er friksjonsarbeidet?\
 **c)** Finn friksjonstallet $\mu_k$.\
-**d)** Utskytingen tar $0.5\ \mathrm{s}$. Hva er gjennomsnittlig effekt fra friksjonen?
+**d)** Utskytingen tar $0.50\ \mathrm{s}$. Hva er gjennomsnittlig effekt fra friksjonen?
 
 ::: {.losning}
 **a)** Fjæra gjør arbeidet $W = \int_0^x kx'\,\mathrm{d}x' = \frac12 kx^2$, som blir til kinetisk energi:

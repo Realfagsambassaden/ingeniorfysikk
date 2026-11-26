@@ -62,7 +62,7 @@ $$
 \vec J = \left[\int_0^{2.1}50t^2\,\mathrm{d}t,\ -\int_{1.0}^{3.0}20t^3\,\mathrm{d}t\right]\mathrm{kN\,s} = \left[\tfrac{50}{3}(2.1)^3,\ -\tfrac{20}{4}(3^4 - 1^4)\right]\mathrm{kN\,s} \approx [0.15,\ -0.40]\ \mathrm{MN\,s}
 $$
 
-**b)** Båten veier $80$ tonn. Fartsendringen er $|\Delta\vec v| = |\vec J|/m = 428.8\cdot10^3\ \mathrm{N\,s}/(80\cdot10^3\ \mathrm{kg}) \approx 5.4\ \mathrm{m/s}$. Realistisk? <!-- tillegg: Claude --> Neppe: vannmotstanden er ikke tatt med, og den er stor for en båt.
+**b)** Båten veier $80$ tonn. Fartsendringen er $|\Delta\vec v| = |\vec J|/m = 428.7\cdot10^3\ \mathrm{N\,s}/(80\cdot10^3\ \mathrm{kg}) \approx 5.4\ \mathrm{m/s}$. Realistisk? <!-- tillegg: Claude --> Neppe: vannmotstanden er ikke tatt med, og den er stor for en båt.
 :::
 :::
 
@@ -79,7 +79,7 @@ $$
 \Delta p = -\int_0^{T/2}kx_\text{maks}\sin(\omega t)\,\mathrm{d}t = \frac{kx_\text{maks}}{\omega}\Big[\cos\omega t\Big]_0^{T/2} = -\frac{2kx_\text{maks}}{\omega} = -\frac{k}{\pi}\,T\,x_\text{maks}
 $$
 $$
-\Delta p = -\frac{5.00\cdot10^3}{\pi}\cdot0.10\cdot0.0010\ \mathrm{N\,s} \approx -0.159\ \mathrm{N\,s}
+\Delta p = -\frac{5.00\cdot10^3}{\pi}\cdot0.10\cdot0.0010\ \mathrm{N\,s} \approx -0.16\ \mathrm{N\,s}
 $$
 I denne modellen gjør bare fjærkraften arbeid, så energien er bevart: ballen snur med samme fart, $\vec p_\text{etter} = -\vec p_\text{før}$. Da er $|\Delta p| = 2|p_\text{før}|$, og med ballens masse $0.017\ \mathrm{kg}$:
 $$
@@ -102,7 +102,7 @@ $$
 $$
 En dårlig sprettball spretter bare opp til $0.80h$. Da er farten etter $\sqrt{2\mathrm{g}\cdot0.80h}$, og
 $$
-\Delta p = -m\sqrt{2\mathrm{g}h}\left(1 + \sqrt{0.80}\right) \approx -1.89\,p_\text{før}
+\Delta p = -m\sqrt{2\mathrm{g}h}\left(1 + \sqrt{0.80}\right) \approx -1.9\,p_\text{før}
 $$
 Antakelsen om energibevaring (som ga faktoren 2) er altså ganske god, selv når sprettet er dårlig. (I et forsøk beholdt en god sprettball 86 % av høyden.)
 :::

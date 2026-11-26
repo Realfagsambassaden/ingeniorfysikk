@@ -146,7 +146,7 @@ b) Den totale lengden av to staver på $1.27\ \mathrm{m}$ og $0.4\ \mathrm{m}$.
 c) Omkretsen av en sirkel med radius $r = 2.50\ \mathrm{cm}$.
 
 ::: {.fasit}
-a) $v = 30\ \mathrm{m/s}$ · b) $1.7\ \mathrm{m}$ · c) $15.7\ \mathrm{cm}$
+a) $v = 3.0\cdot10^{1}\ \mathrm{m/s}$ <!-- tillegg: Claude: notasjon (standardform) --> · b) $1.7\ \mathrm{m}$ · c) $15.7\ \mathrm{cm}$
 :::
 :::
 

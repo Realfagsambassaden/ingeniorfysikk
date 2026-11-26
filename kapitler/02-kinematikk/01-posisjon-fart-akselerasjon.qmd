@@ -165,7 +165,7 @@ b) Finn farten da.
 c) Hvor langt har bilen kjørt?
 
 ::: {.fasit}
-a) $10\ \mathrm{s}$ · b) $15\ \mathrm{m/s}$ · c) $100\ \mathrm{m}$
+a) $10\ \mathrm{s}$ · b) $15\ \mathrm{m/s}$ · c) $1.0\cdot10^{2}\ \mathrm{m}$ <!-- tillegg: Claude: notasjon (standardform) -->
 :::
 :::
 
