@@ -165,7 +165,7 @@ En vinsj med radius $R = 50\ \mathrm{cm}$ trekker en buss opp fra grøfta med ko
 a) Hvor stort arbeid gjør vinsjen? b) Hva er effekten?
 
 ::: {.fasit}
-a) $0.47\ \mathrm{MJ}$ · b) $16\ \mathrm{kW}$
+a) $0.47\ \mathrm{MJ}$ · b) $17\ \mathrm{kW}$ <!-- tillegg: Claude: notasjon (avrunding, 16.5 kW) -->
 :::
 :::
 

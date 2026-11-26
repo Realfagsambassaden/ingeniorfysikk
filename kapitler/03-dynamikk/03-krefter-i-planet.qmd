@@ -46,7 +46,7 @@ a_x = \mathrm{g}\left(\mu\cos\alpha - \sin\alpha\right)
 $$
 :::
 
-Med $\mu = 0.2$ og $\alpha = 30^\circ$ blir $a_x = 9.81\,(0.2\cos30^\circ - \sin30^\circ)\ \mathrm{m/s^2} \approx -3.2\ \mathrm{m/s^2}$. Minus betyr at klossen akselererer *ned* planet.
+Med $\mu = 0.20$ og $\alpha = 30^\circ$ blir $a_x = 9.81\,(0.20\cos30^\circ - \sin30^\circ)\ \mathrm{m/s^2} \approx -3.2\ \mathrm{m/s^2}$. Minus betyr at klossen akselererer *ned* planet.
 
 ::: {.eksempel}
 <!-- fra notatene -->

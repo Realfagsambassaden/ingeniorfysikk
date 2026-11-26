@@ -38,7 +38,7 @@ Normalkraften på en bil på flat vei står vinkelrett på bevegelsen og gjør d
 $$
 W_F = Fs\cos25^\circ = 120\cdot5.0\cdot0.906\ \mathrm{J} \approx 544\ \mathrm{J}, \qquad W_f = fs\cos180^\circ = -80\cdot5.0\ \mathrm{J} = -400\ \mathrm{J}
 $$
-Tyngden og normalkraften står vinkelrett på bevegelsen og gjør ikke arbeid. Totalt er $W = 544 - 400\ \mathrm{J} \approx \underline{\underline{0.14\ \mathrm{kJ}}}$. Med arbeid-energi-setningen nedenfor ser vi at dette blir kassens økning i kinetisk energi.
+Tyngden og normalkraften står vinkelrett på bevegelsen og gjør ikke arbeid. Totalt er $W = (544 - 400)\ \mathrm{J} \approx \underline{\underline{0.14\ \mathrm{kJ}}}$. Med arbeid-energi-setningen nedenfor ser vi at dette blir kassens økning i kinetisk energi.
 :::
 :::
 

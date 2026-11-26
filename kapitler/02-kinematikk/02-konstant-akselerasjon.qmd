@@ -148,7 +148,7 @@ b) Hvor lang tid tar det før bilen står stille?
 c) Bilen bremser fra dobbelt så stor fart, $60\ \mathrm{km/h}$, med samme akselerasjon. Hvor lang blir bremsestrekningen og bremsetiden nå?
 
 ::: {.fasit}
-a) $-1.2\ \mathrm{m/s^2}$ · b) $7.2\ \mathrm{s}$ · c) $120\ \mathrm{m}$ · c) $14\ \mathrm{s}$
+a) $-1.2\ \mathrm{m/s^2}$ · b) $7.2\ \mathrm{s}$ · c) $1.2\cdot10^{2}\ \mathrm{m}$ og $14\ \mathrm{s}$ <!-- tillegg: Claude: notasjon (standardform) -->
 :::
 :::
 
